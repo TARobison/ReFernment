@@ -33,21 +33,36 @@ editGB_File <- function(){
         gene <- getGeneName(annotations[i,])
         if(annotations$type[i] == "CDS"){
             exonIndex <- getNumberOfExons(annotations, i)
+#            browser()
             if(identical(annotations$attributes[i], annotations$attributes[i-1]) && identical(annotations$strand[i], annotations$strand[i-1])){
                 next        
             }else if(identical(annotations$attributes[i], annotations$attributes[i+1]) && identical(annotations$strand[i], annotations$strand[i+1])){
-                gb <- concatenateExons(annotations,i, dnachar,gb)            
+                gb <- concatenateExons(annotations,i, dnachar,gb)       
             }else{
                 CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
-                out <- checkFrame(annotations, i, CDS,gb)
-                gb <- out[1:length(out)-1]
-                if(annotations$strand[i] == '-'){
-                    annotations$start[i] <- as.numeric(out[length(out)])
-                }else{
-                    annotations$end[i] <- as.numeric(out[length(out)])
+                #changed i to exon index here. Makes sense to me? Actually, I don't think it matters because concatenate exons handles everything
+                if(nchar(CDS) %% 3 != 0){
+                    out <- checkFrame(annotations, i, CDS,gb)
+                    gb <- out[[1]]
+                    if(annotations$strand[i] == '-'){
+                        annotations$start[i] <- out[[2]]
+                    }else{
+                        annotations$end[i] <- out[[2]]
+                    }
                 }
+
                 gb <- checkStartCodon(CDS, annotations,i,gb)
-                gb <- checkStopCodon(CDS, annotations,i, gb)
+
+                out <- checkStopCodon(CDS, annotations,i, gb)
+                if(length(out) < 4){
+                    gb <- out[[1]]
+                    if(annotations$strand[i] == '-'){
+                        annotations$start[i] <- out[[2]]
+                    }else{
+                        annotations$end[i] <- out[[2]]
+                    }
+                }
+
                 gb <- checkForInternalStops(CDS, annotations,i,gb)
                 }
         }
@@ -70,7 +85,7 @@ checkFrame <- function(annotations, i, CDS,gb){
         gbString <- paste(original, '(\\.\\.)', sep='')
         newStop <- paste(annotations$start[i[numExons]],'..', sep='')
         gb <- gsub(gbString, newStop,gb)
-        out <- c(gb,annotations$start[i[numExons]])
+        out <- list(gb,annotations$start[i[numExons]])
         return(out)
     }
     if(annotations$strand[i[numExons]] == '+'){
@@ -82,7 +97,7 @@ checkFrame <- function(annotations, i, CDS,gb){
         gbString <- paste('(\\.\\.)', original, sep='')
         newStop <- paste('..',annotations$end[i[numExons]], sep='')
         gb <- gsub(gbString, newStop,gb)
-        out <- c(gb, annotations$end[i[numExons]])
+        out <- list(gb, annotations$end[i[numExons]])
         return(out)
     }
 }
@@ -97,10 +112,18 @@ concatenateExons <- function(annotations,i, dnachar, gb){
             nextExon <- getCodingSequence(annotations[exonIndex[j],], dnachar, annotations$start[exonIndex[j]], annotations$end[exonIndex[j]])
             firstExon <- paste(firstExon, nextExon, sep = '')
         }
-        gb <- checkFrame(annotations, exonIndex, firstExon,gb)
-        annotations$start[exonIndex[numExons]] <- as.numeric(gb[length(gb)])
-        gb <- gb[1:length(gb)-1]
-        gb <- checkStopCodon(nextExon, annotations,exonIndex[numExons], gb)
+
+        out <- checkFrame(annotations, exonIndex, firstExon,gb)
+        annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
+        gb <- out[[1]]
+        
+        out <- checkStopCodon(nextExon, annotations,exonIndex[numExons], gb)
+        if(length(out) < 4){
+            annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
+            gb <- out[[1]]
+        }else{
+            gb <- out
+        }
         gb <- checkForInternalStops(firstExon, annotations,exonIndex,gb)
         return(gb)
     }else{
@@ -111,10 +134,18 @@ concatenateExons <- function(annotations,i, dnachar, gb){
             nextExon <- getCodingSequence(annotations[exonIndex[j],], dnachar, annotations$start[exonIndex[j]], annotations$end[exonIndex[j]])
             firstExon <- paste(firstExon, nextExon, sep='')
         }
-        gb <- checkFrame(annotations, exonIndex, firstExon,gb)
-        annotations$end[exonIndex[numExons]] <- as.numeric(gb[length(gb)])
-        gb <- gb[1:length(gb)-1]
-        gb <- checkStopCodon(nextExon, annotations,j, gb)
+
+        out <- checkFrame(annotations, exonIndex, firstExon,gb)
+        annotations$end[exonIndex[numExons]] <- as.numeric(out[[2]])
+        gb <- out[[1]]
+
+        out <- checkStopCodon(nextExon, annotations,j, gb)
+        if(length(out) < 4){
+            annotations$end[exonIndex[numExons]] <- as.numeric(out[[2]])
+            gb <- out[[1]]
+        }else{
+            gb <- out
+        }
         gb <- checkForInternalStops(firstExon, annotations,i, gb)
         return(gb)
         }
@@ -147,6 +178,7 @@ checkStopCodon <- function(CDS, annotations,i, gb){
     exonIndex <- getNumberOfExons(annotations, i)
     numExons <- length(exonIndex)
     codonList <- codonGroup(CDS)
+    originalGB <- gb
     if(any(substr(CDS, nchar(CDS)-2,nchar(CDS)) == (conventionalStops))){
         return(gb)
     } else if(any(substr(CDS, nchar(CDS)-2,nchar(CDS)) == possibleEditedStops)){
@@ -159,55 +191,50 @@ checkStopCodon <- function(CDS, annotations,i, gb){
         return(gb)
     } else {
         gb <- shortenDownstream(annotations, dnachar, gb, CDS, i)
-        #gb <- extendDownstream(annotations, dnachar, gb, i)
+        if(identical(originalGB, gb)){
+            gb <- extendDownstream(annotations, dnachar, gb, i)
+        }
         return(gb)
     }
 }
 
-##This needs to be reworked
-
-# extendDownstream <- function(annotations, dnachar, gb, i){
-#     if(annotations$strand[i[1]] == '-'){
-#         CDS <- getCodingSequence(annotations[i,], dnachar, (annotations$start[i]-15), annotations$end[i])
-#     }
-#     if(annotations$strand[i[1]] == '+'){
-#         CDS <- getCodingSequence(annotations, dnachar, annotations$start[i], annotations$end[i] +15)
-#     }
-#     codonList <- codonGroup(CDS)
-#     conventionalStops <- c('TAA','TAG','TGA')
-#     possibleEditedStops <- c('CAA', 'CAG', 'CGA')
-#     exonIndex <- getNumberOfExons(annotations, i)
-#     numExons <- length(exonIndex)
-#     for(j in (length(codonList)-5):((length(codonList)-1))){
-#         #browser()
-#         if(any(codonList[j] == conventionalStops)){
-#             if(annotations$strand[i[numExons]] == '-'){
-#                 dist <- j - (length(codonList)-5)
-#                 newStop <- annotations$start[i[numExons]] - dist*3
-#                 gbstring <- paste(annotations$start[i[numExons]],'\\.\\.',sep='')
-#                 gb <- sub(gbstring, paste(newStop,'\\.\\.',sep=''), gb, perl = TRUE)
-#                 return(gb)
-#             }
-#             if(annotations$strand[i[numExons]] == '+'){
-#                 dist <- j -(length(codonList) -5)
-#                 newStop <- annotations$end[i[numExons]] + dist*3
-#                 gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
-#                 gb <- sub(gbstring, paste('\\.\\.', newStop,sep='') , gb, perl = TRUE)
-#                 return(gb)
-#             }  
-#         }
-#     }
-#     return(gb)   
-# }
-
-# test <- extendDownstream(annotations, dnachar, gb, 258)
-# writeLines(test, con = "C:\\Users\\tanner\\Downloads\\testfile.gb")
+extendDownstream <- function(annotations, dnachar, gb, i){
+    if(annotations$strand[i[1]] == '-'){
+        CDS <- getCodingSequence(annotations[i,], dnachar, (annotations$start[i]-15), annotations$end[i])
+    }
+    if(annotations$strand[i[1]] == '+'){
+        CDS <- getCodingSequence(annotations, dnachar, annotations$start[i], annotations$end[i] +15)
+    }
+    codonList <- codonGroup(CDS)
+    conventionalStops <- c('TAA','TAG','TGA')
+    possibleEditedStops <- c('CAA', 'CAG', 'CGA')
+    exonIndex <- getNumberOfExons(annotations, i)
+    numExons <- length(exonIndex)
+    for(j in (length(codonList)-5):((length(codonList)))){
+        if(any(codonList[j] == conventionalStops)){
+            if(annotations$strand[i[numExons]] == '-'){
+                dist <- j - (length(codonList)-5)
+                newStop <- annotations$start[i[numExons]] - dist*3
+                gbstring <- paste(annotations$start[i[numExons]],'\\.\\.',sep='')
+                gb <- sub(gbstring, paste(newStop,'\\.\\.',sep=''), gb, perl = TRUE)
+                annotations$start[i[numExons]] <- newStop
+                return(list(gb, newStop))
+            }
+            if(annotations$strand[i[numExons]] == '+'){
+                dist <- j -(length(codonList) -5)
+                newStop <- annotations$end[i[numExons]] + dist*3
+                gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
+                gb <- sub(gbstring, paste('\\.\\.', newStop,sep='') , gb, perl = TRUE)
+                return(list(gb, newStop))
+            }  
+        }
+    }
+    return(gb)   
+}
 
 checkForInternalStops <- function(CDS, annotations ,i ,gb){
     codonList <-codonGroup(CDS)
     conventionalStops <- c('TAA','TAG','TGA')
-    #exonIndex <- getNumberOfExons(annotations, i)
-    #numExons <- length(exonIndex)
     stops <- 0
     totalLength <- 0
     exonCount <- 1
@@ -216,7 +243,6 @@ checkForInternalStops <- function(CDS, annotations ,i ,gb){
                 if(annotations$end[i[exonCount]] - annotations$start[i[exonCount]] < j*3 && exonCount < length(i)){ 
                     totalLength <- annotations$end[i[exonCount]] - annotations$start[i[exonCount]] + totalLength +1
                     exonCount <- exonCount +1
-                    
                 }
             }else{
                 if(annotations$end[i[exonCount]] - annotations$start[i[exonCount]] < j*3 && exonCount < length(i)){
@@ -242,18 +268,14 @@ checkForInternalStops <- function(CDS, annotations ,i ,gb){
     }
     return(gb)
 }
-# editGB_File()
-# test <- concatenateExons(annotations, 81, dnachar, gb)
-# cody <- getCodingSequence(annotations[83,], dnachar, annotations$start[83],annotations$end[83])
-# test<- checkForInternalStops(cody, annotations, 83, gb)
-# writeLines(test, con = "C:\\Users\\tanner\\Downloads\\testfile.gb")
 
+#changed this from 5 codons to 7. If you notice anything wonky, it might be from this
 shortenDownstream <- function(annotations, dnachar, gb, CDS,i){
     codonList <-codonGroup(CDS)
     conventionalStops <- c('TAA','TAG','TGA')
     exonIndex <- getNumberOfExons(annotations, i)
     numExons <- length(exonIndex)
-    for(j in (length(codonList)-5):((length(codonList)-1))){
+    for(j in (length(codonList)-7):((length(codonList)-1))){
         if(any(codonList[j] == conventionalStops)){
             if(annotations$strand[i[numExons]] == '-'){
                 dist <- length(codonList) - j
@@ -300,9 +322,10 @@ shortenUpstream <- function(annotations, dnachar, gb, CDS,i){
     return(gb)   
 }
 
+#changed to include strand as well for ycf2. Shouldn't affect anything
 getNumberOfExons <- function(annotations, i, exons=0){
     for(j in i+1:length(annotations$attributes)){
-        if(identical(annotations$attributes[j], annotations$attributes[i[1]])){
+        if(identical(annotations$attributes[j], annotations$attributes[i[1]]) && identical(annotations$strand[j],annotations$strand[i[1]])){
             i <- c(i, j)
         }
     }
