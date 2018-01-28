@@ -24,6 +24,7 @@ library(ape)
 # annotations <- read.gff(gff)
 # dnachar <- as.character(sequence)
 # adiCapCDS <- read.csv("C:\\Users\\tanner\\Downloads\\AdiCapExonLengths.csv")
+#gb <- readLines("C:\\Users\\tanner\\Downloads\\AG-S6.gb")
 
 args = commandArgs(trailingOnly=TRUE)
 
@@ -122,7 +123,13 @@ concatenateExons <- function(annotations,i, dnachar, gb){
     numExons <- length(exonIndex)
     if(annotations$strand[i[1]] == "-"){
         firstExon <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
-        gb <- checkStartCodon(firstExon, annotations, exonIndex, gb)
+        out <- checkStartCodon(firstExon, annotations, exonIndex, gb)
+        if(length(out) < 4){
+            annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
+            gb <- out[[1]]
+        }else{
+            gb <- out
+        }
         for(j in 2:numExons){
             nextExon <- getCodingSequence(annotations[exonIndex[j],], dnachar, annotations$start[exonIndex[j]], annotations$end[exonIndex[j]])
             firstExon <- paste(firstExon, nextExon, sep = '')
@@ -144,6 +151,12 @@ concatenateExons <- function(annotations,i, dnachar, gb){
     }else{
         firstExon <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
         gb <- checkStartCodon(firstExon, annotations,i, gb)
+        if(length(out) < 4){
+            annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
+            gb <- out[[1]]
+        }else{
+            gb <- out
+        }
         for(j in 2:numExons){
             nextExon <- getCodingSequence(annotations[exonIndex[j],], dnachar, annotations$start[exonIndex[j]], annotations$end[exonIndex[j]])
             firstExon <- paste(firstExon, nextExon, sep='')
@@ -167,6 +180,7 @@ concatenateExons <- function(annotations,i, dnachar, gb){
 }
 
 checkStartCodon <- function(CDS, annotations,i,gb){
+    originalGB <- gb
     conventionalStarts <- c('ATG', 'GTG', 'TTG', 'ATT', 'CTG')
     if(any(substr(CDS, 1, 3) == conventionalStarts)){
         return(gb)
@@ -182,6 +196,9 @@ checkStartCodon <- function(CDS, annotations,i,gb){
         return(gb)
     }else{
         gb <- shortenUpstream(annotations, dnachar, gb, CDS,i)
+         if(identical(originalGB, gb)){
+            gb <- extendUpstream(annotations, dnachar, gb, i)
+        }
     } 
     return(gb)   
 }
@@ -220,8 +237,8 @@ extendDownstream <- function(annotations, dnachar, gb, i){
         CDS <- getCodingSequence(annotations, dnachar, annotations$start[i], annotations$end[i] +15)
     }
     codonList <- codonGroup(CDS)
-    conventionalStops <- c('TAA','TAG','TGA')
-    possibleEditedStops <- c('CAA', 'CAG', 'CGA')
+    conventionalStops  <-  c('TAA','TAG','TGA')
+    possibleEditedStops <- c('CAA','CAG','CGA')
     exonIndex <- getNumberOfExons(annotations, i)
     numExons <- length(exonIndex)
     for(j in (length(codonList)-5):((length(codonList)))){
@@ -240,6 +257,37 @@ extendDownstream <- function(annotations, dnachar, gb, i){
                 gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
                 gb <- sub(gbstring, paste('\\.\\.', newStop,sep='') , gb, perl = TRUE)
                 return(list(gb, newStop))
+            }  
+        }
+    }
+    return(gb)   
+}
+
+extendUpstream <- function(annotations,dnachar, gb, i){
+    if(annotations$strand[i[1]] == '-'){
+        CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i]+15)
+    }
+    if(annotations$strand[i[1]] == '+'){
+        CDS <- getCodingSequence(annotations, dnachar, annotations$start[i] -15, annotations$end[i])
+    }
+    codonList <- codonGroup(CDS)
+    conventionalStarts  <-  c('ATG', 'GTG', 'TTG', 'ATT', 'CTG')
+    possibleEditedStarts <- c('ACG', 'ACC', 'CCG', 'GCG', 'CAG')
+    count <- 0
+    for(j in 5:1){
+        count <- count+1
+         if(any(codonList[j] == conventionalStarts)){
+             if(annotations$strand[i[1]] == '-'){
+                newStart <- annotations$end[i[1]] + count*3
+                gbstring <- paste('\\.\\.',annotations$end[i[1]],sep='')
+                gb <- sub(gbstring, paste('\\.\\.', newStart,sep=''), gb, perl = TRUE)
+                return(list(gb, newStart))
+            }
+            if(annotations$strand[i[1]] == '+'){
+                newStart <- annotations$start[i[1]] - count*3
+                gbstring <- paste(annotations$start[i[1]],'\\.\\.',sep='')
+                gb <- sub(gbstring, paste(newStart,'\\.\\.',sep='') , gb, perl = TRUE)
+                return(list(gb, newStart))
             }  
         }
     }
