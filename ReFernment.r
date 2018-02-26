@@ -18,24 +18,24 @@ library(genbankr)
 library(annotate)
 library(ape)
 
-# gff <- "C:\\Users\\tanner\\Downloads\\AG-S6.gff" 
-# fasta <- "C:\\Users\\tanner\\Downloads\\AG-S6.fasta"
+# gff <- "C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\GFF\\AG-S3.gff" 
+# fasta <- "C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\FASTA\\AG-S3.fasta"
 # sequence <- readDNAStringSet(fasta, format="fasta")
 # annotations <- read.gff(gff)
 # dnachar <- as.character(sequence)
-# adiCapCDS <- read.csv("C:\\Users\\tanner\\Downloads\\AdiCapExonLengths.csv")
-#gb <- readLines("C:\\Users\\tanner\\Downloads\\AG-S6.gb")
+# gb <- readLines("C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\GB\\AG-S3.gb")
 
-args = commandArgs(trailingOnly=TRUE)
+# args = commandArgs(trailingOnly=TRUE)
 
-gff <-args[1]
-annotations <- read.gff(gff)
-fasta <- args[2]
-sequence <- readDNAStringSet(fasta, format="fasta")
-dnachar <- as.character(sequence)
+# gff <- args[1]
+# annotations <- read.gff(gff)
+# fasta <- args[2]
+# sequence <- readDNAStringSet(fasta, format="fasta")
+# dnachar <- as.character(sequence)
+# gb <- readLines(args[3])
 
 editGB_File <- function(){
-    gb <- readLines(args[3])
+
     for(i in 1:nrow(annotations)){
         gene <- getGeneName(annotations[i,])
         if(annotations$type[i] == "CDS"){
@@ -54,8 +54,9 @@ editGB_File <- function(){
                     }else{
                         annotations$end[i] <- out[[2]]
                     }
+                    CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                 }
-
+                
                 gb <- checkStartCodon(CDS, annotations,i,gb)
                 if(length(gb) < 4){
                     if(annotations$strand[i] == '-'){
@@ -68,6 +69,7 @@ editGB_File <- function(){
                 }
 
                 out <- checkStopCodon(CDS, annotations,i, gb)
+              
                 if(length(out) < 4){
                     gb <- out[[1]]
                     if(annotations$strand[i] == '-'){
@@ -76,15 +78,15 @@ editGB_File <- function(){
                         annotations$end[i] <- out[[2]]
                     }
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
+                }else{
+                    gb <- out
                 }
-
                 gb <- checkForInternalStops(CDS, annotations,i,gb)
                 }
         }
     }
-    writeLines(gb, con = args[4])
+    writeLines(gb, "C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\testyBoi.gb")#con = args[4])
 }
-
 
 checkFrame <- function(annotations, i, CDS,gb){
     gene <- getGeneName(annotations[i[1],])
@@ -121,6 +123,8 @@ checkFrame <- function(annotations, i, CDS,gb){
 concatenateExons <- function(annotations,i, dnachar, gb){
     exonIndex <- getNumberOfExons(annotations, i)
     numExons <- length(exonIndex)
+    if(getGeneName(annotations[i,]) == "ndhA"){
+    }
     if(annotations$strand[i[1]] == "-"){
         firstExon <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
         out <- checkStartCodon(firstExon, annotations, exonIndex, gb)
@@ -139,6 +143,7 @@ concatenateExons <- function(annotations,i, dnachar, gb){
         annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
         gb <- out[[1]]
         
+        #I think the problem is that this function is too damn big. It needs to be refactored into a few smaller functions. 
         out <- checkStopCodon(nextExon, annotations,exonIndex[numExons], gb)
         if(length(out) < 4){
             annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
@@ -150,7 +155,7 @@ concatenateExons <- function(annotations,i, dnachar, gb){
         return(gb)
     }else{
         firstExon <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
-        gb <- checkStartCodon(firstExon, annotations,i, gb)
+        out <- checkStartCodon(firstExon, annotations,i, gb)
         if(length(out) < 4){
             annotations$start[exonIndex[numExons]] <- as.numeric(out[[2]])
             gb <- out[[1]]
@@ -252,6 +257,7 @@ extendDownstream <- function(annotations, dnachar, gb, i){
                 return(list(gb, newStop))
             }
             if(annotations$strand[i[numExons]] == '+'){
+                   
                 dist <- j -(length(codonList) -5)
                 newStop <- annotations$end[i[numExons]] + dist*3
                 gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
@@ -295,6 +301,7 @@ extendUpstream <- function(annotations,dnachar, gb, i){
 }
 
 checkForInternalStops <- function(CDS, annotations ,i ,gb){
+    gene <- getGeneName(annotations[i,])
     codonList <-codonGroup(CDS)
     conventionalStops <- c('TAA','TAG','TGA')
     stops <- 0
@@ -344,14 +351,15 @@ shortenDownstream <- function(annotations, dnachar, gb, CDS,i){
                 newStop <- annotations$start[i[numExons]] + dist*3
                 gbstring <- paste(annotations$start[i[numExons]],'\\.\\.',sep='')
                 gb <- sub(gbstring, paste(newStop,'\\.\\.',sep=''), gb, perl = TRUE)
-                return(gb)
+                ll <- list(gb,newStop)
+                return(ll)
             }
             if(annotations$strand[i[numExons]] == '+'){
                 dist <- length(codonList) - j
                 newStop <- annotations$end[i[numExons]] - dist*3
                 gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
                 gb <- sub(gbstring, paste('\\.\\.', newStop,sep='') , gb, perl = TRUE)
-                return(gb)
+                return(list(gb,newStop))
             }  
         }
     }
@@ -435,6 +443,3 @@ addTranslationException <- function(annotations, aa, gb, start, stop,i){
 
 editGB_File()
 
-
-
-#need lengthen head function
