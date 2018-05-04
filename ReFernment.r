@@ -19,19 +19,16 @@ library(annotate)
 library(ape)
 
 
-
-
-genomes <- c("AG-S2", "AG-S3","AG-S4","AG-S6","AG-S8","AG-S10","AG-S11","AG-S12","AG-S13","AG-S14","AG-S15","AG-S17", "AG-S18","AG-S20","AG-S21",
-            "AG-S22","AG-S23","AG-S24","AG-S25","AG-S26","AG-S27","AG-S28","AG-S30","AG-S31","AG-S32","VittariaAppalachiana")
+genomes <- c("Vittaria_Appalac")
 
 for(i in 1:length(genomes)){
-    gff <- paste("C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\GFF\\", genomes[i], ".gff", sep='') 
-    fasta <- paste("C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\FASTA\\", genomes[i], ".fasta", sep='')
+    gff <- paste("C:\\Users\\robis\\Documents\\Research\\ReFernment\\RNAeditAnnotations\\GFF\\", genomes[i], ".gff", sep='') 
+    fasta <- paste("C:\\Users\\robis\\Documents\\Research\\ReFernment\\RNAeditAnnotations\\FASTA\\", genomes[i], ".fasta", sep='')
     sequence <- readDNAStringSet(fasta, format="fasta")
     annotations <- read.gff(gff)
     dnachar <- as.character(sequence)
-    gb <- readLines(paste("C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\GB\\", genomes[i], ".gb", sep=''))
-    output <- paste(      "C:\\Users\\tanner\\Documents\\RNAeditAnnotations\\Out\\", genomes[i], ".gb", sep='')
+    gb <- readLines(paste("C:\\Users\\robis\\Documents\\Research\\ReFernment\\RNAeditAnnotations\\GB\\", genomes[i], ".gb", sep=''))
+    output <- paste(      "C:\\Users\\robis\\Documents\\Research\\ReFernment\\RNAeditAnnotations\\Out\\", genomes[i], ".gb", sep='')
     print(genomes[i])
     editGB_File()
 }
@@ -74,6 +71,7 @@ editGB_File <- function(){
                 CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
 
                 gb <- checkForInternalStops(CDS, annotations,i,gb)
+                gb <-annotateTranslation(annotations,i,dnachar,gb)
                 }
         }
     }
@@ -117,7 +115,7 @@ concatenateExons <- function(numExons, exonIndex, annotations, dnachar, i){
     for(j in 2:numExons){
             nextExon <- getCodingSequence(annotations[exonIndex[j],], dnachar, annotations$start[exonIndex[j]], annotations$end[exonIndex[j]])
             firstExon <- paste(firstExon, nextExon, sep = '')
-        }
+    }
     return(firstExon)
 }
 
@@ -146,6 +144,63 @@ checkExons <- function(annotations,i, dnachar, gb){
     CDS <- concatenateExons(numExons, exonIndex, annotations, dnachar, i)
 
     gb <- checkForInternalStops(CDS, annotations,exonIndex,gb)
+    gb <- annotateTranslation(annotations,i,dnachar,gb,CDS)
+    return(gb)
+}
+
+annotateTranslation <- function(annotations, i, dnachar, gb,CDS){
+    possibleEditedStarts <- c('ACG')
+    conventionalStops <- c('TAA','TAG','TGA')
+    possibleEditedStops <- c('CAA', 'CAG', 'CGA')
+    RNAediting = FALSE
+    exonIndex <- getNumberOfExons(annotations, i)
+
+    if(length(exonIndex) > 1){
+        codonList <- codonGroup(CDS)
+    }else{
+    codonList <- codonGroup(getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i]))
+    }
+    if(codonList[1] == possibleEditedStarts){
+        codonList[1] <- CtoU_RNAediting(codonList[1])
+        RNAediting = TRUE
+    }
+    if(any(codonList[length(codonList)] == possibleEditedStops)){
+        codonList[length(codonList)] <- UtoC_RNAediting(codonList[length(codonList)])
+        codonList[length(codonList)] <- CtoU_RNAediting(codonList[length(codonList)])
+        RNAediting = TRUE
+    }
+    for(j in 2:length(codonList)-1){
+        if(any(codonList[j] == conventionalStops)){
+            codonList[j] <-  UtoC_RNAediting(codonList[j])
+            RNAediting = TRUE
+        }
+    }
+
+    annotatedSeq <- paste(codonList, collapse='')
+    annotatedTranslation <- translate(DNAStringSet(annotatedSeq), getGeneticCode("11"),if.fuzzy.codon="solve")
+    if(isTRUE(RNAediting)){
+        gbInsert <- paste('/translation="',annotatedTranslation, '"\n                     /exception="RNA editing"',sep='')
+    }else{
+    gbInsert <- paste('/translation="',annotatedTranslation, '"',sep='')
+    }
+    if(length(exonIndex) > 1){
+        if(annotations[i[1], "strand"] == '-'){
+        gbstring<- paste('(complement\\(',annotations[exonIndex[length(exonIndex)],"start"],'.*)',sep='')
+        }
+        if(annotations[i[1],"strand"] == '+'){
+        gbstring<-paste('(CDS\\s*join\\(',annotations[i,"start"],'.*)',sep='')
+        }
+    }else{
+        if(annotations[i[1], "strand"] == '-'){
+            gbstring<- paste('(CDS\\s*complement\\(',annotations[i,"start"],'\\.\\.',annotations[i,"end"],'\\))',sep='')
+        }
+        if(annotations[i[1],"strand"] == '+'){
+            gbstring<-paste('(CDS\\s*',annotations[i,"start"],'\\.\\.',annotations[i,"end"],')',sep='')
+        }
+    }
+    newString <-  paste("\\1\n\                     ",gbInsert, sep='')
+    gb <- sub(gbstring, newString[1], gb)
+
     return(gb)
 }
 
@@ -156,13 +211,13 @@ checkStartCodon <- function(CDS, annotations,i,gb){
         out <- list(gb, annotations)
         return(out)
     }
-    possibleEditedStarts <- c('ACG', 'ACC', 'CCG', 'GCG', 'CAG')
+    possibleEditedStarts <- c('ACG')
     if(any(substr(CDS, 1, 3) == possibleEditedStarts)){
         if(annotations[i[1], "strand"] == '+'){
-            gb <- addTranslationException(annotations, "MET", gb, annotations[i, "start"], annotations[i, "start"]+2,i)
+            gb <- addFeature(annotations, i, annotations[i, "start"]+1, "CtoU",gb,"gene")
         }
         if(annotations[i[1], "strand"] == '-'){
-            gb <- addTranslationException(annotations, "MET", gb, annotations[i, "end"], annotations[i, "end"]-2,i)
+            gb <- addFeature(annotations, i,annotations[i, "end"]-1, "CtoU",gb,"gene")
         }
         out <- list(gb, annotations)
         return(out)
@@ -187,10 +242,10 @@ checkStopCodon <- function(CDS, annotations,i, gb){
         return(out) 
     } else if(any(substr(CDS, nchar(CDS)-2,nchar(CDS)) == possibleEditedStops)){
         if(annotations$strand[i[numExons]] == '+'){
-            gb <- addTranslationException(annotations, "TERM", gb, annotations[i, "end"], annotations[i, "end"]-2,i)
+            gb <- addFeature(annotations, i, annotations[i, "end"]-2, "CtoU",gb,"gene")
         }
         if(annotations$strand[i[numExons]] == '-'){
-            gb <- addTranslationException(annotations, "TERM", gb, annotations[i, "start"]+2, annotations[i, "start"],i)
+            gb <- addFeature(annotations, i,annotations[i, "start"]+2, "CtoU", gb, "gene")
         }
         out <- list(gb, annotations)
         return(out) 
@@ -297,21 +352,50 @@ checkForInternalStops <- function(CDS, annotations ,i ,gb){
             }
             if(any(codonList[j] == conventionalStops)){
                 if(annotations$strand[i[exonCount]] == '-'){
-                    termStart <- annotations$end[i[exonCount]] - ((j-1)*3 - totalLength) 
-                    termStop  <- annotations$end[i[exonCount]] - ((j-1)*3 - totalLength) - 2 
+                    termStart <- annotations$end[i[exonCount]] - ((j-1)*3 - totalLength)
+                    gb<-addFeature(annotations, i[1], termStart,"UtoC",gb,gene)
                     stops <- stops +1
                 }else{
                     termStart <- annotations$start[i[exonCount]] + ((j-1)*3 - totalLength)
-                    termStop  <- annotations$start[i[exonCount]] + ((j-1)*3 - totalLength) + 2 
+                    gb<-addFeature(annotations, i[exonCount], termStart,"UtoC",gb,gene)
                     stops <- stops +1
                 }
-                gb <- addTranslationException(annotations,"other", gb, termStart, termStop,i)
+
             } 
         }
     if(stops > 5){
         gene <- getGeneName(annotations[i,])
         cat("There are a high number of edited Stops (", stops,") in", gene, "manually check to make sure frame is correct\n")
     }
+    return(gb)
+}
+
+addFeature <- function(annotations,i,site,editType,gb,gene){
+    exonIndex <- getNumberOfExons(annotations,i)
+    if(editType == 'CtoU'){
+        note <- '/note="C to U RNA editing"'
+    }
+    if(editType == 'UtoC'){
+        note <-  '/note="U to C RNA editing"'
+    }
+    newFeature <- paste('     misc_feature    ', site, '\n\                     ', note,'\n', sep ='')
+    if(length(exonIndex) > 1){
+        if(annotations[i[1], "strand"] == '-'){
+            gbstring<- paste('(     CDS\\s*join\\(complement\\(',annotations[i,"start"],'.*)',sep='')
+        }
+        if(annotations[i[1],"strand"] == '+'){
+            gbstring<-paste('(     CDS\\s*join\\(',annotations[i,"start"],'.*)',sep='')
+        }
+    }else{
+    if(annotations[i[1], "strand"] == '-'){
+        gbstring<- paste('(     CDS\\s*complement\\(',annotations[i,"start"],'\\.\\.',annotations[i,"end"],'\\))',sep='')
+        }
+        if(annotations[i[1],"strand"] == '+'){
+        gbstring<-paste('(     CDS\\s*',annotations[i,"start"],'\\.\\.',annotations[i,"end"],')',sep='')
+        }
+    }
+    newString <-  paste(newFeature, "\\1",sep='')
+    gb <- sub(gbstring, newString, gb)
     return(gb)
 }
 
@@ -382,7 +466,6 @@ getNumberOfExons <- function(annotations, i, exons=0){
             return(i)
         }
     }
-   # return(i)
 }
 
 getCodingSequence <- function(annotations, dnachar, start,stop){
@@ -410,23 +493,31 @@ codonGroup <- function(x){
     
 }
 
-addTranslationException <- function(annotations, aa, gb, start, stop,i){
-    exceptSite <- paste('/transl_except="(pos:',start,'-',stop,',aa:',aa,')"',sep='' )
-    if(length(i) > 1){
-        i <- i[length(i)]
-        gbstring<- paste('(',annotations$start[i],'\\.\\.',annotations$end[i],'\\)\\))',sep='')
-        }else{
-        if(annotations[i[1], "strand"] == '-'){
-            gbstring<- paste('(CDS\\s*complement\\(',annotations[i,"start"],'\\.\\.',annotations[i,"end"],'\\))',sep='')
-        }
-        if(annotations[i[1],"strand"] == '+'){
-            gbstring<-paste('(CDS\\s*',annotations[i,"start"],'\\.\\.',annotations[i,"end"],')',sep='')
-        }
+CtoU_RNAediting <- function(codon){
+    if(codon == 'ACG'){
+        codon <- 'ATG'
     }
-    newString <-  paste("\\1\n\                     ",exceptSite,sep='')
-    gene <- getGeneName(annotations[i,])
-    gb <- sub(gbstring, newString[1], gb)
-    return(gb)
+    if(codon == 'CAG'){
+        codon <- 'TAG'
+    }
+    if(codon == 'CAA'){
+        codon <- 'TAA'
+    }
+    if(codon == 'CGA'){
+        codon <- 'TGA'
+    }
+    return(codon)
 }
 
-editGB_File()
+UtoC_RNAediting <- function(codon){
+    if(codon == 'TAG'){
+        codon <- 'CAG'
+    }
+    if(codon == 'TAA'){
+        codon <- 'CAA'
+    }
+    if(codon == 'TGA'){
+        codon <- 'CGA'
+    }
+    return(codon)
+}
