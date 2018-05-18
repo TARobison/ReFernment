@@ -1,0 +1,11 @@
+Package: ReFernment
+Type: Package
+Title: Automatically Adds RNA Editing Annotations To Plastome Genome Files
+Version: 1.0
+Date: 2018-05-17
+Author: Tanner A Robison
+Maintainer: <robison.tanner@gmail.com>
+Description: This package is desigened to ease the process of annotating RNA editing in plastomes in preparation for GenBank submission. ReFernment takes as input a gff, gb,     and fasta file for each genome and provides a corrected translation and the appropriate mis_feature annotation in the .gb file. 
+License: GPL-3
+Imports: Biostrings, ape, stringr
+RoxygenNote: 6.0.1
