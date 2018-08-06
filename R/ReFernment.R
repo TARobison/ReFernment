@@ -45,7 +45,7 @@
 #' @export
 
 
-ReFernment <- function(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPath, genomes){
+ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     conventionalStops <- c('TAA','TAG','TGA')
     possibleEditedStops <- c('CAA','CAG','CGA')
     conventionalStarts <- c('ATG','GTG','TTG','ATT','CTG')
@@ -312,7 +312,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPa
                 if(annotations$strand[i[1]] == '-'){
                     newStart <- annotations$end[i[1]] + count*3
                     gbstring <- paste('\\.\\.',annotations$end[i[1]],sep='')
-                    gb <- sub(gbstring, paste('\\.\\.', newStart,sep=''), gb, perl = TRUE)
+                    gb <- sub(gbstring, paste('\\.\\.', newStart[1],sep=''), gb, perl = TRUE)
                     annotations$end[i[1]] <- newStart
                     out <- list(gb, annotations)
                     return(out)
@@ -434,7 +434,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPa
                 if(annotations[i[1],"strand"] == '-'){
                     newStart <- annotations[i,"end"] - (j-1)*3
                     gbstring <- paste('\\.\\.',annotations[i,"end"],sep='')
-                    gb <- sub(gbstring, paste('\\.\\.', newStart,sep=''), gb, perl = TRUE)
+                    gb <- sub(gbstring, paste('\\.\\.', newStart[1],sep=''), gb, perl = TRUE)
                     annotations[i,"end"] <- newStart
                     out <- list(gb, annotations)
                     return(out)
@@ -466,9 +466,9 @@ ReFernment <- function(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPa
 
     getCodingSequence <- function(annotations, dnachar, start,stop){
         if(annotations[1,"strand"] == "-"){
-                locus <- substr(dnachar, start, stop)
-                locus <- DNAString(locus)
-                codingSequence <- as.character(reverseComplement(locus))
+            locus <- substr(dnachar, start, stop)
+            locus <- DNAString(locus)
+            codingSequence <- as.character(reverseComplement(locus))
         }
         if(annotations[1,"strand"] == "+"){
             codingSequence <- substr(dnachar, start, stop)
@@ -518,12 +518,29 @@ ReFernment <- function(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPa
         return(codon)
     }
 
+    gb2fasta <- function(gb){
+        sequence <- ""
+        for(i in 1:length(gb)){
+            if(grepl("ORIGIN", gb[i])){
+                for(j in i+1:length(gb)){
+                    if(grepl("//", gb[j])){
+                        return(sequence)
+                    }else{
+                        nucList <- unlist(str_extract_all(gb[j],'[a-z]'))
+                        subSeq <- paste(nucList, collapse='')
+                        sequence <- paste(sequence, subSeq, sep='')
+                    }
+                }
+            }
+        }
+    }
+
     for(i in 1:length(genomes)){
         gff <- paste(gffFolderPath, genomes[i], ".gff", sep='')
         gb <- readLines(paste(gbFolderPath, genomes[i], ".gb", sep=''))
-        # sequence <- as.character(parseGenBank(paste(gbFolderPath,genomes[i], ".gb", sep =''), ret.anno = FALSE))
-        fasta <- paste(fastaFolderPath, genomes[i], ".fasta", sep='')
-        sequence <- readDNAStringSet(fasta, format="fasta")
+        sequence <- DNAString(gb2fasta(gb))
+        #fasta <- paste(fastaFolderPath, genomes[i], ".fasta", sep='')
+        #sequence <- readDNAStringSet(fasta, format="fasta")
         annotations <- read.gff(gff)
         dnachar <- as.character(sequence)
         output <- paste(outFolderPath, genomes[i], ".gb", sep='')
@@ -532,3 +549,5 @@ ReFernment <- function(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPa
     }
 
 }
+
+ReFernment(gbFolder, gffFolder, outFolderPath, genomes)
