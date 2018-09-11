@@ -1,0 +1,343 @@
+##gff-version 3
+##source-version geneious 11.1.3
+##sequence-region	KT599101	1	153717
+KT599101	Geneious	region	1	153717	.	+	0	Is_circular=true
+KT599101	Geneious	rRNA	85981	88798	.	-	.	Name=rrn23 rRNA
+KT599101	Geneious	rRNA	147307	150124	.	+	.	Name=rrn23 rRNA
+KT599101	Geneious	rRNA	91341	92840	.	-	.	Name=rrn16 rRNA
+KT599101	Geneious	rRNA	143265	144764	.	+	.	Name=rrn16 rRNA
+KT599101	Geneious	rRNA	85362	85484	.	-	.	Name=rrn5 rRNA
+KT599101	Geneious	rRNA	150621	150743	.	+	.	Name=rrn5 rRNA
+KT599101	Geneious	rRNA	85767	85869	.	-	.	Name=rrn4.5 rRNA
+KT599101	Geneious	rRNA	150236	150338	.	+	.	Name=rrn4.5 rRNA
+KT599101	Geneious	tRNA	91003	91038	.	-	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.16
+KT599101	Geneious	tRNA	89942	89977	.	-	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.16
+KT599101	Geneious	tRNA	145067	145102	.	+	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.17
+KT599101	Geneious	tRNA	146128	146163	.	+	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.17
+KT599101	Geneious	tRNA	8816	8838	.	+	.	Name=trnG-UCC tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.18
+KT599101	Geneious	tRNA	9735	9782	.	+	.	Name=trnG-UCC tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.18
+KT599101	Geneious	tRNA	89824	89860	.	-	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.19
+KT599101	Geneious	tRNA	88980	89015	.	-	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.19
+KT599101	Geneious	tRNA	146245	146281	.	+	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.20
+KT599101	Geneious	tRNA	147090	147125	.	+	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.20
+KT599101	Geneious	tRNA	45512	45545	.	+	.	Name=trnL-UAA tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.21
+KT599101	Geneious	tRNA	46120	46166	.	+	.	Name=trnL-UAA tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.21
+KT599101	Geneious	tRNA	49346	49383	.	-	.	Name=trnV-UAC tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.22
+KT599101	Geneious	tRNA	48750	48789	.	-	.	Name=trnV-UAC tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.22
+KT599101	Geneious	tRNA	83733	83766	.	+	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.23
+KT599101	Geneious	tRNA	84251	84290	.	+	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.23
+KT599101	Geneious	tRNA	152339	152372	.	-	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.24
+KT599101	Geneious	tRNA	151815	151854	.	-	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780449.24
+KT599101	Geneious	tRNA	31268	31356	.	+	.	Name=trnS-UGA tRNA
+KT599101	Geneious	tRNA	43728	43814	.	+	.	Name=trnS-GGA tRNA
+KT599101	Geneious	tRNA	7885	7968	.	-	.	Name=trnS-GCU tRNA
+KT599101	Geneious	tRNA	27565	27646	.	-	.	Name=trnY-GUA tRNA
+KT599101	Geneious	tRNA	53918	53998	.	+	.	Name=trnR-UCG tRNA
+KT599101	Geneious	tRNA	111366	111444	.	+	.	Name=trnL-UAG tRNA
+KT599101	Geneious	tRNA	85009	85083	.	-	.	Name=trnR-ACG tRNA
+KT599101	Geneious	tRNA	27434	27507	.	+	.	Name=trnD-GUC tRNA
+KT599101	Geneious	tRNA	36054	36127	.	-	.	Name=trnfM-CAU tRNA
+KT599101	Geneious	tRNA	62586	62659	.	-	.	Name=trnW-CCA tRNA
+KT599101	Geneious	tRNA	62845	62918	.	-	.	Name=trnP-UGG tRNA
+KT599101	Geneious	tRNA	82259	82332	.	-	.	Name=trnI-CAU tRNA
+KT599101	Geneious	tRNA	99487	99560	.	+	.	Name=trnH-GUG tRNA
+KT599101	Geneious	tRNA	111036	111109	.	-	.	Name=trnP-GGG tRNA
+KT599101	Geneious	tRNA	136545	136618	.	-	.	Name=trnH-GUG tRNA
+KT599101	Geneious	tRNA	151022	151095	.	+	.	Name=trnR-ACG tRNA
+KT599101	Geneious	tRNA	27791	27863	.	-	.	Name=trnE-UUC tRNA
+KT599101	Geneious	tRNA	46466	46538	.	+	.	Name=trnF-GAA tRNA
+KT599101	Geneious	tRNA	49616	49688	.	+	.	Name=trnM-CAU tRNA
+KT599101	Geneious	tRNA	6596	6667	.	-	.	Name=trnQ-UUG tRNA
+KT599101	Geneious	tRNA	9931	10002	.	+	.	Name=trnR-UCU tRNA
+KT599101	Geneious	tRNA	29858	29929	.	-	.	Name=trnC-GCA tRNA
+KT599101	Geneious	tRNA	35494	35565	.	-	.	Name=trnT-GGU tRNA
+KT599101	Geneious	tRNA	106711	106782	.	-	.	Name=trnN-GUU tRNA
+KT599101	Geneious	tRNA	129323	129394	.	+	.	Name=trnN-GUU tRNA
+KT599101	Geneious	tRNA	30371	30441	.	-	.	Name=trnG-GCC tRNA
+KT599101	Geneious	exon	20507	22171	.	-	.	Name=rpoC1 exon 2
+KT599101	Geneious	exon	152571	153341	.	-	.	Name=ndhB exon 2
+KT599101	Geneious	exon	496	1233	.	-	.	Name=ndhB exon 1
+KT599101	Geneious	exon	71804	72445	.	+	.	Name=petB exon 2
+KT599101	Geneious	exon	117094	117651	.	-	.	Name=ndhA exon 2
+KT599101	Geneious	exon	118617	119174	.	-	.	Name=ndhA exon 1
+KT599101	Geneious	exon	73292	73763	.	+	.	Name=petD exon 2
+KT599101	Geneious	exon	80201	80637	.	-	.	Name=rpl2 exon 2
+KT599101	Geneious	exon	22878	23309	.	-	.	Name=rpoC1 exon 1
+KT599101	Geneious	exon	11708	12117	.	-	.	Name=atpF exon 2
+KT599101	Geneious	exon	77449	77853	.	-	.	Name=rpl16 exon 2
+KT599101	Geneious	exon	81359	81755	.	-	.	Name=rpl2 exon 1
+KT599101	Geneious	exon	66910	67201	.	-	.	Name=clpP exon 2
+KT599101	Geneious	exon	66094	66333	.	-	.	Name=clpP exon 3
+KT599101	Geneious	exon	139832	140063	.	-	.	Name=rps12 exon 2
+KT599101	Geneious	exon	3566	3796	.	-	.	Name=rps16 exon 2
+KT599101	Geneious	exon	42383	42611	.	-	.	Name=ycf3 exon 2
+KT599101	Geneious	exon	41596	41757	.	-	.	Name=ycf3 exon 3
+KT599101	Geneious	exon	12830	12974	.	-	.	Name=atpF exon 1
+KT599101	Geneious	exon	43342	43466	.	-	.	Name=ycf3 exon 1
+KT599101	Geneious	exon	65715	65828	.	-	.	Name=rps12 exon 1
+KT599101	Geneious	exon	67895	67965	.	-	.	Name=clpP exon 1
+KT599101	Geneious	exon	9735	9782	.	+	.	Name=trnG-UCC exon 2
+KT599101	Geneious	exon	46120	46166	.	+	.	Name=trnL-UAA exon 2
+KT599101	Geneious	exon	4616	4657	.	-	.	Name=rps16 exon 1
+KT599101	Geneious	exon	48750	48789	.	-	.	Name=trnV-UAC exon 2
+KT599101	Geneious	exon	84251	84290	.	+	.	Name=trnT-UGU exon 2
+KT599101	Geneious	exon	151815	151854	.	-	.	Name=trnT-UGU exon 2
+KT599101	Geneious	exon	49346	49383	.	-	.	Name=trnV-UAC exon 1
+KT599101	Geneious	exon	89824	89860	.	-	.	Name=trnA-UGC exon 1
+KT599101	Geneious	exon	146245	146281	.	+	.	Name=trnA-UGC exon 1
+KT599101	Geneious	exon	88980	89015	.	-	.	Name=trnA-UGC exon 2
+KT599101	Geneious	exon	89942	89977	.	-	.	Name=trnI-GAU exon 2
+KT599101	Geneious	exon	91003	91038	.	-	.	Name=trnI-GAU exon 1
+KT599101	Geneious	exon	145067	145102	.	+	.	Name=trnI-GAU exon 1
+KT599101	Geneious	exon	146128	146163	.	+	.	Name=trnI-GAU exon 2
+KT599101	Geneious	exon	147090	147125	.	+	.	Name=trnA-UGC exon 2
+KT599101	Geneious	exon	45512	45545	.	+	.	Name=trnL-UAA exon 1
+KT599101	Geneious	exon	83733	83766	.	+	.	Name=trnT-UGU exon 1
+KT599101	Geneious	exon	152339	152372	.	-	.	Name=trnT-UGU exon 1
+KT599101	Geneious	exon	139228	139253	.	-	.	Name=rps12 exon 3
+KT599101	Geneious	exon	8816	8838	.	+	.	Name=trnG-UCC exon 1
+KT599101	Geneious	exon	78609	78617	.	-	.	Name=rpl16 exon 1
+KT599101	Geneious	exon	72645	72652	.	+	.	Name=petD exon 1
+KT599101	Geneious	exon	70999	71004	.	+	.	Name=petB exon 1
+KT599101	Geneious	CDS	496	1233	.	-	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.25
+KT599101	Geneious	CDS	152571	153341	.	-	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.25
+KT599101	Geneious	CDS	65715	65828	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.26
+KT599101	Geneious	CDS	139832	140063	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.26
+KT599101	Geneious	CDS	139228	139253	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.26
+KT599101	Geneious	CDS	65715	65828	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.27
+KT599101	Geneious	CDS	96042	96273	.	+	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.27
+KT599101	Geneious	CDS	96852	96877	.	+	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780456.27
+KT599101	Geneious	CDS	99812	106108	.	+	0	Name=ycf2 CDS
+KT599101	Geneious	CDS	129997	136293	.	-	0	Name=ycf2 CDS
+KT599101	Geneious	CDS	121044	126158	.	-	0	Name=ycf1 CDS
+KT599101	Geneious	CDS	16090	20367	.	-	0	Name=rpoC2 CDS
+KT599101	Geneious	CDS	23360	26575	.	-	0	Name=rpoB CDS
+KT599101	Geneious	CDS	22878	23309	.	-	0	Name=rpoC1 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.28
+KT599101	Geneious	CDS	20507	22171	.	-	0	Name=rpoC1 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.28
+KT599101	Geneious	CDS	39017	41269	.	-	0	Name=psaA CDS
+KT599101	Geneious	CDS	107238	109478	.	-	0	Name=ndhF CDS
+KT599101	Geneious	CDS	36787	38991	.	-	0	Name=psaB CDS
+KT599101	Geneious	CDS	118617	119174	.	-	0	Name=ndhA CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.29
+KT599101	Geneious	CDS	117094	117651	.	-	0	Name=ndhA CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.29
+KT599101	Geneious	CDS	67895	67965	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.30
+KT599101	Geneious	CDS	66910	67201	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.30
+KT599101	Geneious	CDS	66094	66333	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780457.30
+KT599101	Geneious	CDS	43342	43466	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780458.31
+KT599101	Geneious	CDS	42383	42611	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780458.31
+KT599101	Geneious	CDS	41596	41757	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780458.31
+KT599101	Geneious	CDS	81359	81755	.	-	0	Name=rpl2 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780458.32
+KT599101	Geneious	CDS	80201	80637	.	-	0	Name=rpl2 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780458.32
+KT599101	Geneious	CDS	4812	6356	.	-	0	Name=chlB CDS
+KT599101	Geneious	CDS	68408	69934	.	+	0	Name=psbB CDS
+KT599101	Geneious	CDS	10104	11627	.	-	0	Name=atpA CDS
+KT599101	Geneious	CDS	1437	2945	.	-	0	Name=matK CDS
+KT599101	Geneious	CDS	56874	58382	.	+	0	Name=cemA CDS
+KT599101	Geneious	CDS	113080	114588	.	-	0	Name=ndhD CDS
+KT599101	Geneious	CDS	50239	51720	.	-	0	Name=atpB CDS
+KT599101	Geneious	CDS	70999	71004	.	+	0	Name=petB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.33
+KT599101	Geneious	CDS	71804	72445	.	+	0	Name=petB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.33
+KT599101	Geneious	CDS	52363	53790	.	+	0	Name=rbcL CDS
+KT599101	Geneious	CDS	31664	33085	.	-	0	Name=psbC CDS
+KT599101	Geneious	CDS	126525	127913	.	-	0	Name=chlN CDS
+KT599101	Geneious	CDS	93183	94467	.	-	.	Name=ycf-PTE
+KT599101	Geneious	CDS	141638	142922	.	+	.	Name=ycf-PTE
+KT599101	Geneious	CDS	12830	12974	.	-	0	Name=atpF CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.34
+KT599101	Geneious	CDS	11708	12117	.	-	0	Name=atpF CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.34
+KT599101	Geneious	CDS	119176	120354	.	-	0	Name=ndhH CDS
+KT599101	Geneious	CDS	78609	78617	.	-	0	Name=rpl16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.35
+KT599101	Geneious	CDS	77449	77853	.	-	0	Name=rpl16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.35
+KT599101	Geneious	CDS	72645	72652	.	+	0	Name=petD CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.36
+KT599101	Geneious	CDS	73292	73763	.	+	0	Name=petD CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.36
+KT599101	Geneious	CDS	4616	4657	.	-	0	Name=rps16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.37
+KT599101	Geneious	CDS	3566	3796	.	-	0	Name=rps16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780459.37
+KT599101	Geneious	CDS	33033	34094	.	-	0	Name=psbD CDS
+KT599101	Geneious	CDS	97962	99023	.	+	0	Name=psbA CDS
+KT599101	Geneious	CDS	137082	138143	.	-	0	Name=psbA CDS
+KT599101	Geneious	CDS	74075	75097	.	-	0	Name=rpoA CDS
+KT599101	Geneious	CDS	58603	59568	.	+	0	Name=petA CDS
+KT599101	Geneious	CDS	111737	112678	.	+	0	Name=ccsA CDS
+KT599101	Geneious	CDS	54335	55267	.	+	0	Name=accD CDS
+KT599101	Geneious	CDS	127979	128881	.	-	0	Name=chlL CDS
+KT599101	Geneious	CDS	14316	15062	.	-	0	Name=atpI CDS
+KT599101	Geneious	CDS	47344	48081	.	-	0	Name=ndhK CDS
+KT599101	Geneious	CDS	15246	15962	.	-	0	Name=rps2 CDS
+KT599101	Geneious	CDS	78729	79385	.	-	0	Name=rps3 CDS
+KT599101	Geneious	CDS	44251	44871	.	-	0	Name=rps4 CDS
+KT599101	Geneious	CDS	115684	116277	.	-	0	Name=ndhG CDS
+KT599101	Geneious	CDS	56131	56685	.	+	0	Name=ycf4 CDS
+KT599101	Geneious	CDS	116421	116951	.	-	0	Name=ndhI CDS
+KT599101	Geneious	CDS	46761	47273	.	-	0	Name=ndhJ CDS
+KT599101	Geneious	CDS	96943	97416	.	+	0	Name=rps7 CDS
+KT599101	Geneious	CDS	138689	139162	.	-	0	Name=rps7 CDS
+KT599101	Geneious	CDS	49835	50233	.	-	0	Name=atpE CDS
+KT599101	Geneious	CDS	76219	76617	.	-	0	Name=rps8 CDS
+KT599101	Geneious	CDS	75134	75526	.	-	0	Name=rps11 CDS
+KT599101	Geneious	CDS	79493	79870	.	-	0	Name=rpl22 CDS
+KT599101	Geneious	CDS	76820	77188	.	-	0	Name=rpl14 CDS
+KT599101	Geneious	CDS	48072	48434	.	-	0	Name=ndhC CDS
+KT599101	Geneious	CDS	64388	64744	.	-	0	Name=rpl20 CDS
+KT599101	Geneious	CDS	109789	110145	.	+	0	Name=rpl21 CDS
+KT599101	Geneious	CDS	36260	36562	.	-	0	Name=rps14 CDS
+KT599101	Geneious	CDS	115291	115593	.	-	0	Name=ndhE CDS
+KT599101	Geneious	CDS	79888	80166	.	-	0	Name=rps19 CDS
+KT599101	Geneious	CDS	81824	82093	.	-	0	Name=rpl23 CDS
+KT599101	Geneious	CDS	120459	120728	.	-	0	Name=rps15 CDS
+KT599101	Geneious	CDS	60928	61179	.	-	0	Name=psbE CDS
+KT599101	Geneious	CDS	13324	13569	.	-	0	Name=atpH CDS
+KT599101	Geneious	CDS	114724	114969	.	-	0	Name=psaC CDS
+KT599101	Geneious	CDS	75839	76081	.	-	0	Name=infA CDS
+KT599101	Geneious	CDS	63912	64139	.	+	0	Name=rps18 CDS
+KT599101	Geneious	CDS	70643	70867	.	+	0	Name=psbH CDS
+KT599101	Geneious	CDS	63645	63845	.	+	0	Name=rpl33 CDS
+KT599101	Geneious	CDS	30690	30878	.	-	0	Name=psbZ CDS
+KT599101	Geneious	CDS	6995	7171	.	+	0	Name=psbK CDS
+KT599101	Geneious	CDS	110326	110493	.	+	0	Name=rpl32 CDS
+KT599101	Geneious	CDS	70419	70550	.	-	0	Name=psbN CDS
+KT599101	Geneious	CDS	63283	63411	.	+	0	Name=psaJ CDS
+KT599101	Geneious	CDS	60419	60544	.	-	0	Name=psbJ CDS
+KT599101	Geneious	CDS	60799	60918	.	-	0	Name=psbF CDS
+KT599101	Geneious	CDS	60661	60777	.	-	0	Name=psbL CDS
+KT599101	Geneious	CDS	62210	62326	.	+	0	Name=petG CDS
+KT599101	Geneious	CDS	75596	75709	.	-	0	Name=rpl36 CDS
+KT599101	Geneious	CDS	7701	7811	.	+	0	Name=psbI CDS
+KT599101	Geneious	CDS	55595	55705	.	+	0	Name=psaI CDS
+KT599101	Geneious	CDS	28324	28428	.	+	0	Name=psbM CDS
+KT599101	Geneious	CDS	70167	70271	.	+	0	Name=psbT CDS
+KT599101	Geneious	CDS	8530	8631	.	+	0	Name=ycf12 CDS
+KT599101	Geneious	CDS	61950	62045	.	+	0	Name=petL CDS
+KT599101	Geneious	CDS	29290	29379	.	-	0	Name=petN CDS
+KT599101	Geneious	gene	1	1233	.	-	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780461.38
+KT599101	Geneious	gene	152571	153717	.	-	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780461.38
+KT599101	Geneious	gene	65715	65828	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780461.39
+KT599101	Geneious	gene	139228	140063	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780461.39
+KT599101	Geneious	gene	65715	65828	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780461.40
+KT599101	Geneious	gene	96042	96877	.	+	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526676780461.40
+KT599101	Geneious	gene	99812	106108	.	+	.	Name=ycf2 gene
+KT599101	Geneious	gene	129997	136293	.	-	.	Name=ycf2 gene
+KT599101	Geneious	gene	121044	126158	.	-	.	Name=ycf1 gene
+KT599101	Geneious	gene	16090	20367	.	-	.	Name=rpoC2 gene
+KT599101	Geneious	gene	23360	26575	.	-	.	Name=rpoB gene
+KT599101	Geneious	gene	85981	88798	.	-	.	Name=rrn23 gene
+KT599101	Geneious	gene	147307	150124	.	+	.	Name=rrn23 gene
+KT599101	Geneious	gene	20507	23309	.	-	.	Name=rpoC1 gene
+KT599101	Geneious	gene	39017	41269	.	-	.	Name=psaA gene
+KT599101	Geneious	gene	107238	109478	.	-	.	Name=ndhF gene
+KT599101	Geneious	gene	36787	38991	.	-	.	Name=psaB gene
+KT599101	Geneious	gene	117094	119174	.	-	.	Name=ndhA gene
+KT599101	Geneious	gene	66094	67965	.	-	.	Name=clpP gene
+KT599101	Geneious	gene	41596	43466	.	-	.	Name=ycf3 gene
+KT599101	Geneious	gene	80201	81755	.	-	.	Name=rpl2 gene
+KT599101	Geneious	gene	4812	6356	.	-	.	Name=chlB gene
+KT599101	Geneious	gene	68408	69934	.	+	.	Name=psbB gene
+KT599101	Geneious	gene	10104	11627	.	-	.	Name=atpA gene
+KT599101	Geneious	gene	1437	2945	.	-	.	Name=matK gene
+KT599101	Geneious	gene	56874	58382	.	+	.	Name=cemA gene
+KT599101	Geneious	gene	113080	114588	.	-	.	Name=ndhD gene
+KT599101	Geneious	gene	91341	92840	.	-	.	Name=rrn16 gene
+KT599101	Geneious	gene	143265	144764	.	+	.	Name=rrn16 gene
+KT599101	Geneious	gene	50239	51720	.	-	.	Name=atpB gene
+KT599101	Geneious	gene	70999	72445	.	+	.	Name=petB gene
+KT599101	Geneious	gene	52363	53790	.	+	.	Name=rbcL gene
+KT599101	Geneious	gene	31664	33085	.	-	.	Name=psbC gene
+KT599101	Geneious	gene	126525	127913	.	-	.	Name=chlN gene
+KT599101	Geneious	gene	11708	12974	.	-	.	Name=atpF gene
+KT599101	Geneious	gene	119176	120354	.	-	.	Name=ndhH gene
+KT599101	Geneious	gene	77449	78617	.	-	.	Name=rpl16 gene
+KT599101	Geneious	gene	72645	73763	.	+	.	Name=petD gene
+KT599101	Geneious	gene	89942	91038	.	-	.	Name=trnI-GAU gene
+KT599101	Geneious	gene	145067	146163	.	+	.	Name=trnI-GAU gene
+KT599101	Geneious	gene	3566	4657	.	-	.	Name=rps16 gene
+KT599101	Geneious	gene	33033	34094	.	-	.	Name=psbD gene
+KT599101	Geneious	gene	97962	99023	.	+	.	Name=psbA gene
+KT599101	Geneious	gene	137082	138143	.	-	.	Name=psbA gene
+KT599101	Geneious	gene	74075	75097	.	-	.	Name=rpoA gene
+KT599101	Geneious	gene	8816	9782	.	+	.	Name=trnG-UCC gene
+KT599101	Geneious	gene	58603	59568	.	+	.	Name=petA gene
+KT599101	Geneious	gene	111737	112678	.	+	.	Name=ccsA gene
+KT599101	Geneious	gene	54335	55267	.	+	.	Name=accD gene
+KT599101	Geneious	gene	127979	128881	.	-	.	Name=chlL gene
+KT599101	Geneious	gene	88980	89860	.	-	.	Name=trnA-UGC gene
+KT599101	Geneious	gene	146245	147125	.	+	.	Name=trnA-UGC gene
+KT599101	Geneious	gene	82764	83534	.	+	.	Name=ndhB gene
+KT599101	Geneious	gene	14316	15062	.	-	.	Name=atpI gene
+KT599101	Geneious	gene	47344	48081	.	-	.	Name=ndhK gene
+KT599101	Geneious	gene	15246	15962	.	-	.	Name=rps2 gene
+KT599101	Geneious	gene	78729	79385	.	-	.	Name=rps3 gene
+KT599101	Geneious	gene	45512	46166	.	+	.	Name=trnL-UAA gene
+KT599101	Geneious	gene	48750	49383	.	-	.	Name=trnV-UAC gene
+KT599101	Geneious	gene	44251	44871	.	-	.	Name=rps4 gene
+KT599101	Geneious	gene	115684	116277	.	-	.	Name=ndhG gene
+KT599101	Geneious	gene	83733	84290	.	+	.	Name=trnT-UGU gene
+KT599101	Geneious	gene	151815	152372	.	-	.	Name=trnT-UGU gene
+KT599101	Geneious	gene	56131	56685	.	+	.	Name=ycf4 gene
+KT599101	Geneious	gene	116421	116951	.	-	.	Name=ndhI gene
+KT599101	Geneious	gene	46761	47273	.	-	.	Name=ndhJ gene
+KT599101	Geneious	gene	96943	97416	.	+	.	Name=rps7 gene
+KT599101	Geneious	gene	138689	139162	.	-	.	Name=rps7 gene
+KT599101	Geneious	gene	49835	50233	.	-	.	Name=atpE gene
+KT599101	Geneious	gene	76219	76617	.	-	.	Name=rps8 gene
+KT599101	Geneious	gene	75134	75526	.	-	.	Name=rps11 gene
+KT599101	Geneious	gene	79493	79870	.	-	.	Name=rpl22 gene
+KT599101	Geneious	gene	76820	77188	.	-	.	Name=rpl14 gene
+KT599101	Geneious	gene	48072	48434	.	-	.	Name=ndhC gene
+KT599101	Geneious	gene	64388	64744	.	-	.	Name=rpl20 gene
+KT599101	Geneious	gene	109789	110145	.	+	.	Name=rpl21 gene
+KT599101	Geneious	gene	36260	36562	.	-	.	Name=rps14 gene
+KT599101	Geneious	gene	115291	115593	.	-	.	Name=ndhE gene
+KT599101	Geneious	gene	79888	80166	.	-	.	Name=rps19 gene
+KT599101	Geneious	gene	81824	82093	.	-	.	Name=rpl23 gene
+KT599101	Geneious	gene	120459	120728	.	-	.	Name=rps15 gene
+KT599101	Geneious	gene	60928	61179	.	-	.	Name=psbE gene
+KT599101	Geneious	gene	13324	13569	.	-	.	Name=atpH gene
+KT599101	Geneious	gene	114724	114969	.	-	.	Name=psaC gene
+KT599101	Geneious	gene	75839	76081	.	-	.	Name=infA gene
+KT599101	Geneious	gene	63912	64139	.	+	.	Name=rps18 gene
+KT599101	Geneious	gene	70643	70867	.	+	.	Name=psbH gene
+KT599101	Geneious	gene	63645	63845	.	+	.	Name=rpl33 gene
+KT599101	Geneious	gene	30690	30878	.	-	.	Name=psbZ gene
+KT599101	Geneious	gene	6995	7171	.	+	.	Name=psbK gene
+KT599101	Geneious	gene	110326	110493	.	+	.	Name=rpl32 gene
+KT599101	Geneious	gene	70419	70550	.	-	.	Name=psbN gene
+KT599101	Geneious	gene	63283	63411	.	+	.	Name=psaJ gene
+KT599101	Geneious	gene	60419	60544	.	-	.	Name=psbJ gene
+KT599101	Geneious	gene	85362	85484	.	-	.	Name=rrn5 gene
+KT599101	Geneious	gene	150621	150743	.	+	.	Name=rrn5 gene
+KT599101	Geneious	gene	60799	60918	.	-	.	Name=psbF gene
+KT599101	Geneious	gene	60661	60777	.	-	.	Name=psbL gene
+KT599101	Geneious	gene	62210	62326	.	+	.	Name=petG gene
+KT599101	Geneious	gene	75596	75709	.	-	.	Name=rpl36 gene
+KT599101	Geneious	gene	7701	7811	.	+	.	Name=psbI gene
+KT599101	Geneious	gene	55595	55705	.	+	.	Name=psaI gene
+KT599101	Geneious	gene	28324	28428	.	+	.	Name=psbM gene
+KT599101	Geneious	gene	70167	70271	.	+	.	Name=psbT gene
+KT599101	Geneious	gene	85767	85869	.	-	.	Name=rrn4.5 gene
+KT599101	Geneious	gene	150236	150338	.	+	.	Name=rrn4.5 gene
+KT599101	Geneious	gene	8530	8631	.	+	.	Name=ycf12 gene
+KT599101	Geneious	gene	61950	62045	.	+	.	Name=petL gene
+KT599101	Geneious	gene	29290	29379	.	-	.	Name=petN gene
+KT599101	Geneious	gene	31268	31356	.	+	.	Name=trnS-UGA gene
+KT599101	Geneious	gene	43728	43814	.	+	.	Name=trnS-GGA gene
+KT599101	Geneious	gene	7885	7968	.	-	.	Name=trnS-GCU gene
+KT599101	Geneious	gene	27565	27646	.	-	.	Name=trnY-GUA gene
+KT599101	Geneious	gene	53918	53998	.	+	.	Name=trnR-UCG gene
+KT599101	Geneious	gene	111366	111444	.	+	.	Name=trnL-UAG gene
+KT599101	Geneious	gene	85009	85083	.	-	.	Name=trnR-ACG gene
+KT599101	Geneious	gene	27434	27507	.	+	.	Name=trnD-GUC gene
+KT599101	Geneious	gene	36054	36127	.	-	.	Name=trnfM-CAU gene
+KT599101	Geneious	gene	62586	62659	.	-	.	Name=trnW-CCA gene
+KT599101	Geneious	gene	62845	62918	.	-	.	Name=trnP-UGG gene
+KT599101	Geneious	gene	82259	82332	.	-	.	Name=trnI-CAU gene
+KT599101	Geneious	gene	99487	99560	.	+	.	Name=trnH-GUG gene
+KT599101	Geneious	gene	111036	111109	.	-	.	Name=trnP-GGG gene
+KT599101	Geneious	gene	136545	136618	.	-	.	Name=trnH-GUG gene
+KT599101	Geneious	gene	151022	151095	.	+	.	Name=trnR-ACG gene
+KT599101	Geneious	gene	27791	27863	.	-	.	Name=trnE-UUC gene
+KT599101	Geneious	gene	46466	46538	.	+	.	Name=trnF-GAA gene
+KT599101	Geneious	gene	49616	49688	.	+	.	Name=trnM-CAU gene
+KT599101	Geneious	gene	6596	6667	.	-	.	Name=trnQ-UUG gene
+KT599101	Geneious	gene	9931	10002	.	+	.	Name=trnR-UCU gene
+KT599101	Geneious	gene	29858	29929	.	-	.	Name=trnC-GCA gene
+KT599101	Geneious	gene	35494	35565	.	-	.	Name=trnT-GGU gene
+KT599101	Geneious	gene	106711	106782	.	-	.	Name=trnN-GUU gene
+KT599101	Geneious	gene	129323	129394	.	+	.	Name=trnN-GUU gene
+KT599101	Geneious	gene	30371	30441	.	-	.	Name=trnG-GCC gene
