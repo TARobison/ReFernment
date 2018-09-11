@@ -4,16 +4,13 @@
 \alias{ReFernment}
 \title{Annotate RNA editing in the GB files of plastomes}
 \usage{
-ReFernment(gbFolderPath, gffFolderPath, fastaFolderPath, outFolderPath, genomes)
+ReFernment(gbFolderPath, gffFolderPath, outFolderPath, genomes)
 }
 \arguments{
 \item{gbFolderPath}{this is the path to the folder containing the gb file(s)
 that you would like annotated.}
 
 \item{gffFolderPath}{this is the path to the folder containing the gff 
-file(s) corresponding to the gff files you would like annotated.}
-
-\item{fastaFolderPath}{this is the path to the folder containing the fasta
 file(s) corresponding to the gff files you would like annotated.}
 
 \item{outFolderPath}{this is the path to the folder where the new genome
@@ -45,9 +42,8 @@ across file types!
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
 gbFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\GB\\\\"
 gffFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\GFF\\\\"
-fastaFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\FASTA\\\\"
 outputFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\"
-ReFernment(gbFolder, gffFolder, fastaFolder, outputFolder, genomes)
+ReFernment(gbFolder, gffFolder, outputFolder, genomes)
 
 }
 \author{
