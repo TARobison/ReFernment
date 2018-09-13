@@ -1,4 +1,9 @@
  language: R
+ r: bioc-devel
+ sudo: false
+ warnings_are_erros: true
  cache: packages
 
- Remotes: bioc::3.3/SummarizedExperiment#117513, bioc::release/Biobase
+
+ bioc_packages:
+  - BiocCheck
