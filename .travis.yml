@@ -1,2 +1,4 @@
  language: R
  cache: packages
+
+ Remotes: bioc::3.3/SummarizedExperiment#117513, bioc::release/Biobase
