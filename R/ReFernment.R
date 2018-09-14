@@ -85,7 +85,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                     translation <- correctTranslation(annotations, i, dnachar, gb,CDS)
                     protein <- translation[1]
                     RNAediting <- translation[2]
-                    gb <- annotateTranslation(protein, RNAediting, annotations,  gb)
+                    gb <- annotateTranslation(protein, RNAediting, annotations,  gb,i)
                     protein <- paste(">", genomeName, "|", gene, "\n", protein, "\n", sep = '')
                     proteinFasta <- paste(proteinFasta, protein, sep='')
                     }
@@ -166,7 +166,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         translation <- correctTranslation(annotations, i, dnachar, gb,CDS)
         protein <- as.character(translation[1])
         RNAediting <- translation[2]
-        gb <- annotateTranslation(protein, RNAediting, annotations,  gb)
+        gb <- annotateTranslation(protein, RNAediting, annotations,  gb,i)
         return(list(gb, protein))
     }
 
@@ -205,10 +205,11 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         return(out)
     }
 
-    annotateTranslation <- function(annotatedTranslation, RNAediting, annotations,  gb){
+    annotateTranslation <- function(annotatedTranslation, RNAediting, annotations,  gb,i){
         #edits GB file to add RNA editing qualifiers as well as conceptual translations.
+        #browser()
         exonIndex <- getNumberOfExons(annotations, i)
-        if(isTRUE(RNAediting)){
+        if(isTRUE(as.logical(RNAediting))){
             gbInsert <- paste('/translation="',annotatedTranslation, '"\n                     /exception="RNA editing"',sep='')
         }else{
             gbInsert <- paste('/translation="',annotatedTranslation, '"',sep='')
@@ -511,11 +512,9 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             if(any(keyFeatureCheck == keyFeatures, na.rm = TRUE)){
                 featureTable[j,3] <- stringr::str_extract(line, "(\\w{3,15})")
                 if(grepl("misc_feature(\\s{4})", line)){ #
-                   # browser()
                     location <- stringr::str_extract(line, "([0-9]+)")
                     featureTable[j,2] <- location
                     featureTable[j,1] <- location
-                    #next
                 }
                 else{
                     while(stringr::str_detect(gb[i+1], "([0-9]+)(?=\\.\\..)")){
@@ -525,13 +524,16 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                     first <- stringr::str_extract_all(line, "([0-9]+)(?=\\.\\..)")
                     second <- stringr::str_extract_all(line, "(?<=\\.\\.).([0-9]+)")
                     if(identical(first[[1]], character(0))){next}
-                    for(k in lengths(second):1){
-                        #maybe add the length of feature table + 1 to j if there is 'complement' that way they can be added in the
-                        #correct order.
-                        #browser()
-                        featureTable[j,2] <- first[[1]][k]
-                        featureTable[j,1] <- second[[1]][k]
-                        if(k > 1) {j <- j+1}
+                    for(k in 1:lengths(second)){
+                        if(grepl("complement", line)){
+                            featureTable[j, 2] <- first[[1]][k]
+                            featureTable[j, 1] <- second[[1]][k]
+                            if(k < lengths(second)) {j <- j+1}
+                        }else{
+                            featureTable[j,1] <- first[[1]][k]
+                            featureTable[j,2] <- second[[1]][k]
+                            if(k < lengths(second)) {j <- j+1}
+                        }
                     }
                 }
             }
@@ -672,3 +674,4 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     }
 }
 
+ReFernment(gbP, gffP, outP, genomes)
