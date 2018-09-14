@@ -41,9 +41,9 @@ across file types!
 }
 \examples{
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
-gbFolder <- "/mnt/c/Users/Tanner/Documents/Research/ReFernment/ReFernment/examples/GB/"
-gffFolder <- "/mnt/c/Users/Tanner/Documents/Research/ReFernment/ReFernment/examples/GFF/"
-outputFolder <- "/mnt/c/Users/Tanner/Documents/Research/ReFernment/ReFernment/examples/"
+gbFolder <- "/ReFernment/examples/GB/"
+gffFolder <- "/ReFernment/examples/GFF/"
+outputFolder <- "/ReFernment/examples/"
 ReFernment(gbFolder, gffFolder, outputFolder, genomes)
 
 }
