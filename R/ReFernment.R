@@ -674,4 +674,3 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     }
 }
 
-ReFernment(gbP, gffP, outP, genomes)
