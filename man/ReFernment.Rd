@@ -40,6 +40,7 @@ genome are the same
 across file types!
 }
 \examples{
+getwd()
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
 gbFolder <- "/ReFernment/examples/GB/"
 gffFolder <- "/ReFernment/examples/GFF/"
