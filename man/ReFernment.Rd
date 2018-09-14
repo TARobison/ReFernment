@@ -31,18 +31,19 @@ annotations as well as a translation corrected for RNA editing.
 annotates the GB files of plastomes with high levels of RNA
 editing. Provides annotations to satisfy GenBank submission requirements. 
 Takes as input the paths to the folders containing required file inputs
-(gff, gb and fasta), the desired output path and the names of the files that
-the user wishes to annotate. Each filetype needn't be in seperate folders,
-but it is reccomended. This is especially true for output file path, because
-if it isn't sepereate from input gb files, the original files will be
-overwritten! Be sure that the file names for a respective genome are the same
+(a gff3 annotation and .gb file), the desired output path and the names of 
+the files that the user wishes to annotate. Each filetype needn't be in 
+seperate folders, but it is reccomended. This is especially true for output 
+file path, because if it isn't sepereate from input gb files, the original 
+files will be overwritten! Be sure that the file names for a respective 
+genome are the same
 across file types!
 }
 \examples{
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
-gbFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\GB\\\\"
-gffFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\GFF\\\\"
-outputFolder <- "C:\\\\Users\\\\Tanner\\\\Documents\\\\Research\\\\ReFernment\\\\ReFernment\\\\examples\\\\"
+gbFolder <- "/mnt/c/Users/Tanner/Documents/Research/ReFernment/ReFernment/examples/GB/"
+gffFolder <- "/mnt/c/Users/Tanner/Documents/Research/ReFernment/ReFernment/examples/GFF/"
+outputFolder <- "/mnt/c/Users/Tanner/Documents/Research/ReFernment/ReFernment/examples/"
 ReFernment(gbFolder, gffFolder, outputFolder, genomes)
 
 }
