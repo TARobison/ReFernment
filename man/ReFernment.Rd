@@ -42,9 +42,9 @@ across file types!
 \examples{
 getwd()
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
-gbFolder <- "/ReFernment/examples/GB/"
-gffFolder <- "/ReFernment/examples/GFF/"
-outputFolder <- "/ReFernment/examples/"
+gbFolder <- "/home/travis/build/TARobison/ReFernment/examples/GB/"
+gffFolder <- "/home/travis/build/TARobison/ReFernment/examples/GFF/"
+outputFolder <- "/home/travis/build/TARobison/ReFernment/examples/"
 ReFernment(gbFolder, gffFolder, outputFolder, genomes)
 
 }
