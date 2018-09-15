@@ -8,8 +8,7 @@
 #' seperate folders, but it is reccomended. This is especially true for output 
 #' file path, because if it isn't sepereate from input gb files, the original 
 #' files will be overwritten! Be sure that the file names for a respective 
-#' genome are the same
-#' across file types! 
+#' genome are the same across file types! 
 #' 
 #' @param gbFolderPath this is the path to the folder containing the gb file(s)
 #' that you would like annotated. 
@@ -388,7 +387,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                         gb<-addFeature(annotations, i[exonCount], termStart,"UtoC",gb,gene)
                         stops <- stops +1
                     }
-
                 } 
             }
         if(stops > 5){
@@ -673,4 +671,3 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         makeFeatureTable(gb, outFolderPath, genomes[i])
     }
 }
-
