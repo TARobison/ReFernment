@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 ## Why ReFernment
 ReFernment was created in response to the drudgery of manually annotating a plastome sequence that has levels of RNA editing. These editing sites result in a 
 genomic sequence that contains features that look like errors (e.g., internal stop codons) so the annotations will be rejected by NCBI unless they are annotated 
-correctly. ReFernment corrects the annotation to produce files ready for GenBank submission ReFernment takes as input a GenBank flat file (.gb) and a GFF3 file (no sequence) 
+correctly. ReFernment corrects the annotation to produce files ready for GenBank submission. ReFernment takes as input a GenBank flat file (.gb) and a GFF3 file (no sequence) 
 and generates new annotations for nonsense mutations that can reasonably be explained by RNA editing and provides conceptual translations for coding sequences 
 with RNA editing. It should be made clear that ReFernment is not intended to predict every RNA editing site, as can other available software packages. These 
 packages rely on RNA-Seq data to compare the the genomic DNA, and thus determine if a nucleotide has been edited, but these data are not always available to 
