@@ -8,7 +8,8 @@
 #' seperate folders, but it is reccomended. This is especially true for output 
 #' file path, because if it isn't sepereate from input gb files, the original 
 #' files will be overwritten! Be sure that the file names for a respective 
-#' genome are the same across file types! 
+#' genome are the same
+#' across file types! 
 #' 
 #' @param gbFolderPath this is the path to the folder containing the gb file(s)
 #' that you would like annotated. 
@@ -48,7 +49,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     editGB_File <- function(genomeName){
         #this function acts as a wrapper for many of the other functions contained within ReFernment. It adds RNA editing annotations as well as conceptual translations for the gb file. 
         #the protein fasta file is also made here. 
-        proteinFasta <- ''
+        proteinFasta <- matrix(NA, 1,3)
         for(i in 1:nrow(annotations)){
             gene <- getGeneName(annotations[i,])
             if(annotations$type[i] == "CDS"){
@@ -58,8 +59,9 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                 exons <- checkExons(annotations,i, dnachar,gb)  
                 gb <- exons[[1]]
                 protein <- exons[[2]]
-                protein <- paste(">", genomeName, "|", gene, "\n", protein[1], "\n", sep = '')
-                proteinFasta <- paste(proteinFasta, protein, sep='')
+                proteinrow <- cbind(gene, protein, annotations$start[i])
+                names(proteinrow) <- names(proteinFasta)
+                proteinFasta <- rbind(proteinFasta, proteinrow)
                 }else{
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                     if(nchar(CDS) %% 3 != 0){
@@ -83,19 +85,19 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                     
                     translation <- correctTranslation(annotations, i, dnachar, gb,CDS)
                     protein <- translation[1]
+                    proteinrow <- cbind(gene, protein, annotations$start[i])
+                    names(proteinrow) <- names(proteinFasta)
                     RNAediting <- translation[2]
                     gb <- annotateTranslation(protein, RNAediting, annotations,  gb,i)
-                    protein <- paste(">", genomeName, "|", gene, "\n", protein, "\n", sep = '')
-                    proteinFasta <- paste(proteinFasta, protein, sep='')
+                    proteinFasta <- rbind(proteinFasta, proteinrow)
                     }
             }
         }
         writeLines(gb, paste(output, ".gb", sep=''))
-        writeLines(proteinFasta, paste(output, "_protein.fasta", sep=''))
+        write.csv(proteinFasta, paste(output, ".csv", sep=''), row.names=FALSE)
     }
-
+    
     checkFrame <- function(annotations, i, CDS,gb){
-        #I have no fucking clue what this does anymore
         gene <- getGeneName(annotations[i[1],])
         numExons <- length(i)
         if(numExons== 1){
@@ -206,7 +208,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     annotateTranslation <- function(annotatedTranslation, RNAediting, annotations,  gb,i){
         #edits GB file to add RNA editing qualifiers as well as conceptual translations.
-        #browser()
         exonIndex <- getNumberOfExons(annotations, i)
         if(isTRUE(as.logical(RNAediting))){
             gbInsert <- paste('/translation="',annotatedTranslation, '"\n                     /exception="RNA editing"',sep='')
@@ -387,6 +388,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                         gb<-addFeature(annotations, i[exonCount], termStart,"UtoC",gb,gene)
                         stops <- stops +1
                     }
+
                 } 
             }
         if(stops > 5){
@@ -509,7 +511,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             #Move key feature and start/ stop positions into proper place 
             if(any(keyFeatureCheck == keyFeatures, na.rm = TRUE)){
                 featureTable[j,3] <- stringr::str_extract(line, "(\\w{3,15})")
-                if(grepl("misc_feature(\\s{4})", line)){ #
+                if(grepl("misc_feature(\\s{4})", line)){ 
                     location <- stringr::str_extract(line, "([0-9]+)")
                     featureTable[j,2] <- location
                     featureTable[j,1] <- location
@@ -539,7 +541,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             if(grepl("[[:blank:]]{21}\\/", featureTable[j,1])){
                 featureTable[j,1] <- ''
                 qualifier <- stringr::str_extract(line, "(?<=\\/)\\w{1,}(?==)")
-                qualDescription <- stringr::str_extract(line, "(?<==).*") #had a $ at end before
+                qualDescription <- stringr::str_extract(line, "(?<==).*") 
                 if(is.na(qualifier)){next}
                 featureTable[j,4] <- qualifier
                 featureTable[j,5] <- qualDescription
@@ -553,7 +555,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             }
             j <- j +1 
         }
-        #removes translation descriptors because those shouldn't be in feature tables, I guess
+        #removes translation descriptors because those shouldn't be in feature tables
         for(i in 1:nrow(featureTable)){
             if(i > nrow(featureTable)){break}
             if(grepl("translation",featureTable[i,4]) |grepl("protein_id",featureTable[i,4])){
@@ -563,7 +565,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                 featureTable <- featureTable[-i,]
             }
         }
-        write.table(featureTable, file=paste(outPath, name, ".txt", sep= ''), quote=FALSE, sep='\t', col.names = FALSE, row.names = FALSE)
+        write.table(featureTable, file=paste(outPath, name, ".tbl", sep= ''), quote=FALSE, sep='\t', col.names = FALSE, row.names = FALSE)
     }
     
     getNumberOfExons <- function(annotations, i, exons=0){
@@ -634,6 +636,32 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         return(codon)
     }
 
+    makeProteinFasta <- function(output, genome, organism){
+        protein <- as.data.frame(read.csv(paste(output, ".csv", sep='')))
+        protein <- protein[-1,]
+        protein <- arrange(protein, X)
+        gb <- readLines(paste(output, ".gb", sep=''))
+        proteinFasta <- ""
+        for(i in 1:nrow(protein)){
+            line <- grep(protein$protein[i], gb)
+            endRange <- line[1]+10
+            substrPositon <- grep('/product="', gb[line[1]:endRange])
+            gbLine <- line + substrPositon[1] - 1
+            matches <- stringr::str_extract(gb[gbLine], '(?<=product=").*((?=\")|$)')
+            if(!grepl('\"$', matches[1])){
+                nextMatch <- stringr::str_extract(gb[gbLine+1], '(?<=\\s{21}).*(?=\")')
+                matches <- paste(matches, nextMatch, sep = ' ')
+            }else{
+                matches<- stringr::str_extract(matches, '.*((?=\"))')
+            }
+            sequenceLength <- nchar(as.character(protein$protein[i]))
+            gbRowLen <- seq(1, sequenceLength, by=70) 
+            aaseq <- lapply(gbRowLen, function(y){substring(as.character(protein$protein[i]), y, y+69)})
+            proteinFasta <-  paste(proteinFasta, ">lcl|", "MH173066", "_", i, " ", matches[1], " (chloroplast) ", "[", organism, "]","\n", paste(aaseq, collapse="\n"), "\n\n", sep = '')
+        }
+        writeLines(proteinFasta, paste(output, ".pep", sep=''))
+    }
+
     gb2fasta <- function(gb){
         #gets sequence data from GB file
         sequence <- ""
@@ -669,5 +697,8 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         editGB_File(genomes[i])
         gb <- readLines(paste(outFolderPath, genomes[i], ".gb", sep=''))
         makeFeatureTable(gb, outFolderPath, genomes[i])
+        organism <- stringr::str_extract(gb[1:20], "(?<=ORGANISM\\s\\s).*\\w")
+        organism <- na.omit(organism)
+        makeProteinFasta(output, genomes[i], organism[1])
     }
 }
