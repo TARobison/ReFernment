@@ -40,6 +40,7 @@
 #' @importFrom Biostrings DNAString DNAStringSet readDNAStringSet reverseComplement translate reverseComplement getGeneticCode
 #' @importFrom stringr str_extract str_extract_all
 #' @importFrom utils write.table
+#' @importFrom dplyr arrange
 #' 
 #' @export
 

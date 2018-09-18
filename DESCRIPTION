@@ -7,7 +7,7 @@ Author: Tanner A Robison
 Maintainer: Tanner Robison <robison.tanner@gmail.com>
 Description: This package is desigened to ease the process of annotating RNA editing in plastomes in preparation for GenBank submission. ReFernment takes as input a gff, gb, and fasta file for each genome and provides a corrected translation and the appropriate mis_feature annotation in the .gb file. 
 License: GPL-3
-Imports: Biostrings, ape, stringr
+Imports: Biostrings, ape, stringr, dplyr
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown
