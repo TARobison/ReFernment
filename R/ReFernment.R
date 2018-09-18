@@ -50,8 +50,11 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     editGB_File <- function(genomeName){
         #this function acts as a wrapper for many of the other functions contained within ReFernment. It adds RNA editing annotations as well as conceptual translations for the gb file. 
         #the protein fasta file is also made here. 
+       # browser()
         proteinFasta <- matrix(NA, 1,3)
         for(i in 1:nrow(annotations)){
+            #if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
+            #if(gb[737] == "     CDS             complement(108990..111803)"){cat(i, "did a bad, bad thing!")}
             gene <- getGeneName(annotations[i,])
             if(annotations$type[i] == "CDS"){
                 exonIndex <- getNumberOfExons(annotations, i)
@@ -64,6 +67,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                 names(proteinrow) <- names(proteinFasta)
                 proteinFasta <- rbind(proteinFasta, proteinrow)
                 }else{
+                    
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                     if(nchar(CDS) %% 3 != 0){
                         outCDS <- checkFrame(annotations, i, CDS,gb)
@@ -71,7 +75,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                         annotations <- outCDS[[2]]
                         CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                     }
-
+                     
                     outStart <- checkStartCodon(CDS, annotations,i,gb)
                     gb <-outStart[[1]]
                     annotations <-outStart[[2]]
@@ -91,6 +95,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
                     RNAediting <- translation[2]
                     gb <- annotateTranslation(protein, RNAediting, annotations,  gb,i)
                     proteinFasta <- rbind(proteinFasta, proteinrow)
+
                     }
             }
         }
@@ -142,6 +147,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     checkExons <- function(annotations,i, dnachar, gb){
         #a wrapper function for genes with multiple invervals.
+       ####### browser()
         exonIndex <- getNumberOfExons(annotations, i)
         numExons <- length(exonIndex)
         CDS <- concatenateExons(numExons, exonIndex, annotations, dnachar, i)
@@ -210,21 +216,35 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     annotateTranslation <- function(annotatedTranslation, RNAediting, annotations,  gb,i){
         #edits GB file to add RNA editing qualifiers as well as conceptual translations.
         exonIndex <- getNumberOfExons(annotations, i)
+        #if(identical(getGeneName(annotations[i,]), "NADH dehydrogenase subunit 2 CDS")){browser()}
         if(isTRUE(as.logical(RNAediting))){
             gbInsert <- paste('/translation="',annotatedTranslation, '"\n                     /exception="RNA editing"',sep='')
         }else{
             gbInsert <- paste('/translation="',annotatedTranslation, '"',sep='')
         }
         if(length(exonIndex) > 1){
-            if(annotations[i[1], "strand"] == '-'){
-            gbstring<- paste('(complement\\(',annotations[exonIndex[length(exonIndex)],"start"],'.*)',sep='')
-            }
-            if(annotations[i[1],"strand"] == '+'){
-            gbstring<-paste('(CDS\\s*join\\(',annotations[i,"start"],'.*)',sep='')
+            #
+            if(length(exonIndex) >2){
+                #browser()
+                if(annotations[i[1], "strand"] == '-'){
+                    gbstring<- paste('(\\s{21}complement\\(',annotations[exonIndex[length(exonIndex)],"start"],'.*)',sep='')  #annotations[exonIndex[length(exonIndex)],"start"]
+                }
+                if(annotations[i[1],"strand"] == '+'){
+                    gbstring<-paste('(CDS\\s*join\\(',annotations[i,"start"],'.*)',sep='')
+                }
+            }else{
+                if(annotations[i[1], "strand"] == '-'){
+                    gbstring<- paste('(CDS\\s*join\\(complement\\(',annotations[exonIndex[1],"start"],'.*)',sep='')  #annotations[exonIndex[length(exonIndex)],"start"]
+                }
+                if(annotations[i[1],"strand"] == '+'){
+                    gbstring<-paste('(CDS\\s*join\\(',annotations[i,"start"],'.*)',sep='')
+                }
             }
         }else{
             if(annotations[i[1], "strand"] == '-'){
+             #   browser()
                 gbstring<- paste('(CDS\\s*complement\\(',annotations[i,"start"],'\\.\\.',annotations[i,"end"],'\\))',sep='')
+                ##tanner was here
             }
             if(annotations[i[1],"strand"] == '+'){
                 gbstring<-paste('(CDS\\s*',annotations[i,"start"],'\\.\\.',annotations[i,"end"],')',sep='')
@@ -241,6 +261,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         originalGB <- gb
         if(any(substr(CDS, 1, 3) == conventionalStarts)){
             out <- list(gb, annotations)
+             #if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
             return(out)
         }
         possibleEditedStarts <- c('ACG')
@@ -291,6 +312,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     extendDownstream <- function(annotations, dnachar, gb, i){
         #if the stop codon is not valid, this function may extend the downstream end of gene to check if valid stop lies nearby
+        ####### if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
         if(annotations$strand[i[1]] == '-'){
             CDS <- getCodingSequence(annotations[i,], dnachar, (annotations$start[i]-30), annotations$end[i])
         }
@@ -328,6 +350,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     extendUpstream <- function(annotations,dnachar, gb, i){
         #if the start codon is not valid, this function may extend the upstream end of gene to check if valid start codon lies nearby
+        #if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
         if(annotations$strand[i[1]] == '-'){
             CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i]+18)
         }
@@ -341,8 +364,10 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             if(any(codonList[j] == conventionalStarts)){
                 if(annotations$strand[i[1]] == '-'){
                     newStart <- annotations$end[i[1]] + count*3
-                    gbstring <- paste('\\.\\.',annotations$end[i[1]],sep='')
-                    gb <- sub(gbstring, paste('\\.\\.', newStart[1],sep=''), gb, perl = TRUE)
+                    #this is the fucking spot
+                    #browser()
+                    gbstring <- paste('\\.\\.',annotations$end[i[1]], '\\)',sep='')
+                    gb <- sub(gbstring, paste('\\.\\.', newStart[1], ')', sep=''), gb, perl = TRUE)
                     annotations$end[i[1]] <- newStart
                     out <- list(gb, annotations)
                     return(out)
@@ -488,7 +513,8 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     }
 
     makeFeatureTable <- function(gb, outPath, name){ 
-        keyFeatures <- c("assembly_gap", "C_region", "CDS", "centromere", "D-loop", "D_segment", 
+       # gb <-readLines(paste(outFolderPath, genomes[i], ".gb", sep=''))
+        keyFeatures <- c("assembly_gap", "C_region", "CDS", "centromere", "D-loop", "D_segment", "exon",
                         "gap", "gene", "iDNA", "intron", "J_segment", "mat_peptide", 
                         "misc_binding", "misc_difference", "misc_feature", "misc_recomb", "misc_RNA",
                         "misc_structure", "mobile_element", "modified_base", "mRNA", "ncRNA", "N_region",
@@ -596,7 +622,7 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     getGeneName <- function(annotation){
         attrib <- annotation[,'attributes']
-        geneName <- str_extract(attrib, '(?<==).*(?=\\s)') #stringr::str_extract(attrib, '(?<==).*(?=\\s)')
+        geneName <- str_extract(attrib, '(?<==).*((?=\\s)|(?=;))') #stringr::str_extract(attrib, '(?<==).*(?=\\s)')
         return(geneName)
     }
 
@@ -637,16 +663,20 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         return(codon)
     }
 
-    makeProteinFasta <- function(output, genome, organism){
+    makeProteinFasta <- function(output, genome, organism, gb){
         protein <- as.data.frame(read.csv(paste(output, ".csv", sep='')))
         protein <- protein[-1,]
         protein <- arrange(protein, X)
-        gb <- readLines(paste(output, ".gb", sep=''))
+        #gb <- readLines(paste(output, ".gb", sep=''))
         proteinFasta <- ""
         for(i in 1:nrow(protein)){
             line <- grep(protein$protein[i], gb)
+            if(identical(line, integer(0))){
+                cat("There seems to be a problem with the protein sequcence of", as.character(protein$gene[i]), "please check its sequence in the protein fasta manually\nThis is most likely due to annotating rps12 improperly\n")
+                next
+            }
             endRange <- line[1]+10
-            substrPositon <- grep('/product="', gb[line[1]:endRange])
+            substrPositon <- grep('/product="', gb[(line[1]):endRange])
             gbLine <- line + substrPositon[1] - 1
             matches <- stringr::str_extract(gb[gbLine], '(?<=product=").*((?=\")|$)')
             if(!grepl('\"$', matches[1])){
@@ -700,6 +730,43 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         makeFeatureTable(gb, outFolderPath, genomes[i])
         organism <- stringr::str_extract(gb[1:20], "(?<=ORGANISM\\s\\s).*\\w")
         organism <- na.omit(organism)
-        makeProteinFasta(output, genomes[i], organism[1])
+        makeProteinFasta(output, genomes[i], organism[1], gb)
     }
 }
+
+#ReFernment(gbP, gffP, outP, genomes)
+
+
+
+
+
+# makeProteinFasta <- function(output, genome, organism){
+#         protein <- as.data.frame(read.csv(paste(output, ".csv", sep='')))
+#         protein <- protein[-1,]
+#         protein <- arrange(protein, X)
+#         #gb <- readLines(paste(output, ".gb", sep=''))
+#         proteinFasta <- ""
+#         for(i in 1:nrow(protein)){
+#             line <- grep(protein$protein[i], gb)
+#             if(identical(line, integer(0))){
+#                 cat("there seems to be a problem with the protein sequcence of", as.character(protein$gene[i]), "please check manually\n")
+#                 next
+#             }
+#             endRange <- line[1]+10
+#             substrPositon <- grep('/product="', gb[(line[1]):endRange])
+#             gbLine <- line + substrPositon[1] - 1
+#             matches <- stringr::str_extract(gb[gbLine], '(?<=product=").*((?=\")|$)')
+#             if(!grepl('\"$', matches[1])){
+#                 nextMatch <- stringr::str_extract(gb[gbLine+1], '(?<=\\s{21}).*(?=\")')
+#                 matches <- paste(matches, nextMatch, sep = ' ')
+#             }else{
+#                 matches<- stringr::str_extract(matches, '.*((?=\"))')
+#             }
+#             sequenceLength <- nchar(as.character(protein$protein[i]))
+#             gbRowLen <- seq(1, sequenceLength, by=70) 
+#             aaseq <- lapply(gbRowLen, function(y){substring(as.character(protein$protein[i]), y, y+69)})
+#             proteinFasta <-  paste(proteinFasta, ">lcl|", "MH173066", "_", i, " ", matches[1], " (chloroplast) ", "[", organism, "]","\n", paste(aaseq, collapse="\n"), "\n\n", sep = '')
+#         }
+#         writeLines(proteinFasta, paste(output, ".pep", sep=''))
+#     }
+#     makeProteinFasta(paste(outP, genomes[1], sep=''), genomes[1], "Asplenium pekenese")

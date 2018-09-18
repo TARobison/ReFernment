@@ -1,4 +1,4 @@
-LOCUS       KT599101              153717 bp ds-DNA     circular PLN 18-MAY-2018
+LOCUS       Woodwardia_uni        153717 bp ds-DNA     circular PLN 18-SEP-2018
 DEFINITION  Woodwardia unigemmata chloroplast, complete genome.
 ACCESSION   KT599101
 VERSION     KT599101.1  GI:952009479
@@ -28,38 +28,16 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             join(complement(496..1233),complement(152571..153341))
                      /gene="ndhB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 2"
-                     /protein_id="ALN96673.1"
-                     /db_xref="GI:952009496"
-                     /translation="MNYTNFLSPDFFLLLGNLPILPERILIISLIAVIVLDLPNRGKN
-                     TILLHRISLISMLISAVISLSQWGVHSAPIAFGNHRISNFSYVFRFFILICSLLSVLL
-                     SVDYIRCSKTVLAEFSFFVLTAGSGGMVLRWANDLVTLYVALEFPSLSSCFLSGYTKR
-                     DIRSNEATTKFLLMSGASSSFLLYGFSLLYGISGGQLQFGKIADALPLSQSLAIIRIS
-                     IAFTIAGTASKPSLVPFHQWTPDVYEGVSPTPVVAFFSVTSKVAAPALFTRLFGLIFP
-                     YLSNEWHIVVGLLATSSMILGNIIAVTQISMKRMLAYPSISQIGYIMIGVLAADPENG
-                     YASMITYTFIYILMNLGTFARITSFGLRTGTDNIRDYAGLYMKDPVLTFSPVLRSPSL
-                     GGIPPPSGFFGKLHLFRHGWKAGSYPSVLVALVTSVISIYYYLKIIKLMFTGKNGRSD
-                     ASTTYIQNSVVSPSISISKSSIEIAMIIRALASILSGILIDPIIGITRNTLF"
+                     /trans_splicing
      CDS             complement(1437..2945)
                      /gene="matK"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="maturase K"
-                     /protein_id="ALN96671.1"
-                     /db_xref="GI:952009494"
-                     /translation="MKTTSGPPPKFDVLKNSEGLSVNRDCFPYLFLFLFRDNFYSVAC
-                     KHCLDRRGINLVLGACSAAATKRSIDSVRYQDYSEIFYSEFVRKRSSRLSIDLHLHVL
-                     LQTVCLILGVPLLCRLAAETNNNSKISKSIHSIFLFLEDRLPKSSHVLELEMSQNLHL
-                     ETLVRLFRRQIRDVPFIHLLRIVFHTYKTLCGEFTQPRSWNRRDRRSIDMLLQNFYTY
-                     EIDLIPLALWTQMHKSNPIYFVSPDRNNMTRKKIRVSEYSSQSDAMNIDHCLTRILCI
-                     HFARFKNKSIIAFRGTQYFAKKWIYYISIFYRSHFHYPIEFTQIRINLLSASCVLFLG
-                     YISIIQPVSKNVWVETAVDPCSSSSISGGKGIHPRVPISLLVKLLEKEKFCDSAGHPV
-                     SKLAWAVLADDEILNRFSRIWNTFSLYHSASINRDGLRRLRYILRLSRDSTLAGKHKS
-                     TIRLLRHRFDRELPKMVSTSSKLNSFETSQRFWHLSLIESVSLKFVALKKQV"
+                     /trans_splicing
      gene            complement(1437..2945)
                      /gene="matK"
      exon            complement(3566..3796)
@@ -67,14 +45,10 @@ FEATURES             Location/Qualifiers
                      /number=2
      CDS             join(complement(4616..4657),complement(3566..3796))
                      /gene="rps16"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S16"
-                     /protein_id="ALN96730.1"
-                     /db_xref="GI:952009553"
-                     /translation="MVKLRLKRHGKKQRVTYRIIAIDTKSRREGEAIKEVGFYNPRKE
-                     QTQLDPFAIIALLKEGAQSTKTVRDILKRAKVLEQVGIDLQLKIKFQ"
+                     /trans_splicing
      gene            complement(3566..4657)
                      /gene="rps16"
      exon            complement(4616..4657)
@@ -82,30 +56,16 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             complement(4812..6356)
                      /gene="chlB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="protochlorophyllide reductase ChlB subunit"
-                     /protein_id="ALN96666.1"
-                     /db_xref="GI:952009489"
-                     /translation="MKLAYWMYAGPAHIGTSRVASSFRNVHAIMHAPLGDDYFNAMRS
-                     TSERERDFTPVTASVVDRHVLARGSQEKVINNISRKDEEQHPDLIVLTPTCTSSISQE
-                     DLQNFVDRASLSSESDVIPADVNYHRVNELQAADRTLEQITRFHLDRARRQSTLDRSV
-                     TNGPSANIIGIFTLGFHNQHDCRELKRLPGESGIAVNQVIPEGGSLNFLKDLPRAWFN
-                     IVPYREVGLMTATSLEKEYGMPHVSITPMGISNTADFIAQTGKLVNVWASALSEKRFS
-                     YKIYVDNQTKFVSQAAWFSKSIDCQNLAGKEAAIFGDATHAASITKILVKEMGIRVSC
-                     AGTYCKHDAERFNEQVQGLCDEVVVTEDHTEVGDTIARIEPSAIFGTQMERHIGKRID
-                     IPCGVISSPVHIQNFPLGYRPFLGYEGTNQIADLIYNSFNLGMEDHLLDVFGGHDTKE
-                     VSTKSLSTDGKDLNWTPEAESEPKKIPGFVRGRTKKNTEVFAKRNNIPEITIDVTYAA
-                     KEKSSS"
+                     /trans_splicing
      gene            complement(4812..6356)
                      /gene="chlB"
      tRNA            complement(6596..6667)
                      /gene="trnQ-UUG"
                      /product="tRNA-Gln"
                      /note="anticodon:UUG"
-                     /transcription="TGGGGCGTGGCCAAGCGGTAAGGCAGCGGGTTTTGGTCCCGC
-                     CACTCGGAGGTTCGAATCCTTCCGTCCCAG"
      gene            complement(6596..6667)
                      /gene="trnQ-UUG"
      CDS             6995..7171
@@ -113,29 +73,21 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein K"
-                     /protein_id="ALN96704.1"
-                     /db_xref="GI:952009527"
-                     /translation="MIALYDIYLENSIHLNDASFAKLPEAYAIFDPIVDVMPVIPVFF
-                     LLLAFVWQAAVSFR"
+                     /trans_splicing
      gene            6995..7171
                      /gene="psbK"
      CDS             7701..7811
                      /gene="psbI"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein I"
-                     /protein_id="ALN96702.1"
-                     /db_xref="GI:952009525"
-                     /translation="MLTLKLFVYAVVIFFVSLFVFGFLSNDPGRNPGRRD"
+                     /trans_splicing
      gene            7701..7811
                      /gene="psbI"
      tRNA            complement(7885..7968)
                      /gene="trnS-GCU"
                      /product="tRNA-Ser"
                      /note="anticodon:GCU"
-                     /transcription="GGAGAGGTGGCTGAGGGGTCTAAGGCGTCGGATTGCTAATCC
-                     GTTGTACCATATGTACCGAGGGTTCGAATCCCTCTCTCTCCC"
      gene            complement(7885..7968)
                      /gene="trnS-GCU"
      CDS             8530..8631
@@ -144,17 +96,13 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
                      /product="conserved hypothetical chloroplast protein
                      ycf12"
-                     /protein_id="ALN96740.1"
-                     /db_xref="GI:952009563"
-                     /translation="MNLEIIAQLAILALVVASGPLVIALLAARRGNL"
+                     /trans_splicing
      gene            8530..8631
                      /gene="ycf12"
      tRNA            join(8816..8838,9735..9782)
                      /gene="trnG-UCC"
                      /product="tRNA-Gly"
                      /note="anticodon:UCC"
-                     /transcription="GCGGGTATAGTTTAGTGGTAAAACTTTAGCCTTCCAAGCTAC
-                     TGATGCGGGTTCGATTCCCGCTACCCGCT"
      exon            8816..8838
                      /gene="trnG-UCC"
                      /number=1
@@ -167,27 +115,14 @@ FEATURES             Location/Qualifiers
                      /gene="trnR-UCU"
                      /product="tRNA-Arg"
                      /note="anticodon:UCU"
-                     /transcription="ACGTCCATCGTCTAATGGATAGGACAGAGGTCTTCTAAACCT
-                     TAAGTATAGGTTCAAATCCTATTGGGCGTA"
      gene            9931..10002
                      /gene="trnR-UCU"
      CDS             complement(10104..11627)
                      /gene="atpA"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 alpha subunit"
-                     /protein_id="ALN96658.1"
-                     /db_xref="GI:952009481"
-                     /translation="MVINIRPDEISSIIRKQIEGYVPEVKVVNIGTVLQVGDGIARIH
-                     GLNKVMAGELVESEDGTVGIALNLESDNAGAVPTGDGLTIQEGSSVRATGKIAQIPVS
-                     DSFLGRVANALAQPIDGKGQIPASEFRPIESPAPGIISRRSVYEPLQTGPIAIDSMIP
-                     IGRGQRELIIGDRQTGKTAVATDTILNQKGQNVICVYVAIGQKASSVAQVVDTFQDRG
-                     AMEYTIVVSETANSPATLQYLAPYTGAASAEYFMYRKQHTPIIHDDPSKQAQAYRQMS
-                     LLLRRPPGREAYPGDVFYPHPRLSERAAKLSLQLGEGSMTALPIVETQAGDVSAYIPT
-                     NVISITDGQIFLSADLFNAGIRPAINVGISVSRVGSAAQIKAMKQVAGKLKLELAQFA
-                     ELEAFAQFASDLDKTTQNQLARGQRLRELLKQSQSAPLSVEEQVATTYTGVNGYLDIP
-                     EVEQVKRFLVQLREYVITSKPQFGEITRSTKVSTEQAETLLREAIKESTEIFLLQEK"
+                     /trans_splicing
      gene            complement(10104..11627)
                      /gene="atpA"
      exon            complement(11708..12117)
@@ -195,16 +130,10 @@ FEATURES             Location/Qualifiers
                      /number=2
      CDS             join(complement(12830..12974),complement(11708..12117))
                      /gene="atpF"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 subunit I"
-                     /protein_id="ALN96661.1"
-                     /db_xref="GI:952009484"
-                     /translation="MRSVSEIPAPPSDWTFAASIGLNTNILEINLINLILVLGILFYY
-                     GKGVLINFLENRERTILNTIRDAEERHEEAAKKLLKARIRLQQAKVKADEIRINGLTQ
-                     MDREQRDLVDAADEGLKGLEDSKNYAIRFEKQRAIEQVRQQVSRLASERALESLKSRL
-                     DNQLHLRMVDYNIGLFRSMKNESN"
+                     /trans_splicing
      gene            complement(11708..12974)
                      /gene="atpF"
      exon            complement(12830..12974)
@@ -212,79 +141,34 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             complement(13324..13569)
                      /gene="atpH"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CFO C subunit"
-                     /protein_id="ALN96662.1"
-                     /db_xref="GI:952009485"
-                     /translation="MNPLISAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPE
-                     AEGKIRGTSLPSLAFMEALTIYGSVVALAPLFANPFV"
+                     /trans_splicing
      gene            complement(13324..13569)
                      /gene="atpH"
      CDS             complement(14316..15062)
                      /gene="atpI"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 subunit IV"
-                     /protein_id="ALN96663.1"
-                     /db_xref="GI:952009486"
-                     /translation="MHVEQLRIYEIDYLYQVSSVEVGQHSYWQIGDFQVHAQVLVTSW
-                     VVIASLLALPIVAARNLQVIPTGSQNFIEYVLEFIRDLTRTQMGEEEYRPRVPFIGTM
-                     FLSIFVSNRSGAPFPWRIVQLPHGELAAPTNDINTTVASALLTSVAHSYAGLHKKGFG
-                     YFGKYIQPTPVLLPINILEDSTKPPSLSFRLFGNILADELVVAVPVSLVPSIVPVPMT
-                     PLGLFTSAIQALIFATSAAAHIGESMEDHH"
+                     /trans_splicing
      gene            complement(14316..15062)
                      /gene="atpI"
      CDS             complement(15246..15962)
                      /gene="rps2"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S2"
-                     /protein_id="ALN96733.1"
-                     /db_xref="GI:952009556"
-                     /translation="MQQKNRNIELEEMMAAGIHFGHQTQKWNPRMSPYIFTERKGVHI
-                     LDLTQTARLLSEACDLVFDAAAEGKEFPTVGTKHQVADLIASAATRSQCHYVNEKWLG
-                     GTSTNWFTTEMRLRRFQYLQNGEDTGGFDRLPKQEAAILRGQLFKPKKCLGGIQYMSD
-                     LPDIATITDQHEQSIAPKECITPGIPTVCVVDTDCDPDLVDIPIPGNDDARPSIRWIL
-                     DKPTSAICEGRSNSKFSEVNQ"
+                     /trans_splicing
      gene            complement(15246..15962)
                      /gene="rps2"
      CDS             complement(16090..20367)
                      /gene="rpoC2"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta'' subunit"
-                     /protein_id="ALN96724.1"
-                     /db_xref="GI:952009547"
-                     /translation="MTDQTELPFFNKTMDRAAMRRLIGKLVVCFGIASTTNILDQVKI
-                     LGFQQATKASVSLGIDDLLAVPSRGWLVQDAEKQGYVSEQHYRHGSLHAVEKLRQSIE
-                     AWYATSECPKREMNPSFKMIDPLNPVHMMSFSGARGSISQVHQLLGMRGLMSDPRGQV
-                     IDLPIRRNLREGLSLTEYIISRYGARKGVVDTAVRTSDAGYLTRRPVEVVQHIAVRKK
-                     DCETTKSIALLNIAEEKRESIRTVSYQKLVGRVLADNVYWDVRCIATRNQDISDGLAS
-                     NSVASAQPIYVRSPLTRRSIFRICQWRYGRSLAHHDLVELGEAVGIIAGQPIGEPGTQ
-                     LTSRTFHTGGVFTGDIAEYIRIPFNGLIKSDGKLVYPTRTRHGHPAWICRNDLSVAIR
-                     SCGAIHNFVVPAQSLLMTRNGQYVEAQQIIAEVRAKEFPLKERIQKAIYPNLKGEIHW
-                     SKFVWHVRNCVGNPIRVVREAGHIWILSGTSSDSDESYLFHKDQDRVGIKPNSTEGGC
-                     DYFEGFGRKEVDAASSGDFQKSIRDFGIDPKCFSIWSKPPTSNHILSNIKVERSGKTE
-                     SVSLLLERQQQNFNESRFANIDVQLNSILDRSDILAIYEKFEYQTGVSGIIRYGTVEV
-                     EPIDKERFSSDGKTGKTTSGSWYRVVVGGNSFLIPEEAYTIYESPSSILVTSNTIVEE
-                     GTRVTDTISSEVGGLIRIEKTLANDVTVRVLPGYIHNPEKATSIRRRNIDIVESGNMI
-                     LDGIRTRGWVYLQSVTLYRRRKTSVPVRPAVRYDVSGDSLLQGVFCADKPKTQKRTKV
-                     QTLLCTSYRNGEEIKTIKNTTTQLIQTLLVVGWRRHFHETPPTGINYLSLTSVRINNL
-                     LSTFIQVDSVASPPARRLGVSQASRNLVSVNKPFIAQVNLSNDGNDLVLKYRSITVHS
-                     VPERGTSFLTLSPFDFYRTNSFTDSSNNHCKGGAGKYFPRPESGISGPYTSPKSVSLS
-                     SKYESFAEQYPNLKIKERSAKYERSSFTCCQLNFEEVGLLGTSYAICYLSATPDLALS
-                     GKASLFINFFTDYSTDTYSADTPDHRHRYLIDETKLTLKCPVNPFLNRFLLEKPIRST
-                     PKFINRGILLINIGLLISESRYFCRGNLFFRSGQVVAIHRDYLLVRTGRALLATRGAT
-                     PHKISGDIIGEGDTSITLPYDRLKSGDITQGLPKVEQLLESRSIASIPARIEDLFGRW
-                     NRGITRLIGNLWSHFLSAGTSMERCQLILINEIREVYESQGVQISDKHLEIIIWQLTS
-                     RVVASEDGITNVFSPGELVELSQAERMNRVLKRPIFYEPIIPGMTKASLSTTSFLSEA
-                     SLQETTRVLAKAALRGRIDWLRGLKENVILGDIVPVGTGSPEIVCQLEVNKRKGYHSA
-                     MGRNSKNPNWRTKYDLRGYREKQNIDPNLFIHKGLSRSLPYPNLEMI"
+                     /trans_splicing
      gene            complement(16090..20367)
                      /gene="rpoC2"
      exon            complement(20507..22171)
@@ -292,25 +176,10 @@ FEATURES             Location/Qualifiers
                      /number=2
      CDS             join(complement(22878..23309),complement(20507..22171))
                      /gene="rpoC1"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta' subunit"
-                     /protein_id="ALN96723.1"
-                     /db_xref="GI:952009546"
-                     /translation="MTHRANYQQLRIGLASPEQIRGWAERELPNGDVVGQVDQPYTLH
-                     HKTHKPERDGSFRERILGPIKSGVCACGNCRSVGGGGEYSNFCKHCGVEFTDSRVRRY
-                     QMGYIKLACPVTHVWFPKRIPSYIANPLAKPLKEPESPVYCDTYPNLFLARPVAERPN
-                     LLRLRGLFNYEDRSWRNKLPLYFSTRNYETLQGNEIATGGDAVKKGLTSLDLQSVMDR
-                     AYLEWQAPAKQRPAGNEWEDRTIQRRKDLLVRRMKLAKDFLRTNLKPEWMVLDLLPVL
-                     PPELRPIVESYEGELVTSDLNELYRKVIHRNNTPAEFSSGSEFTPEGLIVCQKRLIQE
-                     AVDAPIDNGIRGQPMRDINNRPYKSFSEVIEGKEGRFRENLLGKRVDYPGRFVIVVGP
-                     SLSLHQCGLPREMSIEPFQVFVIRNLIGRHLACNLRAAKSMIRKEDPVIWEVPREVMR
-                     GHPILLNRAPTSHRLGIQAFQPILVEGRATRLHPLVRGGFNADLDGDQMAVHVPLSLE
-                     AQIEARLPTFSHINLLSPATGDSVSVPSQDMLLGLYVLTIENKQGIYGNRHSISVGGG
-                     DAYPAGIPCFGSYHDILRAKESNQIDSFSFLWLRWETNLKMISSKIREFPVESQYESL
-                     GTSLHSYDNYQIRKCRKGYISSIYVLTTAGRILLNQQLREAMQGVSKASSCATSSVPD
-                     VVTQDEMPKSNCKNEE"
+                     /trans_splicing
      gene            complement(20507..23309)
                      /gene="rpoC1"
      exon            complement(22878..23309)
@@ -318,93 +187,56 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             complement(23360..26575)
                      /gene="rpoB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit"
-                     /protein_id="ALN96722.1"
-                     /db_xref="GI:952009545"
-                     /translation="MPVLPELAQIQIEGFNRFVQERLLEELENFPKIGDTDKEVEFRS
-                     IGERYQLTQPSVEGKDAAYQCVTYSSDPYVPVQLTRSRDRVVQEEDVRPGSIPWMNSK
-                     GTFIINGVARVSVNQILRSPGIYYNRESDQKGVSTYTSTVISDRGGRFKPEMDRKEKI
-                     WIRISKKKKISISILLVAMGLSKKDILENVRYPKIFSNMLKKQEGAIESSEDAIAELY
-                     KHLYSATDADISFSESIFRELQKRFSQHRCELGRIGRRNLNIKLTLDVPETEHFLLPQ
-                     DILAATDHSIEISYGIGNLDDIDHLKNRRVRSVADSPQEQLKLALNRLENSIRQNLSR
-                     AVRRKRAITPRGLVTPAPVIATFKEFSGSHPLSQFLDQTNPLSEMVHKRRLSSVGPGG
-                     LTRRTASFQARDIHFSHYGRICPIETSEGMNAGLISSLSIQAEISNSGSLQSPYLEML
-                     ESSEKEQLVDLSPAEDDCYRVATENSLISQWRTRGKELIPVRYQQEFLSVLWEQVDFR
-                     SIHPLHYFSIGASLIPFIEHNDANCASTGSTMQRQAVPLVNPERCFAGTGLESQVASD
-                     SGGVVVSGREGQIQYIDGNTIELPPIGEAASNDAVLQVITNELKIYERSNTNTCIHQK
-                     STVLAGELLRRGEVIADGAATARGESALGRNILVAYMPWEGYNFEDAVLISERPIYED
-                     ISTSFHIERHEVEVCITNQGPERVTKQIPQLDSHILRHLDENGLIESGSWVEAGDVLA
-                     GKPTPQEGADSSRAPEGRSLQAISGIQLVNARESCLKVPVGGRGRVIDVRWVYPEDDT
-                     SNDSEVIHIYILQKRKIQIGDKIAGRHGNKGIVSKILPRQDMPYLQDGTPVDMILSPL
-                     GVPSRMNVGQIFECLLGLAGEFLETHYRIVPFDERYEREASRKLVFSELCRASAGTRN
-                     PWLFEPDHPGKSQLIDGRTGDPFVQPITTGKAYIMKLIHQVDDKIHARSSGPYALVTQ
-                     QPLKGRSRRGGQRVGEMEVRALEGFGVSYTSQEMLTTKSDHIQARYKVLSAIMTGKPV
-                     YKTNTVPESFRLLVRELRCMGSNLEHNFIIEEDLGRESENI"
+                     /trans_splicing
      gene            complement(23360..26575)
                      /gene="rpoB"
      tRNA            27434..27507
                      /gene="trnD-GUC"
                      /product="tRNA-Asp"
                      /note="anticodon:GUC"
-                     /transcription="GGGATTGTAGTTCAATTGGTTAGAGCACCGCCCTGTCAAGGC
-                     GGAAGTTGCGGGTTCGAGACCCGTCAATCCCG"
      gene            27434..27507
                      /gene="trnD-GUC"
      tRNA            complement(27565..27646)
                      /gene="trnY-GUA"
                      /product="tRNA-Tyr"
                      /note="anticodon:GUA"
-                     /transcription="GGGTCGATGCTCGAGTGGTTAATGGGGACGGACTGTAAATCC
-                     GCTGGCAACGCCTACGCTGGTTCGAATCCAGCTCGACCCA"
      gene            complement(27565..27646)
                      /gene="trnY-GUA"
      tRNA            complement(27791..27863)
                      /gene="trnE-UUC"
                      /product="tRNA-Glu"
                      /note="anticodon:UUC"
-                     /transcription="GCCCCCATCGTCTAGAGGCCCAGGACACCTCCCTTTCACGGA
-                     GGCGACGGGGATTCGAATTCCCCTGGGGGTA"
      gene            complement(27791..27863)
                      /gene="trnE-UUC"
      CDS             28324..28428
                      /gene="psbM"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein M"
-                     /protein_id="ALN96706.1"
-                     /db_xref="GI:952009529"
-                     /translation="MEVNILAFLATALFIPIPTAFLLILYIQTAAQNN"
+                     /trans_splicing
      gene            28324..28428
                      /gene="psbM"
      CDS             complement(29290..29379)
                      /gene="petN"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit VIII"
-                     /protein_id="ALN96688.1"
-                     /db_xref="GI:952009511"
-                     /translation="MDLVTIAWAAPTVISTFSLSLVVRGRSGL"
+                     /trans_splicing
      gene            complement(29290..29379)
                      /gene="petN"
      tRNA            complement(29858..29929)
                      /gene="trnC-GCA"
                      /product="tRNA-Cys"
                      /note="anticodon:GCA"
-                     /transcription="GGCGATATAGTCAAGTGGTAAGACGGAGGACTGCAAATCCTT
-                     AACTCCCCAGTTCGAATCTGGGTGTCGCCT"
      gene            complement(29858..29929)
                      /gene="trnC-GCA"
      tRNA            complement(30371..30441)
                      /gene="trnG-GCC"
                      /product="tRNA-Gly"
                      /note="anticodon:UCC"
-                     /transcription="GCGGATATAGTTGAATGGTAAAATATCTCCTTGCCAAGGAGA
-                     TGACGCGGGTTCGATTCCCGCTATCCGCC"
      gene            complement(30371..30441)
                      /gene="trnG-GCC"
      CDS             complement(30690..30878)
@@ -412,37 +244,21 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="Z protein of photosystem II"
-                     /protein_id="ALN96709.1"
-                     /db_xref="GI:952009532"
-                     /translation="MTIAFQLALFGLIAISFLLVVGVPVAFASPGGWSSNKNIVFSGA
-                     SLWIGSVSLVGIPNSFIS"
+                     /trans_splicing
      gene            complement(30690..30878)
                      /gene="psbZ"
      tRNA            31268..31356
                      /gene="trnS-UGA"
                      /product="tRNA-Ser"
                      /note="anticodon:UGA"
-                     /transcription="GGAGAGATGGTCGAGCGGTTTAAGGCTCCAGTCTTGAAAACT
-                     GGCATGGCGACGAAACGCCATCGAGGGTTCGAATCCCTCTCTCTCCT"
      gene            31268..31356
                      /gene="trnS-UGA"
      CDS             complement(31664..33085)
                      /gene="psbC"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II CP43 chlorophyll apoprotein"
-                     /protein_id="ALN96697.1"
-                     /db_xref="GI:952009520"
-                     /translation="MKTLYSPRRFYPVETLFNGTLSPGGRDQETTGFAWWAGNARLIN
-                     LSGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVSEKPMYEQGLILLPHLATLGWGVGPG
-                     GEVVDTFPYFVSGVLHLISSAVLGFGGIYHALIGPETLEESFPFFGYTWKDKNKMTTI
-                     LGIHLILLSLGAFLLVFKALYFGGLYDTWAPGGGDVREITNLTLSPNVIFGYLLKSPF
-                     GGEGWIASVDNLEDIIGGHVWLGSICLFGGIWHILTKPFAWARRAFVWSGEAYSSYSL
-                     GALSIFGFTACCFAWFNNTAYPSEFYGPTGPEASQAQAFTFLVRDQRLGANIGSAQGP
-                     TGLGKYLMRSPTGEIIFGGETMRFWDLRAPWLEPLRGPNGLDLGKLKRDIQPWQERRS
-                     AEYMTHAPLGSLNSVGGVATEINAVNYVSPRSWLATSHFVLGFFFFVGHLWHAGRARA
-                     AAAGFEKGIDRDTEPVLSMTPLN"
+                     /trans_splicing
      gene            complement(31664..33085)
                      /gene="psbC"
      CDS             complement(33033..34094)
@@ -450,31 +266,19 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein D2"
-                     /protein_id="ALN96698.1"
-                     /db_xref="GI:952009521"
-                     /translation="MTIAIGKSSKEPKDLFDSMDDWLRRDRFVFVGWSGLLLFPTAYF
-                     ALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDF
-                     TRWCQLGGLWTFVALHGSFALIGFMLRQFELARSVQLRPYNAIAFSAPIAVFVSVFLI
-                     YPLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGAT
-                     VENTLFEDGDGANTFRAFNPTQSEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVP
-                     VTGLWMSAIGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQD
-                     QPHENLVFPEEVLPRGNAL"
+                     /trans_splicing
      gene            complement(33033..34094)
                      /gene="psbD"
      tRNA            complement(35494..35565)
                      /gene="trnT-GGU"
                      /product="tRNA-Thr"
                      /note="anticodon:GGU"
-                     /transcription="GCCTCTTTAACTCAGTGGTAGAGTAACGCCATGGTAAGGCGT
-                     AAGTCGTCGGTTCAAATCCGACAAGGGGCT"
      gene            complement(35494..35565)
                      /gene="trnT-GGU"
      tRNA            complement(36054..36127)
                      /gene="trnfM-CAU"
                      /product="tRNA-Met"
                      /note="anticodon:CAU"
-                     /transcription="AGCGGGGTAGAGCAGCTTGGTAGCTCGCAAGGCTCATAACCT
-                     TGAGGTCACAGGTTCAAATCCTGTCTCCGCAA"
      gene            complement(36054..36127)
                      /gene="trnfM-CAU"
      CDS             complement(36260..36562)
@@ -482,33 +286,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S14"
-                     /protein_id="ALN96728.1"
-                     /db_xref="GI:952009551"
-                     /translation="MAKKSLIEKERKKRKLVKKYDVTRQSLKKRIKSSLSIQDKLTIS
-                     KGLQSLPRNSAPVRLHNRCSLTGRPRSNYRDFGLSRHVPREMAHTCVLPGVSKSSW"
+                     /trans_splicing
      gene            complement(36260..36562)
                      /gene="rps14"
      CDS             complement(36787..38991)
                      /gene="psaB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I P700 chlorophyll a apoprotein A2"
-                     /protein_id="ALN96690.1"
-                     /db_xref="GI:952009513"
-                     /translation="MASRFPQFSQGLSQDPTTRRIWFGIATAHDFESHDDTTEERLYQ
-                     KIFASHSGQLAIIFLWTSGNLFHVAWQGNFEAWVRDPLHVRPIAHAIWDPHFGQPAIE
-                     AYTRGGAAGPVNIAYSGVYQWWYTIGLRNNQDLYTGAIFLLAISASFLLASWLHLQPR
-                     WKPSISWFKNAESRLNHHLSGLFGVSSLAWAGHLVHVAIPEARGGHVRWDNFLTATPH
-                     PQGLGPFFSGQWSVYAQNPDSSSHLFDSTQGAGTAIPTFLGGFHPQTQSLWLTDIAHH
-                     HLAIAVVFIIAGHTYRTNSGIGHSMKEILEAHIPPGGRLGRGHKGLYDAVNNSLHFQL
-                     GLALAALGVVTSLVAQHMYSLPAYAFIAQDYTTQAAPYTHHQYIAGFIMTGAFAHGAI
-                     FFIRDYDPEQNRDNVLARMLEHKEAIIAHLSWASLFLGFHTLGLYVHNDVMLAFGTPE
-                     KQILIEPVFAQWIQSAHGKTLYGFDVLLSSAGSPASNAGRGLWLPGWLDAVNNSSNSL
-                     FLTIGPGDFLVHHAIALGLHTTTLILVKGALDARGSKLMPDKKEFGYSFPCDGPGRGG
-                     TCDISAWDAFYLAVFWMLNTIGWVTFYWHWKHITLWQGNAAQFNESSTYLMGWLRDYL
-                     WLNSSQLINGYNPFGMNSLSVWAWMFLFGHLVWATGFMFPISWRGYWQELIETLAWAH
-                     ERTPLANVIRWKDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
+                     /trans_splicing
      gene            complement(36787..38991)
                      /gene="psaB"
      CDS             complement(39017..41269)
@@ -516,22 +302,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I P700 chlorophyll a apoprotein A1"
-                     /protein_id="ALN96689.1"
-                     /db_xref="GI:952009512"
-                     /translation="MTIRSPEPEVKIMVEKDPVKTSFERWAQPGHFSRNLAKGPSTTT
-                     WIWNLHADAHDFDSHTNDLEDISRKIFGAHFGQLAIIFIWLSGMYFHGARFSNYEAWL
-                     NDPTHVKPSAQVVWPIVGQEILNGDVGGGFQGVQITSGFFQLWRASGITSELQLYCTA
-                     VGALVFAGLMLFAGWFHYHKAAPKLAWFQNVESMLNHHLAGLLGLGSLAWAGHQIHVS
-                     LPINQLLDAGVDPKEIPLPHELILNRDLLAQAYPSFAKGLIPFFTLDWSEYSDFPTFR
-                     GGLNPVTGGLWLTDTAHHHLAIAVLFLVAGHMYRTNWGIGHSTKEILEAHKGPFTGEG
-                     HKGLYEILTSSWHAQLAINLAMLGSLTIIVSHHMYAMPPYPYLATDYATQLSLFTHHM
-                     WIGGFLVVGAAAHAAIFMVRDYDPTTQYNNLLDRVIRHRDAIISHLNWVCIFLGFHSF
-                     GLYIHNDTMSALGRPQDMFSDTAIQLQPIFAQWVQNTHALAPGSTAPNAAAGTSLTWG
-                     GSGLVAVGGKVAIAPIPLGTADFLVHHIHAFTIHVTVLISSKGVLFARSSRLIPDKAN
-                     LGFRFPCDGPGRGGTCQVSAWDHVFLGLFWMYNSISVVIFHFSWKMQSDVWGTVSEQG
-                     VVNHITGGNFAQSSTTINGWLRDFLWAQASQVIQSYGSSLSAYGLLFLGAHFVWAFSL
-                     MFLFSGRGYRQELIESIVWAHNKLRVAPVTQPRALSIIQGRAVGVTHYLLGGIATTWA
-                     FFLARIIAVG"
+                     /trans_splicing
      gene            complement(39017..41269)
                      /gene="psaA"
      exon            complement(41596..41757)
@@ -543,12 +314,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="conserved hypothetical chloroplast protein ycf3"
-                     /protein_id="ALN96743.1"
-                     /db_xref="GI:952009566"
-                     /translation="MPRSQRNDNFIDKTFTILADISLQILPTTKREREASTYYRDGMS
-                     AQSEGEYAEALRSYYEAMRLEVDSYDRSYILYNIGLTHTSNGKHARALEYYFQAPERN
-                     SSPPQAFNNMAVICHHRGEQAIHQGNLEISEAWFDQAAEYWKQAIAPSPGNYIEAQNR
-                     LKITGRSSSFN"
+                     /trans_splicing
      gene            complement(41596..43466)
                      /gene="ycf3"
      exon            complement(42383..42611)
@@ -561,30 +327,20 @@ FEATURES             Location/Qualifiers
                      /gene="trnS-GGA"
                      /product="tRNA-Ser"
                      /note="anticodon:GGA"
-                     /transcription="GGAAGGGTGGCCGAGCGGTTTAAGGCGTAGCACCGGAAATGC
-                     TAAGTGGATTTCTAACTACCGAGGGTTCGAATCCCTCCCTTTCCT"
      gene            43728..43814
                      /gene="trnS-GGA"
      CDS             complement(44251..44871)
                      /gene="rps4"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S4"
-                     /protein_id="ALN96735.1"
-                     /db_xref="GI:952009558"
-                     /translation="MSRYRGPRLKVIRRLKNLPGFMGRGKTPNLGEFRVATDQSASRK
-                     ISQFCVRLEAKQRLRFNYGLTERQLLKYVRIARKTRGSTGQVPPQLLEMRLDNVIFRL
-                     GMASTIPAARQLVNHRHILVNNRIVDVPSYRCKPKDIITVRNRPTSCNALKGESPGGG
-                     ETPDHLTASLSEGSRPTGLVNRIANRESVNLNINELLVVEYYSRKA"
+                     /trans_splicing
      gene            complement(44251..44871)
                      /gene="rps4"
      tRNA            join(45512..45545,46120..46166)
                      /gene="trnL-UAA"
                      /product="tRNA-Leu"
                      /note="anticodon:UAA"
-                     /transcription="GGGGATATGGCGGAATGGTAGACGCAGCGGACTCAAAATCCG
-                     TTGGTTTCGACCGTGAGGGTTCGACTCCCTCTATCCCCA"
      exon            45512..45545
                      /gene="trnL-UAA"
                      /number=1
@@ -597,8 +353,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnF-GAA"
                      /product="tRNA-Phe"
                      /note="anticodon:GAA"
-                     /transcription="GCCGAGATAGCTCAGTCGGTAGAGCAGAGGACTGAAAATCCT
-                     CGTGTCACCAGTTCAAATCTGGTTCTTGGCA"
      gene            46466..46538
                      /gene="trnF-GAA"
      CDS             complement(46761..47273)
@@ -606,12 +360,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit J"
-                     /protein_id="ALN96681.1"
-                     /db_xref="GI:952009504"
-                     /translation="MNTINKDKFNIETRGRLSAWSTRHKFFHRPLGYDYRGVETLQVK
-                     SEEWLSVAVAPYAYGFNYLRSQCAYDSAPGGSLVSVYHLTQIRDQPDQPEEVCTKIFV
-                     PRRNPRIPSVYWVWKSSDLQERESYDMLGIIHQGHPHLRRILMPESWVGWPLRKDYIV
-                     PNFYELQDAY"
+                     /trans_splicing
      gene            complement(46761..47273)
                      /gene="ndhJ"
      CDS             complement(47344..48081)
@@ -619,34 +368,21 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit K"
-                     /protein_id="ALN96682.1"
-                     /db_xref="GI:952009505"
-                     /translation="MASTPKYSGESGIERVEPRGVDIPLNSVEPPLPEWGVSNSIFLA
-                     NISDFSNWSRLSSLWPLLYGTSCCSIEFASLIGSRFDFDRYGLVPRSSPRQADLVVTA
-                     GTVTMKMAPSLVRLYEQMPDPKYVIATGACTTTGGMSSTDSYSTVRGVDKSIPVDIYL
-                     PGCPPRPEAIIDAVTKLRKKIARGSLADRASRPTRAKYPNLNHRFRFVPSIHIGEYNQ
-                     ELTNCDTKLLSNTFSENFKKLGDRSSK"
+                     /trans_splicing
      gene            complement(47344..48081)
                      /gene="ndhK"
      CDS             complement(48072..48434)
                      /gene="ndhC"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 3"
-                     /protein_id="ALN96674.1"
-                     /db_xref="GI:952009497"
-                     /translation="MFLLREYDSFWIFLLVSISIPYLAFSIPGFIAPTRGGPEKLTSY
-                     ESGIEPRGDTWIRFQIRYYMFALVFAVSDVETVFLYPWAVSFRELGLFAFIEVIIFIF
-                     ILVVGLVHAWRKGASEWRQ"
+                     /trans_splicing
      gene            complement(48072..48434)
                      /gene="ndhC"
      tRNA            join(complement(49346..49383),complement(48750..48789))
                      /gene="trnV-UAC"
                      /product="tRNA-Val"
                      /note="anticodon:UAC"
-                     /transcription="AGGGATATAGATAGCTCGGCGGTAGAGCGTCTCGTTCAATGA
-                     CCGAGAGTGTCTACGATTTGAATCCGTATAGTCCCA"
      exon            complement(48750..48789)
                      /gene="trnV-UAC"
                      /number=2
@@ -659,8 +395,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnM-CAU"
                      /product="tRNA-Met"
                      /note="anticodon:CAU"
-                     /transcription="GCCTACTTGACTCAGCGGTTAGAGTATCGCTTTCATACGGCG
-                     AGAGTCATTGGTTCGAATCCAATAGTAGGTA"
      gene            49616..49688
                      /gene="trnM-CAU"
      CDS             complement(49835..50233)
@@ -668,30 +402,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 epsilon subunit"
-                     /protein_id="ALN96660.1"
-                     /db_xref="GI:952009483"
-                     /translation="MVLNLRVMAPNRIVWNSEVWEIISSTNSGQVGILPNHAPLLTAL
-                     DMGVSKIRHDGQWSSMALMGGFAMIDNNQVTILVNEAERATEIDPDEARISFQTAQAD
-                     LAKAEGKKRVIEANSAFKRAKARLEASTAA"
+                     /trans_splicing
      gene            complement(49835..50233)
                      /gene="atpE"
      CDS             complement(50239..51720)
                      /gene="atpB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 beta subunit"
-                     /protein_id="ALN96659.1"
-                     /db_xref="GI:952009482"
-                     /translation="MKTSSLSFEISELVEKNVGYITQIIGPVLDVASSPGKMPNIYNS
-                     LIVRGQNPAGQEINVTREVQQLLGNNEVRAVAMSATDGLMRGMGAVDTGAPLSVPVGE
-                     TTLGRISNVLGEPVDNLGPVRSSTTFPIHRSAPAFTQLDTKLSIFETGIKVVDLLAPY
-                     RRGGKIGLFGGAGVGKTVLITESINNIAKAHGGVSVSGGVGERTREGNDLYMEMKESK
-                     VINEQNISESKVALVYGQMNEPPGARMRVGSTAPTMAEYFRDVNKQDVLLFIDNIFRF
-                     VQAGSEVSALLGRMPSAVGYQPTLGTEMGSLQERITSTKEGSTTSIQAVYVPADDLTD
-                     PAPATTSAHLDATTALSRGLAAKGIYPAVDPLDSTSTMLQPRIVGEEHYDTAQGVKQT
-                     SQRYKELQDIIAILGLDELSEEDRLTVARARKIERFLSQPFFVAEVFTGSPGKYVSSS
-                     ETIKGFQMILPGELDNLPEQAFYLVGNIDEATAKAASLQAEVQ"
+                     /trans_splicing
      gene            complement(50239..51720)
                      /gene="atpB"
      CDS             52363..53790
@@ -700,42 +419,22 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
                      /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
                      large subunit"
-                     /protein_id="ALN96710.1"
-                     /db_xref="GI:952009533"
-                     /translation="MSPQTETKAGVGFKAGVKDYRLTYYTPEYKTKDTDILAAFRMTP
-                     QPGVPAEEAGAAVAAESSTGTWTTVWTDGLTNLDRYKGRCYDIEPVAGEENQYIAYVA
-                     YPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFIGPPHGIQVERD
-                     KLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRF
-                     LFVAEALFKSQAETGEIKGHYLNATAGTCEEMLKRAVFARELGAPIVMHDYLTGGFTA
-                     NTSLAFHRRDNGLLLHIHRAMHAVIDRQRNHGIHFRVLAKALRMSGGDHIHAGTVVGK
-                     LEGEREVTLGFVDLLRDDYIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTE
-                     IFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREATK
-                     WSPELAAACEIWKAIKFEFDTIDTL"
+                     /trans_splicing
      gene            52363..53790
                      /gene="rbcL"
      tRNA            53918..53998
                      /gene="trnR-UCG"
                      /product="tRNA-Arg"
                      /note="anticodon:UCG"
-                     /transcription="AGGTTGGTTAATTAATGATGGAAACTGAGAAGCACATGGTCT
-                     CGAAATGTGAATCCGAGGGTTCGAATCCCTGCCAACTCG"
      gene            53918..53998
                      /gene="trnR-UCG"
      CDS             54335..55267
                      /gene="accD"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="acetyl-CoA carboxylase carboxyltransferase beta
                      subunit"
-                     /protein_id="ALN96657.1"
-                     /db_xref="GI:952009480"
-                     /translation="MTSVINWFEDKRKFGGLIGAFLEEATRGSISTEKEREKRISVNT
-                     NRGLWARRDNCGNMLHVKFLKQNKSVCGECGYHLSMNSMERIELLIDRNTWIPTDEEM
-                     AAKDVLDLSDEDSYQNRVAVSQEKTGLTDAVQTGLGYLSGTLIGLGVMDFHFMGGSMG
-                     SVVGEKITRLIEYATDKSSPLASICASGGARTQEGTLSLTQMAKISSVLQIHQVQKKL
-                     LHISILTYPTTGGVTASFGMLGDIIIAESKAYVAFAGKRVIEQTSRQKIPEGFQAAES
-                     LFDNGLLDSIVPRNLSKGVSGEISELYSSAPCKKN"
+                     /trans_splicing
      gene            54335..55267
                      /gene="accD"
      CDS             55595..55705
@@ -743,23 +442,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit VIII"
-                     /protein_id="ALN96692.1"
-                     /db_xref="GI:952009515"
-                     /translation="MAASYLPSIFVPLVGLVFPAVTMAISFLYIERDEIL"
+                     /trans_splicing
      gene            55595..55705
                      /gene="psaI"
      CDS             56131..56685
                      /gene="ycf4"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I assembly protein ycf4"
-                     /protein_id="ALN96744.1"
-                     /db_xref="GI:952009567"
-                     /translation="MNCRSKWIQVDFIKGSRTFANSCWACILVCGATGFLLVGLSSCV
-                     GEDLIPGLSSEHIVFIPQGVVMCFYGIAGLFLGLYLWCTAFRDVGGGYNFFDKREGFS
-                     SIFRWGFPGKNRRIHIRLVLEDVEAVGLESMEGFYPRRILYLKVKGRRNIPLTRMGEG
-                     LTPGDMEGKAAELARFPRVSIEGFQ"
+                     /trans_splicing
      gene            56131..56685
                      /gene="ycf4"
      CDS             56874..58382
@@ -767,33 +458,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="chloroplast envelope membrane protein"
-                     /protein_id="ALN96665.1"
-                     /db_xref="GI:952009488"
-                     /translation="MRLHYWKRRITRRLFSTPQRSPDRAYEASKQLQPLINDSLLPVR
-                     VESSLPTPEELPPATTAPTNTASKKSRYLIYCSLLEHRFSISILGMQKHLRLISGTKL
-                     LGLFSIGCHCANNFLTRNCLNTFSPNLPETSLFQDISLKSRQNCYTNGETIDRRGEVV
-                     SFSEEKLENDFPLAKGCVSYKLNNIKEINRKLAWIEATSNEFDSKRLHCSANFPPFKT
-                     TQKVTEKSLNCESANFTSAYESISLVPRSVTRTLSRFGAELTNQSSVLVHNDFDLARN
-                     QALVSLQYVGCFLLLPLTIPISFRNWFLESWVRGWWNITQIQVFINPLQEKKALKQLR
-                     EVEALLWLDDATEHLADTRLQNYDANAYDETTQLAMMYNELNIQLLLQLVTDVISIAI
-                     LALLFITGRKRLAVSNSRIQESFYSLNDTMKAFSILSLTDLCVGFHSPHGWEIVIGSL
-                     SEHFGLIPNKYVISRLVSTFPVILDTVSKYWIFRHLNRTSPSIVATYHTMSG"
+                     /trans_splicing
      gene            56874..58382
                      /gene="cemA"
      CDS             58603..59568
                      /gene="petA"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome f"
-                     /protein_id="ALN96683.1"
-                     /db_xref="GI:952009506"
-                     /translation="MQRRITNNWMENCWILPLAVSIGFGELNCPSVSNAYPILAQQNY
-                     ENPREATGRIVCANCHLAKKPVDIEAPQSVLPNTVFEAVVKIPYDTQIKQVPANGKKG
-                     GLNVGAVLILPEGFELAPSNRIPTEMKERLGKLSFQSYRPGKENIIVVGPVPGKLYSE
-                     IIFPIISPDPGTNKEAHFLKYPIYVGGNRGRGQIYPDGSRSNNTVYTASVTGKIKGVV
-                     RKEGRGGYEVTIEESSENRETTDTVPPGLELIVSEGEFVKADQPLTNNPNVGGFGQGE
-                     VEIVLQDPSRIQGLIAFFASVVLAQIFPVLKKKQFEKVQLAEMNF"
+                     /trans_splicing
      gene            58603..59568
                      /gene="petA"
      CDS             complement(60419..60544)
@@ -801,20 +474,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein J"
-                     /protein_id="ALN96703.1"
-                     /db_xref="GI:952009526"
-                     /translation="MTNTTGRIPLWLVGTVAGTPVIGSLGISSYGAYSGLGSSPQ"
+                     /trans_splicing
      gene            complement(60419..60544)
                      /gene="psbJ"
      CDS             complement(60661..60777)
                      /gene="psbL"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein L"
-                     /protein_id="ALN96705.1"
-                     /db_xref="GI:952009528"
-                     /translation="MTQPNPNKQSVESNRTSLYRGLLLISVLAVPFPNYFFN"
+                     /trans_splicing
      gene            complement(60661..60777)
                      /gene="psbL"
      CDS             complement(60799..60918)
@@ -822,21 +490,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II cytochrome b559 beta subunit"
-                     /protein_id="ALN96700.1"
-                     /db_xref="GI:952009523"
-                     /translation="MALDKTYPIFTVRWLAVHGLAVPTVFFLGSISAMQFIQR"
+                     /trans_splicing
      gene            complement(60799..60918)
                      /gene="psbF"
      CDS             complement(60928..61179)
                      /gene="psbE"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II cytochrome b559 alpha subunit"
-                     /protein_id="ALN96699.1"
-                     /db_xref="GI:952009522"
-                     /translation="MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWPSVSTGLAY
-                     DVFGSPRPNEYFSDSRQEVPLVTGRFDSLEQVDAFTKFL"
+                     /trans_splicing
      gene            complement(60928..61179)
                      /gene="psbE"
      CDS             61950..62045
@@ -844,9 +506,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit VI"
-                     /protein_id="ALN96687.1"
-                     /db_xref="GI:952009510"
-                     /translation="MLTLLSYFAFLMSVLTLTLVLFVGLSKIQIL"
+                     /trans_splicing
      gene            61950..62045
                      /gene="petL"
      CDS             62210..62326
@@ -854,25 +514,19 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit V"
-                     /protein_id="ALN96686.1"
-                     /db_xref="GI:952009509"
-                     /translation="MVEASLSGIVSGSIPITLAGLFVTAYPQYRRGDQLDIR"
+                     /trans_splicing
      gene            62210..62326
                      /gene="petG"
      tRNA            complement(62586..62659)
                      /gene="trnW-CCA"
                      /product="tRNA-Trp"
                      /note="anticodon:CCA"
-                     /transcription="GCGCCTTTAGTTCAGTCCGGTAGAACGCGGGTCTCCAAAACC
-                     CGATGTCGTAGGTTCGAATCCTGCAGGGCGTG"
      gene            complement(62586..62659)
                      /gene="trnW-CCA"
      tRNA            complement(62845..62918)
                      /gene="trnP-UGG"
                      /product="tRNA-Pro"
                      /note="anticodon:UGG"
-                     /transcription="AGGGATGTGACGCAGCTCGGTAGCGTGTTTGTTTTGGGTACA
-                     AAATGTCGCAGGTTCAAATCCCGTCATCCCTA"
      gene            complement(62845..62918)
                      /gene="trnP-UGG"
      CDS             63283..63411
@@ -880,9 +534,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit IX"
-                     /protein_id="ALN96693.1"
-                     /db_xref="GI:952009516"
-                     /translation="MQHVKIYLSTAPVVAAIWFGLLAGSLIEVNRFFPDALLFPFL"
+                     /trans_splicing
      gene            63283..63411
                      /gene="psaJ"
      CDS             63645..63845
@@ -890,22 +542,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L33"
-                     /protein_id="ALN96719.1"
-                     /db_xref="GI:952009542"
-                     /translation="MTKSKDARVTTALVRTTCTSKEADGKSTGISRYTTRKNRRNTPT
-                     RLESKKFCVCCHKHTHHKELKK"
+                     /trans_splicing
      gene            63645..63845
                      /gene="rpl33"
      CDS             63912..64139
                      /gene="rps18"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S18"
-                     /protein_id="ALN96731.1"
-                     /db_xref="GI:952009554"
-                     /translation="MNKFKRSLRRRSPSIRSDEAIDYKNTSLLRRFVSEQGRILSRRM
-                     NRLTSKQQRLVAISIKRARILALLPFSNNEN"
+                     /trans_splicing
      gene            63912..64139
                      /gene="rps18"
      CDS             complement(64388..64744)
@@ -913,11 +558,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L20"
-                     /protein_id="ALN96714.1"
-                     /db_xref="GI:952009537"
-                     /translation="MTRVKRGSTARRYRKNILDFASGFRGAHSRLFRTANQQEKRALA
-                     YAYVDRNNRKREFRRLWIARINAAARKNGITYSSMIHNLFENQIFLNRKTLAQVATPD
-                     AYCSSRPIRKINNEKD"
+                     /trans_splicing
      gene            complement(64388..64744)
                      /gene="rpl20"
      exon            complement(65715..65828)
@@ -930,22 +571,12 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S12"
-                     /protein_id="ALN96727.1"
-                     /db_xref="GI:952009550"
-                     /translation="MPTNQQLIRKARQRLESGTKSPALRGCPQRRGVCTRVYTTTPKK
-                     PNSALRKVARVRLTSKFEVTAYIPGIGHNLQEHSVVPVRGGRVKDLPGVRYHIVRGTL
-                     DAVGVKDRKKGRSKYGVKKPK"
      CDS             join(complement(65715..65828),96042..96273,96852..96877)
                      /gene="rps12"
                      /trans_splicing
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S12"
-                     /protein_id="ALN96726.1"
-                     /db_xref="GI:952009549"
-                     /translation="MPTNQQLIRKARQRLESGTKSPALRGCPQRRGVCTRVYTTTPKK
-                     PNSALRKVARVRLTSKFEVTAYIPGIGHNLQEHSVVPVRGGRVKDLPGVRYHIVRGTL
-                     DAVGVKDRKKGRSKYGVKKPK"
      gene            join(complement(65715..65828),complement(139228..140063))
                      /gene="rps12"
                      /trans_splicing
@@ -961,12 +592,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP-dependent Clp protease proteolytic subunit"
-                     /protein_id="ALN96669.1"
-                     /db_xref="GI:952009492"
-                     /translation="MPIGVPKVPFRLPGEEDAAWVDVYNRLYRERLLFLGQQVDDEIA
-                     NQLIGIMMYLNGEDQAKDMYLYVNPPGGAVLAGISAYDAMQFVVPDVHTICMGLAASM
-                     GSSIPAGGEITRRIAPPHARVTIHQPASSYYDGQAGECVMEAEEASKLRDCITKVYAQ
-                     RTGKPLWVIPEDMERDIFPSAEEAQDYGVADPVALENAST"
+                     /trans_splicing
      gene            complement(66094..67965)
                      /gene="clpP"
      exon            complement(66910..67201)
@@ -977,22 +603,10 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             68408..69934
                      /gene="psbB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II CP47 chlorophyll apoprotein"
-                     /protein_id="ALN96696.1"
-                     /db_xref="GI:952009519"
-                     /translation="MGLPRYRVHTVVLNDPGRLISVHLMHTALVSGWAGSMASYELAV
-                     FDPSDPVLDPMWRQGMFVIPFMTRIGITKSWGGWSITGDAATDAGIWSYEGVAAAHII
-                     LSGLLFLAAIWHWVYWDLDLFRDDRTGKPSLDLPKIFGIHLFLSGVLCFASGAFHVTG
-                     LFGPGIWISDPYGLTGKVEPVDPAWGAEGFDPFVPGGIASHHVAAGVLGILAGLFHLS
-                     VRPPQRLYKALRMGNVETVLSSSIAAVFLAAFVVSGTMWYGSAATPIELFGPTRYQWD
-                     QGYFQQEIDKRIRSGKAENLSLSQAWSKIPEKLAFYDYIGNNPAKGGLFRAGAMDNGD
-                     GIAVGWLGHAVFKDGEGHELFVRRMPTFFETFPVVLVDGEGVVRADVPFRRAESKYSV
-                     EQVGVTVEFFGGELDGASFSDPATVKKYARRAQLGEIFEFDRATLKSDGVSRSSPRGW
-                     FTFGHATFALIFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPSTKRQAV
-                     Q"
+                     /trans_splicing
      gene            68408..69934
                      /gene="psbB"
      CDS             70167..70271
@@ -1000,9 +614,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein T"
-                     /protein_id="ALN96708.1"
-                     /db_xref="GI:952009531"
-                     /translation="MEALVYTFLLVATLGIIFFAIFFREPPKVPSKGK"
+                     /trans_splicing
      gene            70167..70271
                      /gene="psbT"
      CDS             complement(70419..70550)
@@ -1010,9 +622,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein N"
-                     /protein_id="ALN96707.1"
-                     /db_xref="GI:952009530"
-                     /translation="METATPVTIFISCSLVSLTGYALYTASGQPAKELRDPFEEHED"
+                     /trans_splicing
      gene            complement(70419..70550)
                      /gene="psbN"
      CDS             70643..70867
@@ -1020,10 +630,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein H"
-                     /protein_id="ALN96701.1"
-                     /db_xref="GI:952009524"
-                     /translation="MATKVIDDTPKGKPRISFLGMILKPLNSEYGKVAPGWGTTPLMG
-                     FSMALFAVFLVTILEIYNSSVLLEGIPISW"
+                     /trans_splicing
      gene            70643..70867
                      /gene="psbH"
      exon            70999..71004
@@ -1031,16 +638,10 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             join(70999..71004,71804..72445)
                      /gene="petB"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6"
-                     /protein_id="ALN96684.1"
-                     /db_xref="GI:952009507"
-                     /translation="MGKVYDWFEERLEIQAIADDITSKYVPPHVNIFHCLGGITLTRF
-                     LVQVATGFAMTPHHRPTVTEASYPVQYTMTEVNFGWLIRSVHRWSASMTVLMMILHVF
-                     RVYLTGGFKKPRELTWVTGVILAVSTVSFGVTGYSLPWDQIGYWAVKIVTGVPEAIPL
-                     VGSSLVESLRGSASVGQSTLTRFYSLHTFVLPLLTAVSTPMHFPMIRKQGIPGPSR"
+                     /trans_splicing
      gene            70999..72445
                      /gene="petB"
      exon            71804..72445
@@ -1054,11 +655,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit IV"
-                     /protein_id="ALN96685.1"
-                     /db_xref="GI:952009508"
-                     /translation="MGVKKPDLNDPVSRAKLAKGMGHNYYGEPAWPNDLLYISPVVIL
-                     GTIACTVGLAVLEPSMIGEPANPFATPLEILPEWYFFPVFQILRTVPNKLLGVLSMAS
-                     VPAGLLTVPFPENVNKFQNPFRRPVATTVLAIGTVVAIWSGIGATLPIDGSLTSGLF"
+                     /trans_splicing
      gene            72645..73763
                      /gene="petD"
      exon            73292..73763
@@ -1066,81 +663,50 @@ FEATURES             Location/Qualifiers
                      /number=2
      CDS             complement(74075..75097)
                      /gene="rpoA"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase alpha subunit"
-                     /protein_id="ALN96721.1"
-                     /db_xref="GI:952009544"
-                     /translation="MLTCETPTPTQAIQWKCVESKIESRRLHYGRFAISPFKRGQAST
-                     VGIAMRRALLEEVRGASITCARFHGVLHEYSTITGIQETIHDVLVNLKEIAPRSDSND
-                     VKEAVSSVTGPKEVTAGDTSLPPSVKAIDDSQYIVTTTQPISVNIESKIEKDCGYRIE
-                     NSNGCIGGEFPVDAVFMPVRNVNYSVHLFGSGRATRETLFIEIWTNGSLTPDEAINEA
-                     SKKLIDLSTPFLHMRREDVSDLYPGDDESSSASAGSSSQISDVNELEGKLSKNTFIDQ
-                     LELPARAFNCLKKAKIHTIADLLNYSREDSSKMKSFGQKSVDQVSKSLWEHFAVELPK
-                     NELHIN"
+                     /trans_splicing
      gene            complement(74075..75097)
                      /gene="rpoA"
      CDS             complement(75134..75526)
                      /gene="rps11"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S11"
-                     /protein_id="ALN96725.1"
-                     /db_xref="GI:952009548"
-                     /translation="MSGNSKKFRSRKVKRGVQKGVTHIQASFNNTIITVTDVRGQVAP
-                     RCSAGACGFRGTRKSTPFAAQAAAENAIRASMDRGMKQAEITMSGPGPGRDTALRAIR
-                     RSGVILSFVRDVTPMPYNGCRPPRKRRV"
+                     /trans_splicing
      gene            complement(75134..75526)
                      /gene="rps11"
      CDS             complement(75596..75709)
                      /gene="rpl36"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L36"
-                     /protein_id="ALN96720.1"
-                     /db_xref="GI:952009543"
-                     /translation="MKIRASIRKICEKCRLIRRRGRIMVIRCNPKHKQRQG"
+                     /trans_splicing
      gene            complement(75596..75709)
                      /gene="rpl36"
      CDS             complement(75839..76081)
                      /gene="infA"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="translational initiation factor 1"
-                     /protein_id="ALN96670.1"
-                     /db_xref="GI:952009493"
-                     /translation="MKKQNLIDMEGTVTESLPNAMSRACLDNGCQVLTHISGKIRRNY
-                     IRILPGDRVRAELSPYDLTKGCTTYRLRSRQTSSNQ"
+                     /trans_splicing
      gene            complement(75839..76081)
                      /gene="infA"
      CDS             complement(76219..76617)
                      /gene="rps8"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S8"
-                     /protein_id="ALN96738.1"
-                     /db_xref="GI:952009561"
-                     /translation="MNSDTISTAPTAIRNASTTKKAMIRIPATKMTARVVQISAEEGF
-                     IKSAAKHKDNGKEFPDVSLKYLGKKKYPHIAVIKRISKPGLRVYSDHREIPKILGGMG
-                     IAISPTSHGLITDREARHKKIGGEISCHIW"
+                     /trans_splicing
      gene            complement(76219..76617)
                      /gene="rps8"
      CDS             complement(76820..77188)
                      /gene="rpl14"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L14"
-                     /protein_id="ALN96711.1"
-                     /db_xref="GI:952009534"
-                     /translation="MIQTQSYLDVADNSGARKLMCIRVLGTGNRKYAGTGDVAIAVVK
-                     EAVPNMSLKRSEVVRAVAACTRKGIKRCNGMILVFGDNAAVVVNQEGNPRGTRIFGPV
-                     ARELRDCNFARIVSLAPEVLQ"
+                     /trans_splicing
      gene            complement(76820..77188)
                      /gene="rpl14"
      exon            complement(77449..77853)
@@ -1148,15 +714,10 @@ FEATURES             Location/Qualifiers
                      /number=2
      CDS             join(complement(78609..78617),complement(77449..77853))
                      /gene="rpl16"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L16"
-                     /protein_id="ALN96712.1"
-                     /db_xref="GI:952009535"
-                     /translation="MLSPRRTKYRKQHRGRLRGISSRGNTISFGKFALQALEPAWITA
-                     RQIEAGRRSITRCARRGGKLWIRIFPDKPITMRPAETRMGSGKGSPEYWVSAIKPGRI
-                     IHELSGVSEDVAKAAMAMAAHKMPVLTRVITNAES"
+                     /trans_splicing
      gene            complement(77449..78617)
                      /gene="rpl16"
      exon            complement(78609..78617)
@@ -1164,30 +725,18 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             complement(78729..79385)
                      /gene="rps3"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S3"
-                     /protein_id="ALN96734.1"
-                     /db_xref="GI:952009557"
-                     /translation="MGRKIHPLGFRLGASQKHYSHRFAQTKDYPKFLEGDRQIRYSVE
-                     KYIAKHVRDATSYGGVGHIEIQRKTDLIRVDIHTGFPDLLIEEQSLGITQMKSDIENI
-                     LGIESRKLRVILSSITQPYGEPKILAEHVASQLRNRVPFRRTMKKAIELVARTSDRGI
-                     KIQIAGRLNGSEMARVEWAREGRVPLQTIKARIGYSHHPAQTIHGVLGIKTWIFRGTG
-                     "
+                     /trans_splicing
      gene            complement(78729..79385)
                      /gene="rps3"
      CDS             complement(79493..79870)
                      /gene="rpl22"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L22"
-                     /protein_id="ALN96716.1"
-                     /db_xref="GI:952009539"
-                     /translation="MRNNKKSGIGARASGKNIRASAIKIRRITDRIRGCSYGEALVLP
-                     EFMPYKTCYLISQLILSAAANANTNFGLNKSDLFISEARVDNSRYLKRFRPRAQGRGY
-                     PIKKPTCEVTIKLNSNFVGQVGR"
+                     /trans_splicing
      gene            complement(79493..79870)
                      /gene="rpl22"
      CDS             complement(79888..80166)
@@ -1195,10 +744,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S19"
-                     /protein_id="ALN96732.1"
-                     /db_xref="GI:952009555"
-                     /translation="MARSSKKGPSVANHLIREIENLNIRRERKLVVTRSRASAVVPIT
-                     IGHTIAVHNGREHLPIYVTDRMVGHKLGEFVPTRNFRGHAKSDRGSRR"
+                     /trans_splicing
      gene            complement(79888..80166)
                      /gene="rps19"
      exon            complement(80201..80637)
@@ -1206,18 +752,10 @@ FEATURES             Location/Qualifiers
                      /number=2
      CDS             join(complement(81359..81755),complement(80201..80637))
                      /gene="rpl2"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L2"
-                     /protein_id="ALN96713.1"
-                     /db_xref="GI:952009536"
-                     /translation="MAMRFYEAYTPGTRSRAILQFGETTESKPHKQLTYHKMSRNGRN
-                     SAGIITSRHRGGGHKRLRRKIDFRRNKLGIAGRVASIEYDPNRNAFICLINYTDGDKG
-                     YILHPRGIGVGDTATSSSDASISIGNALPLTKMPLGTIIHNVELKSGKGGQSVRAAGA
-                     AAKVVAKEGQLATLRLPSSEIRLIPRNCLASVGRVGNIDINNEGLGKAGSRRWLGRRP
-                     KVRGSAMNPVDHPHGGGEGRTSIGRGKPSTPWGHVALGKRSRKGRKYSNPLILRRRKD
-                     Y"
+                     /trans_splicing
      gene            complement(80201..81755)
                      /gene="rpl2"
      exon            complement(81359..81755)
@@ -1225,22 +763,16 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             complement(81824..82093)
                      /gene="rpl23"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L23"
-                     /protein_id="ALN96717.1"
-                     /db_xref="GI:952009540"
-                     /translation="MEKSKNQLITEKSLSLLQQNQYTSYVDSKLTKTEMKKWIEGFFA
-                     VKVRGISSSRVANRKRRGKLSLNSTSKKKMIARLRANYLTPLFIN"
+                     /trans_splicing
      gene            complement(81824..82093)
                      /gene="rpl23"
      tRNA            complement(82259..82332)
                      /gene="trnI-CAU"
                      /product="tRNA-Ile"
                      /note="anticodon:CAU"
-                     /transcription="GCATCCATGGCTGAACGGTCAAAGCACCCAACTCATAATTGG
-                     CGAATTCACAGGTTCAACTCCTGTTGGATGCA"
      gene            complement(82259..82332)
                      /gene="trnI-CAU"
      gene            82764..83534
@@ -1250,8 +782,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnT-UGU"
                      /product="tRNA-Thr"
                      /note="anticodon:UGU"
-                     /transcription="TCACTCGTCTATTCCGGGGGAGATATAATTATTTGTACCGCG
-                     TAGTACGGAGGTTCGAATCCTATGCGAGGCGT"
      exon            83733..83766
                      /gene="trnT-UGU"
                      /number=1
@@ -1264,8 +794,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnR-ACG"
                      /product="tRNA-Arg"
                      /note="anticodon:ACG"
-                     /transcription="GGGCCTGTAGCTCAGGGGATTAGAGCACGTGGCTACGAACCA
-                     CGGTGTCGGGGGTTCGAATCCCTCCTCGCCCGC"
      gene            complement(85009..85083)
                      /gene="trnR-ACG"
      rRNA            complement(85362..85484)
@@ -1287,8 +815,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnA-UGC"
                      /product="tRNA-Ala"
                      /note="anticodon:UGC"
-                     /transcription="GGGGATATAGCTCAGTTGGTAGAGCGCCGCCCTTGCATGGCG
-                     GATGCCAGCGGTTCGAGTCCGCTTATCTCCA"
      exon            complement(88980..89015)
                      /gene="trnA-UGC"
                      /number=2
@@ -1301,8 +827,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnI-GAU"
                      /product="tRNA-Ile"
                      /note="anticodon:GAU"
-                     /transcription="GGGCTATTAGCTCAGCGGTAGAGCGCGCCCCTGATACGGGCG
-                     AGGTCTCTGGTTCAAGCCCAGGATGGCCCA"
      exon            complement(89942..89977)
                      /gene="trnI-GAU"
                      /number=2
@@ -1316,22 +840,12 @@ FEATURES             Location/Qualifiers
                      /product="16S ribosomal RNA"
      gene            complement(91341..92840)
                      /gene="rrn16"
-     CDS             complement(93183..94467)
-                     /created_by="robis"
-                     /Transferred_From="ycf-PTE"
-                     /Transferred_Similarity="45.57%"
-                     /label="ycf-PTE"
      CDS             96943..97416
                      /gene="rps7"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S7"
-                     /protein_id="ALN96736.1"
-                     /db_xref="GI:952009559"
-                     /translation="MLHRSSVVNRKKNIESDPIYRNRLVNMLVDRILKNGKKSLAYQI
-                     FYQAMKRIRQKTNKNPLSVLRQAVRGVTPDVVTETKRVGGSTYRVPVEVVPAEGKALA
-                     IRWSLIACRKRSGRSMALRSSDESMDAARNSGSAIRKREETHKVAEANKAFAHFR"
+                     /trans_splicing
      gene            96943..97416
                      /gene="rps7"
      CDS             97962..99023
@@ -1339,115 +853,43 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein D1"
-                     /protein_id="ALN96694.1"
-                     /db_xref="GI:952009517"
-                     /translation="MTATLERRESASLWGRFCDWITSTENRLYIGWFGVLMIPTLLTA
-                     TSVFIIAFVAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASV
-                     DEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAAAAVFLI
-                     YPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSL
-                     VTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLA
-                     AWPVVGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHER
-                     NAHNFPLDLASVEAPSING"
+                     /trans_splicing
      gene            97962..99023
                      /gene="psbA"
      tRNA            99487..99560
                      /gene="trnH-GUG"
                      /product="tRNA-His"
                      /note="anticodon:GUG"
-                     /transcription="GCGGACGTAGCCAAGTGGATCAAGGCAATGGAGTGTGGATCC
-                     ATCACGCGCGGGTTCAATCCCCGTCGTTCGCC"
      gene            99487..99560
                      /gene="trnH-GUG"
      CDS             99812..106108
                      /gene="ycf2"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="conserved hypothetical chloroplast protein ycf2"
-                     /protein_id="ALN96741.1"
-                     /db_xref="GI:952009564"
-                     /translation="MKKENKVKKVAKERVGSPDFSSKISELVEVSLLDHFFESLKNQH
-                     LKEFLISPSSNYEPFIRLSDLCFLSSLFLRNLRDSIRRDSRITLEMLMLLTIPISMHC
-                     LSDKRSIERSFALAGVINGGDGVIKKQAENYGDFSCDRFPRFRRSSSVGKRGKRGIPV
-                     SHYLGLNGYISAGSTKKEKQVRYDAMIPLVSGRWEACVVRDSLLGRDISKDETERIQA
-                     FCRDRCLQNSSRFFKFYNYLVVSKNNQSDFDSLFFWKNHNKRDLGRLQATQLRNDSLS
-                     PVVLNLRDKALLESGNSADHRGDGSEFYFEREAFSNLSSFTSYEKTTSFRGCISGLDC
-                     DKNGEEFPTPHTFSQMKNGLINRLTKFISIIEKSNLIFDGAIVIDVSNSVKSGKGFPL
-                     KTKGDMPLTQISGKKLGLASSRHLDLDEIFPNYFQIFLGIPRKISNQSENTTFSNQLK
-                     EKGNIHSIYSLVRLYGRNRIIPLYSTYIFIFYDYFCALFTEYFFQIKYRLDGWTGSGE
-                     YTGVTRIAIEQIVLKWKDNVERLLNEYITSQIDEYRNVHSNVHRWLDTTGDSSLFPVG
-                     EVLKYDLEESICRVSIIINELLSNIGVSLGGNNQQNEKDFHRFLNTFFLYKMIVAEVT
-                     RQKALIYTMDYCIEKLNDIDIDLEKWNKIDLMKLDLLSSLFDGYIDEQILFLKTILEG
-                     KKSLFIESKLLMSKKSVGSSTELEPTVNPTSLGLPRIESIRAGFSNDDLSIAERQFWN
-                     PFLHDLNRGGGSTRDIGGNISRYISDQVNKLNFIDDSPLRNCAGSNFIPRIKRDFFIG
-                     RCNSSYLDVLENFYANSEDETISSSIISFIHPQLSDSLPFNLSRQTAGEVAGHVLTPI
-                     QFILSNLHQSTALVTHSDGLPNYISDLKRLLAGLNSSPRKTIESFLHSCSSTEVYLGK
-                     TSTSINSESSSDRRPQYRPENMVLDRVYQKNLSIRSFWEPEEMETSYWSLRLPLCNDA
-                     ASRSLAESIGKEVAREDTDYADQPIWKEAVRPSHFINFNELLKDLNRYKISWIFWKDN
-                     IGEKWSLFRDYIPWFFTPTWWRYFYDLIRETYPEIVLKISYDSNHHFPIIYKRIAEDV
-                     VDGAKAYLIQRLQSLGLRFDNDSINTIASEVSLLIFEEIPDEAEILHSVGWSASQFSN
-                     RSIFYYFILSVLIVLALFKHPLSAVSGFNSFHLWKRFNTIEYLTDPTRGSYLREVMYS
-                     PSTSQMATRDLLIYSLNRFLNYINNIIFFFFVKNELDSWMFHKESSDILDSKKELLTQ
-                     HLVTNKIIYRYVSKLNSNYDSLSNEISHEPYPQERSNVLAYLLQFWQNYLLSHKIRKL
-                     DPAEKWAFSALERDILFSVTTRRRGGLLNMPCHDIPISLQSGLLPSKGILLVGPIETG
-                     RSSIIRDVAFDSYFPVVKLPMEKLIYNRSFFNNARGNFISKESVHRLNFVFEMAKEMS
-                     PRILWIQDIHELNIHRSYHKLEADPKFLLCQILKSIGDRRSNSNIRRNVVIATTHVPA
-                     RIDPAPIAPNRLNQLINFRKSNGYQRHKELSILLRIKGCEMEANPPLPLIEGIGSGTT
-                     GYSKRDLFLLANEALLIGTSRRSKIICSDAIELALHRQHSTASDMGNGIESGSEWEIF
-                     SHEIAEATPKNSLIDTYLTNTYIGRNALKMRFYYLSNWYVEPSITKSTFNEFTLFSHI
-                     LGILAGLVARDSLQMDMRKKENFTVIDKLVENDLNLACGVLENLSTKFSRSDICEDES
-                     RHSNSNSLSFSVPIAKPKYCSGVASTSRSSKFMRKKGFSSLTDFELQQSPELINSSPT
-                     EVSREITWSHKAWRLRFLRSGAYELMRVLSEPNHLHNLILLYQNQNYIPQQDFEFNKI
-                     KGDKSKWCGKSGYLFNSEKSGTNVPDQDIKRLENRLDNMSLREQFLELGISGDSSNEY
-                     ETHCNRFDETTRLFGGRFIWDPMLLFQPDANIPSSRRSLLPTKEVARRLYTIYGMRKQ
-                     HLNKMSNKKIKNFFLYREDNPKLKPDSSIKQWNNLPVDEEEQDSEYVKETSSMDIHLQ
-                     YPQIFSPARFDSYMVVEDFPERFIRFRLLVHRNKWMGRNRCPFQDFLIYNMLLEIYQY
-                     LFNPFWFGGASPDLATRNFFHESS"
+                     /trans_splicing
      gene            99812..106108
                      /gene="ycf2"
      tRNA            complement(106711..106782)
                      /gene="trnN-GUU"
                      /product="tRNA-Asn"
                      /note="anticodon:GUU"
-                     /transcription="TCCTCGGTAGCTCAGCGGTAGAGCGGTCGGCTGTTAACCGAT
-                     TGGTCGTAGGTTCGAATCCTACCCGGGGAG"
      gene            complement(106711..106782)
                      /gene="trnN-GUU"
      CDS             complement(107238..109478)
                      /gene="ndhF"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 5"
-                     /protein_id="ALN96677.1"
-                     /db_xref="GI:952009500"
-                     /translation="MPVELSNKYACLIPLCPLVAARSTGSLSFFFPKATKSLRRPCAA
-                     FNTFSLTIAMFVSLALFRQQTATHYIQQFLWARIPKSDFRLKIGFLIDPLTLAMSILV
-                     TTVGTSAMVYSDSYMCHDQGYARFYAYLSLFTASMLGLVFSPNLIQIYVFWELVGMCS
-                     YLLIGFWFARSSAANACQKAFVTNRIGDFGLLLGLLGIYWVTGSFEIFELCDRFLELS
-                     DNGVINPIFANTIALLLFLGPVAKSAQFPLHVWLPDATEGPTPISALIHAATMVAAGI
-                     FLAIRIFNLISTLPPTMYTISWVGGITTLSGATLALAQKDLKRGLAYSTMSQLGYMVP
-                     ASGIGASRPALFHLITHAYSKALSFLGSGSVIHSMEKVVGYSPTRSQNMFLMGGLRKH
-                     MPITGTTFLPGTLSLCGIPPLSCFRSKDLIITESWLRSPYLGLITSTTAGPTAFYTFR
-                     IYLLTFEGNFRANQMNSIGFNNSFPSGDTITSWGGARTESLATQTINNVTSITDMERN
-                     GVTESGNLITPRPPGGGSISEEVNRIHPGRNLLYPRESKFCMVLPLIVLAIPTAFIGL
-                     AGVDPTQRGTGLDLLFDWLISIPSFSETTKHLENLTEILKSSIPSLSLSLIGLVISFS
-                     VYGGSIEPVNTKVFENLNLVSKNLLNTSLSSARDWSVNRGYIDYYYDIYIIRGINFVG
-                     KLVLHFDQWVIDGFVNGIGVSSFSSGEIIRYEKNGRISHYLFGLVIGIILSVSLVVDF
-                     PIPPLP"
+                     /trans_splicing
      gene            complement(107238..109478)
                      /gene="ndhF"
      CDS             109789..110145
                      /gene="rpl21"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L21"
-                     /protein_id="ALN96715.1"
-                     /db_xref="GI:952009538"
-                     /translation="MNRYAIIDIGGKQLRVEQGRFHDARHFASVRPALTSNTKISINR
-                     VLLIRHGSSVTFGYPWLENAVVRGRILHGCFKEKLVVQKIHSKKKTRRTSGYRENMTR
-                     FVVDSILSGGENLDKS"
+                     /trans_splicing
      gene            109789..110145
                      /gene="rpl21"
      CDS             110326..110493
@@ -1455,42 +897,27 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L32"
-                     /protein_id="ALN96718.1"
-                     /db_xref="GI:952009541"
-                     /translation="MAVPKKRTSRSKKKIRNHAWKTRSAGVALRAFSLAQSVLTSRSR
-                     SFYYITEKRDI"
+                     /trans_splicing
      gene            110326..110493
                      /gene="rpl32"
      tRNA            complement(111036..111109)
                      /gene="trnP-GGG"
                      /product="tRNA-Pro"
                      /note="anticodon:GGG"
-                     /transcription="CGGAATATGGCGCAGTTTGGTAGCGCGCCATCTTGGGGTGAT
-                     GGAGGTCACAGGTTCGAATCCTGTTATTCCGA"
      gene            complement(111036..111109)
                      /gene="trnP-GGG"
      tRNA            111366..111444
                      /gene="trnL-UAG"
                      /product="tRNA-Leu"
                      /note="anticodon:UAG"
-                     /transcription="AGCCGCTATGGTGAAACAGGTAGACACGCTGCTCTTAGGAAG
-                     CAGTGCCAGAGCATCTCGGTTCGAATCCGAGTAGCGG"
      gene            111366..111444
                      /gene="trnL-UAG"
      CDS             111737..112678
                      /gene="ccsA"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome c heme attachment protein"
-                     /protein_id="ALN96664.1"
-                     /db_xref="GI:952009487"
-                     /translation="MTYTYMERAFIQISFLMLFFATLSNPTNLFHEFDKSNKLSKKSM
-                     TIAFLRTTEFSLIRRFQTRHPPLSNPYESSTFPSWSFSLLYVISEVRNRNGLLGAVPA
-                     PGAMPTHAFATLGLPEEMRQSTPLVPASQSHRSMTHVSTMLLSYATPLCGSLSAILPS
-                     SIFHGEVNNYFVFDPRRSGGGYGTSLDNHGGTDVRSFLHLLPPNSRKCRLINRLDRWA
-                     YQIIGLGFSLLTVGIPSGAVRANEARGSYRSWDPKETWALVTRLIHATYLHIRITNKW
-                     MGEGPAVAASAGFLLVWVCLLGVNLLGIGLHNYGWLV"
+                     /trans_splicing
      gene            111737..112678
                      /gene="ccsA"
      CDS             complement(113080..114588)
@@ -1498,17 +925,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 4"
-                     /protein_id="ALN96675.1"
-                     /db_xref="GI:952009498"
-                     /translation="MMSNVPRLTMIVLFPILASFLLPILPRNGNRIIRWYTLGICISE
-                     FSLITHIFHSHFQFNSQSIQLMETFNRINSIHFHWRLGIDGLSMSLILLTGFITTLAT
-                     LAAWPITRNTRLFHFLMLVMYSGQVGLFVSRDILLFPFMWELELIPVYLLLSLWGGKR
-                     RLYSATKFVSYTAGGSIFLLVAALTTSFYGNGVPSFDIQVLMSKSYPISLEIALHLGF
-                     LIAYAVKLPLFPFHTWLPDTHGEAHYSTCMLLAGVLPKMGGYGPIRINLELLIHAHLF
-                     FGSWLILLGAFQILYASLASVSQRNLKRRIAYSSISHMGFVAIGIGSLTDAGINGAIL
-                     QMISHGLIGAALFSPAGTCYDRTHTLSLDELGGIATPMPKLFTTFSAFSTASLALPGM
-                     SGFVSELLVFLGVVTSEQYSFLFKAEITVLEATGTVLASIYLLSMLRRMFYGYRVANK
-                     SNPDLIDFGPREVFTLTCLFLPILGIGSYPNLILPLRNSEAFSILFSYSNMS"
+                     /trans_splicing
      gene            complement(113080..114588)
                      /gene="ndhD"
      CDS             complement(114724..114969)
@@ -1516,10 +933,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit VII"
-                     /protein_id="ALN96691.1"
-                     /db_xref="GI:952009514"
-                     /translation="MAHSVKIYDTCIGCTQCVRACPTDVLEMIPWDGCKANQIASAPR
-                     TEDCVGCKRCESACPTDFLSVRVYLGAETTRSMGLAY"
+                     /trans_splicing
      gene            complement(114724..114969)
                      /gene="psaC"
      CDS             complement(115291..115593)
@@ -1527,24 +941,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 4L"
-                     /protein_id="ALN96676.1"
-                     /db_xref="GI:952009499"
-                     /translation="MFENGLILGAYLLCVGFLGLITSKNMVRALMSLESIFNAVNLNF
-                     ITFSNFFNNKQAGGEIFTIFVIAIAAAEAATGLATALSLQRNRRSTRIDQFNLLKW"
+                     /trans_splicing
      gene            complement(115291..115593)
                      /gene="ndhE"
      CDS             complement(115684..116277)
                      /gene="ndhG"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 6"
-                     /protein_id="ALN96678.1"
-                     /db_xref="GI:952009501"
-                     /translation="MNLSELIHEFILSIIESGILLGSFGTVSFANVVHSAFSSGSVFT
-                     RISLSYFVSNADSVAAAQLLVYVGAINVLIVSAVMVTDKPTRSDSTTRGVGYFTASVA
-                     CAALFLVLVHMIHNKKWFDINFINQSEILLPNTSGSDVHQLGYKSLSEFLVPFELLSI
-                     LLLVALVGAINPARDEDTNKTDRKSSSSSSRNNSSLP"
+                     /trans_splicing
      gene            complement(115684..116277)
                      /gene="ndhG"
      CDS             complement(116421..116951)
@@ -1552,12 +957,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="NADH dehydrogenase subunit I"
-                     /protein_id="ALN96680.1"
-                     /db_xref="GI:952009503"
-                     /translation="MFSTLIEFRSYGQQAVEAAKYIGQGSAVTLDHPNRSPITVQYPY
-                     QKILPSERFRGRIHFEFDKCIACEVRVRVCPINLPVVDWILMKDIKKKRLKNYSIDFG
-                     VCIFCGNCVEYCPTNCLSMTEEYELPSYDRHELNHDQTALGRLPLSISQDVSIQVVST
-                     SLNYLSKRFGDEILNT"
+                     /trans_splicing
      gene            complement(116421..116951)
                      /gene="ndhI"
      exon            complement(117094..117651)
@@ -1569,15 +969,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="NADH dehydrogenase subunit 1"
-                     /protein_id="ALN96672.1"
-                     /db_xref="GI:952009495"
-                     /translation="MVTHIEIYTKQLVQLFNELGFATTYLEPIWILIYTLILVTGVTT
-                     GVLVIVWLERKVSAGVQQRTGPEYAGPLGITQSLADGIKLLLKEDIIPSKGDAWLFAV
-                     GPAVVVTPVLMSYLVIPLDQNIVLSDLGIGAFYRVAVSSIVPLGLLIAGYASNNKYSF
-                     LGGLRAAAQSISYEIPLALCISAASLLSGSLSTVDIVKTQSKYGSSGWNLWRQPVGFI
-                     AFFISSLAECERLPFDLPEAEEELVAGYQTEYSGIKFGLFYVGSHSNLLVSSLFVTIL
-                     YLGGWDSSIPFFENLGQDFSSSNSSGESFGVLGSGVSIITTLAKSYLFISISILTRWT
-                     LPRVRIDQLLDLGWKFLLPIALGNLLLTASFQLLLIS"
+                     /trans_splicing
      gene            complement(117094..119174)
                      /gene="ndhA"
      exon            complement(118617..119174)
@@ -1585,72 +977,26 @@ FEATURES             Location/Qualifiers
                      /number=1
      CDS             complement(119176..120354)
                      /gene="ndhH"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="NADH-plastoquinone oxidoreductase subunit 7"
-                     /protein_id="ALN96679.1"
-                     /db_xref="GI:952009502"
-                     /translation="MHLKELDPVTVSMGPHHPSMHGVLRLVVTLDGENVVDCEPILGY
-                     LHRGMEKIAENRTILQYLPYVTRWDYLATTFTEAVAVNAPEKLANIQIPGRASYIRVI
-                     MLELSRIASHLLWLGPFLADIGAQTPFFYIFREREMIYDLFEAVTGMRMMHNYFRIGG
-                     VAADLPYGWVDKCLDFCHYCLPKIHEYERLITRNPIFSKRVTGVGFISRQDAINWGLS
-                     GPALRASGVQWDLRKVDHYECYDNPDWQIKWQGEGDSLARYLVRIDEMKESINIIQQA
-                     LKLLPGGPYENLEGRRLVQQKEEVDRGSFNYQFVGKKSSPTFKLPKQEHYVRVEAPKG
-                     ELGIFLVGDDSVFPWRWKIRPPGFINLQILPQLINGMKLADITTILGSIDIIMGEVDR
-                     R"
+                     /trans_splicing
      gene            complement(119176..120354)
                      /gene="ndhH"
      CDS             complement(120459..120728)
                      /gene="rps15"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S15"
-                     /protein_id="ALN96729.1"
-                     /db_xref="GI:952009552"
-                     /translation="MDKYKYIDAQLVGGNRDTGFTASQIYYLTHQILKLTSHLELHSK
-                     DYSSQRGLRKLLGKRRRLLIYLSDENTALYTKVIKNLGIRGLKGR"
+                     /trans_splicing
      gene            complement(120459..120728)
                      /gene="rps15"
      CDS             complement(121044..126158)
                      /gene="ycf1"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="conserved hypothetical chloroplast protein ycf1"
-                     /protein_id="ALN96739.1"
-                     /db_xref="GI:952009562"
-                     /translation="MNINILNILSLTGLKSTSPYILFGLYYGLLAALPVGPPQILCIR
-                     SFLLGGNVGGLASLSGLMLAQLATTISIYCSPIYILLLKPHLLTIVVIPYMVLFCLTI
-                     NDLPNYEILRPINSLRDSRIVGLSLNSFLLQILNPILLPNPVLTRLTHLLLFRYSNNS
-                     LFVITSFLGWLSGHMVLSYLSKLLLIRVEKDSPIVYLLVKRAIYTTFSIVFVVNALIY
-                     LGRAPVSFWTIKFMNESHEKEMSFWDIAEYPDFSWWFFKPWPTSFFDPSRGNRGNRFI
-                     KNSRFDLNSSFYRGKTSTYFFKKCLTDGKQRLCIAASPSLSIFEKRLEKSLMGSHKFV
-                     GAYSSYRGWILHKLVKNKIFQKELVDRVKLLDTGSPFSKAMGRKIRLISESKRRVPHV
-                     YDPFISNLRVRIPVPQTFLTGDELGSTRWDWTELETREKIKRGRDAATTKKNLIEDRI
-                     SSSNGGLRWGGRNPLPWEILPAKAQRMFQFMFKNRVSYDYDVQKILRRIKSPSGPAVT
-                     WEEVMNLDPEDRALFLTYIEEQENCYKFDQIFLSNRFLVSSRKRPLNPKKGVRTLHKI
-                     YDLSANLARNNEQHFDTEFDFPGADGDIRHRKLRNVGFTFAKGKPRSTKLVKRYARIS
-                     DFRRKFLKGSMRSRRRKTLLWKALQEKVRSAFFLRLVEIPISLQLPVEQLTGSNAEKS
-                     STSSKKITDYHLGQQLTTSSLTKKTLSQSKLARSVVAARSDIGPIHNGRGYMLVFQSK
-                     FRKFVKLPVLIVLKTIGRILPRQNSEWNKDWTKWKKEIHINCTFDGEEFSQDQLPPRW
-                     LREGIQVKIVYPFQLKPWHSSEDKKRLTPQNKCMKADPVGDHKSKSKHGLKRRRPRFT
-                     YLTALGYQTNIPFGSIRKQPSFWRPVRKKLIRTCREGFSLGTKQAYRFIDSKFNLGKM
-                     LKPSLILIEEFNLFFKAGRVSADSVSTSNTRIRPVFTSDANEIVELNLNFDRDKHGES
-                     FDLDEEVQLASDINKQLVSQKSTSNKFLANSYVTGLPNPLSRGVDPDQPYTETTQVDE
-                     LTSNYTSKDTDFANFTKFDEEELKSFKEMTLKLNILIAEAIEKSLLVTSISYLKVNRY
-                     LCYYFNELVALRAQLVEVINTTIQEAYLVLPRSRSRFSRFGKNQRLPQAYPYNSIWDL
-                     GVDKNLDLNLLATGSRSSQEEKVEIDGGQSDELTPYQSEQSLAYSVNSSRLPVKYGST
-                     TSSSTEISNCADISFDGGTSHIPKELFSKHILKCIEEWGFLKKLCDLDASNWNKRLDC
-                     FPEYNLPVTLWRDVAPCRWRNSSDCSNELSGIEKKVANEQEYHALFLRGESHNYSIYA
-                     RKPLLRDRVRNLSRLRRRRYLLKGLIDFVRNGDIHKYSVRQDAAAQRFDCGSRTSKMT
-                     KVRGREMNRLSDFRTSDSEIKFNSKLDLMPWLVTDFARAKGGLSRKKIKRSRDPILRD
-                     NTIYGIVLDVSRRFQKVSDELYEIMLDEREDADYLFRWKWKSEAKLENLRSLTALAGM
-                     LGDDRDLVTLCANTCVDSQLLDLYFNARTKLGLFYDLSILSAHRLPILFDDQNLVYKV
-                     VNPLLKFKSRLRNRVEKRLYRKIYSDTYISKLSLVAAEVDGKRSHIYNIGDLLLPRRR
-                     REFRFLRSLLMSRSTKSGAHYFDSKFDPISEIEQTRGGKESDPSELREVQKVKRFLWP
-                     SHRLEELACTGRFCFNITTGSRFTILKIRMYPINRN"
+                     /trans_splicing
      gene            complement(121044..126158)
                      /gene="ycf1"
      CDS             complement(126525..127913)
@@ -1658,97 +1004,36 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="protochlorophyllide reductase ChlN subunit"
-                     /protein_id="ALN96668.1"
-                     /db_xref="GI:952009491"
-                     /translation="MKTLEIPTFECETGNYHTFCPISCVAWLYQKIEDSFFLVVGTKT
-                     RGYFLQNAPGVMIFAEPRYAMAESEEGDISAQLNDQKELERICLRIKNDRNPSVTIWI
-                     GTCTTEIIKMDLEGIAPKLEKQLGIPIVVARANGLDHAFTQGEDTVLAAMTHRCPEYN
-                     RHTTNQHEEATKHVVVDVVPKNKFLAGNNNNNSNRFNLVLFGSLPSSVASQLNLELRR
-                     QSVSVSGWLPSQKYTELPALGEGVYVCGVNPFLSRTATTPMRRRKCQLVGAPFPIGPD
-                     GTRAWIEKICSVFDVKPEGLEERENQIWKNVGDYLEIITGKSVFFMGDNLLEISLARF
-                     LIRCGMVVYEVGIPYMDRRYQAAELLLLQHTCEKMKKPTPRIVEKPDNYSQVQRMHEL
-                     KPDLAITGMAHANPLEARDIDTKWSVEFTFAQIHGSANVRDVLELVTRPLRRRGDSVS
-                     GWHSLSRQTIDF"
+                     /trans_splicing
      gene            complement(126525..127913)
                      /gene="chlN"
      CDS             complement(127979..128881)
                      /gene="chlL"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="protochlorophyllide reductase ATP-binding
                      subunit"
-                     /protein_id="ALN96667.1"
-                     /db_xref="GI:952009490"
-                     /translation="MKVAVYGKGGIGKSTTSCNISIALARRGRRILQIGCDPKHDSTF
-                     TLTGFLIPTIIDTSQSKDYHYEDVWPEDVIHRGYGGVDCVEAGGPPAGAGCGGYVVGE
-                     TVKLLKESNAFYEYDIILFDVLGDVVCGGFAAPLNYADYCIIITDNGFDALFAANRIA
-                     ASVREKAHTHPLRLAGLVGNRTSERDLINKYVEACPMPVLEVLPLVEDIRVSRVKGKT
-                     LFEMAECQPNLNFVCDFYSNIADQTLSKPEGIVPREIPDRELFSLLSDFYLNPNSEKT
-                     GKNQNDRQDTLHGQQDTPLGFTII"
+                     /trans_splicing
      gene            complement(127979..128881)
                      /gene="chlL"
      tRNA            129323..129394
                      /gene="trnN-GUU"
                      /product="tRNA-Asn"
                      /note="anticodon:GUU"
-                     /transcription="TCCTCGGTAGCTCAGCGGTAGAGCGGTCGGCTGTTAACCGAT
-                     TGGTCGTAGGTTCGAATCCTACCCGGGGAG"
      gene            129323..129394
                      /gene="trnN-GUU"
      CDS             complement(129997..136293)
                      /gene="ycf2"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="conserved hypothetical chloroplast protein ycf2"
-                     /protein_id="ALN96742.1"
-                     /db_xref="GI:952009565"
-                     /translation="MKKENKVKKVAKERVGSPDFSSKISELVEVSLLDHFFESLKNQH
-                     LKEFLISPSSNYEPFIRLSDLCFLSSLFLRNLRDSIRRDSRITLEMLMLLTIPISMHC
-                     LSDKRSIERSFALAGVINGGDGVIKKQAENYGDFSCDRFPRFRRSSSVGKRGKRGIPV
-                     SHYLGLNGYISAGSTKKEKQVRYDAMIPLVSGRWEACVVRDSLLGRDISKDETERIQA
-                     FCRDRCLQNSSRFFKFYNYLVVSKNNQSDFDSLFFWKNHNKRDLGRLQATQLRNDSLS
-                     PVVLNLRDKALLESGNSADHRGDGSEFYFEREAFSNLSSFTSYEKTTSFRGCISGLDC
-                     DKNGEEFPTPHTFSQMKNGLINRLTKFISIIEKSNLIFDGAIVIDVSNSVKSGKGFPL
-                     KTKGDMPLTQISGKKLGLASSRHLDLDEIFPNYFQIFLGIPRKISNQSENTTFSNQLK
-                     EKGNIHSIYSLVRLYGRNRIIPLYSTYIFIFYDYFCALFTEYFFQIKYRLDGWTGSGE
-                     YTGVTRIAIEQIVLKWKDNVERLLNEYITSQIDEYRNVHSNVHRWLDTTGDSSLFPVG
-                     EVLKYDLEESICRVSIIINELLSNIGVSLGGNNQQNEKDFHRFLNTFFLYKMIVAEVT
-                     RQKALIYTMDYCIEKLNDIDIDLEKWNKIDLMKLDLLSSLFDGYIDEQILFLKTILEG
-                     KKSLFIESKLLMSKKSVGSSTELEPTVNPTSLGLPRIESIRAGFSNDDLSIAERQFWN
-                     PFLHDLNRGGGSTRDIGGNISRYISDQVNKLNFIDDSPLRNCAGSNFIPRIKRDFFIG
-                     RCNSSYLDVLENFYANSEDETISSSIISFIHPQLSDSLPFNLSRQTAGEVAGHVLTPI
-                     QFILSNLHQSTALVTHSDGLPNYISDLKRLLAGLNSSPRKTIESFLHSCSSTEVYLGK
-                     TSTSINSESSSDRRPQYRPENMVLDRVYQKNLSIRSFWEPEEMETSYWSLRLPLCNDA
-                     ASRSLAESIGKEVAREDTDYADQPIWKEAVRPSHFINFNELLKDLNRYKISWIFWKDN
-                     IGEKWSLFRDYIPWFFTPTWWRYFYDLIRETYPEIVLKISYDSNHHFPIIYKRIAEDV
-                     VDGAKAYLIQRLQSLGLRFDNDSINTIASEVSLLIFEEIPDEAEILHSVGWSASQFSN
-                     RSIFYYFILSVLIVLALFKHPLSAVSGFNSFHLWKRFNTIEYLTDPTRGSYLREVMYS
-                     PSTSQMATRDLLIYSLNRFLNYINNIIFFFFVKNELDSWMFHKESSDILDSKKELLTQ
-                     HLVTNKIIYRYVSKLNSNYDSLSNEISHEPYPQERSNVLAYLLQFWQNYLLSHKIRKL
-                     DPAEKWAFSALERDILFSVTTRRRGGLLNMPCHDIPISLQSGLLPSKGILLVGPIETG
-                     RSSIIRDVAFDSYFPVVKLPMEKLIYNRSFFNNARGNFISKESVHRLNFVFEMAKEMS
-                     PRILWIQDIHELNIHRSYHKLEADPKFLLCQILKSIGDRRSNSNIRRNVVIATTHVPA
-                     RIDPAPIAPNRLNQLINFRKSNGYQRHKELSILLRIKGCEMEANPPLPLIEGIGSGTT
-                     GYSKRDLFLLANEALLIGTSRRSKIICSDAIELALHRQHSTASDMGNGIESGSEWEIF
-                     SHEIAEATPKNSLIDTYLTNTYIGRNALKMRFYYLSNWYVEPSITKSTFNEFTLFSHI
-                     LGILAGLVARDSLQMDMRKKENFTVIDKLVENDLNLACGVLENLSTKFSRSDICEDES
-                     RHSNSNSLSFSVPIAKPKYCSGVASTSRSSKFMRKKGFSSLTDFELQQSPELINSSPT
-                     EVSREITWSHKAWRLRFLRSGAYELMRVLSEPNHLHNLILLYQNQNYIPQQDFEFNKI
-                     KGDKSKWCGKSGYLFNSEKSGTNVPDQDIKRLENRLDNMSLREQFLELGISGDSSNEY
-                     ETHCNRFDETTRLFGGRFIWDPMLLFQPDANIPSSRRSLLPTKEVARRLYTIYGMRKQ
-                     HLNKMSNKKIKNFFLYREDNPKLKPDSSIKQWNNLPVDEEEQDSEYVKETSSMDIHLQ
-                     YPQIFSPARFDSYMVVEDFPERFIRFRLLVHRNKWMGRNRCPFQDFLIYNMLLEIYQY
-                     LFNPFWFGGASPDLATRNFFHESS"
+                     /trans_splicing
      gene            complement(129997..136293)
                      /gene="ycf2"
      tRNA            complement(136545..136618)
                      /gene="trnH-GUG"
                      /product="tRNA-His"
                      /note="anticodon:GUG"
-                     /transcription="GCGGACGTAGCCAAGTGGATCAAGGCAATGGAGTGTGGATCC
-                     ATCACGCGCGGGTTCAATCCCCGTCGTTCGCC"
      gene            complement(136545..136618)
                      /gene="trnH-GUG"
      CDS             complement(137082..138143)
@@ -1756,28 +1041,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein D1"
-                     /protein_id="ALN96695.1"
-                     /db_xref="GI:952009518"
-                     /translation="MTATLERRESASLWGRFCDWITSTENRLYIGWFGVLMIPTLLTA
-                     TSVFIIAFVAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASV
-                     DEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAAAAVFLI
-                     YPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSL
-                     VTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLA
-                     AWPVVGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHER
-                     NAHNFPLDLASVEAPSING"
+                     /trans_splicing
      gene            complement(137082..138143)
                      /gene="psbA"
      CDS             complement(138689..139162)
                      /gene="rps7"
-                     /exception="RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S7"
-                     /protein_id="ALN96737.1"
-                     /db_xref="GI:952009560"
-                     /translation="MLHRSSVVNRKKNIESDPIYRNRLVNMLVDRILKNGKKSLAYQI
-                     FYQAMKRIRQKTNKNPLSVLRQAVRGVTPDVVTETKRVGGSTYRVPVEVVPAEGKALA
-                     IRWSLIACRKRSGRSMALRSSDESMDAARNSGSAIRKREETHKVAEANKAFAHFR"
+                     /trans_splicing
      gene            complement(138689..139162)
                      /gene="rps7"
      exon            complement(139228..139253)
@@ -1786,11 +1058,6 @@ FEATURES             Location/Qualifiers
      exon            complement(139832..140063)
                      /gene="rps12"
                      /number=2
-     CDS             141638..142922
-                     /created_by="robis"
-                     /Transferred_From="ycf-PTE"
-                     /Transferred_Similarity="45.57%"
-                     /label="ycf-PTE"
      rRNA            143265..144764
                      /gene="rrn16"
                      /product="16S ribosomal RNA"
@@ -1800,8 +1067,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnI-GAU"
                      /product="tRNA-Ile"
                      /note="anticodon:GAU"
-                     /transcription="GGGCTATTAGCTCAGCGGTAGAGCGCGCCCCTGATACGGGCG
-                     AGGTCTCTGGTTCAAGCCCAGGATGGCCCA"
      exon            145067..145102
                      /gene="trnI-GAU"
                      /number=1
@@ -1814,8 +1079,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnA-UGC"
                      /product="tRNA-Ala"
                      /note="anticodon:UGC"
-                     /transcription="GGGGATATAGCTCAGTTGGTAGAGCGCCGCCCTTGCATGGCG
-                     GATGCCAGCGGTTCGAGTCCGCTTATCTCCA"
      exon            146245..146281
                      /gene="trnA-UGC"
                      /number=1
@@ -1843,8 +1106,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnR-ACG"
                      /product="tRNA-Arg"
                      /note="anticodon:ACG"
-                     /transcription="GGGCCTGTAGCTCAGGGGATTAGAGCACGTGGCTACGAACCA
-                     CGGTGTCGGGGGTTCGAATCCCTCCTCGCCCG"
      gene            151022..151095
                      /gene="trnR-ACG"
      tRNA            join(complement(152339..152372),
@@ -1852,8 +1113,6 @@ FEATURES             Location/Qualifiers
                      /gene="trnT-UGU"
                      /product="tRNA-Thr"
                      /note="anticodon:UGU"
-                     /transcription="TCACTCGTCTATTCCGGGGGAGATATAATTATTTGTACCGCG
-                     TAGTACGGAGGTTCGAATCCTATGCGAGGCGT"
      exon            complement(151815..151854)
                      /gene="trnT-UGU"
                      /number=2
