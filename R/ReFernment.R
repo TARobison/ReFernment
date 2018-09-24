@@ -29,7 +29,7 @@
 #'
 #' @author Tanner Robison
 #' @examples
-#' getwd()
+#' 
 #' genomes <- c("Asplenium_pek", "Woodwardia_uni")
 #' gbFolder <- "/home/travis/build/TARobison/ReFernment/examples/GB/"
 #' gffFolder <- "/home/travis/build/TARobison/ReFernment/examples/GFF/"
@@ -50,11 +50,8 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     editGB_File <- function(genomeName){
         #this function acts as a wrapper for many of the other functions contained within ReFernment. It adds RNA editing annotations as well as conceptual translations for the gb file. 
         #the protein fasta file is also made here. 
-       # browser()
         proteinFasta <- matrix(NA, 1,3)
         for(i in 1:nrow(annotations)){
-            #if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
-            #if(gb[737] == "     CDS             complement(108990..111803)"){cat(i, "did a bad, bad thing!")}
             gene <- getGeneName(annotations[i,])
             if(annotations$type[i] == "CDS"){
                 exonIndex <- getNumberOfExons(annotations, i)
@@ -216,16 +213,14 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
     annotateTranslation <- function(annotatedTranslation, RNAediting, annotations,  gb,i){
         #edits GB file to add RNA editing qualifiers as well as conceptual translations.
         exonIndex <- getNumberOfExons(annotations, i)
-        #if(identical(getGeneName(annotations[i,]), "NADH dehydrogenase subunit 2 CDS")){browser()}
         if(isTRUE(as.logical(RNAediting))){
             gbInsert <- paste('/translation="',annotatedTranslation, '"\n                     /exception="RNA editing"',sep='')
         }else{
             gbInsert <- paste('/translation="',annotatedTranslation, '"',sep='')
         }
+      #  if(getGeneName(annotations[i,]) == "ndhA CDS"){browser()}
         if(length(exonIndex) > 1){
-            #
             if(length(exonIndex) >2){
-                #browser()
                 if(annotations[i[1], "strand"] == '-'){
                     gbstring<- paste('(\\s{21}complement\\(',annotations[exonIndex[length(exonIndex)],"start"],'.*)',sep='')  #annotations[exonIndex[length(exonIndex)],"start"]
                 }
@@ -235,6 +230,10 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             }else{
                 if(annotations[i[1], "strand"] == '-'){
                     gbstring<- paste('(CDS\\s*join\\(complement\\(',annotations[exonIndex[1],"start"],'.*)',sep='')  #annotations[exonIndex[length(exonIndex)],"start"]
+                    additionalLine <- grep(paste('(\\s{21}complement\\(', annotations$start[exonIndex[2]], ')', sep =''), gb)
+                    if(length(additionalLine) != 0){
+                    gbstring <- paste('(\\s{21}complement\\(', annotations$start[exonIndex[2]], '.*)', sep ='')
+                    }   
                 }
                 if(annotations[i[1],"strand"] == '+'){
                     gbstring<-paste('(CDS\\s*join\\(',annotations[i,"start"],'.*)',sep='')
@@ -242,9 +241,12 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             }
         }else{
             if(annotations[i[1], "strand"] == '-'){
-             #   browser()
                 gbstring<- paste('(CDS\\s*complement\\(',annotations[i,"start"],'\\.\\.',annotations[i,"end"],'\\))',sep='')
-                ##tanner was here
+                additionalLine <- grep(paste('(\\s{21}complement\\(', annotations$start[exonIndex[2]], ')', sep =''), gb)
+               # browser()
+                if(length(additionalLine) != 0){
+                    gbstring <- paste('(\\s{21}complement\\(', annotations$start[exonIndex[2]], '.*)', sep ='')
+                }
             }
             if(annotations[i[1],"strand"] == '+'){
                 gbstring<-paste('(CDS\\s*',annotations[i,"start"],'\\.\\.',annotations[i,"end"],')',sep='')
@@ -261,7 +263,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         originalGB <- gb
         if(any(substr(CDS, 1, 3) == conventionalStarts)){
             out <- list(gb, annotations)
-             #if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
             return(out)
         }
         possibleEditedStarts <- c('ACG')
@@ -312,7 +313,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     extendDownstream <- function(annotations, dnachar, gb, i){
         #if the stop codon is not valid, this function may extend the downstream end of gene to check if valid stop lies nearby
-        ####### if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
         if(annotations$strand[i[1]] == '-'){
             CDS <- getCodingSequence(annotations[i,], dnachar, (annotations$start[i]-30), annotations$end[i])
         }
@@ -350,7 +350,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
 
     extendUpstream <- function(annotations,dnachar, gb, i){
         #if the start codon is not valid, this function may extend the upstream end of gene to check if valid start codon lies nearby
-        #if(identical(getGeneName(annotations[i,]), "ndhF")){browser()}
         if(annotations$strand[i[1]] == '-'){
             CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i]+18)
         }
@@ -364,8 +363,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
             if(any(codonList[j] == conventionalStarts)){
                 if(annotations$strand[i[1]] == '-'){
                     newStart <- annotations$end[i[1]] + count*3
-                    #this is the fucking spot
-                    #browser()
                     gbstring <- paste('\\.\\.',annotations$end[i[1]], '\\)',sep='')
                     gb <- sub(gbstring, paste('\\.\\.', newStart[1], ')', sep=''), gb, perl = TRUE)
                     annotations$end[i[1]] <- newStart
@@ -667,7 +664,6 @@ ReFernment <- function(gbFolderPath, gffFolderPath, outFolderPath, genomes){
         protein <- as.data.frame(read.csv(paste(output, ".csv", sep='')))
         protein <- protein[-1,]
         protein <- arrange(protein, X)
-        #gb <- readLines(paste(output, ".gb", sep=''))
         proteinFasta <- ""
         for(i in 1:nrow(protein)){
             line <- grep(protein$protein[i], gb)
