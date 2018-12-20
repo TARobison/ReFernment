@@ -1,0 +1,6227 @@
+>Feature AB086179				
+268	346	tRNA		
+			gene	"trnL"
+			product	"tRNA-Leu"
+			note	"codon recognized: UUG"
+			anticodon	"(pos:303..305,aa:Leu,seq:caa)"
+268	346	gene		
+			gene	"trnL"
+832	936	CDS		
+			gene	"psbM"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II M-protein"
+			db_xref	"GI:27807849"
+832	936	gene		
+			gene	"psbM"
+899	899	misc_feature		
+			gene	"psbM"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+904	904	misc_feature		
+			gene	"psbM"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+2613	2524	CDS		
+			gene	"petN"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b/f complex subunit VIII"
+			db_xref	"GI:27807850"
+2613	2524	gene		
+			gene	"petN"
+3117	3047	tRNA		
+			gene	"trnC"
+			product	"tRNA-Cys"
+			note	"codon recognized: UGC"
+			anticodon	"(pos:complement(3083..3085),aa:Cys,seq:gca)"
+3117	3047	gene		
+			gene	"trnC"
+3621	3621	misc_feature		
+			note	"putative U to C RNA editing"
+4746	4746	misc_feature		
+			note	"putative U to C RNA editing"
+6402	6402	misc_feature		
+			note	"putative U to C RNA editing"
+6435	6435	misc_feature		
+			note	"putative U to C RNA editing"
+6627	6627	misc_feature		
+			note	"putative U to C RNA editing"
+3486	6701	CDS		
+			exception	"RNA editing"
+			gene	"rpoB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase beta subunit"
+			db_xref	"GI:27807851"
+3486	6701	gene		
+			gene	"rpoB"
+3621	3621	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+3724	3724	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+3934	3934	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+3939	3939	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4261	4261	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4366	4366	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4462	4462	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4659	4659	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4675	4675	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4726	4726	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4737	4737	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4746	4746	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+4752	4752	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5050	5050	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5077	5077	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5085	5085	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5109	5109	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5136	5136	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5206	5206	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5434	5434	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5440	5440	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5488	5488	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5640	5640	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5647	5647	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5677	5677	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5698	5698	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5701	5701	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5761	5761	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+5979	5979	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6009	6009	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6064	6064	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6121	6121	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6175	6175	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6190	6190	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6369	6369	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6391	6391	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6402	6402	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6435	6435	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6505	6505	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6553	6553	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6627	6627	misc_feature		
+			gene	"rpoB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6640	6640	misc_feature		
+			gene	"rpoB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6728	7159	exon		
+			gene	"rpoC1"
+			number	1
+6728	7159	CDS		
+7868	9481			
+			exception	"RNA editing"
+			gene	"rpoC1"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase beta' subunit"
+			db_xref	"GI:27807852"
+6728	7159	gene		
+7160	7867			
+7868	9481			
+			gene	"rpoC1"
+6855	6855	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6894	6894	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+6986	6986	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+7095	7095	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+7160	7867	intron		
+			gene	"rpoC1"
+			number	1
+7868	9481	exon		
+			gene	"rpoC1"
+			number	2
+8147	8147	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8244	8244	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8253	8253	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8304	8304	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8321	8321	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8439	8439	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8456	8456	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8462	8462	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8466	8466	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8499	8499	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8537	8537	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8558	8558	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8586	8586	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8604	8604	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8628	8628	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8652	8652	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8738	8738	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8805	8805	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8832	8832	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8864	8864	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8877	8877	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8892	8892	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8915	8915	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+8970	8970	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9003	9003	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9077	9077	misc_feature		
+			gene	"rpoC1"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9393	9393	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9396	9396	misc_feature		
+			gene	"rpoC1"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9741	9741	misc_feature		
+			note	"putative U to C RNA editing"
+9936	9936	misc_feature		
+			note	"putative U to C RNA editing"
+10008	10008	misc_feature		
+			note	"putative U to C RNA editing"
+10023	10023	misc_feature		
+			note	"putative U to C RNA editing"
+10068	10068	misc_feature		
+			note	"putative U to C RNA editing"
+10182	10182	misc_feature		
+			note	"putative U to C RNA editing"
+10269	10269	misc_feature		
+			note	"putative U to C RNA editing"
+10578	10578	misc_feature		
+			note	"putative U to C RNA editing"
+10665	10665	misc_feature		
+			note	"putative U to C RNA editing"
+12090	12090	misc_feature		
+			note	"putative U to C RNA editing"
+12363	12363	misc_feature		
+			note	"putative U to C RNA editing"
+13200	13200	misc_feature		
+			note	"putative U to C RNA editing"
+13377	13377	misc_feature		
+			note	"putative U to C RNA editing"
+9600	13937	CDS		
+			exception	"RNA editing"
+			gene	"rpoC2"
+			exception	"RNA editing"
+			note	"GTG start codon"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase beta'' subunit"
+			db_xref	"GI:27807853"
+9600	13937	gene		
+			gene	"rpoC2"
+9626	9626	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9724	9724	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9741	9741	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9796	9796	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9880	9880	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9931	9931	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+9936	9936	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10008	10008	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10023	10023	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10029	10029	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10065	10065	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10066	10066	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10068	10068	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10182	10182	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10189	10189	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10209	10209	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10269	10269	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10429	10429	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10578	10578	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10582	10582	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10621	10621	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10639	10639	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10665	10665	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+10893	10893	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11422	11422	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11438	11438	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11460	11460	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11495	11495	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11593	11593	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11617	11617	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11634	11634	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11657	11657	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11768	11768	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11777	11777	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+11980	11980	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+12090	12090	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+12363	12363	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13135	13135	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13200	13200	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13215	13215	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13374	13374	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13377	13377	misc_feature		
+			gene	"rpoC2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13477	13477	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13531	13531	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+13618	13618	misc_feature		
+			gene	"rpoC2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14694	14694	misc_feature		
+			note	"putative U to C RNA editing"
+14697	14697	misc_feature		
+			note	"putative U to C RNA editing"
+14862	14862	misc_feature		
+			note	"putative U to C RNA editing"
+14187	14894	CDS		
+			exception	"RNA editing"
+			gene	"rps2"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S2"
+			db_xref	"GI:27807854"
+14187	14894	gene		
+			gene	"rps2"
+14201	14201	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14272	14272	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14273	14273	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14293	14293	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14343	14343	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14500	14500	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14548	14548	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14671	14671	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14683	14683	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14694	14694	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14697	14697	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14734	14734	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14775	14775	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14824	14824	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14827	14827	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14839	14839	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14848	14848	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14860	14860	misc_feature		
+			gene	"rps2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+14862	14862	misc_feature		
+			gene	"rps2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15176	15176	misc_feature		
+			note	"putative U to C RNA editing"
+15218	15218	misc_feature		
+			note	"putative U to C RNA editing"
+15281	15281	misc_feature		
+			note	"putative U to C RNA editing"
+15362	15362	misc_feature		
+			note	"putative U to C RNA editing"
+15788	15788	misc_feature		
+			note	"putative U to C RNA editing"
+15107	15853	CDS		
+			exception	"RNA editing"
+			gene	"atpI"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATPase synthase IV subunit"
+			db_xref	"GI:27807855"
+15107	15853	gene		
+			gene	"atpI"
+15176	15176	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15212	15212	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15218	15218	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15225	15225	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15236	15236	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15264	15264	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15270	15270	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15281	15281	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15362	15362	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15419	15419	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15420	15420	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15423	15423	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15450	15450	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15528	15528	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15542	15542	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15657	15657	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15765	15765	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15788	15788	misc_feature		
+			gene	"atpI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+15801	15801	misc_feature		
+			gene	"atpI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16731	16731	misc_feature		
+			note	"putative C to U RNA editing"
+16829	16829	misc_feature		
+			note	"putative U to C RNA editing"
+16853	16853	misc_feature		
+			note	"putative U to C RNA editing"
+16730	16975	CDS		
+			exception	"RNA editing"
+			gene	"atpH"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATPase III subunit"
+			db_xref	"GI:27807856"
+16730	16975	gene		
+			gene	"atpH"
+16731	16731	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16761	16761	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16791	16791	misc_feature		
+			gene	"atpH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16799	16799	misc_feature		
+			gene	"atpH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16800	16800	misc_feature		
+			gene	"atpH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16829	16829	misc_feature		
+			gene	"atpH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16848	16848	misc_feature		
+			gene	"atpH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16853	16853	misc_feature		
+			gene	"atpH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16887	16887	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16893	16893	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16905	16905	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16938	16938	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16950	16950	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16952	16952	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16953	16953	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16956	16956	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+16968	16968	misc_feature		
+			gene	"atpH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+17318	17462	exon		
+			gene	"atpF"
+			number	1
+17318	17462	CDS		
+18210	18619			
+			exception	"RNA editing"
+			gene	"atpF"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATPase I subunit"
+			db_xref	"GI:27807857"
+17318	17462	gene		
+17463	18209			
+18210	18619			
+			gene	"atpF"
+17334	17334	misc_feature		
+			gene	"atpF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+17336	17336	misc_feature		
+			gene	"atpF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+17407	17407	misc_feature		
+			gene	"atpF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+17463	18209	intron		
+			gene	"atpF"
+			number	1
+17466	17466	misc_feature		
+			gene	"atpF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+17736	17736	misc_feature		
+			gene	"atpF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+17929	17929	misc_feature		
+			gene	"atpF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18210	18619	exon		
+			gene	"atpF"
+			number	2
+18277	18277	misc_feature		
+			gene	"atpF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18297	18297	misc_feature		
+			gene	"atpF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18479	18479	misc_feature		
+			gene	"atpF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18531	18531	misc_feature		
+			gene	"atpF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18726	18726	misc_feature		
+			note	"putative U to C RNA editing"
+19461	19461	misc_feature		
+			note	"putative U to C RNA editing"
+19467	19467	misc_feature		
+			note	"putative U to C RNA editing"
+19794	19794	misc_feature		
+			note	"putative U to C RNA editing"
+19935	19935	misc_feature		
+			note	"putative U to C RNA editing"
+20019	20019	misc_feature		
+			note	"putative U to C RNA editing"
+18663	20186	CDS		
+			exception	"RNA editing"
+			gene	"atpA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATPase alpha subunit"
+			db_xref	"GI:27807858"
+18663	20186	gene		
+			gene	"atpA"
+18726	18726	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18783	18783	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18829	18829	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18889	18889	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18976	18976	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18981	18981	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+18988	18988	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19066	19066	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19099	19099	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19141	19141	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19146	19146	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19399	19399	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19411	19411	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19435	19435	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19461	19461	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19467	19467	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19654	19654	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19711	19711	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19794	19794	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19810	19810	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19935	19935	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+19999	19999	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+20019	20019	misc_feature		
+			gene	"atpA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+20143	20143	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+20167	20167	misc_feature		
+			gene	"atpA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+20437	20366	tRNA		
+			gene	"trnR"
+			product	"tRNA-Arg"
+			note	"codon recognized: AGA"
+			anticodon	"(pos:complement(20402..20404),aa:Arg,seq:tct)"
+20437	20366	gene		
+			gene	"trnR"
+21382	21360	tRNA		
+20652	20605			
+			gene	"trnG"
+			product	"tRNA-Gly"
+			note	"codon recognized: GGA"
+			anticodon	"(pos:complement(20641..20643),aa:Gly,seq:tcc)"
+20652	20605	exon		
+			gene	"trnG"
+			number	2
+21382	21360	gene		
+20652	20605			
+			gene	"trnG"
+21382	21360	gene		
+21359	20653			
+20652	20605			
+			gene	"trnG"
+21359	20653	intron		
+			gene	"trnG"
+			number	1
+21382	21360	exon		
+			gene	"trnG"
+			number	1
+21724	21623	CDS		
+			gene	"ycf12"
+			codon_start	1
+			transl_table	11
+			product	"Ycf12 protein"
+			db_xref	"GI:27807859"
+21724	21623	gene		
+			gene	"ycf12"
+22253	22351	CDS		
+			gene	"psaM"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I M-protein"
+			db_xref	"GI:27807860"
+22253	22351	gene		
+			gene	"psaM"
+22598	22685	tRNA		
+			gene	"trnS"
+			product	"tRNA-Ser"
+			note	"codon recognized: AGC"
+			anticodon	"(pos:22632..22634,aa:Ser,seq:gct)"
+22598	22685	gene		
+			gene	"trnS"
+22897	22787	CDS		
+			gene	"psbI"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II I-protein"
+			db_xref	"GI:27807861"
+22897	22787	gene		
+			gene	"psbI"
+24260	24093	CDS		
+			gene	"psbK"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II K-protein"
+			db_xref	"GI:27807862"
+24260	24093	gene		
+			gene	"psbK"
+24202	24202	misc_feature		
+			gene	"psbK"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+24211	24211	misc_feature		
+			gene	"psbK"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+24545	24616	tRNA		
+			gene	"trnQ"
+			product	"tRNA-Gln"
+			note	"codon recognized: CAA"
+			anticodon	"(pos:24577..24579,aa:Gln,seq:ttg)"
+24545	24616	gene		
+			gene	"trnQ"
+25220	25220	misc_feature		
+			note	"putative U to C RNA editing"
+25235	25235	misc_feature		
+			note	"putative U to C RNA editing"
+25247	25247	misc_feature		
+			note	"putative U to C RNA editing"
+25259	25259	misc_feature		
+			note	"putative U to C RNA editing"
+25607	25607	misc_feature		
+			note	"putative U to C RNA editing"
+25685	25685	misc_feature		
+			note	"putative U to C RNA editing"
+25688	25688	misc_feature		
+			note	"putative U to C RNA editing"
+24839	26380	CDS		
+			exception	"RNA editing"
+			gene	"chlB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"protochlorophyllide reductase 58 kDa chain"
+			db_xref	"GI:27807863"
+24839	26380	gene		
+			gene	"chlB"
+24929	24929	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+24935	24935	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+24936	24936	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+24998	24998	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25110	25110	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25116	25116	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25137	25137	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25149	25149	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25200	25200	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25217	25217	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25220	25220	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25235	25235	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25247	25247	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25259	25259	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25353	25353	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25400	25400	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25494	25494	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25575	25575	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25607	25607	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25685	25685	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25688	25688	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25710	25710	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+25971	25971	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+26040	26040	misc_feature		
+			gene	"chlB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+26057	26057	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+26253	26253	misc_feature		
+			gene	"chlB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+26598	26637	exon		
+			gene	"rps16"
+			number	1
+26598	26637	CDS		
+27500	27714			
+			gene	"rps16"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S16"
+			db_xref	"GI:27807864"
+26598	26637	gene		
+26638	27499			
+27500	27714			
+			gene	"rps16"
+26638	27499	intron		
+			gene	"rps16"
+			number	1
+27500	27714	exon		
+			gene	"rps16"
+			number	2
+27572	27572	misc_feature		
+			gene	"rps16"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27573	27573	misc_feature		
+			gene	"rps16"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27625	27625	misc_feature		
+			gene	"rps16"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27626	27626	misc_feature		
+			gene	"rps16"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27629	27629	misc_feature		
+			gene	"rps16"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27671	27671	misc_feature		
+			gene	"rps16"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27724	27879	CDS		
+			gene	"ORF51"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"hypothetical protein"
+			db_xref	"GI:27807865"
+27724	27879	gene		
+			gene	"ORF51"
+27746	27746	misc_feature		
+			gene	"ORF51"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27784	27784	misc_feature		
+			gene	"ORF51"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+27791	27791	misc_feature		
+			gene	"ORF51"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+28754	28790	tRNA		
+31345	31379			
+			gene	"trnK"
+			product	"tRNA-Lys"
+			note	"codon recognized: AAG; anticodon (UUC) is convertedto UUU by RNA editing"
+			anticodon	"(pos:28786..28788,aa:Lys,seq:ttc)"
+28754	28790	exon		
+			gene	"trnK"
+			number	1
+28754	28790	gene		
+28791	31344			
+31345	31379			
+			gene	"trnK"
+28754	28790	gene		
+31345	31379			
+			gene	"trnK"
+28788	28788	misc_feature		
+			gene	"trnK"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+28791	31344	intron		
+			gene	"trnK"
+			number	1
+30094	30094	misc_feature		
+			note	"putative U to C RNA editing"
+30145	30145	misc_feature		
+			note	"putative U to C RNA editing"
+30172	30172	misc_feature		
+			note	"putative U to C RNA editing"
+30205	30205	misc_feature		
+			note	"putative U to C RNA editing"
+30241	30241	misc_feature		
+			note	"putative U to C RNA editing"
+30283	30283	misc_feature		
+			note	"putative U to C RNA editing"
+30289	30289	misc_feature		
+			note	"putative U to C RNA editing"
+30316	30316	misc_feature		
+			note	"putative U to C RNA editing"
+30331	30331	misc_feature		
+			note	"putative U to C RNA editing"
+30424	30424	misc_feature		
+			note	"putative U to C RNA editing"
+30469	30469	misc_feature		
+			note	"putative U to C RNA editing"
+30526	30526	misc_feature		
+			note	"putative U to C RNA editing"
+30535	30535	misc_feature		
+			note	"putative U to C RNA editing"
+30598	30598	misc_feature		
+			note	"putative U to C RNA editing"
+30619	30619	misc_feature		
+			note	"putative U to C RNA editing"
+30625	30625	misc_feature		
+			note	"putative U to C RNA editing"
+30646	30646	misc_feature		
+			note	"putative U to C RNA editing"
+30718	30718	misc_feature		
+			note	"putative U to C RNA editing"
+30730	30730	misc_feature		
+			note	"putative U to C RNA editing"
+30754	30754	misc_feature		
+			note	"putative U to C RNA editing"
+30781	30781	misc_feature		
+			note	"putative U to C RNA editing"
+30784	30784	misc_feature		
+			note	"putative U to C RNA editing"
+30793	30793	misc_feature		
+			note	"putative U to C RNA editing"
+30802	30802	misc_feature		
+			note	"putative U to C RNA editing"
+30850	30850	misc_feature		
+			note	"putative U to C RNA editing"
+30856	30856	misc_feature		
+			note	"putative U to C RNA editing"
+30898	30898	misc_feature		
+			note	"putative U to C RNA editing"
+30913	30913	misc_feature		
+			note	"putative U to C RNA editing"
+30919	30919	misc_feature		
+			note	"putative U to C RNA editing"
+30952	30952	misc_feature		
+			note	"putative U to C RNA editing"
+31021	31021	misc_feature		
+			note	"putative U to C RNA editing"
+29995	31104	CDS		
+			exception	"RNA editing"
+			gene	"trnK"
+			note	"matK pseudogene"
+			codon_start	1
+			transl_table	11
+			product	"maturase"
+31345	31379	exon		
+			gene	"trnK"
+			number	2
+31895	32956	CDS		
+			gene	"psbA"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II 32 kDa protein"
+			db_xref	"GI:27807866"
+31895	32956	gene		
+			gene	"psbA"
+33134	33208	tRNA		
+			gene	"trnH"
+			product	"tRNA-His"
+			note	"codon recognized: CAC"
+			anticodon	"(pos:33169..33171,aa:His,seq:gtg)"
+33134	33208	gene		
+			gene	"trnH"
+34719	34719	misc_feature		
+			note	"putative U to C RNA editing"
+35919	35919	misc_feature		
+			note	"putative U to C RNA editing"
+36270	36270	misc_feature		
+			note	"putative U to C RNA editing"
+37080	37080	misc_feature		
+			note	"putative U to C RNA editing"
+37452	37452	misc_feature		
+			note	"putative U to C RNA editing"
+39102	39102	misc_feature		
+			note	"putative U to C RNA editing"
+40161	40161	misc_feature		
+			note	"putative U to C RNA editing"
+40608	40608	misc_feature		
+			note	"putative U to C RNA editing"
+33690	40868	CDS		
+			exception	"RNA editing"
+			gene	"ycf2"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"Ycf2 protein"
+			db_xref	"GI:27807867"
+33690	40868	gene		
+			gene	"ycf2"
+34719	34719	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+35919	35919	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+36270	36270	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+37080	37080	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+37452	37452	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+38749	38749	misc_feature		
+			gene	"ycf2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+38932	38932	misc_feature		
+			gene	"ycf2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+39102	39102	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+40161	40161	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+40608	40608	misc_feature		
+			gene	"ycf2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+42712	42639	tRNA		
+			gene	"trnD"
+			product	"tRNA-Asp"
+			note	"codon recognized: GAC"
+			anticodon	"(pos:complement(42676..42678),aa:Asp,seq:gtc)"
+42712	42639	gene		
+			gene	"trnD"
+42971	42890	tRNA		
+			gene	"trnY"
+			product	"tRNA-Tyr"
+			note	"codon recognized: UAC"
+			anticodon	"(pos:complement(42935..42937),aa:Tyr,seq:gta)"
+42971	42890	gene		
+			gene	"trnY"
+43172	43100	tRNA		
+			gene	"trnE"
+			product	"tRNA-Glu"
+			note	"codon recognized: GAA"
+			anticodon	"(pos:complement(43136..43138),aa:Glu,seq:ttc)"
+43172	43100	gene		
+			gene	"trnE"
+43572	43572	misc_feature		
+			note	"putative C to U RNA editing"
+43784	43784	misc_feature		
+			note	"putative U to C RNA editing"
+43931	43931	misc_feature		
+			note	"putative U to C RNA editing"
+44072	44072	misc_feature		
+			note	"putative U to C RNA editing"
+44147	44147	misc_feature		
+			note	"putative U to C RNA editing"
+44606	44606	misc_feature		
+			note	"putative U to C RNA editing"
+43571	44716	CDS		
+			exception	"RNA editing"
+			gene	"cysA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"sulfate transport ATP-binding protein"
+			db_xref	"GI:27807868"
+43571	44716	gene		
+			gene	"cysA"
+43572	43572	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43581	43581	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43623	43623	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43667	43667	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43671	43671	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43784	43784	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43809	43809	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43827	43827	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43854	43854	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43931	43931	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+43937	43937	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44031	44031	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44034	44034	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44036	44036	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44037	44037	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44058	44058	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44072	44072	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44147	44147	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44157	44157	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44267	44267	misc_feature		
+			gene	"cysA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44454	44454	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+44606	44606	misc_feature		
+			gene	"cysA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+48640	48711	tRNA		
+			gene	"trnT"
+			product	"tRNA-Thr"
+			note	"codon recognized: ACC"
+			anticodon	"(pos:48672..48674,aa:Thr,seq:ggt)"
+48640	48711	gene		
+			gene	"trnT"
+50443	50443	misc_feature		
+			note	"putative U to C RNA editing"
+50590	50590	misc_feature		
+			note	"putative U to C RNA editing"
+50032	51093	CDS		
+			exception	"RNA editing"
+			gene	"psbD"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II D2 protein"
+			db_xref	"GI:27807869"
+50032	51093	gene		
+			gene	"psbD"
+50110	50110	misc_feature		
+			gene	"psbD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50206	50206	misc_feature		
+			gene	"psbD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50416	50416	misc_feature		
+			gene	"psbD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50443	50443	misc_feature		
+			gene	"psbD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50471	50471	misc_feature		
+			gene	"psbD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50570	50570	misc_feature		
+			gene	"psbD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50590	50590	misc_feature		
+			gene	"psbD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50674	50674	misc_feature		
+			gene	"psbD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50818	50818	misc_feature		
+			gene	"psbD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+50966	50966	misc_feature		
+			gene	"psbD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+52208	52208	misc_feature		
+			note	"putative U to C RNA editing"
+51041	52462	CDS		
+			exception	"RNA editing"
+			gene	"psbC"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II 44 kDa protein"
+			db_xref	"GI:27807870"
+51041	52462	gene		
+			gene	"psbC"
+51076	51076	misc_feature		
+			gene	"psbD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+51206	51206	misc_feature		
+			gene	"psbC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+51558	51558	misc_feature		
+			gene	"psbC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+51609	51609	misc_feature		
+			gene	"psbC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+51840	51840	misc_feature		
+			gene	"psbC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+52070	52070	misc_feature		
+			gene	"psbC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+52208	52208	misc_feature		
+			gene	"psbC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+52452	52452	misc_feature		
+			gene	"psbC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+52711	52624	tRNA		
+			gene	"trnS"
+			product	"tRNA-Ser"
+			note	"codon recognized: UCA"
+			anticodon	"(pos:complement(52675..52677),aa:Ser,seq:tga)"
+52711	52624	gene		
+			gene	"trnS"
+53095	53283	CDS		
+			gene	"psbZ"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II Z-protein"
+			db_xref	"GI:27807871"
+53095	53283	gene		
+			gene	"psbZ"
+53615	53685	tRNA		
+			gene	"trnG"
+			product	"tRNA-Gly"
+			note	"codon recognized: GGC"
+			anticodon	"(pos:53647..53649,aa:Gly,seq:gcc)"
+53615	53685	gene		
+			gene	"trnG"
+54099	54026	tRNA		
+			gene	"trnfM"
+			product	"tRNA-Met"
+			note	"codon recognized: AUG"
+			anticodon	"(pos:complement(54063..54065),aa:Met,seq:cat)"
+54099	54026	gene		
+			gene	"trnfM"
+54541	54239	CDS		
+			gene	"rps14"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S14"
+			db_xref	"GI:27807872"
+54541	54239	gene		
+			gene	"rps14"
+54264	54264	misc_feature		
+			gene	"rps14"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+54265	54265	misc_feature		
+			gene	"rps14"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+54294	54294	misc_feature		
+			gene	"rps14"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+54495	54495	misc_feature		
+			gene	"rps14"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56755	56755	misc_feature		
+			note	"putative U to C RNA editing"
+56569	56569	misc_feature		
+			note	"putative U to C RNA editing"
+56521	56521	misc_feature		
+			note	"putative U to C RNA editing"
+55657	55657	misc_feature		
+			note	"putative U to C RNA editing"
+55531	55531	misc_feature		
+			note	"putative U to C RNA editing"
+56884	54680	CDS		
+			exception	"RNA editing"
+			gene	"psaB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I P700 apoprotein A2"
+			db_xref	"GI:27807873"
+56884	54680	gene		
+			gene	"psaB"
+54687	54687	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+54729	54729	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+54745	54745	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55115	55115	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55128	55128	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55143	55143	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55383	55383	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55531	55531	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55593	55593	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+55657	55657	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56056	56056	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56121	56121	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56325	56325	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56360	56360	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56361	56361	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56508	56508	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56521	56521	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56569	56569	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56691	56691	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56755	56755	misc_feature		
+			gene	"psaB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+56870	56870	misc_feature		
+			gene	"psaB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+58934	58934	misc_feature		
+			note	"putative U to C RNA editing"
+58757	58757	misc_feature		
+			note	"putative U to C RNA editing"
+57200	57200	misc_feature		
+			note	"putative U to C RNA editing"
+59162	56910	CDS		
+			exception	"RNA editing"
+			gene	"psaA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I P700 apoprotein A1"
+			db_xref	"GI:27807874"
+59162	56910	gene		
+			gene	"psaA"
+57157	57157	misc_feature		
+			gene	"psaA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+57200	57200	misc_feature		
+			gene	"psaA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+57346	57346	misc_feature		
+			gene	"psaA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+57349	57349	misc_feature		
+			gene	"psaA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+57571	57571	misc_feature		
+			gene	"psaA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+58064	58064	misc_feature		
+			gene	"psaA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+58444	58444	misc_feature		
+			gene	"psaA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+58757	58757	misc_feature		
+			gene	"psaA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+58877	58877	misc_feature		
+			gene	"psaA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+58934	58934	misc_feature		
+			gene	"psaA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+59193	59193	misc_feature		
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+59839	59681	exon		
+			gene	"ycf3"
+			number	3
+61541	61541	misc_feature		
+			note	"putative U to C RNA editing"
+60736	60736	misc_feature		
+			note	"putative U to C RNA editing"
+59782	59782	misc_feature		
+			note	"putative U to C RNA editing"
+61628	61505	CDS		
+60822	60593			
+59839	59681			
+			exception	"RNA editing"
+			gene	"ycf3"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"Ycf3 protein"
+			db_xref	"GI:27807875"
+61628	61505	gene		
+61504	60823			
+60822	60593			
+60592	59840			
+59839	59681			
+			exception	"RNA editing"
+			gene	"ycf3"
+59742	59742	misc_feature		
+			gene	"ycf3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+59757	59757	misc_feature		
+			gene	"ycf3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+59782	59782	misc_feature		
+			gene	"ycf3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60592	59840	intron		
+			gene	"ycf3"
+			number	2
+60822	60593	exon		
+			gene	"ycf3"
+			number	2
+60603	60603	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60621	60621	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60630	60630	misc_feature		
+			gene	"ycf3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60633	60633	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60664	60664	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60672	60672	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60721	60721	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60736	60736	misc_feature		
+			gene	"ycf3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+60783	60783	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+61504	60823	intron		
+			gene	"ycf3"
+			number	1
+61628	61505	exon		
+			gene	"ycf3"
+			number	1
+61522	61522	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+61541	61541	misc_feature		
+			gene	"ycf3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+61564	61564	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+61600	61600	misc_feature		
+			gene	"ycf3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+62613	62698	tRNA		
+			gene	"trnS"
+			product	"tRNA-Ser"
+			note	"codon recognized: UCC"
+			anticodon	"(pos:62647..62649,aa:Ser,seq:gga)"
+62613	62698	gene		
+			gene	"trnS"
+63758	63758	misc_feature		
+			note	"putative U to C RNA editing"
+63656	63656	misc_feature		
+			note	"putative U to C RNA editing"
+63524	63524	misc_feature		
+			note	"putative U to C RNA editing"
+63947	63339	CDS		
+			exception	"RNA editing"
+			gene	"rps4"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S4"
+			db_xref	"GI:27807876"
+63947	63339	gene		
+			gene	"rps4"
+63524	63524	misc_feature		
+			gene	"rps4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63538	63538	misc_feature		
+			gene	"rps4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63568	63568	misc_feature		
+			gene	"rps4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63656	63656	misc_feature		
+			gene	"rps4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63658	63658	misc_feature		
+			gene	"rps4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63677	63677	misc_feature		
+			gene	"rps4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63712	63712	misc_feature		
+			gene	"rps4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+63758	63758	misc_feature		
+			gene	"rps4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+64377	64305	tRNA		
+			gene	"trnT"
+			product	"tRNA-Thr"
+			note	"codon recognized: ACA"
+			anticodon	"(pos:complement(64342..64344),aa:Thr,seq:tgt)"
+64377	64305	gene		
+			gene	"trnT"
+65051	65085	tRNA		
+65647	65696			
+			gene	"trnL"
+			product	"tRNA-Leu"
+			note	"codon recognized: UUA"
+65051	65085	exon		
+			gene	"trnL"
+			number	1
+65051	65085	gene		
+65086	65646			
+65647	65696			
+			gene	"trnL"
+65051	65085	gene		
+65647	65696			
+			gene	"trnL"
+65086	65646	intron		
+			gene	"trnL"
+			number	1
+65647	65696	exon		
+			gene	"trnL"
+			number	2
+66090	66162	tRNA		
+			gene	"trnF"
+			product	"tRNA-Phe"
+			note	"codon recognized: UUC"
+			anticodon	"(pos:66123..66125,aa:Phe,seq:gaa)"
+66090	66162	gene		
+			gene	"trnF"
+67138	66629	CDS		
+			gene	"ndhJ"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase 30 kDa subunit"
+			db_xref	"GI:27807877"
+67138	66629	gene		
+			gene	"ndhJ"
+66810	66810	misc_feature		
+			gene	"ndhJ"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+66894	66894	misc_feature		
+			gene	"ndhJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+66924	66924	misc_feature		
+			gene	"ndhJ"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+66949	66949	misc_feature		
+			gene	"ndhJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+66963	66963	misc_feature		
+			gene	"ndhJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67080	67080	misc_feature		
+			gene	"ndhJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67931	67188	CDS		
+			gene	"ndhK"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase 27 kDa subunit"
+			db_xref	"GI:29122638"
+67931	67188	gene		
+			gene	"ndhK"
+67534	67534	misc_feature		
+			gene	"ndhK"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67549	67549	misc_feature		
+			gene	"ndhK"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67583	67583	misc_feature		
+			gene	"ndhK"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67828	67828	misc_feature		
+			gene	"ndhK"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67924	67924	misc_feature		
+			note	"putative C to U RNA editing"
+68110	68110	misc_feature		
+			note	"putative U to C RNA editing"
+68284	67922	CDS		
+			exception	"RNA editing"
+			gene	"ndhC"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND3 subunit"
+			db_xref	"GI:27807879"
+68284	67922	gene		
+			gene	"ndhC"
+67924	67924	misc_feature		
+			gene	"ndhC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67980	67980	misc_feature		
+			gene	"ndhC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+67992	67992	misc_feature		
+			gene	"ndhC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+68004	68004	misc_feature		
+			gene	"ndhC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+68052	68052	misc_feature		
+			gene	"ndhC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+68110	68110	misc_feature		
+			gene	"ndhC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+68117	68117	misc_feature		
+			gene	"ndhC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+69517	69481	tRNA		
+68821	68787			
+			gene	"trnV"
+			product	"tRNA-Val"
+			note	"codon recognized: GUA"
+			anticodon	"(pos:complement(69483..69485),aa:Val,seq:tac)"
+68821	68787	exon		
+			gene	"trnV"
+			number	2
+69517	69481	gene		
+68821	68787			
+			gene	"trnV"
+69517	69481	gene		
+69480	68822			
+68821	68787			
+			gene	"trnV"
+69480	68822	intron		
+			gene	"trnV"
+			number	1
+69517	69481	exon		
+			gene	"trnV"
+			number	1
+69683	69755	tRNA		
+			gene	"trnM"
+			product	"tRNA-Met"
+			note	"codon recognized: AUG"
+			anticodon	"(pos:69716..69718,aa:Met,seq:cat)"
+69683	69755	gene		
+			gene	"trnM"
+70200	70200	misc_feature		
+			note	"putative U to C RNA editing"
+70287	69871	CDS		
+			exception	"RNA editing"
+			gene	"atpE"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATPase epsilon subunit"
+			db_xref	"GI:27807880"
+70287	69871	gene		
+			gene	"atpE"
+70078	70078	misc_feature		
+			gene	"atpE"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70134	70134	misc_feature		
+			gene	"atpE"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70200	70200	misc_feature		
+			gene	"atpE"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70217	70217	misc_feature		
+			gene	"atpE"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70276	70276	misc_feature		
+			gene	"atpE"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71770	71770	misc_feature		
+			note	"putative C to U RNA editing"
+71579	71579	misc_feature		
+			note	"putative U to C RNA editing"
+71357	71357	misc_feature		
+			note	"putative U to C RNA editing"
+70364	70364	misc_feature		
+			note	"putative U to C RNA editing"
+71771	70293	CDS		
+			exception	"RNA editing"
+			gene	"atpB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATPase beta subunit"
+			db_xref	"GI:27807881"
+71771	70293	gene		
+			gene	"atpB"
+70339	70339	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70357	70357	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70364	70364	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70456	70456	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70540	70540	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70549	70549	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70558	70558	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70663	70663	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70687	70687	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70690	70690	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70720	70720	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70741	70741	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70769	70769	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70786	70786	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70835	70835	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70912	70912	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70915	70915	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70949	70949	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70952	70952	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70972	70972	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+70973	70973	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71020	71020	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71026	71026	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71269	71269	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71288	71288	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71297	71297	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71357	71357	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71579	71579	misc_feature		
+			gene	"atpB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+71770	71770	misc_feature		
+			gene	"atpB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73032	73032	misc_feature		
+			note	"putative U to C RNA editing"
+73044	73044	misc_feature		
+			note	"putative U to C RNA editing"
+72912	74339	CDS		
+			exception	"RNA editing"
+			gene	"rbcL"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribulose-1,5-bisphosphate carboxylase/oxygenaselarge subunit"
+			db_xref	"GI:27807882"
+72912	74339	gene		
+			gene	"rbcL"
+72981	72981	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73030	73030	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73032	73032	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73044	73044	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73213	73213	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73221	73221	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73309	73309	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73324	73324	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73396	73396	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73588	73588	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73735	73735	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73813	73813	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73814	73814	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73852	73852	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73864	73864	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73893	73893	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73926	73926	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73957	73957	misc_feature		
+			gene	"rbcL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+73959	73959	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+74038	74038	misc_feature		
+			gene	"rbcL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+74494	74567	tRNA		
+			gene	"trnR"
+			product	"tRNA-Arg"
+			note	"codon recognized: CGG"
+74494	74567	gene		
+			gene	"trnR"
+75119	75119	misc_feature		
+			note	"putative U to C RNA editing"
+75203	75203	misc_feature		
+			note	"putative U to C RNA editing"
+75281	75281	misc_feature		
+			note	"putative U to C RNA editing"
+75749	75749	misc_feature		
+			note	"putative U to C RNA editing"
+75761	75761	misc_feature		
+			note	"putative U to C RNA editing"
+74972	75913	CDS		
+			exception	"RNA editing"
+			gene	"accD"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"acetyl-CoA carboxylase beta subunit"
+			db_xref	"GI:27807883"
+74972	75913	gene		
+			gene	"accD"
+75119	75119	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75146	75146	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75203	75203	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75231	75231	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75281	75281	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75366	75366	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75387	75387	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75408	75408	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75417	75417	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75450	75450	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75480	75480	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75501	75501	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75525	75525	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75564	75564	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75594	75594	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75639	75639	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75647	75647	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75654	75654	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75699	75699	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75707	75707	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75708	75708	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75726	75726	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75749	75749	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75761	75761	misc_feature		
+			gene	"accD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75801	75801	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75825	75825	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+75855	75855	misc_feature		
+			gene	"accD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+76354	76464	CDS		
+			gene	"psaI"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I I-protein"
+			db_xref	"GI:27807884"
+76354	76464	gene		
+			gene	"psaI"
+76941	76941	misc_feature		
+			note	"putative U to C RNA editing"
+77058	77058	misc_feature		
+			note	"putative U to C RNA editing"
+77076	77076	misc_feature		
+			note	"putative U to C RNA editing"
+76893	77447	CDS		
+			exception	"RNA editing"
+			gene	"ycf4"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"Ycf4 protein"
+			db_xref	"GI:27807885"
+76893	77447	gene		
+			gene	"ycf4"
+76941	76941	misc_feature		
+			gene	"ycf4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+76990	76990	misc_feature		
+			gene	"ycf4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+76999	76999	misc_feature		
+			gene	"ycf4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77000	77000	misc_feature		
+			gene	"ycf4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77001	77001	misc_feature		
+			gene	"ycf4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77058	77058	misc_feature		
+			gene	"ycf4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77076	77076	misc_feature		
+			gene	"ycf4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77221	77221	misc_feature		
+			gene	"ycf4"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77251	77251	misc_feature		
+			gene	"ycf4"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78378	78378	misc_feature		
+			note	"putative U to C RNA editing"
+78546	78546	misc_feature		
+			note	"putative U to C RNA editing"
+77577	79103	CDS		
+			exception	"RNA editing"
+			gene	"ycf10"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"Ycf10 protein"
+			db_xref	"GI:27807886"
+                     "				
+77577	79103	gene		
+			gene	"ycf10"
+77601	77601	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77848	77848	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+77937	77937	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78328	78328	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78330	78330	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78378	78378	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78471	78471	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78546	78546	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78876	78876	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78877	78877	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78909	78909	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78910	78910	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+78946	78946	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79015	79015	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79042	79042	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79051	79051	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79068	79068	misc_feature		
+			gene	"ycf10"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79069	79069	misc_feature		
+			gene	"ycf10"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79363	79363	misc_feature		
+			note	"putative C to U RNA editing"
+79581	79581	misc_feature		
+			note	"putative U to C RNA editing"
+79647	79647	misc_feature		
+			note	"putative U to C RNA editing"
+79944	79944	misc_feature		
+			note	"putative U to C RNA editing"
+80184	80184	misc_feature		
+			note	"putative U to C RNA editing"
+79362	80330	CDS		
+			exception	"RNA editing"
+			gene	"petA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome f"
+			db_xref	"GI:27807887"
+79362	80330	gene		
+			gene	"petA"
+79363	79363	misc_feature		
+			gene	"petA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79417	79417	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79519	79519	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79581	79581	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79647	79647	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+79944	79944	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+80097	80097	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+80184	80184	misc_feature		
+			gene	"petA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+80206	80206	misc_feature		
+			gene	"petA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+80236	80236	misc_feature		
+			gene	"petA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+80245	80245	misc_feature		
+			gene	"petA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+81860	81738	CDS		
+			gene	"psbJ"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II J-protein"
+			db_xref	"GI:27807888"
+81860	81738	gene		
+			gene	"psbJ"
+81764	81764	misc_feature		
+			gene	"psbJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+81773	81773	misc_feature		
+			gene	"psbJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+81776	81776	misc_feature		
+			gene	"psbJ"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82095	81979	CDS		
+			gene	"psbL"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II L-protein"
+			db_xref	"GI:27807889"
+82095	81979	gene		
+			gene	"psbL"
+82237	82118	CDS		
+			gene	"psbF"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II cytochrome b559 4 kDa subunit"
+			db_xref	"GI:27807890"
+82237	82118	gene		
+			gene	"psbF"
+82140	82140	misc_feature		
+			gene	"psbF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82155	82155	misc_feature		
+			gene	"psbF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82158	82158	misc_feature		
+			gene	"psbF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82159	82159	misc_feature		
+			gene	"psbF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82161	82161	misc_feature		
+			gene	"psbF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82170	82170	misc_feature		
+			gene	"psbF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82321	82321	misc_feature		
+			note	"putative U to C RNA editing"
+82498	82247	CDS		
+			exception	"RNA editing"
+			gene	"psbE"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II cytochrome b559 8 kDa subunit"
+			db_xref	"GI:27807891"
+82498	82247	gene		
+			gene	"psbE"
+82321	82321	misc_feature		
+			gene	"psbE"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+82359	82359	misc_feature		
+			gene	"psbE"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84502	84597	CDS		
+			gene	"petL"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b/f complex 3.5 kDa subunit"
+			db_xref	"GI:27807892"
+84502	84597	gene		
+			gene	"petL"
+84560	84560	misc_feature		
+			gene	"petL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84569	84569	misc_feature		
+			gene	"petL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84840	84840	misc_feature		
+			note	"putative C to U RNA editing"
+84810	84810	misc_feature		
+			note	"putative U to C RNA editing"
+84729	84842	CDS		
+			exception	"RNA editing"
+			gene	"petG"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b/f complex subunit V"
+			db_xref	"GI:27807893"
+84729	84842	gene		
+			gene	"petG"
+84793	84793	misc_feature		
+			gene	"petG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84802	84802	misc_feature		
+			gene	"petG"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84810	84810	misc_feature		
+			gene	"petG"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84819	84819	misc_feature		
+			gene	"petG"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+84840	84840	misc_feature		
+			gene	"petG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+85145	85072	tRNA		
+			gene	"trnW"
+			product	"tRNA-Trp"
+			note	"codon recognized: UGG"
+			anticodon	"(pos:complement(85109..85111),aa:Trp,seq:cca)"
+85145	85072	gene		
+			gene	"trnW"
+85291	85218	tRNA		
+			gene	"trnP"
+			product	"tRNA-Pro"
+			note	"codon recognized: CCA"
+			anticodon	"(pos:complement(85255..85257),aa:Pro,seq:tgg)"
+85291	85218	gene		
+			gene	"trnP"
+85799	85927	CDS		
+			gene	"psaJ"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I J-protein"
+			db_xref	"GI:27807894"
+85799	85927	gene		
+			gene	"psaJ"
+86459	86459	misc_feature		
+			note	"putative U to C RNA editing"
+86330	86527	CDS		
+			exception	"RNA editing"
+			gene	"rpl33"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L33"
+			db_xref	"GI:27807895"
+86330	86527	gene		
+			gene	"rpl33"
+86459	86459	misc_feature		
+			gene	"rpl33"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+86646	86646	misc_feature		
+			note	"putative U to C RNA editing"
+86559	86786	CDS		
+			exception	"RNA editing"
+			gene	"rps18"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S18"
+			db_xref	"GI:27807896"
+86559	86786	gene		
+			gene	"rps18"
+86646	86646	misc_feature		
+			gene	"rps18"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+86745	86745	misc_feature		
+			gene	"rps18"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+87116	87116	misc_feature		
+			note	"putative U to C RNA editing"
+87404	87066	CDS		
+			exception	"RNA editing"
+			gene	"rpl20"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L20"
+			db_xref	"GI:27807897"
+87404	87066	gene		
+			gene	"rpl20"
+87116	87116	misc_feature		
+			gene	"rpl20"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+87320	87320	misc_feature		
+			gene	"rpl20"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+88521	88408	exon		
+			gene	"rps12"
+			number	1
+88449	88449	misc_feature		
+			note	"putative U to C RNA editing"
+88521	88408	CDS		
+111594	111363			
+110780	110755			
+			exception	"RNA editing"
+			gene	"rps12"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S12"
+			db_xref	"GI:27807920"
+88521	88408	gene		
+111594	111363			
+111369	110788			
+110780	110755			
+			gene	"rps12"
+88449	88449	misc_feature		
+			gene	"rps12"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89055	88804	exon		
+			gene	"clpP"
+			number	3
+89894	89894	misc_feature		
+			note	"putative U to C RNA editing"
+90653	90583	CDS		
+89931	89640			
+89055	88804			
+			exception	"RNA editing"
+			gene	"clpP"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ATP-dependent protease proteolytic subunitexon3"
+			db_xref	"GI:27807898"
+90653	90583	gene		
+90582	89932			
+89931	89640			
+89639	89056			
+89055	88804			
+			exception	"RNA editing"
+			gene	"clpP"
+88850	88850	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+88853	88853	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+88901	88901	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+88976	88976	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89639	89056	intron		
+			gene	"clpP"
+			number	2
+89931	89640	exon		
+			gene	"clpP"
+			number	2
+89686	89686	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89688	89688	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89689	89689	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89690	89690	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89725	89725	misc_feature		
+			gene	"clpP"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89797	89797	misc_feature		
+			gene	"clpP"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89810	89810	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89894	89894	misc_feature		
+			gene	"clpP"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+89903	89903	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+90582	89932	intron		
+			gene	"clpP"
+			number	1
+90653	90583	exon		
+			gene	"clpP"
+			number	1
+90596	90596	misc_feature		
+			gene	"clpP"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91935	91935	misc_feature		
+			note	"putative U to C RNA editing"
+92379	92379	misc_feature		
+			note	"putative U to C RNA editing"
+91107	92633	CDS		
+			exception	"RNA editing"
+			gene	"psbB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II 47 kDa protein"
+			db_xref	"GI:27807899"
+                     "				
+91107	92633	gene		
+			gene	"psbB"
+91119	91119	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91144	91144	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91153	91153	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91158	91158	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91168	91168	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91266	91266	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91267	91267	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91297	91297	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91404	91404	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91414	91414	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91417	91417	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91426	91426	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91465	91465	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91471	91471	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91501	91501	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91504	91504	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91510	91510	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91573	91573	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91752	91752	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91770	91770	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91771	91771	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91896	91896	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91906	91906	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91909	91909	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+91935	91935	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92061	92061	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92133	92133	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92194	92194	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92215	92215	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92250	92250	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92254	92254	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92373	92373	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92379	92379	misc_feature		
+			gene	"psbB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92395	92395	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92401	92401	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92434	92434	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92488	92488	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92491	92491	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92494	92494	misc_feature		
+			gene	"psbB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+92788	92910	CDS		
+			gene	"psbT"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II T-protein"
+			db_xref	"GI:27807900"
+92788	92910	gene		
+			gene	"psbT"
+92828	92828	misc_feature		
+			gene	"psbT"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+93131	93000	CDS		
+			gene	"psbN"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II N-protein"
+			db_xref	"GI:27807901"
+93131	93000	gene		
+			gene	"psbN"
+93009	93092	CDS		
+			gene	"ORF27"
+			codon_start	1
+			transl_table	11
+			product	"hypothetical protein"
+			db_xref	"GI:27807902"
+93009	93092	gene		
+			gene	"ORF27"
+93225	93449	CDS		
+			gene	"psbH"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II 10 kDa phosphoprotein"
+			db_xref	"GI:27807903"
+93225	93449	gene		
+			gene	"psbH"
+93292	93292	misc_feature		
+			gene	"psbH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+93382	93382	misc_feature		
+			gene	"psbH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+93385	93385	misc_feature		
+			gene	"psbH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+93403	93403	misc_feature		
+			gene	"psbH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+93677	93682	exon		
+			gene	"petB"
+			number	1
+93677	93682	CDS		
+94490	95131			
+			exception	"RNA editing"
+			gene	"petB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b6"
+			db_xref	"GI:27807904"
+93677	93682	gene		
+93683	94489			
+94490	95131			
+			gene	"petB"
+93683	94489	intron		
+			gene	"petB"
+			number	1
+94490	95131	exon		
+			gene	"petB"
+			number	2
+94562	94562	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94563	94563	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94581	94581	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94655	94655	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94662	94662	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94749	94749	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94767	94767	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94779	94779	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94790	94790	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94821	94821	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94854	94854	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94863	94863	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94907	94907	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+94958	94958	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95012	95012	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95046	95046	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95055	95055	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95061	95061	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95076	95076	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95082	95082	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95091	95091	misc_feature		
+			gene	"petB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95124	95124	misc_feature		
+			gene	"petB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95168	95168	misc_feature		
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+95393	95400	exon		
+			gene	"petD"
+			number	1
+95393	95400	CDS		
+96092	96566			
+			exception	"RNA editing"
+			gene	"petD"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b/f complex subunit IV"
+			db_xref	"GI:27807905"
+                     "				
+95393	95400	gene		
+95401	96091			
+96092	96566			
+			gene	"petD"
+95401	96091	intron		
+			gene	"petD"
+			number	1
+96092	96566	exon		
+			gene	"petD"
+			number	2
+96130	96130	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96172	96172	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96189	96189	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96190	96190	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96193	96193	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96195	96195	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96202	96202	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96204	96204	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96205	96205	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96298	96298	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96337	96337	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96339	96339	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96346	96346	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96348	96348	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96397	96397	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96433	96433	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96444	96444	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96450	96450	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96482	96482	misc_feature		
+			gene	"petD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96483	96483	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96484	96484	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+96564	96564	misc_feature		
+			gene	"petD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97750	97750	misc_feature		
+			note	"putative U to C RNA editing"
+97588	97588	misc_feature		
+			note	"putative U to C RNA editing"
+97312	97312	misc_feature		
+			note	"putative U to C RNA editing"
+97897	96875	CDS		
+			exception	"RNA editing"
+			gene	"rpoA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase alpha subunit"
+			db_xref	"GI:27807906"
+97897	96875	gene		
+			gene	"rpoA"
+97005	97005	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97009	97009	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97043	97043	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97221	97221	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97224	97224	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97266	97266	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97267	97267	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97272	97272	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97312	97312	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97371	97371	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97389	97389	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97588	97588	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97611	97611	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97635	97635	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97740	97740	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97750	97750	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97795	97795	misc_feature		
+			gene	"rpoA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+97807	97807	misc_feature		
+			gene	"rpoA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98207	98207	misc_feature		
+			note	"putative U to C RNA editing"
+98084	98084	misc_feature		
+			note	"putative U to C RNA editing"
+98327	97935	CDS		
+			exception	"RNA editing"
+			gene	"rps11"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S11"
+			db_xref	"GI:27807907"
+98327	97935	gene		
+			gene	"rps11"
+97975	97975	misc_feature		
+			gene	"rps11"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98084	98084	misc_feature		
+			gene	"rps11"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98188	98188	misc_feature		
+			gene	"rps11"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98207	98207	misc_feature		
+			gene	"rps11"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98543	98543	misc_feature		
+			note	"putative U to C RNA editing"
+98585	98472	CDS		
+			exception	"RNA editing"
+			gene	"rpl36"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L36"
+			db_xref	"GI:27807908"
+98585	98472	gene		
+			gene	"rpl36"
+98543	98543	misc_feature		
+			gene	"rpl36"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98784	98784	misc_feature		
+			note	"putative U to C RNA editing"
+98919	98683	CDS		
+			exception	"RNA editing"
+			gene	"infA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"initiation factor 1"
+			db_xref	"GI:27807909"
+98919	98683	gene		
+			gene	"infA"
+98724	98724	misc_feature		
+			gene	"infA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98784	98784	misc_feature		
+			gene	"infA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+98882	98882	misc_feature		
+			gene	"infA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99271	99271	misc_feature		
+			note	"putative U to C RNA editing"
+99139	99139	misc_feature		
+			note	"putative U to C RNA editing"
+99466	99068	CDS		
+			exception	"RNA editing"
+			gene	"rps8"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S8"
+			db_xref	"GI:27807910"
+99466	99068	gene		
+			gene	"rps8"
+99139	99139	misc_feature		
+			gene	"rps8"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99148	99148	misc_feature		
+			gene	"rps8"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99153	99153	misc_feature		
+			gene	"rps8"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99202	99202	misc_feature		
+			gene	"rps8"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99271	99271	misc_feature		
+			gene	"rps8"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99375	99375	misc_feature		
+			gene	"rps8"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99780	99780	misc_feature		
+			note	"putative U to C RNA editing"
+100089	99721	CDS		
+			exception	"RNA editing"
+			gene	"rpl14"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L14"
+			db_xref	"GI:27807911"
+100089	99721	gene		
+			gene	"rpl14"
+99780	99780	misc_feature		
+			gene	"rpl14"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+99948	99948	misc_feature		
+			gene	"rpl14"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+100708	100307	exon		
+			gene	"rpl16"
+			number	2
+100615	100615	misc_feature		
+			note	"putative U to C RNA editing"
+101672	101664	CDS		
+100708	100307			
+			exception	"RNA editing"
+			gene	"rpl16"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L16"
+			db_xref	"GI:27807912"
+101672	101664	gene		
+101663	100709			
+100708	100307			
+			gene	"rpl16"
+100389	100389	misc_feature		
+			gene	"rpl16"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+100408	100408	misc_feature		
+			gene	"rpl16"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+100615	100615	misc_feature		
+			gene	"rpl16"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+100632	100632	misc_feature		
+			gene	"rpl16"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+100679	100679	misc_feature		
+			gene	"rpl16"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+101663	100709	intron		
+			gene	"rpl16"
+			number	1
+101672	101664	exon		
+			gene	"rpl16"
+			number	1
+101976	101976	misc_feature		
+			note	"putative U to C RNA editing"
+101943	101943	misc_feature		
+			note	"putative U to C RNA editing"
+102543	101887	CDS		
+			exception	"RNA editing"
+			gene	"rps3"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S3"
+			db_xref	"GI:27807913"
+                     "				
+102543	101887	gene		
+			gene	"rps3"
+101903	101903	misc_feature		
+			gene	"rps3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+101939	101939	misc_feature		
+			gene	"rps3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+101943	101943	misc_feature		
+			gene	"rps3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+101976	101976	misc_feature		
+			gene	"rps3"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+101987	101987	misc_feature		
+			gene	"rps3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+102092	102092	misc_feature		
+			gene	"rps3"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+102951	102592	CDS		
+			gene	"rpl22"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L22"
+			db_xref	"GI:27807914"
+102951	102592	gene		
+			gene	"rpl22"
+102774	102774	misc_feature		
+			gene	"rpl22"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+103248	102970	CDS		
+			gene	"rps19"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S19"
+			db_xref	"GI:27807915"
+103248	102970	gene		
+			gene	"rps19"
+103205	103205	misc_feature		
+			gene	"rps19"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+103721	103284	exon		
+			gene	"rpl2"
+			number	2
+104702	104702	misc_feature		
+			note	"putative U to C RNA editing"
+104624	104624	misc_feature		
+			note	"putative U to C RNA editing"
+103511	103511	misc_feature		
+			note	"putative U to C RNA editing"
+104777	104382	CDS		
+103721	103284			
+			exception	"RNA editing"
+			gene	"rpl2"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L2"
+			db_xref	"GI:27807916"
+104777	104382	gene		
+104381	103722			
+103721	103284			
+			gene	"rpl2"
+103424	103424	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+103427	103427	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+103438	103438	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+103511	103511	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+103687	103687	misc_feature		
+			gene	"rpl2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+104381	103722	intron		
+			gene	"rpl2"
+			number	1
+104777	104382	exon		
+			gene	"rpl2"
+			number	1
+104464	104464	misc_feature		
+			gene	"rpl2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+104519	104519	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+104525	104525	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+104554	104554	misc_feature		
+			gene	"rpl2"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+104624	104624	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+104702	104702	misc_feature		
+			gene	"rpl2"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+105014	105014	misc_feature		
+			note	"putative U to C RNA editing"
+105074	104799	CDS		
+			exception	"RNA editing"
+			gene	"rpl23"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L23"
+			db_xref	"GI:27807917"
+105074	104799	gene		
+			gene	"rpl23"
+104947	104947	misc_feature		
+			gene	"rpl23"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+105014	105014	misc_feature		
+			gene	"rpl23"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+105570	105497	tRNA		
+			gene	"trnI"
+			product	"tRNA-Ile"
+			inference	"non-experimental evidence, no additionaldetails recorded"
+			note	"codon recognized: AUA"
+105570	105497	gene		
+			gene	"trnI"
+108385	107606	exon		
+			gene	"ndhB"
+			number	2
+109305	109305	misc_feature		
+			note	"putative U to C RNA editing"
+109773	109051	CDS		
+108385	107606			
+			exception	"RNA editing"
+			gene	"ndhB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND2 subunit"
+			db_xref	"GI:27807918"
+109773	108393	gene		
+108385	107606			
+			exception	"RNA editing"
+			gene	"ndhB"
+107682	107682	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+107748	107748	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+107904	107904	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+107913	107913	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+107973	107973	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+107991	107991	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+108006	108006	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+108088	108088	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+108106	108106	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+108180	108180	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+108228	108228	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109057	108393	intron		
+			gene	"ndhB"
+			number	1
+109773	109051	exon		
+			gene	"ndhB"
+			number	1
+109185	109185	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109235	109235	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109254	109254	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109274	109274	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109301	109301	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109305	109305	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109340	109340	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109415	109415	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+109509	109509	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110613	110613	misc_feature		
+			note	"putative U to C RNA editing"
+110418	110418	misc_feature		
+			note	"putative U to C RNA editing"
+110673	110206	CDS		
+			exception	"RNA editing"
+			gene	"rps7"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S7"
+			db_xref	"GI:27807919"
+110673	110206	gene		
+			gene	"rps7"
+110294	110294	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110303	110303	misc_feature		
+			gene	"rps7"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110351	110351	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110418	110418	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110463	110463	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110613	110613	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+110780	110755	exon		
+			gene	"rps12"
+			number	3
+111369	110788	intron		
+			gene	"rps12"
+			number	1
+111594	111363	exon		
+			gene	"rps12"
+			number	2
+111477	111477	misc_feature		
+			gene	"rps12"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+113226	113297	tRNA		
+			gene	"trnV"
+			product	"tRNA-Val"
+			note	"codon recognized: GUC"
+			anticodon	"(pos:113258..113260,aa:Val,seq:gac)"
+113226	113297	gene		
+			gene	"trnV"
+113501	114999	rRNA		
+			gene	"rrn16"
+			product	"16S ribosomal RNA"
+113501	114999	gene		
+			gene	"rrn16"
+115295	115331	tRNA		
+116281	116315			
+			gene	"trnI"
+			product	"tRNA-Ile"
+			note	"codon recognized: AUC"
+			anticodon	"(pos:115327..115329,aa:Ile,seq:gat)"
+115295	115331	exon		
+			gene	"trnI"
+			number	1
+115295	115331	gene		
+115332	116280			
+116281	116315			
+			gene	"trnI"
+115295	115331	gene		
+116281	116315			
+			gene	"trnI"
+115332	116280	intron		
+			gene	"trnI"
+			number	1
+116281	116315	exon		
+			gene	"trnI"
+			number	2
+116385	116422	tRNA		
+117200	117234			
+			gene	"trnA"
+			product	"tRNA-Ala"
+			note	"codon recognized: GCA"
+			anticodon	"(pos:116418..116420,aa:Ala,seq:tgc)"
+116385	116422	exon		
+			gene	"trnA"
+			number	1
+116385	116422	gene		
+116423	117199			
+117200	117234			
+			gene	"trnA"
+116385	116422	gene		
+117200	117234			
+			gene	"trnA"
+116423	117199	intron		
+			gene	"trnA"
+			number	1
+117200	117234	exon		
+			gene	"trnA"
+			number	2
+117422	120041	rRNA		
+120726	120924			
+			gene	"rrn23"
+			product	"23S ribosomal RNA"
+117422	120041	exon		
+			gene	"rrn23"
+			number	1
+117422	120041	gene		
+120042	120725			
+120726	120924			
+			gene	"rrn23"
+117422	120041	gene		
+120726	120924			
+			gene	"rrn23"
+120042	120725	intron		
+			gene	"rrn23"
+			number	1
+120726	120924	exon		
+			gene	"rrn23"
+			number	2
+121029	121131	rRNA		
+			gene	"rrn4.5"
+			product	"4.5S ribosomal RNA"
+121029	121131	gene		
+			gene	"rrn4.5"
+121383	121501	rRNA		
+			gene	"rrn5"
+			product	"5S ribosomal RNA"
+121383	121501	gene		
+			gene	"rrn5"
+121756	121829	tRNA		
+			gene	"trnR"
+			product	"tRNA-Arg"
+			note	"codon recognized: CGU"
+			anticodon	"(pos:121790..121792,aa:Arg,seq:acg)"
+121756	121829	gene		
+			gene	"trnR"
+122523	122452	tRNA		
+			gene	"trnN"
+			product	"tRNA-Asn"
+			note	"codon recognized: AAC"
+			anticodon	"(pos:complement(122489..122491),aa:Asn,seq:gtt
+                     )"				
+122523	122452	gene		
+			gene	"trnN"
+125290	125290	misc_feature		
+			note	"putative U to C RNA editing"
+124363	124363	misc_feature		
+			note	"putative U to C RNA editing"
+125497	123299	CDS		
+			exception	"RNA editing"
+			gene	"ndhF"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND5 subunit"
+			db_xref	"GI:27807921"
+125497	123299	gene		
+			gene	"ndhF"
+123597	123597	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+123849	123849	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124023	124023	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124110	124110	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124165	124165	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124219	124219	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124269	124269	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124290	124290	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124302	124302	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124303	124303	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124363	124363	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124378	124378	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124402	124402	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124434	124434	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124462	124462	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124467	124467	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124497	124497	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124533	124533	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124534	124534	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124566	124566	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124590	124590	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124626	124626	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124653	124653	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124721	124721	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124722	124722	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124723	124723	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124830	124830	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124872	124872	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124917	124917	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+124951	124951	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125115	125115	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125125	125125	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125226	125226	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125250	125250	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125275	125275	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125290	125290	misc_feature		
+			gene	"ndhF"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125361	125361	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125418	125418	misc_feature		
+			gene	"ndhF"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+125924	125924	misc_feature		
+			note	"putative U to C RNA editing"
+126155	126155	misc_feature		
+			note	"putative U to C RNA editing"
+126188	126188	misc_feature		
+			note	"putative U to C RNA editing"
+125882	126238	CDS		
+			exception	"RNA editing"
+			gene	"rpl21"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L21"
+			db_xref	"GI:27807922"
+125882	126238	gene		
+			gene	"rpl21"
+125924	125924	misc_feature		
+			gene	"rpl21"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126039	126039	misc_feature		
+			gene	"rpl21"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126059	126059	misc_feature		
+			gene	"rpl21"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126060	126060	misc_feature		
+			gene	"rpl21"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126062	126062	misc_feature		
+			gene	"rpl21"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126155	126155	misc_feature		
+			gene	"rpl21"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126188	126188	misc_feature		
+			gene	"rpl21"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126192	126192	misc_feature		
+			gene	"rpl21"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126203	126203	misc_feature		
+			gene	"rpl21"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126207	126207	misc_feature		
+			gene	"rpl21"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126394	126394	misc_feature		
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126400	126609	CDS		
+			gene	"rpl32"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L32"
+			db_xref	"GI:27807923"
+126400	126609	gene		
+			gene	"rpl32"
+126499	126499	misc_feature		
+			gene	"rpl32"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126569	126569	misc_feature		
+			gene	"rpl32"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126838	126838	misc_feature		
+			note	"putative U to C RNA editing"
+127615	127615	misc_feature		
+			note	"putative U to C RNA editing"
+126778	127644	CDS		
+			exception	"RNA editing"
+			gene	"ORF288"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"hypothetical protein"
+			db_xref	"GI:27807924"
+126778	127644	gene		
+			gene	"ORF288"
+126803	126803	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126838	126838	misc_feature		
+			gene	"ORF288"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126920	126920	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+126988	126988	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127022	127022	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127034	127034	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127085	127085	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127124	127124	misc_feature		
+			gene	"ORF288"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127160	127160	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127304	127304	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127466	127466	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127511	127511	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127598	127598	misc_feature		
+			gene	"ORF288"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+127615	127615	misc_feature		
+			gene	"ORF288"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+128055	127982	tRNA		
+			gene	"trnP"
+			product	"tRNA-Pro"
+			note	"codon recognized: CCC"
+			anticodon	"(pos:complement(128019..128021),aa:Pro,seq:ggg
+                     )"				
+128055	127982	gene		
+			gene	"trnP"
+128189	128268	tRNA		
+			gene	"trnL"
+			product	"tRNA-Leu"
+			note	"codon recognized: CUA"
+			anticodon	"(pos:128223..128225,aa:Leu,seq:tag)"
+128189	128268	gene		
+			gene	"trnL"
+128425	128425	misc_feature		
+			note	"putative C to U RNA editing"
+129135	129135	misc_feature		
+			note	"putative U to C RNA editing"
+129138	129138	misc_feature		
+			note	"putative U to C RNA editing"
+128424	129443	CDS		
+			exception	"RNA editing"
+			gene	"ccsA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"putative cytochrome-c synthesis associatedprotein"
+			db_xref	"GI:27807925"
+128424	129443	gene		
+			gene	"ccsA"
+128425	128425	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+128463	128463	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+128601	128601	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+128610	128610	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+128815	128815	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+128905	128905	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+129135	129135	misc_feature		
+			gene	"ccsA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+129138	129138	misc_feature		
+			gene	"ccsA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+129181	129181	misc_feature		
+			gene	"ccsA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131217	131217	misc_feature		
+			note	"putative C to U RNA editing"
+131122	131122	misc_feature		
+			note	"putative U to C RNA editing"
+130219	130219	misc_feature		
+			note	"putative U to C RNA editing"
+129904	129904	misc_feature		
+			note	"putative U to C RNA editing"
+131218	129713	CDS		
+			exception	"RNA editing"
+			gene	"ndhD"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND4 subunit"
+			db_xref	"GI:46367699"
+131218	129713	gene		
+			gene	"ndhD"
+129744	129744	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+129771	129771	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+129783	129783	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+129904	129904	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130014	130014	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130095	130095	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130177	130177	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130185	130185	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130219	130219	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130221	130221	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130255	130255	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130293	130293	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130296	130296	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130335	130335	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130341	130341	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130402	130402	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130437	130437	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130495	130495	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130602	130602	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130683	130683	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130686	130686	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130809	130809	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130815	130815	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130833	130833	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130878	130878	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130914	130914	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130915	130915	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+130923	130923	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131002	131002	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131074	131074	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131082	131082	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131122	131122	misc_feature		
+			gene	"ndhD"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131160	131160	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131184	131184	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131217	131217	misc_feature		
+			gene	"ndhD"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131556	131556	misc_feature		
+			note	"putative U to C RNA editing"
+131490	131490	misc_feature		
+			note	"putative U to C RNA editing"
+131601	131356	CDS		
+			exception	"RNA editing"
+			gene	"psaC"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I 9 kDa protein"
+			db_xref	"GI:27807927"
+131601	131356	gene		
+			gene	"psaC"
+131414	131414	misc_feature		
+			gene	"psaC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131426	131426	misc_feature		
+			gene	"psaC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131490	131490	misc_feature		
+			gene	"psaC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131525	131525	misc_feature		
+			gene	"psaC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131537	131537	misc_feature		
+			gene	"psaC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131556	131556	misc_feature		
+			gene	"psaC"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+131592	131592	misc_feature		
+			gene	"psaC"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132316	132035	CDS		
+			gene	"ndhE"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND4L subunit"
+			db_xref	"GI:27807928"
+132316	132035	gene		
+			gene	"ndhE"
+132992	132390	CDS		
+			gene	"ndhG"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation; GTG start codon"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND6 subunit"
+			db_xref	"GI:27807929"
+132992	132390	gene		
+			gene	"ndhG"
+132475	132475	misc_feature		
+			gene	"ndhG"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132496	132496	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132508	132508	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132511	132511	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132652	132652	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132655	132655	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132751	132751	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132898	132898	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132950	132950	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+132952	132952	misc_feature		
+			gene	"ndhG"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133511	133511	misc_feature		
+			note	"putative U to C RNA editing"
+133250	133250	misc_feature		
+			note	"putative U to C RNA editing"
+133664	133113	CDS		
+			exception	"RNA editing"
+			gene	"ndhI"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase 18 kDa subunit"
+			db_xref	"GI:27807930"
+133664	133113	gene		
+			gene	"ndhI"
+133240	133240	misc_feature		
+			gene	"ndhI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133250	133250	misc_feature		
+			gene	"ndhI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133261	133261	misc_feature		
+			gene	"ndhI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133271	133271	misc_feature		
+			gene	"ndhI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133511	133511	misc_feature		
+			gene	"ndhI"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133576	133576	misc_feature		
+			gene	"ndhI"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+134328	133784	exon		
+			gene	"ndhA"
+			number	2
+135231	135231	misc_feature		
+			note	"putative U to C RNA editing"
+135732	135177	CDS		
+134328	133784			
+			exception	"RNA editing"
+			gene	"ndhA"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND1 subunit"
+			db_xref	"GI:27807931"
+135732	135177	gene		
+135176	134329			
+134328	133784			
+			gene	"ndhA"
+133815	133815	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133818	133818	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+133923	133923	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+134163	134163	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+134194	134194	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+134247	134247	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135176	134329	intron		
+			gene	"ndhA"
+			number	1
+135732	135177	exon		
+			gene	"ndhA"
+			number	1
+135180	135180	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135188	135188	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135189	135189	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135210	135210	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135231	135231	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135233	135233	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135254	135254	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135257	135257	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135293	135293	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135425	135425	misc_feature		
+			gene	"ndhA"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135467	135467	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135629	135629	misc_feature		
+			gene	"ndhA"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136534	136534	misc_feature		
+			note	"putative U to C RNA editing"
+136312	136312	misc_feature		
+			note	"putative U to C RNA editing"
+136228	136228	misc_feature		
+			note	"putative U to C RNA editing"
+136039	136039	misc_feature		
+			note	"putative U to C RNA editing"
+136915	135734	CDS		
+			exception	"RNA editing"
+			gene	"ndhH"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase 49 kDa subunit"
+			db_xref	"GI:28144508"
+136915	135734	gene		
+			gene	"ndhH"
+135739	135739	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135870	135870	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+135894	135894	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136031	136031	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136039	136039	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136047	136047	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136138	136138	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136216	136216	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136228	136228	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136272	136272	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136290	136290	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136312	136312	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136371	136371	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136411	136411	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136413	136413	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136417	136417	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136446	136446	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136476	136476	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136527	136527	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136534	136534	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136588	136588	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136692	136692	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136791	136791	misc_feature		
+			gene	"ndhH"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+136821	136821	misc_feature		
+			gene	"ndhH"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+137075	137075	misc_feature		
+			note	"putative C to U RNA editing"
+137354	137354	misc_feature		
+			note	"putative U to C RNA editing"
+137303	137303	misc_feature		
+			note	"putative U to C RNA editing"
+137270	137270	misc_feature		
+			note	"putative U to C RNA editing"
+137264	137264	misc_feature		
+			note	"putative U to C RNA editing"
+137261	137261	misc_feature		
+			note	"putative U to C RNA editing"
+137237	137237	misc_feature		
+			note	"putative U to C RNA editing"
+137177	137177	misc_feature		
+			note	"putative U to C RNA editing"
+137369	137073	CDS		
+			exception	"RNA editing"
+			note	"rps15 pseudogene"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S15"
+137543	137543	misc_feature		
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+138373	138373	misc_feature		
+			note	"putative U to C RNA editing"
+138265	138265	misc_feature		
+			note	"putative U to C RNA editing"
+137770	137770	misc_feature		
+			note	"putative U to C RNA editing"
+137713	137713	misc_feature		
+			note	"putative U to C RNA editing"
+139087	137666	CDS		
+			exception	"RNA editing"
+			gene	"ORF473"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"hypothetical protein"
+			db_xref	"GI:27807933"
+139087	137666	gene		
+			gene	"ORF473"
+137713	137713	misc_feature		
+			gene	"ORF473"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+137770	137770	misc_feature		
+			gene	"ORF473"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+137922	137922	misc_feature		
+			gene	"ORF473"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+138265	138265	misc_feature		
+			gene	"ORF473"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+138373	138373	misc_feature		
+			gene	"ORF473"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+138702	138702	misc_feature		
+			gene	"ORF473"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142454	142454	misc_feature		
+			note	"putative U to C RNA editing"
+142277	142277	misc_feature		
+			note	"putative U to C RNA editing"
+141623	141623	misc_feature		
+			note	"putative U to C RNA editing"
+141443	141443	misc_feature		
+			note	"putative U to C RNA editing"
+141056	141056	misc_feature		
+			note	"putative U to C RNA editing"
+140228	140228	misc_feature		
+			note	"putative U to C RNA editing"
+142664	139569	CDS		
+			exception	"RNA editing"
+			gene	"ORF1031"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"hypothetical protein"
+			db_xref	"GI:27807934"
+142664	139569	gene		
+			gene	"ORF1031"
+140209	140209	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+140228	140228	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+140627	140627	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+140651	140651	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+140813	140813	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+140968	140968	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+141056	141056	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+141256	141256	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+141443	141443	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+141623	141623	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142012	142012	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142162	142162	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142277	142277	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142357	142357	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142440	142440	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142454	142454	misc_feature		
+			gene	"ORF1031"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142559	142559	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+142588	142588	misc_feature		
+			gene	"ORF1031"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144224	144224	misc_feature		
+			note	"putative U to C RNA editing"
+143885	143885	misc_feature		
+			note	"putative U to C RNA editing"
+143546	143546	misc_feature		
+			note	"putative U to C RNA editing"
+143033	143033	misc_feature		
+			note	"putative U to C RNA editing"
+144317	142902	CDS		
+			exception	"RNA editing"
+			gene	"chlN"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"protochlorophyllide reductase 48 kDa chain"
+			db_xref	"GI:27807935"
+144317	142902	gene		
+			gene	"chlN"
+142999	142999	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143033	143033	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143182	143182	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143183	143183	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143221	143221	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143227	143227	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143260	143260	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143341	143341	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143344	143344	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143488	143488	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143546	143546	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143551	143551	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143554	143554	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143555	143555	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143557	143557	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143863	143863	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143866	143866	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143885	143885	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143890	143890	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+143986	143986	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144016	144016	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144064	144064	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144109	144109	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144125	144125	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144140	144140	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144168	144168	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144224	144224	misc_feature		
+			gene	"chlN"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144229	144229	misc_feature		
+			gene	"chlN"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+145244	144372	CDS		
+			gene	"chlL"
+			exception	"RNA editing"
+			note	"Protein sequence is in conflict with the conceptualtranslation; GTG start codon"
+			codon_start	1
+			transl_table	11
+			product	"protochlorophyllide reductase Fe protein"
+			db_xref	"GI:27807936"
+145244	144372	gene		
+			gene	"chlL"
+144589	144589	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144634	144634	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144637	144637	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144715	144715	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144734	144734	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144773	144773	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144778	144778	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144841	144841	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144844	144844	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144847	144847	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144874	144874	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+144988	144988	misc_feature		
+			gene	"chlL"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+145072	145072	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+145099	145099	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+145174	145174	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+145186	145186	misc_feature		
+			gene	"chlL"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+146143	146214	tRNA		
+			gene	"trnN"
+			product	"tRNA-Asn"
+			note	"codon recognized: AAC"
+			anticodon	"(pos:146175..146177,aa:Asn,seq:gtt)"
+146143	146214	gene		
+			gene	"trnN"
+146910	146837	tRNA		
+			gene	"trnR"
+			product	"tRNA-Arg"
+			note	"codon recognized: CGU"
+			anticodon	"(pos:complement(146874..146876),aa:Arg,seq:acg
+                     )"				
+146910	146837	gene		
+			gene	"trnR"
+147283	147165	rRNA		
+			gene	"rrn5"
+			product	"5S ribosomal RNA"
+147283	147165	gene		
+			gene	"rrn5"
+147637	147535	rRNA		
+			gene	"rrn4.5"
+			product	"4.5S ribosomal RNA"
+147637	147535	gene		
+			gene	"rrn4.5"
+151244	148625	rRNA		
+147940	147742			
+			gene	"rrn23"
+			product	"23S ribosomal RNA"
+147940	147742	exon		
+			gene	"rrn23"
+			number	2
+151244	148625	gene		
+147940	147742			
+			gene	"rrn23"
+151244	148625	gene		
+148624	147941			
+147940	147742			
+			gene	"rrn23"
+148624	147941	intron		
+			gene	"rrn23"
+			number	1
+151244	148625	exon		
+			gene	"rrn23"
+			number	1
+152281	152244	tRNA		
+151466	151432			
+			gene	"trnA"
+			product	"tRNA-Ala"
+			note	"codon recognized: GCA"
+			anticodon	"(pos:complement(152246..152248),aa:Ala,seq:tgc
+                     )"				
+151466	151432	exon		
+			gene	"trnA"
+			number	2
+152281	152244	gene		
+151466	151432			
+			gene	"trnA"
+152281	152244	gene		
+152243	151467			
+151466	151432			
+			gene	"trnA"
+152243	151467	intron		
+			gene	"trnA"
+			number	1
+152281	152244	exon		
+			gene	"trnA"
+			number	1
+153371	153335	tRNA		
+152385	152351			
+			gene	"trnI"
+			product	"tRNA-Ile"
+			note	"codon recognized: AUC"
+			anticodon	"(pos:complement(153337..153339),aa:Ile,seq:gat
+                     )"				
+152385	152351	exon		
+			gene	"trnI"
+			number	2
+153371	153335	gene		
+152385	152351			
+			gene	"trnI"
+153371	153335	gene		
+153334	152386			
+152385	152351			
+			gene	"trnI"
+153334	152386	intron		
+			gene	"trnI"
+			number	1
+153371	153335	exon		
+			gene	"trnI"
+			number	1
+155165	153667	rRNA		
+			gene	"rrn16"
+			product	"16S ribosomal RNA"
+155165	153667	gene		
+			gene	"rrn16"
+155440	155369	tRNA		
+			gene	"trnV"
+			product	"tRNA-Val"
+			note	"codon recognized: GUC"
+			anticodon	"(pos:complement(155406..155408),aa:Val,seq:gac
+                     )"				
+155440	155369	gene		
+			gene	"trnV"
+157072	157303	exon		
+			gene	"rps12"
+			number	2
+157072	157303	gene		
+157304	157885			
+157886	157911			
+			gene	"rps12"
+157189	157189	misc_feature		
+			gene	"rps12"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+157304	157885	intron		
+			gene	"rps12"
+			number	1
+157886	157911	exon		
+			gene	"rps12"
+			number	3
+158053	158053	misc_feature		
+			note	"putative U to C RNA editing"
+158248	158248	misc_feature		
+			note	"putative U to C RNA editing"
+157993	158460	CDS		
+			exception	"RNA editing"
+			gene	"rps7"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S7"
+			db_xref	"GI:27807937"
+157993	158460	gene		
+			gene	"rps7"
+158053	158053	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+158203	158203	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+158248	158248	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+158315	158315	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+158363	158363	misc_feature		
+			gene	"rps7"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+158372	158372	misc_feature		
+			gene	"rps7"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+158893	159615	exon		
+			gene	"ndhB"
+			number	1
+159361	159361	misc_feature		
+			note	"putative U to C RNA editing"
+158893	159615	CDS		
+160281	161060			
+			exception	"RNA editing"
+			gene	"ndhB"
+			exception	"RNA editing"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase ND2 subunit"
+			db_xref	"GI:27807938"
+158893	159615	gene		
+159616	160280			
+160281	161060			
+			gene	"ndhB"
+159157	159157	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159251	159251	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159326	159326	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159361	159361	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159365	159365	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159392	159392	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159412	159412	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159431	159431	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159481	159481	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+159616	160280	intron		
+			gene	"ndhB"
+			number	1
+160281	161060	exon		
+			gene	"ndhB"
+			number	2
+160438	160438	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160486	160486	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160560	160560	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160578	160578	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160660	160660	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160675	160675	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160693	160693	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160753	160753	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160762	160762	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160918	160918	misc_feature		
+			gene	"ndhB"
+			note	"U-to-C editing on mRNA"
+			note	"Geneious type: misc_RNA"
+160984	160984	misc_feature		
+			gene	"ndhB"
+			note	"C-to-U editing on mRNA"
+			note	"Geneious type: misc_RNA"
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

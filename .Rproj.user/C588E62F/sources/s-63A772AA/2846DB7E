@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533671677962.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2846DB7E",
+    "lastKnownWriteTime" : 1533671934,
+    "last_content_update" : 1533671934198,
+    "path" : "~/Research/ReFernment/ReFernment/vignettes/my-vignette.Rmd",
+    "project_path" : "vignettes/my-vignette.Rmd",
+    "properties" : {
+        "cursorPosition" : "61,0",
+        "scrollLine" : "50",
+        "working_dir" : "default"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

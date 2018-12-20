@@ -1,0 +1,1431 @@
+##gff-version 3
+##source-version geneious 11.1.5
+##sequence-region	AB086179	1	161162
+AB086179	Geneious	region	1	161162	.	+	0	Is_circular=true
+AB086179	Geneious	rRNA	117422	120041	.	+	.	Name=rrn23 rRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331332.22
+AB086179	Geneious	rRNA	120726	120924	.	+	.	Name=rrn23 rRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331332.22
+AB086179	Geneious	rRNA	148625	151244	.	-	.	Name=rrn23 rRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331332.23
+AB086179	Geneious	rRNA	147742	147940	.	-	.	Name=rrn23 rRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331332.23
+AB086179	Geneious	rRNA	113501	114999	.	+	.	Name=rrn16 rRNA
+AB086179	Geneious	rRNA	153667	155165	.	-	.	Name=rrn16 rRNA
+AB086179	Geneious	rRNA	121383	121501	.	+	.	Name=rrn5 rRNA
+AB086179	Geneious	rRNA	147165	147283	.	-	.	Name=rrn5 rRNA
+AB086179	Geneious	rRNA	121029	121131	.	+	.	Name=rrn4.5 rRNA
+AB086179	Geneious	rRNA	147535	147637	.	-	.	Name=rrn4.5 rRNA
+AB086179	Geneious	intron	28791	31344	.	+	.	Name=trnK intron 1
+AB086179	Geneious	intron	100709	101663	.	-	.	Name=rpl16 intron 1
+AB086179	Geneious	intron	115332	116280	.	+	.	Name=trnI intron 1
+AB086179	Geneious	intron	152386	153334	.	-	.	Name=trnI intron 1
+AB086179	Geneious	intron	26638	27499	.	+	.	Name=rps16 intron 1
+AB086179	Geneious	intron	134329	135176	.	-	.	Name=ndhA intron 1
+AB086179	Geneious	intron	93683	94489	.	+	.	Name=petB intron 1
+AB086179	Geneious	intron	116423	117199	.	+	.	Name=trnA intron 1
+AB086179	Geneious	intron	151467	152243	.	-	.	Name=trnA intron 1
+AB086179	Geneious	intron	59840	60592	.	-	.	Name=ycf3 intron 2
+AB086179	Geneious	intron	17463	18209	.	+	.	Name=atpF intron 1
+AB086179	Geneious	intron	7160	7867	.	+	.	Name=rpoC1 intron 1
+AB086179	Geneious	intron	20653	21359	.	-	.	Name=trnG intron 1
+AB086179	Geneious	intron	95401	96091	.	+	.	Name=petD intron 1
+AB086179	Geneious	intron	120042	120725	.	+	.	Name=rrn23 intron 1
+AB086179	Geneious	intron	147941	148624	.	-	.	Name=rrn23 intron 1
+AB086179	Geneious	intron	60823	61504	.	-	.	Name=ycf3 intron 1
+AB086179	Geneious	intron	108393	109057	.	-	.	Name=ndhB intron 1
+AB086179	Geneious	intron	159616	160280	.	+	.	Name=ndhB intron 1
+AB086179	Geneious	intron	103722	104381	.	-	.	Name=rpl2 intron 1
+AB086179	Geneious	intron	68822	69480	.	-	.	Name=trnV intron 1
+AB086179	Geneious	intron	89932	90582	.	-	.	Name=clpP intron 1
+AB086179	Geneious	intron	89056	89639	.	-	.	Name=clpP intron 2
+AB086179	Geneious	intron	110788	111369	.	-	.	Name=rps12 intron 1
+AB086179	Geneious	intron	157304	157885	.	+	.	Name=rps12 intron 1
+AB086179	Geneious	intron	65086	65646	.	+	.	Name=trnL intron 1
+AB086179	Geneious	tRNA	28754	28790	.	+	.	Name=trnK tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331333.24
+AB086179	Geneious	tRNA	31345	31379	.	+	.	Name=trnK tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331333.24
+AB086179	Geneious	tRNA	115295	115331	.	+	.	Name=trnI tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331333.25
+AB086179	Geneious	tRNA	116281	116315	.	+	.	Name=trnI tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331333.25
+AB086179	Geneious	tRNA	153335	153371	.	-	.	Name=trnI tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331333.26
+AB086179	Geneious	tRNA	152351	152385	.	-	.	Name=trnI tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331333.26
+AB086179	Geneious	tRNA	116385	116422	.	+	.	Name=trnA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.27
+AB086179	Geneious	tRNA	117200	117234	.	+	.	Name=trnA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.27
+AB086179	Geneious	tRNA	152244	152281	.	-	.	Name=trnA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.28
+AB086179	Geneious	tRNA	151432	151466	.	-	.	Name=trnA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.28
+AB086179	Geneious	tRNA	21360	21382	.	-	.	Name=trnG tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.29
+AB086179	Geneious	tRNA	20605	20652	.	-	.	Name=trnG tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.29
+AB086179	Geneious	tRNA	69481	69517	.	-	.	Name=trnV tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.30
+AB086179	Geneious	tRNA	68787	68821	.	-	.	Name=trnV tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.30
+AB086179	Geneious	tRNA	65051	65085	.	+	.	Name=trnL tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.31
+AB086179	Geneious	tRNA	65647	65696	.	+	.	Name=trnL tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331335.31
+AB086179	Geneious	tRNA	22598	22685	.	+	.	Name=trnS tRNA
+AB086179	Geneious	tRNA	52624	52711	.	-	.	Name=trnS tRNA
+AB086179	Geneious	tRNA	62613	62698	.	+	.	Name=trnS tRNA
+AB086179	Geneious	tRNA	42890	42971	.	-	.	Name=trnY tRNA
+AB086179	Geneious	tRNA	128189	128268	.	+	.	Name=trnL tRNA
+AB086179	Geneious	tRNA	268	346	.	+	.	Name=trnL tRNA
+AB086179	Geneious	tRNA	33134	33208	.	+	.	Name=trnH tRNA
+AB086179	Geneious	tRNA	42639	42712	.	-	.	Name=trnD tRNA
+AB086179	Geneious	tRNA	54026	54099	.	-	.	Name=trnfM tRNA
+AB086179	Geneious	tRNA	74494	74567	.	+	.	Name=trnR tRNA
+AB086179	Geneious	tRNA	85072	85145	.	-	.	Name=trnW tRNA
+AB086179	Geneious	tRNA	85218	85291	.	-	.	Name=trnP tRNA
+AB086179	Geneious	tRNA	105497	105570	.	-	.	Name=trnI tRNA
+AB086179	Geneious	tRNA	121756	121829	.	+	.	Name=trnR tRNA
+AB086179	Geneious	tRNA	127982	128055	.	-	.	Name=trnP tRNA
+AB086179	Geneious	tRNA	146837	146910	.	-	.	Name=trnR tRNA
+AB086179	Geneious	tRNA	43100	43172	.	-	.	Name=trnE tRNA
+AB086179	Geneious	tRNA	64305	64377	.	-	.	Name=trnT tRNA
+AB086179	Geneious	tRNA	66090	66162	.	+	.	Name=trnF tRNA
+AB086179	Geneious	tRNA	69683	69755	.	+	.	Name=trnM tRNA
+AB086179	Geneious	tRNA	20366	20437	.	-	.	Name=trnR tRNA
+AB086179	Geneious	tRNA	24545	24616	.	+	.	Name=trnQ tRNA
+AB086179	Geneious	tRNA	48640	48711	.	+	.	Name=trnT tRNA
+AB086179	Geneious	tRNA	113226	113297	.	+	.	Name=trnV tRNA
+AB086179	Geneious	tRNA	122452	122523	.	-	.	Name=trnN tRNA
+AB086179	Geneious	tRNA	146143	146214	.	+	.	Name=trnN tRNA
+AB086179	Geneious	tRNA	155369	155440	.	-	.	Name=trnV tRNA
+AB086179	Geneious	tRNA	3047	3117	.	-	.	Name=trnC tRNA
+AB086179	Geneious	tRNA	53615	53685	.	+	.	Name=trnG tRNA
+AB086179	Geneious	exon	117422	120041	.	+	.	Name=rrn23 exon 1
+AB086179	Geneious	exon	148625	151244	.	-	.	Name=rrn23 exon 1
+AB086179	Geneious	exon	7868	9481	.	+	.	Name=rpoC1 exon 2
+AB086179	Geneious	exon	107606	108385	.	-	.	Name=ndhB exon 2
+AB086179	Geneious	exon	160281	161060	.	+	.	Name=ndhB exon 2
+AB086179	Geneious	exon	109051	109773	.	-	.	Name=ndhB exon 1
+AB086179	Geneious	exon	158893	159615	.	+	.	Name=ndhB exon 1
+AB086179	Geneious	exon	94490	95131	.	+	.	Name=petB exon 2
+AB086179	Geneious	exon	135177	135732	.	-	.	Name=ndhA exon 1
+AB086179	Geneious	exon	133784	134328	.	-	.	Name=ndhA exon 2
+AB086179	Geneious	exon	96092	96566	.	+	.	Name=petD exon 2
+AB086179	Geneious	exon	103284	103721	.	-	.	Name=rpl2 exon 2
+AB086179	Geneious	exon	6728	7159	.	+	.	Name=rpoC1 exon 1
+AB086179	Geneious	exon	18210	18619	.	+	.	Name=atpF exon 2
+AB086179	Geneious	exon	100307	100708	.	-	.	Name=rpl16 exon 2
+AB086179	Geneious	exon	104382	104777	.	-	.	Name=rpl2 exon 1
+AB086179	Geneious	exon	89640	89931	.	-	.	Name=clpP exon 2
+AB086179	Geneious	exon	88804	89055	.	-	.	Name=clpP exon 3
+AB086179	Geneious	exon	111363	111594	.	-	.	Name=rps12 exon 2
+AB086179	Geneious	exon	157072	157303	.	+	.	Name=rps12 exon 2
+AB086179	Geneious	exon	60593	60822	.	-	.	Name=ycf3 exon 2
+AB086179	Geneious	exon	27500	27714	.	+	.	Name=rps16 exon 2
+AB086179	Geneious	exon	120726	120924	.	+	.	Name=rrn23 exon 2
+AB086179	Geneious	exon	147742	147940	.	-	.	Name=rrn23 exon 2
+AB086179	Geneious	exon	59681	59839	.	-	.	Name=ycf3 exon 3
+AB086179	Geneious	exon	17318	17462	.	+	.	Name=atpF exon 1
+AB086179	Geneious	exon	61505	61628	.	-	.	Name=ycf3 exon 1
+AB086179	Geneious	exon	88408	88521	.	-	.	Name=rps12 exon 1
+AB086179	Geneious	exon	90583	90653	.	-	.	Name=clpP exon 1
+AB086179	Geneious	exon	65647	65696	.	+	.	Name=trnL exon 2
+AB086179	Geneious	exon	20605	20652	.	-	.	Name=trnG exon 2
+AB086179	Geneious	exon	26598	26637	.	+	.	Name=rps16 exon 1
+AB086179	Geneious	exon	116385	116422	.	+	.	Name=trnA exon 1
+AB086179	Geneious	exon	152244	152281	.	-	.	Name=trnA exon 1
+AB086179	Geneious	exon	28754	28790	.	+	.	Name=trnK exon 1
+AB086179	Geneious	exon	69481	69517	.	-	.	Name=trnV exon 1
+AB086179	Geneious	exon	115295	115331	.	+	.	Name=trnI exon 1
+AB086179	Geneious	exon	153335	153371	.	-	.	Name=trnI exon 1
+AB086179	Geneious	exon	31345	31379	.	+	.	Name=trnK exon 2
+AB086179	Geneious	exon	65051	65085	.	+	.	Name=trnL exon 1
+AB086179	Geneious	exon	68787	68821	.	-	.	Name=trnV exon 2
+AB086179	Geneious	exon	116281	116315	.	+	.	Name=trnI exon 2
+AB086179	Geneious	exon	117200	117234	.	+	.	Name=trnA exon 2
+AB086179	Geneious	exon	151432	151466	.	-	.	Name=trnA exon 2
+AB086179	Geneious	exon	152351	152385	.	-	.	Name=trnI exon 2
+AB086179	Geneious	exon	110755	110780	.	-	.	Name=rps12 exon 3
+AB086179	Geneious	exon	157886	157911	.	+	.	Name=rps12 exon 3
+AB086179	Geneious	exon	21360	21382	.	-	.	Name=trnG exon 1
+AB086179	Geneious	exon	101664	101672	.	-	.	Name=rpl16 exon 1
+AB086179	Geneious	exon	95393	95400	.	+	.	Name=petD exon 1
+AB086179	Geneious	exon	93677	93682	.	+	.	Name=petB exon 1
+AB086179	Geneious	CDS	88408	88521	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.32
+AB086179	Geneious	CDS	111363	111594	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.32
+AB086179	Geneious	CDS	110755	110780	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.32
+AB086179	Geneious	CDS	33690	40868	.	+	0	Name=ycf2 CDS
+AB086179	Geneious	CDS	9600	13937	.	+	0	Name=rpoC2 CDS
+AB086179	Geneious	CDS	3486	6701	.	+	0	Name=rpoB CDS
+AB086179	Geneious	CDS	139569	142664	.	-	0	Name=ORF1031 CDS
+AB086179	Geneious	CDS	6728	7159	.	+	0	Name=rpoC1 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.33
+AB086179	Geneious	CDS	7868	9481	.	+	0	Name=rpoC1 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.33
+AB086179	Geneious	CDS	56910	59162	.	-	0	Name=psaA CDS
+AB086179	Geneious	CDS	54680	56884	.	-	0	Name=psaB CDS
+AB086179	Geneious	CDS	123299	125497	.	-	0	Name=ndhF CDS
+AB086179	Geneious	CDS	109051	109773	.	-	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.34
+AB086179	Geneious	CDS	107606	108385	.	-	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.34
+AB086179	Geneious	CDS	158893	159615	.	+	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.35
+AB086179	Geneious	CDS	160281	161060	.	+	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.35
+AB086179	Geneious	CDS	135177	135732	.	-	0	Name=ndhA CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.36
+AB086179	Geneious	CDS	133784	134328	.	-	0	Name=ndhA CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.36
+AB086179	Geneious	CDS	61505	61628	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.37
+AB086179	Geneious	CDS	60593	60822	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.37
+AB086179	Geneious	CDS	59681	59839	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.37
+AB086179	Geneious	CDS	90583	90653	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.38
+AB086179	Geneious	CDS	89640	89931	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.38
+AB086179	Geneious	CDS	88804	89055	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331337.38
+AB086179	Geneious	CDS	24839	26380	.	+	0	Name=chlB CDS
+AB086179	Geneious	CDS	77577	79103	.	+	0	Name=ycf10 CDS
+AB086179	Geneious	CDS	91107	92633	.	+	0	Name=psbB CDS
+AB086179	Geneious	CDS	18663	20186	.	+	0	Name=atpA CDS
+AB086179	Geneious	CDS	129713	131218	.	-	0	Name=ndhD CDS
+AB086179	Geneious	CDS	104382	104777	.	-	0	Name=rpl2 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.39
+AB086179	Geneious	CDS	103284	103721	.	-	0	Name=rpl2 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.39
+AB086179	Geneious	CDS	70293	71771	.	-	0	Name=atpB CDS
+AB086179	Geneious	CDS	93677	93682	.	+	0	Name=petB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.40
+AB086179	Geneious	CDS	94490	95131	.	+	0	Name=petB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.40
+AB086179	Geneious	CDS	72912	74339	.	+	0	Name=rbcL CDS
+AB086179	Geneious	CDS	51041	52462	.	+	0	Name=psbC CDS
+AB086179	Geneious	CDS	137666	139087	.	-	0	Name=ORF473 CDS
+AB086179	Geneious	CDS	142902	144317	.	-	0	Name=chlN CDS
+AB086179	Geneious	CDS	101664	101672	.	-	0	Name=rpl16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.41
+AB086179	Geneious	CDS	100307	100708	.	-	0	Name=rpl16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.41
+AB086179	Geneious	CDS	17318	17462	.	+	0	Name=atpF CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.42
+AB086179	Geneious	CDS	18210	18619	.	+	0	Name=atpF CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.42
+AB086179	Geneious	CDS	135734	136915	.	-	0	Name=ndhH CDS
+AB086179	Geneious	CDS	95393	95400	.	+	0	Name=petD CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.43
+AB086179	Geneious	CDS	96092	96566	.	+	0	Name=petD CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.43
+AB086179	Geneious	CDS	43571	44716	.	+	0	Name=cysA CDS
+AB086179	Geneious	CDS	26598	26637	.	+	0	Name=rps16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.44
+AB086179	Geneious	CDS	27500	27714	.	+	0	Name=rps16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331338.44
+AB086179	Geneious	CDS	29995	31104	.	+	0	Name=trnK CDS
+AB086179	Geneious	CDS	31895	32956	.	+	0	Name=psbA CDS
+AB086179	Geneious	CDS	50032	51093	.	+	0	Name=psbD CDS
+AB086179	Geneious	CDS	96875	97897	.	-	0	Name=rpoA CDS
+AB086179	Geneious	CDS	128424	129443	.	+	0	Name=ccsA CDS
+AB086179	Geneious	CDS	79362	80330	.	+	0	Name=petA CDS
+AB086179	Geneious	CDS	74972	75913	.	+	0	Name=accD CDS
+AB086179	Geneious	CDS	144372	145244	.	-	0	Name=chlL CDS
+AB086179	Geneious	CDS	126778	127644	.	+	0	Name=ORF288 CDS
+AB086179	Geneious	CDS	15107	15853	.	+	0	Name=atpI CDS
+AB086179	Geneious	CDS	67188	67931	.	-	0	Name=ndhK CDS
+AB086179	Geneious	CDS	14187	14894	.	+	0	Name=rps2 CDS
+AB086179	Geneious	CDS	101887	102543	.	-	0	Name=rps3 CDS
+AB086179	Geneious	CDS	63339	63947	.	-	0	Name=rps4 CDS
+AB086179	Geneious	CDS	132390	132992	.	-	0	Name=ndhG CDS
+AB086179	Geneious	CDS	76893	77447	.	+	0	Name=ycf4 CDS
+AB086179	Geneious	CDS	133113	133664	.	-	0	Name=ndhI CDS
+AB086179	Geneious	CDS	66629	67138	.	-	0	Name=ndhJ CDS
+AB086179	Geneious	CDS	110206	110673	.	-	0	Name=rps7 CDS
+AB086179	Geneious	CDS	157993	158460	.	+	0	Name=rps7 CDS
+AB086179	Geneious	CDS	69871	70287	.	-	0	Name=atpE CDS
+AB086179	Geneious	CDS	99068	99466	.	-	0	Name=rps8 CDS
+AB086179	Geneious	CDS	97935	98327	.	-	0	Name=rps11 CDS
+AB086179	Geneious	CDS	99721	100089	.	-	0	Name=rpl14 CDS
+AB086179	Geneious	CDS	67922	68284	.	-	0	Name=ndhC CDS
+AB086179	Geneious	CDS	102592	102951	.	-	0	Name=rpl22 CDS
+AB086179	Geneious	CDS	125882	126238	.	+	0	Name=rpl21 CDS
+AB086179	Geneious	CDS	87066	87404	.	-	0	Name=rpl20 CDS
+AB086179	Geneious	CDS	54239	54541	.	-	0	Name=rps14 CDS
+AB086179	Geneious	CDS	137073	137369	.	-	0	Name=ribosomal protein S15 CDS
+AB086179	Geneious	CDS	132035	132316	.	-	0	Name=ndhE CDS
+AB086179	Geneious	CDS	102970	103248	.	-	0	Name=rps19 CDS
+AB086179	Geneious	CDS	104799	105074	.	-	0	Name=rpl23 CDS
+AB086179	Geneious	CDS	82247	82498	.	-	0	Name=psbE CDS
+AB086179	Geneious	CDS	16730	16975	.	+	0	Name=atpH CDS
+AB086179	Geneious	CDS	131356	131601	.	-	0	Name=psaC CDS
+AB086179	Geneious	CDS	98683	98919	.	-	0	Name=infA CDS
+AB086179	Geneious	CDS	86559	86786	.	+	0	Name=rps18 CDS
+AB086179	Geneious	CDS	93225	93449	.	+	0	Name=psbH CDS
+AB086179	Geneious	CDS	126400	126609	.	+	0	Name=rpl32 CDS
+AB086179	Geneious	CDS	86330	86527	.	+	0	Name=rpl33 CDS
+AB086179	Geneious	CDS	53095	53283	.	+	0	Name=psbZ CDS
+AB086179	Geneious	CDS	24093	24260	.	-	0	Name=psbK CDS
+AB086179	Geneious	CDS	27724	27879	.	+	0	Name=ORF51 CDS
+AB086179	Geneious	CDS	93000	93131	.	-	0	Name=psbN CDS
+AB086179	Geneious	CDS	85799	85927	.	+	0	Name=psaJ CDS
+AB086179	Geneious	CDS	81738	81860	.	-	0	Name=psbJ CDS
+AB086179	Geneious	CDS	92788	92910	.	+	0	Name=psbT CDS
+AB086179	Geneious	CDS	82118	82237	.	-	0	Name=psbF CDS
+AB086179	Geneious	CDS	81979	82095	.	-	0	Name=psbL CDS
+AB086179	Geneious	CDS	84729	84842	.	+	0	Name=petG CDS
+AB086179	Geneious	CDS	98472	98585	.	-	0	Name=rpl36 CDS
+AB086179	Geneious	CDS	22787	22897	.	-	0	Name=psbI CDS
+AB086179	Geneious	CDS	76354	76464	.	+	0	Name=psaI CDS
+AB086179	Geneious	CDS	832	936	.	+	0	Name=psbM CDS
+AB086179	Geneious	CDS	21623	21724	.	-	0	Name=ycf12 CDS
+AB086179	Geneious	CDS	22253	22351	.	+	0	Name=psaM CDS
+AB086179	Geneious	CDS	84502	84597	.	+	0	Name=petL CDS
+AB086179	Geneious	CDS	2524	2613	.	-	0	Name=petN CDS
+AB086179	Geneious	CDS	93009	93092	.	+	0	Name=ORF27 CDS
+AB086179	Geneious	gene	88408	88521	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.45
+AB086179	Geneious	gene	111363	111594	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.45
+AB086179	Geneious	gene	110788	111369	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.45
+AB086179	Geneious	gene	110755	110780	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.45
+AB086179	Geneious	gene	33690	40868	.	+	.	Name=ycf2 gene
+AB086179	Geneious	gene	9600	13937	.	+	.	Name=rpoC2 gene
+AB086179	Geneious	gene	117422	120041	.	+	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.46
+AB086179	Geneious	gene	120042	120725	.	+	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.46
+AB086179	Geneious	gene	120726	120924	.	+	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.46
+AB086179	Geneious	gene	117422	120041	.	+	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.47
+AB086179	Geneious	gene	120726	120924	.	+	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.47
+AB086179	Geneious	gene	148625	151244	.	-	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.48
+AB086179	Geneious	gene	147742	147940	.	-	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.48
+AB086179	Geneious	gene	148625	151244	.	-	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.49
+AB086179	Geneious	gene	147941	148624	.	-	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.49
+AB086179	Geneious	gene	147742	147940	.	-	.	Name=rrn23 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.49
+AB086179	Geneious	gene	3486	6701	.	+	.	Name=rpoB gene
+AB086179	Geneious	gene	139569	142664	.	-	.	Name=ORF1031 gene
+AB086179	Geneious	gene	6728	7159	.	+	.	Name=rpoC1 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.50
+AB086179	Geneious	gene	7160	7867	.	+	.	Name=rpoC1 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.50
+AB086179	Geneious	gene	7868	9481	.	+	.	Name=rpoC1 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.50
+AB086179	Geneious	gene	28754	28790	.	+	.	Name=trnK gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.51
+AB086179	Geneious	gene	28791	31344	.	+	.	Name=trnK gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.51
+AB086179	Geneious	gene	31345	31379	.	+	.	Name=trnK gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.51
+AB086179	Geneious	gene	28754	28790	.	+	.	Name=trnK gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.52
+AB086179	Geneious	gene	31345	31379	.	+	.	Name=trnK gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.52
+AB086179	Geneious	gene	56910	59162	.	-	.	Name=psaA gene
+AB086179	Geneious	gene	54680	56884	.	-	.	Name=psaB gene
+AB086179	Geneious	gene	123299	125497	.	-	.	Name=ndhF gene
+AB086179	Geneious	gene	108393	109773	.	-	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.53
+AB086179	Geneious	gene	107606	108385	.	-	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.53
+AB086179	Geneious	gene	158893	159615	.	+	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.54
+AB086179	Geneious	gene	159616	160280	.	+	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.54
+AB086179	Geneious	gene	160281	161060	.	+	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.54
+AB086179	Geneious	gene	135177	135732	.	-	.	Name=ndhA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.55
+AB086179	Geneious	gene	134329	135176	.	-	.	Name=ndhA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.55
+AB086179	Geneious	gene	133784	134328	.	-	.	Name=ndhA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.55
+AB086179	Geneious	gene	61505	61628	.	-	.	Name=ycf3 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.56
+AB086179	Geneious	gene	60823	61504	.	-	.	Name=ycf3 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.56
+AB086179	Geneious	gene	60593	60822	.	-	.	Name=ycf3 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.56
+AB086179	Geneious	gene	59840	60592	.	-	.	Name=ycf3 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.56
+AB086179	Geneious	gene	59681	59839	.	-	.	Name=ycf3 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.56
+AB086179	Geneious	gene	90583	90653	.	-	.	Name=clpP gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.57
+AB086179	Geneious	gene	89932	90582	.	-	.	Name=clpP gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.57
+AB086179	Geneious	gene	89640	89931	.	-	.	Name=clpP gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.57
+AB086179	Geneious	gene	89056	89639	.	-	.	Name=clpP gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.57
+AB086179	Geneious	gene	88804	89055	.	-	.	Name=clpP gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.57
+AB086179	Geneious	gene	24839	26380	.	+	.	Name=chlB gene
+AB086179	Geneious	gene	77577	79103	.	+	.	Name=ycf10 gene
+AB086179	Geneious	gene	91107	92633	.	+	.	Name=psbB gene
+AB086179	Geneious	gene	18663	20186	.	+	.	Name=atpA gene
+AB086179	Geneious	gene	129713	131218	.	-	.	Name=ndhD gene
+AB086179	Geneious	gene	113501	114999	.	+	.	Name=rrn16 gene
+AB086179	Geneious	gene	153667	155165	.	-	.	Name=rrn16 gene
+AB086179	Geneious	gene	104382	104777	.	-	.	Name=rpl2 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.58
+AB086179	Geneious	gene	103722	104381	.	-	.	Name=rpl2 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.58
+AB086179	Geneious	gene	103284	103721	.	-	.	Name=rpl2 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.58
+AB086179	Geneious	gene	70293	71771	.	-	.	Name=atpB gene
+AB086179	Geneious	gene	93677	93682	.	+	.	Name=petB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.59
+AB086179	Geneious	gene	93683	94489	.	+	.	Name=petB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.59
+AB086179	Geneious	gene	94490	95131	.	+	.	Name=petB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.59
+AB086179	Geneious	gene	72912	74339	.	+	.	Name=rbcL gene
+AB086179	Geneious	gene	51041	52462	.	+	.	Name=psbC gene
+AB086179	Geneious	gene	137666	139087	.	-	.	Name=ORF473 gene
+AB086179	Geneious	gene	142902	144317	.	-	.	Name=chlN gene
+AB086179	Geneious	gene	101664	101672	.	-	.	Name=rpl16 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.60
+AB086179	Geneious	gene	100709	101663	.	-	.	Name=rpl16 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.60
+AB086179	Geneious	gene	100307	100708	.	-	.	Name=rpl16 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.60
+AB086179	Geneious	gene	17318	17462	.	+	.	Name=atpF gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.61
+AB086179	Geneious	gene	17463	18209	.	+	.	Name=atpF gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.61
+AB086179	Geneious	gene	18210	18619	.	+	.	Name=atpF gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.61
+AB086179	Geneious	gene	135734	136915	.	-	.	Name=ndhH gene
+AB086179	Geneious	gene	95393	95400	.	+	.	Name=petD gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.62
+AB086179	Geneious	gene	95401	96091	.	+	.	Name=petD gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.62
+AB086179	Geneious	gene	96092	96566	.	+	.	Name=petD gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.62
+AB086179	Geneious	gene	43571	44716	.	+	.	Name=cysA gene
+AB086179	Geneious	gene	26598	26637	.	+	.	Name=rps16 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.63
+AB086179	Geneious	gene	26638	27499	.	+	.	Name=rps16 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.63
+AB086179	Geneious	gene	27500	27714	.	+	.	Name=rps16 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.63
+AB086179	Geneious	gene	31895	32956	.	+	.	Name=psbA gene
+AB086179	Geneious	gene	50032	51093	.	+	.	Name=psbD gene
+AB086179	Geneious	gene	96875	97897	.	-	.	Name=rpoA gene
+AB086179	Geneious	gene	115295	115331	.	+	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.64
+AB086179	Geneious	gene	115332	116280	.	+	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.64
+AB086179	Geneious	gene	116281	116315	.	+	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.64
+AB086179	Geneious	gene	115295	115331	.	+	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.65
+AB086179	Geneious	gene	116281	116315	.	+	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.65
+AB086179	Geneious	gene	153335	153371	.	-	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.66
+AB086179	Geneious	gene	152351	152385	.	-	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.66
+AB086179	Geneious	gene	153335	153371	.	-	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.67
+AB086179	Geneious	gene	152386	153334	.	-	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.67
+AB086179	Geneious	gene	152351	152385	.	-	.	Name=trnI gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.67
+AB086179	Geneious	gene	128424	129443	.	+	.	Name=ccsA gene
+AB086179	Geneious	gene	79362	80330	.	+	.	Name=petA gene
+AB086179	Geneious	gene	74972	75913	.	+	.	Name=accD gene
+AB086179	Geneious	gene	144372	145244	.	-	.	Name=chlL gene
+AB086179	Geneious	gene	126778	127644	.	+	.	Name=ORF288 gene
+AB086179	Geneious	gene	116385	116422	.	+	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.68
+AB086179	Geneious	gene	116423	117199	.	+	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.68
+AB086179	Geneious	gene	117200	117234	.	+	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.68
+AB086179	Geneious	gene	116385	116422	.	+	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.69
+AB086179	Geneious	gene	117200	117234	.	+	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.69
+AB086179	Geneious	gene	152244	152281	.	-	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.70
+AB086179	Geneious	gene	151432	151466	.	-	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.70
+AB086179	Geneious	gene	152244	152281	.	-	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.71
+AB086179	Geneious	gene	151467	152243	.	-	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.71
+AB086179	Geneious	gene	151432	151466	.	-	.	Name=trnA gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.71
+AB086179	Geneious	gene	157072	157303	.	+	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.72
+AB086179	Geneious	gene	157304	157885	.	+	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.72
+AB086179	Geneious	gene	157886	157911	.	+	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.72
+AB086179	Geneious	gene	21360	21382	.	-	.	Name=trnG gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.73
+AB086179	Geneious	gene	20605	20652	.	-	.	Name=trnG gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.73
+AB086179	Geneious	gene	21360	21382	.	-	.	Name=trnG gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.74
+AB086179	Geneious	gene	20653	21359	.	-	.	Name=trnG gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.74
+AB086179	Geneious	gene	20605	20652	.	-	.	Name=trnG gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.74
+AB086179	Geneious	gene	15107	15853	.	+	.	Name=atpI gene
+AB086179	Geneious	gene	67188	67931	.	-	.	Name=ndhK gene
+AB086179	Geneious	gene	69481	69517	.	-	.	Name=trnV gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.75
+AB086179	Geneious	gene	68787	68821	.	-	.	Name=trnV gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.75
+AB086179	Geneious	gene	69481	69517	.	-	.	Name=trnV gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.76
+AB086179	Geneious	gene	68822	69480	.	-	.	Name=trnV gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.76
+AB086179	Geneious	gene	68787	68821	.	-	.	Name=trnV gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.76
+AB086179	Geneious	gene	14187	14894	.	+	.	Name=rps2 gene
+AB086179	Geneious	gene	101887	102543	.	-	.	Name=rps3 gene
+AB086179	Geneious	gene	65051	65085	.	+	.	Name=trnL gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.77
+AB086179	Geneious	gene	65086	65646	.	+	.	Name=trnL gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.77
+AB086179	Geneious	gene	65647	65696	.	+	.	Name=trnL gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.77
+AB086179	Geneious	gene	65051	65085	.	+	.	Name=trnL gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.78
+AB086179	Geneious	gene	65647	65696	.	+	.	Name=trnL gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1544400331340.78
+AB086179	Geneious	gene	63339	63947	.	-	.	Name=rps4 gene
+AB086179	Geneious	gene	132390	132992	.	-	.	Name=ndhG gene
+AB086179	Geneious	gene	76893	77447	.	+	.	Name=ycf4 gene
+AB086179	Geneious	gene	133113	133664	.	-	.	Name=ndhI gene
+AB086179	Geneious	gene	66629	67138	.	-	.	Name=ndhJ gene
+AB086179	Geneious	gene	110206	110673	.	-	.	Name=rps7 gene
+AB086179	Geneious	gene	157993	158460	.	+	.	Name=rps7 gene
+AB086179	Geneious	gene	69871	70287	.	-	.	Name=atpE gene
+AB086179	Geneious	gene	99068	99466	.	-	.	Name=rps8 gene
+AB086179	Geneious	gene	97935	98327	.	-	.	Name=rps11 gene
+AB086179	Geneious	gene	99721	100089	.	-	.	Name=rpl14 gene
+AB086179	Geneious	gene	67922	68284	.	-	.	Name=ndhC gene
+AB086179	Geneious	gene	102592	102951	.	-	.	Name=rpl22 gene
+AB086179	Geneious	gene	125882	126238	.	+	.	Name=rpl21 gene
+AB086179	Geneious	gene	87066	87404	.	-	.	Name=rpl20 gene
+AB086179	Geneious	gene	54239	54541	.	-	.	Name=rps14 gene
+AB086179	Geneious	gene	132035	132316	.	-	.	Name=ndhE gene
+AB086179	Geneious	gene	102970	103248	.	-	.	Name=rps19 gene
+AB086179	Geneious	gene	104799	105074	.	-	.	Name=rpl23 gene
+AB086179	Geneious	gene	82247	82498	.	-	.	Name=psbE gene
+AB086179	Geneious	gene	16730	16975	.	+	.	Name=atpH gene
+AB086179	Geneious	gene	131356	131601	.	-	.	Name=psaC gene
+AB086179	Geneious	gene	98683	98919	.	-	.	Name=infA gene
+AB086179	Geneious	gene	86559	86786	.	+	.	Name=rps18 gene
+AB086179	Geneious	gene	93225	93449	.	+	.	Name=psbH gene
+AB086179	Geneious	gene	126400	126609	.	+	.	Name=rpl32 gene
+AB086179	Geneious	gene	86330	86527	.	+	.	Name=rpl33 gene
+AB086179	Geneious	gene	53095	53283	.	+	.	Name=psbZ gene
+AB086179	Geneious	gene	24093	24260	.	-	.	Name=psbK gene
+AB086179	Geneious	gene	27724	27879	.	+	.	Name=ORF51 gene
+AB086179	Geneious	gene	93000	93131	.	-	.	Name=psbN gene
+AB086179	Geneious	gene	85799	85927	.	+	.	Name=psaJ gene
+AB086179	Geneious	gene	81738	81860	.	-	.	Name=psbJ gene
+AB086179	Geneious	gene	92788	92910	.	+	.	Name=psbT gene
+AB086179	Geneious	gene	82118	82237	.	-	.	Name=psbF gene
+AB086179	Geneious	gene	121383	121501	.	+	.	Name=rrn5 gene
+AB086179	Geneious	gene	147165	147283	.	-	.	Name=rrn5 gene
+AB086179	Geneious	gene	81979	82095	.	-	.	Name=psbL gene
+AB086179	Geneious	gene	84729	84842	.	+	.	Name=petG gene
+AB086179	Geneious	gene	98472	98585	.	-	.	Name=rpl36 gene
+AB086179	Geneious	gene	22787	22897	.	-	.	Name=psbI gene
+AB086179	Geneious	gene	76354	76464	.	+	.	Name=psaI gene
+AB086179	Geneious	gene	832	936	.	+	.	Name=psbM gene
+AB086179	Geneious	gene	121029	121131	.	+	.	Name=rrn4.5 gene
+AB086179	Geneious	gene	147535	147637	.	-	.	Name=rrn4.5 gene
+AB086179	Geneious	gene	21623	21724	.	-	.	Name=ycf12 gene
+AB086179	Geneious	gene	22253	22351	.	+	.	Name=psaM gene
+AB086179	Geneious	gene	84502	84597	.	+	.	Name=petL gene
+AB086179	Geneious	gene	2524	2613	.	-	.	Name=petN gene
+AB086179	Geneious	gene	22598	22685	.	+	.	Name=trnS gene
+AB086179	Geneious	gene	52624	52711	.	-	.	Name=trnS gene
+AB086179	Geneious	gene	62613	62698	.	+	.	Name=trnS gene
+AB086179	Geneious	gene	93009	93092	.	+	.	Name=ORF27 gene
+AB086179	Geneious	gene	42890	42971	.	-	.	Name=trnY gene
+AB086179	Geneious	gene	128189	128268	.	+	.	Name=trnL gene
+AB086179	Geneious	gene	268	346	.	+	.	Name=trnL gene
+AB086179	Geneious	gene	33134	33208	.	+	.	Name=trnH gene
+AB086179	Geneious	gene	42639	42712	.	-	.	Name=trnD gene
+AB086179	Geneious	gene	54026	54099	.	-	.	Name=trnfM gene
+AB086179	Geneious	gene	74494	74567	.	+	.	Name=trnR gene
+AB086179	Geneious	gene	85072	85145	.	-	.	Name=trnW gene
+AB086179	Geneious	gene	85218	85291	.	-	.	Name=trnP gene
+AB086179	Geneious	gene	105497	105570	.	-	.	Name=trnI gene
+AB086179	Geneious	gene	121756	121829	.	+	.	Name=trnR gene
+AB086179	Geneious	gene	127982	128055	.	-	.	Name=trnP gene
+AB086179	Geneious	gene	146837	146910	.	-	.	Name=trnR gene
+AB086179	Geneious	gene	43100	43172	.	-	.	Name=trnE gene
+AB086179	Geneious	gene	64305	64377	.	-	.	Name=trnT gene
+AB086179	Geneious	gene	66090	66162	.	+	.	Name=trnF gene
+AB086179	Geneious	gene	69683	69755	.	+	.	Name=trnM gene
+AB086179	Geneious	gene	20366	20437	.	-	.	Name=trnR gene
+AB086179	Geneious	gene	24545	24616	.	+	.	Name=trnQ gene
+AB086179	Geneious	gene	48640	48711	.	+	.	Name=trnT gene
+AB086179	Geneious	gene	113226	113297	.	+	.	Name=trnV gene
+AB086179	Geneious	gene	122452	122523	.	-	.	Name=trnN gene
+AB086179	Geneious	gene	146143	146214	.	+	.	Name=trnN gene
+AB086179	Geneious	gene	155369	155440	.	-	.	Name=trnV gene
+AB086179	Geneious	gene	3047	3117	.	-	.	Name=trnC gene
+AB086179	Geneious	gene	53615	53685	.	+	.	Name=trnG gene
+AB086179	Geneious	misc_RNA	899	899	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	904	904	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	3621	3621	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	3724	3724	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	3934	3934	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	3939	3939	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	4261	4261	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	4366	4366	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	4462	4462	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	4659	4659	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	4675	4675	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	4726	4726	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	4737	4737	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	4746	4746	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	4752	4752	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5050	5050	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5077	5077	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5085	5085	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5109	5109	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	5136	5136	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	5206	5206	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5434	5434	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5440	5440	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5488	5488	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5640	5640	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	5647	5647	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5677	5677	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	5698	5698	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5701	5701	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5761	5761	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	5979	5979	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6009	6009	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6064	6064	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6121	6121	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6175	6175	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6190	6190	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6369	6369	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6391	6391	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6402	6402	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6435	6435	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6505	6505	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6553	6553	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6627	6627	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	6640	6640	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6855	6855	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6894	6894	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	6986	6986	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	7095	7095	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8147	8147	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8244	8244	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8253	8253	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8304	8304	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8321	8321	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8439	8439	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8456	8456	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8462	8462	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8466	8466	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8499	8499	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8537	8537	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8558	8558	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8586	8586	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8604	8604	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8628	8628	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8652	8652	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8738	8738	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8805	8805	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8832	8832	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8864	8864	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8877	8877	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8892	8892	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	8915	8915	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	8970	8970	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9003	9003	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9077	9077	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	9393	9393	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9396	9396	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9626	9626	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9724	9724	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9741	9741	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	9796	9796	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	9880	9880	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9931	9931	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	9936	9936	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10008	10008	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10023	10023	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10029	10029	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10065	10065	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10066	10066	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10068	10068	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10182	10182	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10189	10189	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10209	10209	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10269	10269	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10429	10429	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	10578	10578	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10582	10582	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10621	10621	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	10639	10639	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	10665	10665	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	10893	10893	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11422	11422	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	11438	11438	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11460	11460	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11495	11495	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11593	11593	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11617	11617	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	11634	11634	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11657	11657	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11768	11768	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11777	11777	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	11980	11980	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	12090	12090	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	12363	12363	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	13135	13135	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	13200	13200	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	13215	13215	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	13374	13374	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	13377	13377	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	13477	13477	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	13531	13531	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	13618	13618	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14201	14201	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14272	14272	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14273	14273	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14293	14293	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14343	14343	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14500	14500	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14548	14548	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14671	14671	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14683	14683	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14694	14694	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14697	14697	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14734	14734	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14775	14775	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14824	14824	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	14827	14827	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14839	14839	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14848	14848	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14860	14860	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	14862	14862	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15176	15176	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15212	15212	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15218	15218	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15225	15225	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15236	15236	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15264	15264	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15270	15270	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15281	15281	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15362	15362	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15419	15419	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15420	15420	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15423	15423	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15450	15450	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15528	15528	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15542	15542	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15657	15657	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15765	15765	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	15788	15788	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	15801	15801	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16731	16731	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16761	16761	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16791	16791	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	16799	16799	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	16800	16800	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	16829	16829	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	16848	16848	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	16853	16853	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	16887	16887	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16893	16893	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16905	16905	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16938	16938	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16950	16950	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16952	16952	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16953	16953	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16956	16956	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	16968	16968	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	17334	17334	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	17336	17336	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	17407	17407	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	17466	17466	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	17736	17736	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	17929	17929	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	18277	18277	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	18297	18297	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	18479	18479	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	18531	18531	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	18726	18726	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	18783	18783	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	18829	18829	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	18889	18889	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	18976	18976	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	18981	18981	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	18988	18988	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19066	19066	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19099	19099	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19141	19141	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19146	19146	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19399	19399	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19411	19411	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19435	19435	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19461	19461	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19467	19467	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19654	19654	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19711	19711	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19794	19794	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19810	19810	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	19935	19935	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	19999	19999	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	20019	20019	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	20143	20143	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	20167	20167	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	24202	24202	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	24211	24211	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	24929	24929	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	24935	24935	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	24936	24936	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	24998	24998	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25110	25110	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25116	25116	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25137	25137	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25149	25149	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25200	25200	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25217	25217	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25220	25220	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25235	25235	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25247	25247	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25259	25259	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25353	25353	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25400	25400	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25494	25494	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	25575	25575	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25607	25607	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25685	25685	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25688	25688	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25710	25710	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	25971	25971	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	26040	26040	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	26057	26057	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	26253	26253	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27572	27572	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27573	27573	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27625	27625	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	27626	27626	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27629	27629	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27671	27671	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27746	27746	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27784	27784	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	27791	27791	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	28788	28788	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	34719	34719	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	35919	35919	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	36270	36270	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	37080	37080	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	37452	37452	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	38749	38749	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	38932	38932	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	39102	39102	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	40161	40161	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	40608	40608	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	43572	43572	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43581	43581	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43623	43623	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43667	43667	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	43671	43671	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43784	43784	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	43809	43809	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43827	43827	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43854	43854	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	43931	43931	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	43937	43937	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44031	44031	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44034	44034	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44036	44036	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44037	44037	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44058	44058	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44072	44072	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	44147	44147	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	44157	44157	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	44267	44267	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	44454	44454	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	44606	44606	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	50110	50110	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	50206	50206	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	50416	50416	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	50443	50443	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	50471	50471	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	50570	50570	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	50590	50590	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	50674	50674	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	50818	50818	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	50966	50966	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	51076	51076	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	51206	51206	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	51558	51558	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	51609	51609	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	51840	51840	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	52070	52070	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	52208	52208	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	52452	52452	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	54264	54264	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	54265	54265	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	54294	54294	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	54495	54495	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	54687	54687	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	54729	54729	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	54745	54745	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	55115	55115	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	55128	55128	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	55143	55143	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	55383	55383	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	55531	55531	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	55593	55593	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	55657	55657	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56056	56056	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56121	56121	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	56325	56325	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56360	56360	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	56361	56361	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	56508	56508	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56521	56521	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56569	56569	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56691	56691	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	56755	56755	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	56870	56870	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	57157	57157	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	57200	57200	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	57346	57346	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	57349	57349	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	57571	57571	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	58064	58064	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	58444	58444	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	58757	58757	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	58877	58877	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	58934	58934	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	59193	59193	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	59742	59742	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	59757	59757	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	59782	59782	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	60603	60603	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	60621	60621	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	60630	60630	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	60633	60633	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	60664	60664	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	60672	60672	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	60721	60721	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	60736	60736	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	60783	60783	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	61522	61522	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	61541	61541	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	61564	61564	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	61600	61600	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	63524	63524	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	63538	63538	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	63568	63568	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	63656	63656	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	63658	63658	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	63677	63677	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	63712	63712	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	63758	63758	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	66810	66810	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	66894	66894	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	66924	66924	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	66949	66949	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	66963	66963	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67080	67080	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67534	67534	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67549	67549	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67583	67583	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	67828	67828	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67924	67924	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67980	67980	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	67992	67992	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	68004	68004	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	68052	68052	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	68110	68110	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	68117	68117	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70078	70078	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70134	70134	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70200	70200	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70217	70217	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70276	70276	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70339	70339	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70357	70357	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70364	70364	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70456	70456	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70540	70540	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70549	70549	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70558	70558	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70663	70663	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70687	70687	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70690	70690	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70720	70720	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70741	70741	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70769	70769	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70786	70786	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70835	70835	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70912	70912	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70915	70915	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70949	70949	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	70952	70952	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70972	70972	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	70973	70973	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	71020	71020	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	71026	71026	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	71269	71269	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	71288	71288	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	71297	71297	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	71357	71357	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	71579	71579	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	71770	71770	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	72981	72981	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73030	73030	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73032	73032	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	73044	73044	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	73213	73213	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73221	73221	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	73309	73309	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73324	73324	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73396	73396	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73588	73588	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73735	73735	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	73813	73813	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73814	73814	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73852	73852	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73864	73864	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73893	73893	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73926	73926	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	73957	73957	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	73959	73959	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	74038	74038	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75119	75119	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75146	75146	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75203	75203	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75231	75231	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75281	75281	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75366	75366	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75387	75387	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75408	75408	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75417	75417	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75450	75450	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75480	75480	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75501	75501	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75525	75525	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75564	75564	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75594	75594	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75639	75639	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75647	75647	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75654	75654	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75699	75699	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75707	75707	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75708	75708	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75726	75726	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75749	75749	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75761	75761	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	75801	75801	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75825	75825	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	75855	75855	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	76941	76941	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	76990	76990	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	76999	76999	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	77000	77000	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	77001	77001	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	77058	77058	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	77076	77076	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	77221	77221	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	77251	77251	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	77601	77601	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	77848	77848	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	77937	77937	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	78328	78328	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	78330	78330	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	78378	78378	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	78471	78471	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	78546	78546	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	78876	78876	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	78877	78877	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	78909	78909	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	78910	78910	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	78946	78946	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	79015	79015	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	79042	79042	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	79051	79051	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	79068	79068	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	79069	79069	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	79363	79363	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	79417	79417	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	79519	79519	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	79581	79581	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	79647	79647	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	79944	79944	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	80097	80097	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	80184	80184	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	80206	80206	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	80236	80236	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	80245	80245	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	81764	81764	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	81773	81773	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	81776	81776	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	82140	82140	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	82155	82155	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	82158	82158	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	82159	82159	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	82161	82161	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	82170	82170	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	82321	82321	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	82359	82359	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	84560	84560	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	84569	84569	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	84793	84793	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	84802	84802	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	84810	84810	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	84819	84819	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	84840	84840	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	86459	86459	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	86646	86646	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	86745	86745	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	87116	87116	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	87320	87320	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	88449	88449	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	88850	88850	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	88853	88853	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	88901	88901	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	88976	88976	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	89686	89686	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	89688	89688	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	89689	89689	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	89690	89690	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	89725	89725	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	89797	89797	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	89810	89810	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	89894	89894	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	89903	89903	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	90596	90596	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91119	91119	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91144	91144	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91153	91153	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91158	91158	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91168	91168	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91266	91266	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91267	91267	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91297	91297	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91404	91404	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91414	91414	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91417	91417	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91426	91426	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91465	91465	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91471	91471	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91501	91501	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91504	91504	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91510	91510	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91573	91573	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91752	91752	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91770	91770	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91771	91771	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91896	91896	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	91906	91906	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91909	91909	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	91935	91935	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	92061	92061	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	92133	92133	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	92194	92194	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92215	92215	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92250	92250	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	92254	92254	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92373	92373	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	92379	92379	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	92395	92395	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92401	92401	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92434	92434	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92488	92488	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92491	92491	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92494	92494	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	92828	92828	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	93292	93292	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	93382	93382	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	93385	93385	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	93403	93403	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94562	94562	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94563	94563	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94581	94581	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94655	94655	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94662	94662	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94749	94749	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94767	94767	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94779	94779	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94790	94790	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94821	94821	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94854	94854	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94863	94863	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	94907	94907	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	94958	94958	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	95012	95012	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	95046	95046	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	95055	95055	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	95061	95061	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	95076	95076	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	95082	95082	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	95091	95091	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	95124	95124	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	95168	95168	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96130	96130	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96172	96172	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96189	96189	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96190	96190	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96193	96193	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96195	96195	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96202	96202	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96204	96204	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96205	96205	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96298	96298	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96337	96337	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96339	96339	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96346	96346	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96348	96348	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96397	96397	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96433	96433	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96444	96444	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96450	96450	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96482	96482	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	96483	96483	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96484	96484	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	96564	96564	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97005	97005	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97009	97009	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97043	97043	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97221	97221	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97224	97224	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97266	97266	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97267	97267	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97272	97272	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97312	97312	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97371	97371	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97389	97389	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97588	97588	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97611	97611	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97635	97635	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97740	97740	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97750	97750	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97795	97795	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	97807	97807	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	97975	97975	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98084	98084	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98188	98188	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98207	98207	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98543	98543	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98724	98724	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98784	98784	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	98882	98882	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	99139	99139	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	99148	99148	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	99153	99153	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	99202	99202	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	99271	99271	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	99375	99375	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	99780	99780	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	99948	99948	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	100389	100389	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	100408	100408	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	100615	100615	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	100632	100632	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	100679	100679	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	101903	101903	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	101939	101939	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	101943	101943	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	101976	101976	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	101987	101987	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	102092	102092	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	102774	102774	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	103205	103205	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	103424	103424	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	103427	103427	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	103438	103438	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	103511	103511	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	103687	103687	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	104464	104464	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	104519	104519	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	104525	104525	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	104554	104554	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	104624	104624	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	104702	104702	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	104947	104947	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	105014	105014	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	107682	107682	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	107748	107748	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	107904	107904	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	107913	107913	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	107973	107973	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	107991	107991	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	108006	108006	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	108088	108088	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	108106	108106	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	108180	108180	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	108228	108228	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	109185	109185	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	109235	109235	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	109254	109254	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	109274	109274	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	109301	109301	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	109305	109305	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	109340	109340	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	109415	109415	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	109509	109509	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	110294	110294	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	110303	110303	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	110351	110351	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	110418	110418	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	110463	110463	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	110613	110613	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	111477	111477	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	123597	123597	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	123849	123849	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124023	124023	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124110	124110	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124165	124165	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124219	124219	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124269	124269	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124290	124290	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124302	124302	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124303	124303	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124363	124363	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124378	124378	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124402	124402	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124434	124434	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124462	124462	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124467	124467	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124497	124497	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124533	124533	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124534	124534	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124566	124566	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124590	124590	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124626	124626	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124653	124653	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124721	124721	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124722	124722	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124723	124723	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124830	124830	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	124872	124872	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124917	124917	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	124951	124951	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	125115	125115	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	125125	125125	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	125226	125226	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	125250	125250	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	125275	125275	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	125290	125290	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	125361	125361	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	125418	125418	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	125924	125924	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126039	126039	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126059	126059	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126060	126060	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126062	126062	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126155	126155	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126188	126188	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126192	126192	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126203	126203	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126207	126207	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126394	126394	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126499	126499	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126569	126569	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126803	126803	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126838	126838	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	126920	126920	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	126988	126988	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127022	127022	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127034	127034	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127085	127085	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127124	127124	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	127160	127160	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127304	127304	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127466	127466	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127511	127511	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127598	127598	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	127615	127615	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	128425	128425	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	128463	128463	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	128601	128601	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	128610	128610	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	128815	128815	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	128905	128905	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	129135	129135	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	129138	129138	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	129181	129181	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	129744	129744	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	129771	129771	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	129783	129783	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	129904	129904	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130014	130014	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130095	130095	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130177	130177	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130185	130185	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130219	130219	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130221	130221	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130255	130255	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130293	130293	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130296	130296	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130335	130335	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130341	130341	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130402	130402	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130437	130437	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130495	130495	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130602	130602	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130683	130683	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130686	130686	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130809	130809	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130815	130815	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130833	130833	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130878	130878	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130914	130914	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	130915	130915	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	130923	130923	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131002	131002	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	131074	131074	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131082	131082	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131122	131122	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	131160	131160	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131184	131184	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131217	131217	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131414	131414	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131426	131426	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	131490	131490	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	131525	131525	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	131537	131537	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	131556	131556	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	131592	131592	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132475	132475	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	132496	132496	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132508	132508	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132511	132511	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132652	132652	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132655	132655	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132751	132751	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132898	132898	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132950	132950	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	132952	132952	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	133240	133240	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	133250	133250	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	133261	133261	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	133271	133271	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	133511	133511	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	133576	133576	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	133815	133815	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	133818	133818	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	133923	133923	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	134163	134163	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	134194	134194	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	134247	134247	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135180	135180	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135188	135188	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135189	135189	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	135210	135210	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135231	135231	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135233	135233	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135254	135254	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	135257	135257	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	135293	135293	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	135425	135425	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135467	135467	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	135629	135629	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	135739	135739	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135870	135870	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	135894	135894	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136031	136031	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136039	136039	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136047	136047	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136138	136138	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136216	136216	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136228	136228	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136272	136272	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136290	136290	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136312	136312	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136371	136371	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136411	136411	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136413	136413	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136417	136417	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136446	136446	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	136476	136476	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136527	136527	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136534	136534	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136588	136588	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136692	136692	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136791	136791	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	136821	136821	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	137543	137543	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	137713	137713	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	137770	137770	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	137922	137922	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	138265	138265	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	138373	138373	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	138702	138702	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	140209	140209	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	140228	140228	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	140627	140627	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	140651	140651	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	140813	140813	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	140968	140968	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	141056	141056	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	141256	141256	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	141443	141443	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	141623	141623	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	142012	142012	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	142162	142162	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	142277	142277	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	142357	142357	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	142440	142440	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	142454	142454	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	142559	142559	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	142588	142588	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	142999	142999	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143033	143033	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143182	143182	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143183	143183	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143221	143221	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143227	143227	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143260	143260	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143341	143341	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143344	143344	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143488	143488	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143546	143546	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143551	143551	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143554	143554	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143555	143555	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143557	143557	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143863	143863	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143866	143866	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143885	143885	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	143890	143890	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	143986	143986	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144016	144016	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144064	144064	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144109	144109	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144125	144125	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144140	144140	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144168	144168	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144224	144224	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	144229	144229	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144589	144589	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	144634	144634	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144637	144637	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	144715	144715	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	144734	144734	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144773	144773	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144778	144778	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144841	144841	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144844	144844	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144847	144847	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	144874	144874	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	144988	144988	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	145072	145072	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	145099	145099	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	145174	145174	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	145186	145186	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	157189	157189	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	158053	158053	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	158203	158203	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	158248	158248	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	158315	158315	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	158363	158363	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	158372	158372	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	159157	159157	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	159251	159251	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	159326	159326	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	159361	159361	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	159365	159365	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	159392	159392	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	159412	159412	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	159431	159431	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	159481	159481	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160438	160438	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160486	160486	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	160560	160560	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160578	160578	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160660	160660	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160675	160675	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	160693	160693	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160753	160753	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160762	160762	.	.	.	Name=C-to-U editing on mRNA
+AB086179	Geneious	misc_RNA	160918	160918	.	.	.	Name=U-to-C editing on mRNA
+AB086179	Geneious	misc_RNA	160984	160984	.	.	.	Name=C-to-U editing on mRNA

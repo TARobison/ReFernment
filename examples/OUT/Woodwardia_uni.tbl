@@ -1,0 +1,1319 @@
+>Feature Woodwardia_uni				
+1233	1	gene		
+153717	152571			
+			gene	"ndhB"
+1233	496	exon		
+			gene	"ndhB"
+			number	1
+1232	1232	misc_feature		
+			note	"putative C to U RNA editing"
+1233	496	CDS		
+153341	152571			
+			exception	"RNA editing"
+			gene	"ndhB"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 2"
+2687	2687	misc_feature		
+			note	"putative U to C RNA editing"
+2681	2681	misc_feature		
+			note	"putative U to C RNA editing"
+2945	1437	CDS		
+			exception	"RNA editing"
+			gene	"matK"
+			codon_start	1
+			transl_table	11
+			product	"maturase K"
+2945	1437	gene		
+			gene	"matK"
+3796	3566	exon		
+			gene	"rps16"
+			number	2
+3568	3568	misc_feature		
+			note	"putative C to U RNA editing"
+3586	3586	misc_feature		
+			note	"putative U to C RNA editing"
+4657	4616	CDS		
+3796	3566			
+			exception	"RNA editing"
+			gene	"rps16"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S16"
+4657	3566	gene		
+			gene	"rps16"
+4657	4616	exon		
+			gene	"rps16"
+			number	1
+6107	6107	misc_feature		
+			note	"putative U to C RNA editing"
+6356	4812	CDS		
+			exception	"RNA editing"
+			gene	"chlB"
+			codon_start	1
+			transl_table	11
+			product	"protochlorophyllide reductase ChlB subunit"
+6356	4812	gene		
+			gene	"chlB"
+6667	6596	tRNA		
+			gene	"trnQ-UUG"
+			product	"tRNA-Gln"
+			note	"anticodon:UUG"
+6667	6596	gene		
+			gene	"trnQ-UUG"
+6995	7171	CDS		
+			gene	"psbK"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein K"
+6995	7171	gene		
+			gene	"psbK"
+7702	7702	misc_feature		
+			note	"putative C to U RNA editing"
+7701	7811	CDS		
+			exception	"RNA editing"
+			gene	"psbI"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein I"
+7701	7811	gene		
+			gene	"psbI"
+7968	7885	tRNA		
+			gene	"trnS-GCU"
+			product	"tRNA-Ser"
+			note	"anticodon:GCU"
+7968	7885	gene		
+			gene	"trnS-GCU"
+8530	8631	CDS		
+			gene	"ycf12"
+			codon_start	1
+			transl_table	11
+			product	"conserved hypothetical chloroplast proteinycf12"
+8530	8631	gene		
+			gene	"ycf12"
+8816	8838	tRNA		
+9735	9782			
+			gene	"trnG-UCC"
+			product	"tRNA-Gly"
+			note	"anticodon:UCC"
+8816	8838	exon		
+			gene	"trnG-UCC"
+			number	1
+8816	9782	gene		
+			gene	"trnG-UCC"
+9735	9782	exon		
+			gene	"trnG-UCC"
+			number	2
+9931	10002	tRNA		
+			gene	"trnR-UCU"
+			product	"tRNA-Arg"
+			note	"anticodon:UCU"
+9931	10002	gene		
+			gene	"trnR-UCU"
+11525	11525	misc_feature		
+			note	"putative U to C RNA editing"
+11627	10104	CDS		
+			exception	"RNA editing"
+			gene	"atpA"
+			codon_start	1
+			transl_table	11
+			product	"ATP synthase CF1 alpha subunit"
+11627	10104	gene		
+			gene	"atpA"
+12117	11708	exon		
+			gene	"atpF"
+			number	2
+12973	12973	misc_feature		
+			note	"putative C to U RNA editing"
+12974	12830	CDS		
+12117	11708			
+			exception	"RNA editing"
+			gene	"atpF"
+			codon_start	1
+			transl_table	11
+			product	"ATP synthase CF0 subunit I"
+12974	11708	gene		
+			gene	"atpF"
+12974	12830	exon		
+			gene	"atpF"
+			number	1
+13568	13568	misc_feature		
+			note	"putative C to U RNA editing"
+13569	13324	CDS		
+			exception	"RNA editing"
+			gene	"atpH"
+			codon_start	1
+			transl_table	11
+			product	"ATP synthase CFO C subunit"
+13569	13324	gene		
+			gene	"atpH"
+15061	15061	misc_feature		
+			note	"putative C to U RNA editing"
+14993	14993	misc_feature		
+			note	"putative U to C RNA editing"
+15062	14316	CDS		
+			exception	"RNA editing"
+			gene	"atpI"
+			codon_start	1
+			transl_table	11
+			product	"ATP synthase CF0 subunit IV"
+15062	14316	gene		
+			gene	"atpI"
+15248	15248	misc_feature		
+			note	"putative C to U RNA editing"
+15569	15569	misc_feature		
+			note	"putative U to C RNA editing"
+15533	15533	misc_feature		
+			note	"putative U to C RNA editing"
+15446	15446	misc_feature		
+			note	"putative U to C RNA editing"
+15962	15246	CDS		
+			exception	"RNA editing"
+			gene	"rps2"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S2"
+15962	15246	gene		
+			gene	"rps2"
+20136	20136	misc_feature		
+			note	"putative U to C RNA editing"
+20367	16090	CDS		
+			exception	"RNA editing"
+			gene	"rpoC2"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase beta'' subunit"
+20367	16090	gene		
+			gene	"rpoC2"
+22171	20507	exon		
+			gene	"rpoC1"
+			number	2
+23195	23195	misc_feature		
+			note	"putative U to C RNA editing"
+21343	21343	misc_feature		
+			note	"putative U to C RNA editing"
+23309	22878	CDS		
+22171	20507			
+			exception	"RNA editing"
+			gene	"rpoC1"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase beta' subunit"
+23309	20507	gene		
+			gene	"rpoC1"
+23309	22878	exon		
+			gene	"rpoC1"
+			number	1
+26449	26449	misc_feature		
+			note	"putative U to C RNA editing"
+26347	26347	misc_feature		
+			note	"putative U to C RNA editing"
+25858	25858	misc_feature		
+			note	"putative U to C RNA editing"
+24892	24892	misc_feature		
+			note	"putative U to C RNA editing"
+24844	24844	misc_feature		
+			note	"putative U to C RNA editing"
+23995	23995	misc_feature		
+			note	"putative U to C RNA editing"
+26575	23360	CDS		
+			exception	"RNA editing"
+			gene	"rpoB"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase beta subunit"
+26575	23360	gene		
+			gene	"rpoB"
+27434	27507	tRNA		
+			gene	"trnD-GUC"
+			product	"tRNA-Asp"
+			note	"anticodon:GUC"
+27434	27507	gene		
+			gene	"trnD-GUC"
+27646	27565	tRNA		
+			gene	"trnY-GUA"
+			product	"tRNA-Tyr"
+			note	"anticodon:GUA"
+27646	27565	gene		
+			gene	"trnY-GUA"
+27863	27791	tRNA		
+			gene	"trnE-UUC"
+			product	"tRNA-Glu"
+			note	"anticodon:UUC"
+27863	27791	gene		
+			gene	"trnE-UUC"
+28325	28325	misc_feature		
+			note	"putative C to U RNA editing"
+28324	28428	CDS		
+			exception	"RNA editing"
+			gene	"psbM"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein M"
+28324	28428	gene		
+			gene	"psbM"
+29378	29378	misc_feature		
+			note	"putative C to U RNA editing"
+29379	29290	CDS		
+			exception	"RNA editing"
+			gene	"petN"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b6/f complex subunit VIII"
+29379	29290	gene		
+			gene	"petN"
+29929	29858	tRNA		
+			gene	"trnC-GCA"
+			product	"tRNA-Cys"
+			note	"anticodon:GCA"
+29929	29858	gene		
+			gene	"trnC-GCA"
+30441	30371	tRNA		
+			gene	"trnG-GCC"
+			product	"tRNA-Gly"
+			note	"anticodon:UCC"
+30441	30371	gene		
+			gene	"trnG-GCC"
+30878	30690	CDS		
+			gene	"psbZ"
+			codon_start	1
+			transl_table	11
+			product	"Z protein of photosystem II"
+30878	30690	gene		
+			gene	"psbZ"
+31268	31356	tRNA		
+			gene	"trnS-UGA"
+			product	"tRNA-Ser"
+			note	"anticodon:UGA"
+31268	31356	gene		
+			gene	"trnS-UGA"
+33084	33084	misc_feature		
+			note	"putative C to U RNA editing"
+33085	31664	CDS		
+			exception	"RNA editing"
+			gene	"psbC"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II CP43 chlorophyll apoprotein"
+33085	31664	gene		
+			gene	"psbC"
+34094	33033	CDS		
+			gene	"psbD"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein D2"
+34094	33033	gene		
+			gene	"psbD"
+35565	35494	tRNA		
+			gene	"trnT-GGU"
+			product	"tRNA-Thr"
+			note	"anticodon:GGU"
+35565	35494	gene		
+			gene	"trnT-GGU"
+36127	36054	tRNA		
+			gene	"trnfM-CAU"
+			product	"tRNA-Met"
+			note	"anticodon:CAU"
+36127	36054	gene		
+			gene	"trnfM-CAU"
+36562	36260	CDS		
+			gene	"rps14"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S14"
+36562	36260	gene		
+			gene	"rps14"
+38990	38990	misc_feature		
+			note	"putative C to U RNA editing"
+38991	36787	CDS		
+			exception	"RNA editing"
+			gene	"psaB"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I P700 chlorophyll a apoprotein A2"
+38991	36787	gene		
+			gene	"psaB"
+41269	39017	CDS		
+			gene	"psaA"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I P700 chlorophyll a apoprotein A1"
+41269	39017	gene		
+			gene	"psaA"
+41757	41596	exon		
+			gene	"ycf3"
+			number	3
+43466	43342	CDS		
+42611	42383			
+41757	41596			
+			gene	"ycf3"
+			codon_start	1
+			transl_table	11
+			product	"conserved hypothetical chloroplast protein ycf3"
+43466	41596	gene		
+			gene	"ycf3"
+42611	42383	exon		
+			gene	"ycf3"
+			number	2
+43466	43342	exon		
+			gene	"ycf3"
+			number	1
+43728	43814	tRNA		
+			gene	"trnS-GGA"
+			product	"tRNA-Ser"
+			note	"anticodon:GGA"
+43728	43814	gene		
+			gene	"trnS-GGA"
+44870	44870	misc_feature		
+			note	"putative C to U RNA editing"
+44871	44251	CDS		
+			exception	"RNA editing"
+			gene	"rps4"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S4"
+44871	44251	gene		
+			gene	"rps4"
+45512	45545	tRNA		
+46120	46166			
+			gene	"trnL-UAA"
+			product	"tRNA-Leu"
+			note	"anticodon:UAA"
+45512	45545	exon		
+			gene	"trnL-UAA"
+			number	1
+45512	46166	gene		
+			gene	"trnL-UAA"
+46120	46166	exon		
+			gene	"trnL-UAA"
+			number	2
+46466	46538	tRNA		
+			gene	"trnF-GAA"
+			product	"tRNA-Phe"
+			note	"anticodon:GAA"
+46466	46538	gene		
+			gene	"trnF-GAA"
+47273	46761	CDS		
+			gene	"ndhJ"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit J"
+47273	46761	gene		
+			gene	"ndhJ"
+48081	47344	CDS		
+			gene	"ndhK"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit K"
+48081	47344	gene		
+			gene	"ndhK"
+48074	48074	misc_feature		
+			note	"putative C to U RNA editing"
+48434	48072	CDS		
+			exception	"RNA editing"
+			gene	"ndhC"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 3"
+48434	48072	gene		
+			gene	"ndhC"
+49383	49346	tRNA		
+48789	48750			
+			gene	"trnV-UAC"
+			product	"tRNA-Val"
+			note	"anticodon:UAC"
+48789	48750	exon		
+			gene	"trnV-UAC"
+			number	2
+49383	48750	gene		
+			gene	"trnV-UAC"
+49383	49346	exon		
+			gene	"trnV-UAC"
+			number	1
+49616	49688	tRNA		
+			gene	"trnM-CAU"
+			product	"tRNA-Met"
+			note	"anticodon:CAU"
+49616	49688	gene		
+			gene	"trnM-CAU"
+50233	49835	CDS		
+			gene	"atpE"
+			codon_start	1
+			transl_table	11
+			product	"ATP synthase CF1 epsilon subunit"
+50233	49835	gene		
+			gene	"atpE"
+51719	51719	misc_feature		
+			note	"putative C to U RNA editing"
+51720	50239	CDS		
+			exception	"RNA editing"
+			gene	"atpB"
+			codon_start	1
+			transl_table	11
+			product	"ATP synthase CF1 beta subunit"
+51720	50239	gene		
+			gene	"atpB"
+52363	53790	CDS		
+			gene	"rbcL"
+			codon_start	1
+			transl_table	11
+			product	"ribulose-1,5-bisphosphate carboxylase/oxygenaselarge subunit"
+52363	53790	gene		
+			gene	"rbcL"
+53918	53998	tRNA		
+			gene	"trnR-UCG"
+			product	"tRNA-Arg"
+			note	"anticodon:UCG"
+53918	53998	gene		
+			gene	"trnR-UCG"
+54336	54336	misc_feature		
+			note	"putative C to U RNA editing"
+55112	55112	misc_feature		
+			note	"putative U to C RNA editing"
+54335	55267	CDS		
+			exception	"RNA editing"
+			gene	"accD"
+			codon_start	1
+			transl_table	11
+			product	"acetyl-CoA carboxylase carboxyltransferase betasubunit"
+54335	55267	gene		
+			gene	"accD"
+55595	55705	CDS		
+			gene	"psaI"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I subunit VIII"
+55595	55705	gene		
+			gene	"psaI"
+56683	56683	misc_feature		
+			note	"putative C to U RNA editing"
+56131	56685	CDS		
+			exception	"RNA editing"
+			gene	"ycf4"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I assembly protein ycf4"
+56131	56685	gene		
+			gene	"ycf4"
+56874	58382	CDS		
+			gene	"cemA"
+			codon_start	1
+			transl_table	11
+			product	"chloroplast envelope membrane protein"
+56874	58382	gene		
+			gene	"cemA"
+58604	58604	misc_feature		
+			note	"putative C to U RNA editing"
+58873	58873	misc_feature		
+			note	"putative U to C RNA editing"
+58882	58882	misc_feature		
+			note	"putative U to C RNA editing"
+58603	59568	CDS		
+			exception	"RNA editing"
+			gene	"petA"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome f"
+58603	59568	gene		
+			gene	"petA"
+60544	60419	CDS		
+			gene	"psbJ"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein J"
+60544	60419	gene		
+			gene	"psbJ"
+60776	60776	misc_feature		
+			note	"putative C to U RNA editing"
+60777	60661	CDS		
+			exception	"RNA editing"
+			gene	"psbL"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein L"
+60777	60661	gene		
+			gene	"psbL"
+60918	60799	CDS		
+			gene	"psbF"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II cytochrome b559 beta subunit"
+60918	60799	gene		
+			gene	"psbF"
+61128	61128	misc_feature		
+			note	"putative U to C RNA editing"
+61179	60928	CDS		
+			exception	"RNA editing"
+			gene	"psbE"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II cytochrome b559 alpha subunit"
+61179	60928	gene		
+			gene	"psbE"
+61950	62045	CDS		
+			gene	"petL"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b6/f complex subunit VI"
+61950	62045	gene		
+			gene	"petL"
+62210	62326	CDS		
+			gene	"petG"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b6/f complex subunit V"
+62210	62326	gene		
+			gene	"petG"
+62659	62586	tRNA		
+			gene	"trnW-CCA"
+			product	"tRNA-Trp"
+			note	"anticodon:CCA"
+62659	62586	gene		
+			gene	"trnW-CCA"
+62918	62845	tRNA		
+			gene	"trnP-UGG"
+			product	"tRNA-Pro"
+			note	"anticodon:UGG"
+62918	62845	gene		
+			gene	"trnP-UGG"
+63283	63411	CDS		
+			gene	"psaJ"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I subunit IX"
+63283	63411	gene		
+			gene	"psaJ"
+63645	63845	CDS		
+			gene	"rpl33"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L33"
+63645	63845	gene		
+			gene	"rpl33"
+63913	63913	misc_feature		
+			note	"putative C to U RNA editing"
+63912	64139	CDS		
+			exception	"RNA editing"
+			gene	"rps18"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S18"
+63912	64139	gene		
+			gene	"rps18"
+64744	64388	CDS		
+			gene	"rpl20"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L20"
+64744	64388	gene		
+			gene	"rpl20"
+65828	65709	exon		
+			gene	"rps12"
+			number	1
+65828	65709	CDS		
+140063	139832			
+139253	139228			
+			gene	"rps12"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S12"
+65828	65709	CDS		
+96273	96042			
+96877	96852			
+			gene	"rps12"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S12"
+65828	65709	gene		
+140063	139228			
+			gene	"rps12"
+65828	65709	gene		
+96877	96042			
+			gene	"rps12"
+66333	66094	exon		
+			gene	"clpP"
+			number	3
+67965	67895	CDS		
+67201	66910			
+66333	66094			
+			gene	"clpP"
+			codon_start	1
+			transl_table	11
+			product	"ATP-dependent Clp protease proteolytic subunit"
+67965	66094	gene		
+			gene	"clpP"
+67201	66910	exon		
+			gene	"clpP"
+			number	2
+67965	67895	exon		
+			gene	"clpP"
+			number	1
+68409	68409	misc_feature		
+			note	"putative C to U RNA editing"
+69932	69932	misc_feature		
+			note	"putative C to U RNA editing"
+68408	69934	CDS		
+			exception	"RNA editing"
+			gene	"psbB"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II CP47 chlorophyll apoprotein"
+68408	69934	gene		
+			gene	"psbB"
+70167	70271	CDS		
+			gene	"psbT"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein T"
+70167	70271	gene		
+			gene	"psbT"
+70550	70419	CDS		
+			gene	"psbN"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein N"
+70550	70419	gene		
+			gene	"psbN"
+70643	70867	CDS		
+			gene	"psbH"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein H"
+70643	70867	gene		
+			gene	"psbH"
+70999	71004	exon		
+			gene	"petB"
+			number	1
+72443	72443	misc_feature		
+			note	"putative C to U RNA editing"
+70999	71004	CDS		
+71804	72445			
+			exception	"RNA editing"
+			gene	"petB"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b6"
+70999	72445	gene		
+			gene	"petB"
+71804	72445	exon		
+			gene	"petB"
+			number	2
+72645	72652	exon		
+			gene	"petD"
+			number	1
+72645	72652	CDS		
+73292	73763			
+			gene	"petD"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome b6/f complex subunit IV"
+72645	73763	gene		
+			gene	"petD"
+73292	73763	exon		
+			gene	"petD"
+			number	2
+74857	74857	misc_feature		
+			note	"putative U to C RNA editing"
+75097	74075	CDS		
+			exception	"RNA editing"
+			gene	"rpoA"
+			codon_start	1
+			transl_table	11
+			product	"RNA polymerase alpha subunit"
+75097	74075	gene		
+			gene	"rpoA"
+75406	75406	misc_feature		
+			note	"putative U to C RNA editing"
+75526	75134	CDS		
+			exception	"RNA editing"
+			gene	"rps11"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S11"
+75526	75134	gene		
+			gene	"rps11"
+75708	75708	misc_feature		
+			note	"putative C to U RNA editing"
+75709	75596	CDS		
+			exception	"RNA editing"
+			gene	"rpl36"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L36"
+75709	75596	gene		
+			gene	"rpl36"
+75961	75961	misc_feature		
+			note	"putative U to C RNA editing"
+76081	75839	CDS		
+			exception	"RNA editing"
+			gene	"infA"
+			codon_start	1
+			transl_table	11
+			product	"translational initiation factor 1"
+76081	75839	gene		
+			gene	"infA"
+76616	76616	misc_feature		
+			note	"putative C to U RNA editing"
+76617	76219	CDS		
+			exception	"RNA editing"
+			gene	"rps8"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S8"
+76617	76219	gene		
+			gene	"rps8"
+77187	77187	misc_feature		
+			note	"putative C to U RNA editing"
+76822	76822	misc_feature		
+			note	"putative C to U RNA editing"
+77188	76820	CDS		
+			exception	"RNA editing"
+			gene	"rpl14"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L14"
+77188	76820	gene		
+			gene	"rpl14"
+77853	77449	exon		
+			gene	"rpl16"
+			number	2
+78616	78616	misc_feature		
+			note	"putative C to U RNA editing"
+78617	78609	CDS		
+77853	77449			
+			exception	"RNA editing"
+			gene	"rpl16"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L16"
+78617	77449	gene		
+			gene	"rpl16"
+78617	78609	exon		
+			gene	"rpl16"
+			number	1
+79384	79384	misc_feature		
+			note	"putative C to U RNA editing"
+79340	79340	misc_feature		
+			note	"putative U to C RNA editing"
+79385	78729	CDS		
+			exception	"RNA editing"
+			gene	"rps3"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S3"
+79385	78729	gene		
+			gene	"rps3"
+79624	79624	misc_feature		
+			note	"putative U to C RNA editing"
+79507	79507	misc_feature		
+			note	"putative U to C RNA editing"
+79870	79493	CDS		
+			exception	"RNA editing"
+			gene	"rpl22"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L22"
+79870	79493	gene		
+			gene	"rpl22"
+80166	79888	CDS		
+			gene	"rps19"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S19"
+80166	79888	gene		
+			gene	"rps19"
+80637	80201	exon		
+			gene	"rpl2"
+			number	2
+81746	81746	misc_feature		
+			note	"putative U to C RNA editing"
+80578	80578	misc_feature		
+			note	"putative U to C RNA editing"
+81755	81359	CDS		
+80637	80201			
+			exception	"RNA editing"
+			gene	"rpl2"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L2"
+81755	80201	gene		
+			gene	"rpl2"
+81755	81359	exon		
+			gene	"rpl2"
+			number	1
+82092	82092	misc_feature		
+			note	"putative C to U RNA editing"
+82093	81824	CDS		
+			exception	"RNA editing"
+			gene	"rpl23"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L23"
+82093	81824	gene		
+			gene	"rpl23"
+82332	82259	tRNA		
+			gene	"trnI-CAU"
+			product	"tRNA-Ile"
+			note	"anticodon:CAU"
+82332	82259	gene		
+			gene	"trnI-CAU"
+82764	83534	gene		
+			gene	"ndhB"
+83733	83766	tRNA		
+84251	84290			
+			gene	"trnT-UGU"
+			product	"tRNA-Thr"
+			note	"anticodon:UGU"
+83733	83766	exon		
+			gene	"trnT-UGU"
+			number	1
+83733	84290	gene		
+			gene	"trnT-UGU"
+84251	84290	exon		
+			gene	"trnT-UGU"
+			number	2
+85083	85009	tRNA		
+			gene	"trnR-ACG"
+			product	"tRNA-Arg"
+			note	"anticodon:ACG"
+85083	85009	gene		
+			gene	"trnR-ACG"
+85484	85362	rRNA		
+			gene	"rrn5"
+			product	"5S ribosomal RNA"
+85484	85362	gene		
+			gene	"rrn5"
+85869	85767	rRNA		
+			gene	"rrn4.5"
+			product	"4.5S ribosomal RNA"
+85869	85767	gene		
+			gene	"rrn4.5"
+88798	85981	rRNA		
+			gene	"rrn23"
+			product	"23S ribosomal RNA"
+88798	85981	gene		
+			gene	"rrn23"
+89860	89824	tRNA		
+89015	88980			
+			gene	"trnA-UGC"
+			product	"tRNA-Ala"
+			note	"anticodon:UGC"
+89015	88980	exon		
+			gene	"trnA-UGC"
+			number	2
+89860	88980	gene		
+			gene	"trnA-UGC"
+89860	89824	exon		
+			gene	"trnA-UGC"
+			number	1
+91038	91003	tRNA		
+89977	89942			
+			gene	"trnI-GAU"
+			product	"tRNA-Ile"
+			note	"anticodon:GAU"
+89977	89942	exon		
+			gene	"trnI-GAU"
+			number	2
+91038	89942	gene		
+			gene	"trnI-GAU"
+91038	91003	exon		
+			gene	"trnI-GAU"
+			number	1
+92840	91341	rRNA		
+			gene	"rrn16"
+			product	"16S ribosomal RNA"
+92840	91341	gene		
+			gene	"rrn16"
+97102	97102	misc_feature		
+			note	"putative U to C RNA editing"
+96943	97416	CDS		
+			exception	"RNA editing"
+			gene	"rps7"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S7"
+96943	97416	gene		
+			gene	"rps7"
+97962	99023	CDS		
+			gene	"psbA"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein D1"
+97962	99023	gene		
+			gene	"psbA"
+99487	99560	tRNA		
+			gene	"trnH-GUG"
+			product	"tRNA-His"
+			note	"anticodon:GUG"
+99487	99560	gene		
+			gene	"trnH-GUG"
+101153	101153	misc_feature		
+			note	"putative U to C RNA editing"
+101366	101366	misc_feature		
+			note	"putative U to C RNA editing"
+103436	103436	misc_feature		
+			note	"putative U to C RNA editing"
+104333	104333	misc_feature		
+			note	"putative U to C RNA editing"
+106028	106028	misc_feature		
+			note	"putative U to C RNA editing"
+99812	106108	CDS		
+			exception	"RNA editing"
+			gene	"ycf2"
+			codon_start	1
+			transl_table	11
+			product	"conserved hypothetical chloroplast protein ycf2"
+99812	106108	gene		
+			gene	"ycf2"
+106782	106711	tRNA		
+			gene	"trnN-GUU"
+			product	"tRNA-Asn"
+			note	"anticodon:GUU"
+106782	106711	gene		
+			gene	"trnN-GUU"
+109477	109477	misc_feature		
+			note	"putative C to U RNA editing"
+109118	109118	misc_feature		
+			note	"putative U to C RNA editing"
+108842	108842	misc_feature		
+			note	"putative U to C RNA editing"
+109478	107238	CDS		
+			exception	"RNA editing"
+			gene	"ndhF"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 5"
+109478	107238	gene		
+			gene	"ndhF"
+110059	110059	misc_feature		
+			note	"putative U to C RNA editing"
+109789	110145	CDS		
+			exception	"RNA editing"
+			gene	"rpl21"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L21"
+109789	110145	gene		
+			gene	"rpl21"
+110326	110493	CDS		
+			gene	"rpl32"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein L32"
+110326	110493	gene		
+			gene	"rpl32"
+111109	111036	tRNA		
+			gene	"trnP-GGG"
+			product	"tRNA-Pro"
+			note	"anticodon:GGG"
+111109	111036	gene		
+			gene	"trnP-GGG"
+111366	111444	tRNA		
+			gene	"trnL-UAG"
+			product	"tRNA-Leu"
+			note	"anticodon:UAG"
+111366	111444	gene		
+			gene	"trnL-UAG"
+111738	111738	misc_feature		
+			note	"putative C to U RNA editing"
+111737	112678	CDS		
+			exception	"RNA editing"
+			gene	"ccsA"
+			codon_start	1
+			transl_table	11
+			product	"cytochrome c heme attachment protein"
+111737	112678	gene		
+			gene	"ccsA"
+114588	113080	CDS		
+			gene	"ndhD"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 4"
+114588	113080	gene		
+			gene	"ndhD"
+114969	114724	CDS		
+			gene	"psaC"
+			codon_start	1
+			transl_table	11
+			product	"photosystem I subunit VII"
+114969	114724	gene		
+			gene	"psaC"
+115593	115291	CDS		
+			gene	"ndhE"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 4L"
+115593	115291	gene		
+			gene	"ndhE"
+116276	116276	misc_feature		
+			note	"putative C to U RNA editing"
+116277	115684	CDS		
+			exception	"RNA editing"
+			gene	"ndhG"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 6"
+116277	115684	gene		
+			gene	"ndhG"
+116951	116421	CDS		
+			gene	"ndhI"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase subunit I"
+116951	116421	gene		
+			gene	"ndhI"
+117651	117094	exon		
+			gene	"ndhA"
+			number	2
+119174	118617	CDS		
+117651	117094			
+			gene	"ndhA"
+			codon_start	1
+			transl_table	11
+			product	"NADH dehydrogenase subunit 1"
+119174	117094	gene		
+			gene	"ndhA"
+119174	118617	exon		
+			gene	"ndhA"
+			number	1
+119178	119178	misc_feature		
+			note	"putative C to U RNA editing"
+120354	119176	CDS		
+			exception	"RNA editing"
+			gene	"ndhH"
+			codon_start	1
+			transl_table	11
+			product	"NADH-plastoquinone oxidoreductase subunit 7"
+120354	119176	gene		
+			gene	"ndhH"
+120727	120727	misc_feature		
+			note	"putative C to U RNA editing"
+120728	120459	CDS		
+			exception	"RNA editing"
+			gene	"rps15"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S15"
+120728	120459	gene		
+			gene	"rps15"
+126157	126157	misc_feature		
+			note	"putative C to U RNA editing"
+125195	125195	misc_feature		
+			note	"putative U to C RNA editing"
+126158	121044	CDS		
+			exception	"RNA editing"
+			gene	"ycf1"
+			codon_start	1
+			transl_table	11
+			product	"conserved hypothetical chloroplast protein ycf1"
+126158	121044	gene		
+			gene	"ycf1"
+127913	126525	CDS		
+			gene	"chlN"
+			codon_start	1
+			transl_table	11
+			product	"protochlorophyllide reductase ChlN subunit"
+127913	126525	gene		
+			gene	"chlN"
+128880	128880	misc_feature		
+			note	"putative C to U RNA editing"
+128158	128158	misc_feature		
+			note	"putative U to C RNA editing"
+128881	127979	CDS		
+			exception	"RNA editing"
+			gene	"chlL"
+			codon_start	1
+			transl_table	11
+			product	"protochlorophyllide reductase ATP-bindingsubunit"
+128881	127979	gene		
+			gene	"chlL"
+129323	129394	tRNA		
+			gene	"trnN-GUU"
+			product	"tRNA-Asn"
+			note	"anticodon:GUU"
+129323	129394	gene		
+			gene	"trnN-GUU"
+134952	134952	misc_feature		
+			note	"putative U to C RNA editing"
+134739	134739	misc_feature		
+			note	"putative U to C RNA editing"
+132669	132669	misc_feature		
+			note	"putative U to C RNA editing"
+131772	131772	misc_feature		
+			note	"putative U to C RNA editing"
+130077	130077	misc_feature		
+			note	"putative U to C RNA editing"
+136293	129997	CDS		
+			exception	"RNA editing"
+			gene	"ycf2"
+			codon_start	1
+			transl_table	11
+			product	"conserved hypothetical chloroplast protein ycf2"
+136293	129997	gene		
+			gene	"ycf2"
+136618	136545	tRNA		
+			gene	"trnH-GUG"
+			product	"tRNA-His"
+			note	"anticodon:GUG"
+136618	136545	gene		
+			gene	"trnH-GUG"
+138143	137082	CDS		
+			gene	"psbA"
+			codon_start	1
+			transl_table	11
+			product	"photosystem II protein D1"
+138143	137082	gene		
+			gene	"psbA"
+139003	139003	misc_feature		
+			note	"putative U to C RNA editing"
+139162	138689	CDS		
+			exception	"RNA editing"
+			gene	"rps7"
+			codon_start	1
+			transl_table	11
+			product	"ribosomal protein S7"
+139162	138689	gene		
+			gene	"rps7"
+139253	139228	exon		
+			gene	"rps12"
+			number	3
+140063	139832	exon		
+			gene	"rps12"
+			number	2
+143265	144764	rRNA		
+			gene	"rrn16"
+			product	"16S ribosomal RNA"
+143265	144764	gene		
+			gene	"rrn16"
+145067	145102	tRNA		
+146128	146163			
+			gene	"trnI-GAU"
+			product	"tRNA-Ile"
+			note	"anticodon:GAU"
+145067	145102	exon		
+			gene	"trnI-GAU"
+			number	1
+145067	146163	gene		
+			gene	"trnI-GAU"
+146128	146163	exon		
+			gene	"trnI-GAU"
+			number	2
+146245	146281	tRNA		
+147090	147125			
+			gene	"trnA-UGC"
+			product	"tRNA-Ala"
+			note	"anticodon:UGC"
+146245	146281	exon		
+			gene	"trnA-UGC"
+			number	1
+146245	147125	gene		
+			gene	"trnA-UGC"
+147090	147125	exon		
+			gene	"trnA-UGC"
+			number	2
+147307	150124	rRNA		
+			gene	"rrn23"
+			product	"23S ribosomal RNA"
+147307	150124	gene		
+			gene	"rrn23"
+150236	150338	rRNA		
+			gene	"rrn4.5"
+			product	"4.5S ribosomal RNA"
+150236	150338	gene		
+			gene	"rrn4.5"
+150621	150743	rRNA		
+			gene	"rrn5"
+			product	"5S ribosomal RNA"
+150621	150743	gene		
+			gene	"rrn5"
+151022	151095	tRNA		
+			gene	"trnR-ACG"
+			product	"tRNA-Arg"
+			note	"anticodon:ACG"
+151022	151095	gene		
+			gene	"trnR-ACG"
+152372	152339	tRNA		
+151854	151815			
+			gene	"trnT-UGU"
+			product	"tRNA-Thr"
+			note	"anticodon:UGU"
+151854	151815	exon		
+			gene	"trnT-UGU"
+			number	2
+152372	151815	gene		
+			gene	"trnT-UGU"
+152372	152339	exon		
+			gene	"trnT-UGU"
+			number	1
+153341	152571	exon		
+			gene	"ndhB"
+			number	2
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

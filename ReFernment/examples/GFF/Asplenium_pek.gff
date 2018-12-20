@@ -1,0 +1,339 @@
+##gff-version 3
+##source-version geneious 11.1.3
+##sequence-region	KY427331	1	152479
+KY427331	Geneious	region	1	152479	.	+	0	Is_circular=true
+KY427331	Geneious	rRNA	84781	87599	.	-	.	Name=rrn23 rRNA
+KY427331	Geneious	rRNA	146305	149123	.	+	.	Name=rrn23 rRNA
+KY427331	Geneious	rRNA	90205	91704	.	-	.	Name=rrn16 rRNA
+KY427331	Geneious	rRNA	142200	143699	.	+	.	Name=rrn16 rRNA
+KY427331	Geneious	rRNA	84152	84274	.	-	.	Name=rrn5 rRNA
+KY427331	Geneious	rRNA	149630	149752	.	+	.	Name=rrn5 rRNA
+KY427331	Geneious	rRNA	84554	84656	.	-	.	Name=rrn4.5 rRNA
+KY427331	Geneious	rRNA	149248	149350	.	+	.	Name=rrn4.5 rRNA
+KY427331	Geneious	tRNA	89860	89895	.	-	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064887.41
+KY427331	Geneious	tRNA	88769	88804	.	-	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064887.41
+KY427331	Geneious	tRNA	144009	144044	.	+	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064887.42
+KY427331	Geneious	tRNA	145100	145135	.	+	.	Name=trnI-GAU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064887.42
+KY427331	Geneious	tRNA	8698	8720	.	+	.	Name=trnG-UCC tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.43
+KY427331	Geneious	tRNA	9612	9659	.	+	.	Name=trnG-UCC tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.43
+KY427331	Geneious	tRNA	88651	88687	.	-	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.44
+KY427331	Geneious	tRNA	87806	87841	.	-	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.44
+KY427331	Geneious	tRNA	145217	145253	.	+	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.45
+KY427331	Geneious	tRNA	146063	146098	.	+	.	Name=trnA-UGC;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.45
+KY427331	Geneious	tRNA	45240	45273	.	+	.	Name=trnL-UAA tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.46
+KY427331	Geneious	tRNA	45880	45930	.	+	.	Name=trnL-UAA tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.46
+KY427331	Geneious	tRNA	82751	82784	.	+	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.47
+KY427331	Geneious	tRNA	83244	83283	.	+	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.47
+KY427331	Geneious	tRNA	151120	151153	.	-	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.48
+KY427331	Geneious	tRNA	150621	150660	.	-	.	Name=trnT-UGU tRNA;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064891.48
+KY427331	Geneious	tRNA	31211	31299	.	+	.	Name=trnS-UGA tRNA
+KY427331	Geneious	tRNA	7964	8051	.	-	.	Name=trnS-GCU tRNA
+KY427331	Geneious	tRNA	43506	43592	.	+	.	Name=trnS-GGA tRNA
+KY427331	Geneious	tRNA	27390	27471	.	-	.	Name=trnY-GUA tRNA
+KY427331	Geneious	tRNA	53662	53742	.	+	.	Name=trnR-UCG tRNA
+KY427331	Geneious	tRNA	110374	110452	.	+	.	Name=trnL-UAG tRNA
+KY427331	Geneious	tRNA	83893	83967	.	-	.	Name=trnR-ACG tRNA
+KY427331	Geneious	tRNA	149937	150011	.	+	.	Name=trnR-ACG tRNA
+KY427331	Geneious	tRNA	27252	27325	.	+	.	Name=trnD-GUC tRNA
+KY427331	Geneious	tRNA	35841	35914	.	-	.	Name=trnfM-CAU tRNA
+KY427331	Geneious	tRNA	61848	61921	.	-	.	Name=trnW-CCA tRNA
+KY427331	Geneious	tRNA	62083	62156	.	-	.	Name=trnP-UGG tRNA
+KY427331	Geneious	tRNA	81283	81356	.	-	.	Name=trnI-CAU tRNA
+KY427331	Geneious	tRNA	98331	98404	.	+	.	Name=trnH-GUG tRNA
+KY427331	Geneious	tRNA	110013	110086	.	-	.	Name=trnP-GGG tRNA
+KY427331	Geneious	tRNA	135500	135573	.	-	.	Name=trnH-GUG tRNA
+KY427331	Geneious	tRNA	27621	27693	.	-	.	Name=trnE-UUC tRNA
+KY427331	Geneious	tRNA	46266	46338	.	+	.	Name=trnF-GAA tRNA
+KY427331	Geneious	tRNA	49415	49487	.	+	.	Name=trnM-CAU tRNA
+KY427331	Geneious	tRNA	6541	6612	.	-	.	Name=trnQ-UUG tRNA
+KY427331	Geneious	tRNA	9818	9889	.	+	.	Name=trnR-UCU tRNA
+KY427331	Geneious	tRNA	29912	29983	.	-	.	Name=trnC-GCA tRNA
+KY427331	Geneious	tRNA	35292	35363	.	-	.	Name=trnT-GGU tRNA
+KY427331	Geneious	tRNA	105636	105707	.	-	.	Name=trnN-GUU tRNA
+KY427331	Geneious	tRNA	128197	128268	.	+	.	Name=trnN-GUU tRNA
+KY427331	Geneious	tRNA	30379	30449	.	-	.	Name=trnG-GCC tRNA
+KY427331	Geneious	exon	20387	22018	.	-	.	Name=rpoC1 exon 2
+KY427331	Geneious	exon	81789	82553	.	+	.	Name=ndhB exon 2
+KY427331	Geneious	exon	151351	152115	.	-	.	Name=ndhB exon 2
+KY427331	Geneious	exon	468	1208	.	-	.	Name=ndhB exon 1
+KY427331	Geneious	exon	70906	71523	.	+	.	Name=petB exon 2
+KY427331	Geneious	exon	116002	116559	.	-	.	Name=ndhA exon 2
+KY427331	Geneious	exon	117461	118018	.	-	.	Name=ndhA exon 1
+KY427331	Geneious	exon	72383	72854	.	+	.	Name=petD exon 2
+KY427331	Geneious	exon	79190	79623	.	-	.	Name=rpl2 exon 2
+KY427331	Geneious	exon	22716	23147	.	-	.	Name=rpoC1 exon 1
+KY427331	Geneious	exon	11598	12007	.	-	.	Name=atpF exon 2
+KY427331	Geneious	exon	76454	76855	.	-	.	Name=rpl16 exon 2
+KY427331	Geneious	exon	80382	80778	.	-	.	Name=rpl2 exon 1
+KY427331	Geneious	exon	66037	66328	.	-	.	Name=clpP exon 2
+KY427331	Geneious	exon	65196	65432	.	-	.	Name=clpP exon 3
+KY427331	Geneious	exon	95042	95273	.	+	.	Name=rps12 exon 2
+KY427331	Geneious	exon	138631	138862	.	-	.	Name=rps12 exon 2
+KY427331	Geneious	exon	3549	3779	.	-	.	Name=rps16 exon 2
+KY427331	Geneious	exon	42158	42386	.	-	.	Name=ycf3 exon 2
+KY427331	Geneious	exon	41379	41540	.	-	.	Name=ycf3 exon 3
+KY427331	Geneious	exon	12696	12840	.	-	.	Name=atpF exon 1
+KY427331	Geneious	exon	43115	43239	.	-	.	Name=ycf3 exon 1
+KY427331	Geneious	exon	64851	64964	.	-	.	Name=rps12 exon 1
+KY427331	Geneious	exon	67005	67075	.	-	.	Name=clpP exon 1
+KY427331	Geneious	exon	45880	45930	.	+	.	Name=trnL-UAA exon 2
+KY427331	Geneious	exon	9612	9659	.	+	.	Name=trnG-UCC exon 2
+KY427331	Geneious	exon	4571	4612	.	-	.	Name=rps16 exon 1
+KY427331	Geneious	exon	83244	83283	.	+	.	Name=trnT-UGU exon 2
+KY427331	Geneious	exon	150621	150660	.	-	.	Name=trnT-UGU exon 2
+KY427331	Geneious	exon	88651	88687	.	-	.	Name=trnA-UGC exon 1
+KY427331	Geneious	exon	145217	145253	.	+	.	Name=trnA-UGC exon 1
+KY427331	Geneious	exon	87806	87841	.	-	.	Name=trnA-UGC exon 2
+KY427331	Geneious	exon	88769	88804	.	-	.	Name=trnI-GAU exon 2
+KY427331	Geneious	exon	89860	89895	.	-	.	Name=trnI-GAU exon 1
+KY427331	Geneious	exon	144009	144044	.	+	.	Name=trnI-GAU exon 1
+KY427331	Geneious	exon	145100	145135	.	+	.	Name=trnI-GAU exon 2
+KY427331	Geneious	exon	146063	146098	.	+	.	Name=trnA-UGC exon 2
+KY427331	Geneious	exon	45240	45273	.	+	.	Name=trnL-UAA exon 1
+KY427331	Geneious	exon	82751	82784	.	+	.	Name=trnT-UGU exon 1
+KY427331	Geneious	exon	151120	151153	.	-	.	Name=trnT-UGU exon 1
+KY427331	Geneious	exon	95859	95884	.	+	.	Name=rps12 exon 3
+KY427331	Geneious	exon	138020	138045	.	-	.	Name=rps12 exon 3
+KY427331	Geneious	exon	8698	8720	.	+	.	Name=trnG-UCC exon 1
+KY427331	Geneious	exon	77600	77608	.	-	.	Name=rpl16 exon 1
+KY427331	Geneious	exon	71745	71752	.	+	.	Name=petD exon 1
+KY427331	Geneious	exon	70117	70122	.	+	.	Name=petB exon 1
+KY427331	Geneious	CDS	468	1208	.	-	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064896.49
+KY427331	Geneious	CDS	151351	152115	.	-	0	Name=ndhB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064896.49
+KY427331	Geneious	CDS	64851	64964	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.50
+KY427331	Geneious	CDS	138631	138862	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.50
+KY427331	Geneious	CDS	138020	138045	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.50
+KY427331	Geneious	CDS	64851	64964	.	-	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.51
+KY427331	Geneious	CDS	95042	95273	.	+	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.51
+KY427331	Geneious	CDS	95859	95884	.	+	0	Name=rps12 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.51
+KY427331	Geneious	CDS	98687	104965	.	+	0	Name=ycf2 CDS
+KY427331	Geneious	CDS	128939	135217	.	-	0	Name=ycf2 CDS
+KY427331	Geneious	CDS	119913	125009	.	-	0	Name=ycf1 CDS
+KY427331	Geneious	CDS	15997	20262	.	-	0	Name=rpoC2 CDS
+KY427331	Geneious	CDS	23198	26419	.	-	0	Name=rpoB CDS
+KY427331	Geneious	CDS	22716	23147	.	-	0	Name=rpoC1 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.52
+KY427331	Geneious	CDS	20387	22018	.	-	0	Name=rpoC1 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.52
+KY427331	Geneious	CDS	38791	41043	.	-	0	Name=psaA CDS
+KY427331	Geneious	CDS	106213	108462	.	-	0	Name=ndhF CDS
+KY427331	Geneious	CDS	36561	38765	.	-	0	Name=psaB CDS
+KY427331	Geneious	CDS	117461	118018	.	-	0	Name=ndhA CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.53
+KY427331	Geneious	CDS	116002	116559	.	-	0	Name=ndhA CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.53
+KY427331	Geneious	CDS	67005	67075	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.54
+KY427331	Geneious	CDS	66037	66328	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.54
+KY427331	Geneious	CDS	65196	65432	.	-	0	Name=clpP CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.54
+KY427331	Geneious	CDS	43115	43239	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.55
+KY427331	Geneious	CDS	42158	42386	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.55
+KY427331	Geneious	CDS	41379	41540	.	-	0	Name=ycf3 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.55
+KY427331	Geneious	CDS	80382	80778	.	-	0	Name=rpl2 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.56
+KY427331	Geneious	CDS	79190	79623	.	-	0	Name=rpl2 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064897.56
+KY427331	Geneious	CDS	4772	6316	.	-	0	Name=chlB CDS
+KY427331	Geneious	CDS	67542	69068	.	+	0	Name=psbB CDS
+KY427331	Geneious	CDS	9994	11514	.	-	0	Name=atpA CDS
+KY427331	Geneious	CDS	1409	2917	.	-	0	Name=matK CDS
+KY427331	Geneious	CDS	56526	58034	.	+	0	Name=cemA CDS
+KY427331	Geneious	CDS	112047	113555	.	-	0	Name=ndhD CDS
+KY427331	Geneious	CDS	50080	51561	.	-	0	Name=atpB CDS
+KY427331	Geneious	CDS	52107	53534	.	+	0	Name=rbcL CDS
+KY427331	Geneious	CDS	31522	32943	.	-	0	Name=psbC CDS
+KY427331	Geneious	CDS	70117	70122	.	+	0	Name=petB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.57
+KY427331	Geneious	CDS	70906	71523	.	+	0	Name=petB CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.57
+KY427331	Geneious	CDS	125425	126804	.	-	0	Name=chlN CDS
+KY427331	Geneious	CDS	12696	12840	.	-	0	Name=atpF CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.58
+KY427331	Geneious	CDS	11598	12007	.	-	0	Name=atpF CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.58
+KY427331	Geneious	CDS	118020	119198	.	-	0	Name=ndhH CDS
+KY427331	Geneious	CDS	77600	77608	.	-	0	Name=rpl16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.59
+KY427331	Geneious	CDS	76454	76855	.	-	0	Name=rpl16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.59
+KY427331	Geneious	CDS	71745	71752	.	+	0	Name=petD CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.60
+KY427331	Geneious	CDS	72383	72854	.	+	0	Name=petD CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.60
+KY427331	Geneious	CDS	4571	4612	.	-	0	Name=rps16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.61
+KY427331	Geneious	CDS	3549	3779	.	-	0	Name=rps16 CDS;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064898.61
+KY427331	Geneious	CDS	32891	33952	.	-	0	Name=psbD CDS
+KY427331	Geneious	CDS	96846	97907	.	+	0	Name=psbA CDS
+KY427331	Geneious	CDS	135997	137058	.	-	0	Name=psbA CDS
+KY427331	Geneious	CDS	73094	74116	.	-	0	Name=rpoA CDS
+KY427331	Geneious	CDS	58240	59205	.	+	0	Name=petA CDS
+KY427331	Geneious	CDS	110757	111707	.	+	0	Name=ccsA CDS
+KY427331	Geneious	CDS	54009	54944	.	+	0	Name=accD CDS
+KY427331	Geneious	CDS	126862	127764	.	-	0	Name=chlL CDS
+KY427331	Geneious	CDS	14237	14983	.	-	0	Name=atpI CDS
+KY427331	Geneious	CDS	47191	47928	.	-	0	Name=ndhK CDS
+KY427331	Geneious	CDS	15172	15888	.	-	0	Name=rps2 CDS
+KY427331	Geneious	CDS	77717	78370	.	-	0	Name=rps3 CDS
+KY427331	Geneious	CDS	44036	44656	.	-	0	Name=rps4 CDS
+KY427331	Geneious	CDS	114613	115203	.	-	0	Name=ndhG CDS
+KY427331	Geneious	CDS	115300	115860	.	-	0	Name=ndhI CDS
+KY427331	Geneious	CDS	55801	56355	.	+	0	Name=ycf4 CDS
+KY427331	Geneious	CDS	46607	47119	.	-	0	Name=ndhJ CDS
+KY427331	Geneious	CDS	95950	96423	.	+	0	Name=rps7 CDS
+KY427331	Geneious	CDS	137481	137954	.	-	0	Name=rps7 CDS
+KY427331	Geneious	CDS	49676	50074	.	-	0	Name=atpE CDS
+KY427331	Geneious	CDS	75231	75629	.	-	0	Name=rps8 CDS
+KY427331	Geneious	CDS	74154	74546	.	-	0	Name=rps11 CDS
+KY427331	Geneious	CDS	78482	78853	.	-	0	Name=rpl22 CDS
+KY427331	Geneious	CDS	75825	76193	.	-	0	Name=rpl14 CDS
+KY427331	Geneious	CDS	47919	48281	.	-	0	Name=ndhC CDS
+KY427331	Geneious	CDS	63513	63869	.	-	0	Name=rpl20 CDS
+KY427331	Geneious	CDS	108766	109122	.	+	0	Name=rpl21 CDS
+KY427331	Geneious	CDS	36040	36342	.	-	0	Name=rps14 CDS
+KY427331	Geneious	CDS	114209	114511	.	-	0	Name=ndhE CDS
+KY427331	Geneious	CDS	78871	79149	.	-	0	Name=rps19 CDS
+KY427331	Geneious	CDS	80847	81119	.	-	0	Name=rpl23 CDS
+KY427331	Geneious	CDS	119321	119590	.	-	0	Name=rps15 CDS
+KY427331	Geneious	CDS	60251	60502	.	-	0	Name=psbE CDS
+KY427331	Geneious	CDS	13191	13436	.	-	0	Name=atpH CDS
+KY427331	Geneious	CDS	113684	113929	.	-	0	Name=psaC CDS
+KY427331	Geneious	CDS	74868	75104	.	-	0	Name=infA CDS
+KY427331	Geneious	CDS	63046	63273	.	+	0	Name=rps18 CDS
+KY427331	Geneious	CDS	69763	69987	.	+	0	Name=psbH CDS
+KY427331	Geneious	CDS	62768	62968	.	+	0	Name=rpl33 CDS
+KY427331	Geneious	CDS	30611	30799	.	-	0	Name=psbZ CDS
+KY427331	Geneious	CDS	6965	7141	.	+	0	Name=psbK CDS
+KY427331	Geneious	CDS	109242	109415	.	+	0	Name=rpl32 CDS
+KY427331	Geneious	CDS	69540	69671	.	-	0	Name=psbN CDS
+KY427331	Geneious	CDS	62509	62637	.	+	0	Name=psaJ CDS
+KY427331	Geneious	CDS	59737	59859	.	-	0	Name=psbJ CDS
+KY427331	Geneious	CDS	74611	74733	.	-	0	Name=rpl36 CDS
+KY427331	Geneious	CDS	60122	60241	.	-	0	Name=psbF CDS
+KY427331	Geneious	CDS	59984	60100	.	-	0	Name=psbL CDS
+KY427331	Geneious	CDS	61477	61593	.	+	0	Name=petG CDS
+KY427331	Geneious	CDS	7753	7863	.	+	0	Name=psbI CDS
+KY427331	Geneious	CDS	55283	55393	.	+	0	Name=psaI CDS
+KY427331	Geneious	CDS	28126	28230	.	+	0	Name=psbM CDS
+KY427331	Geneious	CDS	69327	69431	.	+	0	Name=psbT CDS
+KY427331	Geneious	CDS	8467	8568	.	+	0	Name=ycf12 CDS
+KY427331	Geneious	CDS	61218	61313	.	+	0	Name=petL CDS
+KY427331	Geneious	CDS	29387	29476	.	-	0	Name=petN CDS
+KY427331	Geneious	gene	1	1208	.	-	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064900.62
+KY427331	Geneious	gene	151351	152479	.	-	.	Name=ndhB gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064900.62
+KY427331	Geneious	gene	64851	64964	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064900.63
+KY427331	Geneious	gene	138020	138862	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064900.63
+KY427331	Geneious	gene	64851	64964	.	-	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064900.64
+KY427331	Geneious	gene	95042	95884	.	+	.	Name=rps12 gene;ID=+KkonZI82GOFlbmgfaJfM8vy59Q.1526677064900.64
+KY427331	Geneious	gene	98687	104965	.	+	.	Name=ycf2 gene
+KY427331	Geneious	gene	128939	135217	.	-	.	Name=ycf2 gene
+KY427331	Geneious	gene	119913	125009	.	-	.	Name=ycf1 gene
+KY427331	Geneious	gene	15997	20262	.	-	.	Name=rpoC2 gene
+KY427331	Geneious	gene	23198	26419	.	-	.	Name=rpoB gene
+KY427331	Geneious	gene	84781	87599	.	-	.	Name=rrn23 gene
+KY427331	Geneious	gene	146305	149123	.	+	.	Name=rrn23 gene
+KY427331	Geneious	gene	20387	23147	.	-	.	Name=rpoC1 gene
+KY427331	Geneious	gene	38791	41043	.	-	.	Name=psaA gene
+KY427331	Geneious	gene	106213	108462	.	-	.	Name=ndhF gene
+KY427331	Geneious	gene	36561	38765	.	-	.	Name=psaB gene
+KY427331	Geneious	gene	116002	118018	.	-	.	Name=ndhA gene
+KY427331	Geneious	gene	65196	67075	.	-	.	Name=clpP gene
+KY427331	Geneious	gene	41379	43239	.	-	.	Name=ycf3 gene
+KY427331	Geneious	gene	79190	80778	.	-	.	Name=rpl2 gene
+KY427331	Geneious	gene	4772	6316	.	-	.	Name=chlB gene
+KY427331	Geneious	gene	67542	69068	.	+	.	Name=psbB gene
+KY427331	Geneious	gene	9994	11514	.	-	.	Name=atpA gene
+KY427331	Geneious	gene	1409	2917	.	-	.	Name=matK gene
+KY427331	Geneious	gene	56526	58034	.	+	.	Name=cemA gene
+KY427331	Geneious	gene	112047	113555	.	-	.	Name=ndhD gene
+KY427331	Geneious	gene	90205	91704	.	-	.	Name=rrn16 gene
+KY427331	Geneious	gene	142200	143699	.	+	.	Name=rrn16 gene
+KY427331	Geneious	gene	50080	51561	.	-	.	Name=atpB gene
+KY427331	Geneious	gene	52107	53534	.	+	.	Name=rbcL gene
+KY427331	Geneious	gene	31522	32943	.	-	.	Name=psbC gene
+KY427331	Geneious	gene	70117	71523	.	+	.	Name=petB gene
+KY427331	Geneious	gene	125425	126804	.	-	.	Name=chlN gene
+KY427331	Geneious	gene	11598	12840	.	-	.	Name=atpF gene
+KY427331	Geneious	gene	118020	119198	.	-	.	Name=ndhH gene
+KY427331	Geneious	gene	76454	77608	.	-	.	Name=rpl16 gene
+KY427331	Geneious	gene	88769	89895	.	-	.	Name=trnI-GAU gene
+KY427331	Geneious	gene	144009	145135	.	+	.	Name=trnI-GAU gene
+KY427331	Geneious	gene	71745	72854	.	+	.	Name=petD gene
+KY427331	Geneious	gene	3549	4612	.	-	.	Name=rps16 gene
+KY427331	Geneious	gene	32891	33952	.	-	.	Name=psbD gene
+KY427331	Geneious	gene	96846	97907	.	+	.	Name=psbA gene
+KY427331	Geneious	gene	135997	137058	.	-	.	Name=psbA gene
+KY427331	Geneious	gene	73094	74116	.	-	.	Name=rpoA gene
+KY427331	Geneious	gene	58240	59205	.	+	.	Name=petA gene
+KY427331	Geneious	gene	8698	9659	.	+	.	Name=trnG-UCC gene
+KY427331	Geneious	gene	110757	111707	.	+	.	Name=ccsA gene
+KY427331	Geneious	gene	54009	54944	.	+	.	Name=accD gene
+KY427331	Geneious	gene	126862	127764	.	-	.	Name=chlL gene
+KY427331	Geneious	gene	87806	88687	.	-	.	Name=trnA-UGC gene
+KY427331	Geneious	gene	145217	146098	.	+	.	Name=trnA-UGC gene
+KY427331	Geneious	gene	81789	82553	.	+	.	Name=ndhB gene
+KY427331	Geneious	gene	14237	14983	.	-	.	Name=atpI gene
+KY427331	Geneious	gene	47191	47928	.	-	.	Name=ndhK gene
+KY427331	Geneious	gene	15172	15888	.	-	.	Name=rps2 gene
+KY427331	Geneious	gene	45240	45930	.	+	.	Name=trnL-UAA gene
+KY427331	Geneious	gene	77717	78370	.	-	.	Name=rps3 gene
+KY427331	Geneious	gene	44036	44656	.	-	.	Name=rps4 gene
+KY427331	Geneious	gene	114613	115203	.	-	.	Name=ndhG gene
+KY427331	Geneious	gene	115300	115860	.	-	.	Name=ndhI gene
+KY427331	Geneious	gene	55801	56355	.	+	.	Name=ycf4 gene
+KY427331	Geneious	gene	82751	83283	.	+	.	Name=trnT-UGU gene
+KY427331	Geneious	gene	150621	151153	.	-	.	Name=trnT-UGU gene
+KY427331	Geneious	gene	46607	47119	.	-	.	Name=ndhJ gene
+KY427331	Geneious	gene	95950	96423	.	+	.	Name=rps7 gene
+KY427331	Geneious	gene	137481	137954	.	-	.	Name=rps7 gene
+KY427331	Geneious	gene	49676	50074	.	-	.	Name=atpE gene
+KY427331	Geneious	gene	75231	75629	.	-	.	Name=rps8 gene
+KY427331	Geneious	gene	74154	74546	.	-	.	Name=rps11 gene
+KY427331	Geneious	gene	78482	78853	.	-	.	Name=rpl22 gene
+KY427331	Geneious	gene	75825	76193	.	-	.	Name=rpl14 gene
+KY427331	Geneious	gene	47919	48281	.	-	.	Name=ndhC gene
+KY427331	Geneious	gene	63513	63869	.	-	.	Name=rpl20 gene
+KY427331	Geneious	gene	108766	109122	.	+	.	Name=rpl21 gene
+KY427331	Geneious	gene	36040	36342	.	-	.	Name=rps14 gene
+KY427331	Geneious	gene	114209	114511	.	-	.	Name=ndhE gene
+KY427331	Geneious	gene	78871	79149	.	-	.	Name=rps19 gene
+KY427331	Geneious	gene	80847	81119	.	-	.	Name=rpl23 gene
+KY427331	Geneious	gene	119321	119590	.	-	.	Name=rps15 gene
+KY427331	Geneious	gene	60251	60502	.	-	.	Name=psbE gene
+KY427331	Geneious	gene	13191	13436	.	-	.	Name=atpH gene
+KY427331	Geneious	gene	113684	113929	.	-	.	Name=psaC gene
+KY427331	Geneious	gene	74868	75104	.	-	.	Name=infA gene
+KY427331	Geneious	gene	63046	63273	.	+	.	Name=rps18 gene
+KY427331	Geneious	gene	69763	69987	.	+	.	Name=psbH gene
+KY427331	Geneious	gene	62768	62968	.	+	.	Name=rpl33 gene
+KY427331	Geneious	gene	30611	30799	.	-	.	Name=psbZ gene
+KY427331	Geneious	gene	6965	7141	.	+	.	Name=psbK gene
+KY427331	Geneious	gene	109242	109415	.	+	.	Name=rpl32 gene
+KY427331	Geneious	gene	69540	69671	.	-	.	Name=psbN gene
+KY427331	Geneious	gene	62509	62637	.	+	.	Name=psaJ gene
+KY427331	Geneious	gene	59737	59859	.	-	.	Name=psbJ gene
+KY427331	Geneious	gene	74611	74733	.	-	.	Name=rpl36 gene
+KY427331	Geneious	gene	84152	84274	.	-	.	Name=rrn5 gene
+KY427331	Geneious	gene	149630	149752	.	+	.	Name=rrn5 gene
+KY427331	Geneious	gene	60122	60241	.	-	.	Name=psbF gene
+KY427331	Geneious	gene	59984	60100	.	-	.	Name=psbL gene
+KY427331	Geneious	gene	61477	61593	.	+	.	Name=petG gene
+KY427331	Geneious	gene	7753	7863	.	+	.	Name=psbI gene
+KY427331	Geneious	gene	55283	55393	.	+	.	Name=psaI gene
+KY427331	Geneious	gene	28126	28230	.	+	.	Name=psbM gene
+KY427331	Geneious	gene	69327	69431	.	+	.	Name=psbT gene
+KY427331	Geneious	gene	84554	84656	.	-	.	Name=rrn4.5 gene
+KY427331	Geneious	gene	149248	149350	.	+	.	Name=rrn4.5 gene
+KY427331	Geneious	gene	8467	8568	.	+	.	Name=ycf12 gene
+KY427331	Geneious	gene	61218	61313	.	+	.	Name=petL gene
+KY427331	Geneious	gene	29387	29476	.	-	.	Name=petN gene
+KY427331	Geneious	gene	31211	31299	.	+	.	Name=trnS-UGA gene
+KY427331	Geneious	gene	7964	8051	.	-	.	Name=trnS-GCU gene
+KY427331	Geneious	gene	43506	43592	.	+	.	Name=trnS-GGA gene
+KY427331	Geneious	gene	27390	27471	.	-	.	Name=trnY-GUA gene
+KY427331	Geneious	gene	53662	53742	.	+	.	Name=trnR-UCG gene
+KY427331	Geneious	gene	110374	110452	.	+	.	Name=trnL-UAG gene
+KY427331	Geneious	gene	83893	83967	.	-	.	Name=trnR-ACG gene
+KY427331	Geneious	gene	149937	150011	.	+	.	Name=trnR-ACG gene
+KY427331	Geneious	gene	27252	27325	.	+	.	Name=trnD-GUC gene
+KY427331	Geneious	gene	35841	35914	.	-	.	Name=trnfM-CAU gene
+KY427331	Geneious	gene	61848	61921	.	-	.	Name=trnW-CCA gene
+KY427331	Geneious	gene	62083	62156	.	-	.	Name=trnP-UGG gene
+KY427331	Geneious	gene	81283	81356	.	-	.	Name=trnI-CAU gene
+KY427331	Geneious	gene	98331	98404	.	+	.	Name=trnH-GUG gene
+KY427331	Geneious	gene	110013	110086	.	-	.	Name=trnP-GGG gene
+KY427331	Geneious	gene	135500	135573	.	-	.	Name=trnH-GUG gene
+KY427331	Geneious	gene	27621	27693	.	-	.	Name=trnE-UUC gene
+KY427331	Geneious	gene	46266	46338	.	+	.	Name=trnF-GAA gene
+KY427331	Geneious	gene	49415	49487	.	+	.	Name=trnM-CAU gene
+KY427331	Geneious	gene	6541	6612	.	-	.	Name=trnQ-UUG gene
+KY427331	Geneious	gene	9818	9889	.	+	.	Name=trnR-UCU gene
+KY427331	Geneious	gene	29912	29983	.	-	.	Name=trnC-GCA gene
+KY427331	Geneious	gene	35292	35363	.	-	.	Name=trnT-GGU gene
+KY427331	Geneious	gene	105636	105707	.	-	.	Name=trnN-GUU gene
+KY427331	Geneious	gene	128197	128268	.	+	.	Name=trnN-GUU gene
+KY427331	Geneious	gene	30379	30449	.	-	.	Name=trnG-GCC gene
