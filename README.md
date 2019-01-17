@@ -2,19 +2,6 @@
 [![Build Status](https://travis-ci.com/TARobison/ReFernment.svg?token=q2xtkzWBws7Qp6deSQsN&branch=master)](https://travis-ci.com/TARobison/ReFernment)
 
 
-
----
-title: "Introduction to ReFernment"
-author: "Tanner A. Robison and Paul G. Wolf"
-date: "2018-09-15"
-output: rmarkdown::html_document
-vignette: >
-  %\VignetteIndexEntry{Introduction to ReFernment}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-
 ## Why ReFernment
 ReFernment was created in response to the drudgery of manually annotating a plastome sequence that has levels of RNA editing. These editing sites result in a 
 genomic sequence that contains features that look like errors (e.g., internal stop codons) so the annotations will be rejected by NCBI unless they are annotated 
