@@ -2,6 +2,12 @@
 [![Build Status](https://travis-ci.com/TARobison/ReFernment.svg?token=q2xtkzWBws7Qp6deSQsN&branch=master)](https://travis-ci.com/TARobison/ReFernment)
 
 
+## Getting Help
+If  you have any issues using ReFernment, please get in touch with me and I will do my best to address them. You can either do this by eithter creating an issue on GitHub, or emailing me directly at 
+robison dot tanner at gmail dot com. 
+
+Likewise, if you have any suggestions for improving ReFernment, I would love to hear them. I want to make this tool as useful as possible. 
+
 
 ## Why ReFernment
 ReFernment was created in response to the drudgery of manually annotating a plastome sequence that has levels of RNA editing. These editing sites result in a 
@@ -94,7 +100,3 @@ This message is intended to warn the user of two common problems:
 The warning will appear if a given coding sequence has more than 5 internal stops. There are, of course, cases where this happens and it is not the result of assembly error, 
 but these are relatively rare. Especially if there are more than 10 internal stops the user should take a close look at this coding sequecne to check for assembly error or 
 annotation errors. 
-
-## Getting Help
-If  you have any issues using ReFernment, please get in touch with me and I will do my best to address them. You can either do this by eithter creating an issue on GitHub, or emailing me directly at 
-robison dot tanner at gmail dot com. 
