@@ -2,21 +2,26 @@
 % Please edit documentation in R/ReFernment.R
 \name{ReFernment}
 \alias{ReFernment}
-\title{Annotate RNA editing in the GB files of plastomes}
+\title{Annotate RNA editing in for plastid genome submission}
 \usage{
-ReFernment(gbFolderPath, gffFolderPath, outFolderPath, genomes)
+ReFernment(gffFolderPath, fastaFolderPath = NULL, gbFolderPath = NULL,
+  outFolderPath, genomes)
 }
 \arguments{
+\item{gffFolderPath}{this is the path to the folder containing the gff 
+file(s) that you would like annotated.}
+
+\item{fastaFolderPath}{this is the path to the folder containing the 
+fasta file(s) corresponding to the gff/gb files you would like annotated.}
+
 \item{gbFolderPath}{this is the path to the folder containing the gb file(s)
 that you would like annotated.}
 
-\item{gffFolderPath}{this is the path to the folder containing the gff 
-file(s) corresponding to the gff files you would like annotated.}
-
 \item{outFolderPath}{this is the path to the folder where the new genome
-annotatons will be produced. The output is in gb format and the new 
-annotations will be in the feature table. It is importatnt to note that you
-should have the output file seperate from your input files, as this prevents
+annotations will be produced. In addition to the preferred output file (gb or gff), the new 
+annotations will produced as a feature table and a protein fasta file for BankIt submission. 
+It is important to note that you
+should have the output file separate from your input files, as this prevents
 the script from overwriting the original files!}
 
 \item{genomes}{this should be a list containing the filenames of all the 
@@ -24,28 +29,26 @@ genomes that you would like to annotate. Note that you should not include
 the file endings of these files.}
 }
 \value{
-an annotated gb file. This file will have the required misc_feature
+an annotated gb or gff file file. In addition, a five column feature table will be produced, which can be used for BankIt submissions. This file will have the required misc_feature
 annotations as well as a translation corrected for RNA editing.
 }
 \description{
-annotates the GB files of plastomes with high levels of RNA
-editing. Provides annotations to satisfy GenBank submission requirements. 
-Takes as input the paths to the folders containing required file inputs
-(a gff3 annotation and .gb file), the desired output path and the names of 
+Provides RNA editing annotations to satisfy GenBank submission requirements. 
+Takes as input the paths to the folders containing required file inputs and
+the desired output path and the names of 
 the files that the user wishes to annotate. Each filetype needn't be in 
-seperate folders, but it is reccomended. This is especially true for output 
-file path, because if it isn't sepereate from input gb files, the original 
+separate folders, but it is recommended. This is especially true for output 
+file path, because if it isn't separate from input gb files, the original 
 files will be overwritten! Be sure that the file names for a respective 
-genome are the same
-across file types!
+genome are the same across file types!
 }
 \examples{
-getwd()
+
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
 gbFolder <- "/home/travis/build/TARobison/ReFernment/examples/GB/"
 gffFolder <- "/home/travis/build/TARobison/ReFernment/examples/GFF/"
 outputFolder <- "/home/travis/build/TARobison/ReFernment/examples/"
-ReFernment(gbFolder, gffFolder, outputFolder, genomes)
+ReFernment(gffFolder, fastaFolderPath=NULL, gbFolderPath=NULL, outputFolder, genomes)
 
 }
 \author{

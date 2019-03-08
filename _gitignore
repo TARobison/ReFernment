@@ -2,3 +2,9 @@ inst/doc
 .Rproj.user
 _Rbuildignore
 .Rproj.user
+ReFernment-vignette.html
+my-vignette.html
+my-vignette.md
+my-vignette.pdf
+/vignettes/
+.vscode
