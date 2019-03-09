@@ -7,7 +7,7 @@ ReFernment was created in response to the drudgery of manually annotating a plas
 ## How it works and how to cite
 Please see a breif description of how ReFernment operates in our short [Software Note](https://doi.org/10.1002/aps3.1216) in Applications in Plant Sciences. Please, if you use ReFernment for published work, cite the above manuscript.  
 
-![alt text](https://www.utahbusiness.com/wp-content/uploads/2016/02/Utah-State-University-logo.jpg)
+![alt text](https://en.wikipedia.org/wiki/Utah_State_University#/media/File:Utah_State_University_seal.svg)
 
 ## How to use it
 ReFernment *requires* only a GFF3 file (with sequence embedded) to work, but you can optionally provide a GenBank flat file and seperate fasta file, if your workflow requires this. ReFernment takes as input the following:
