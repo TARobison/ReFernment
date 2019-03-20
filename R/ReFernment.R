@@ -59,7 +59,6 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                 gene <- getGeneName(annotations[i,])
                 exonIndex <- getNumberOfExons(annotations, i)
                 exonCount <- length(exonIndex)
-                #cat(gene)
                 if(identical(annotations$attributes[i], annotations$attributes[i-1]) && identical(annotations$strand[i], annotations$strand[i-1])){next}
                 else if(identical(annotations$attributes[i], annotations$attributes[i+1]) && identical(annotations$strand[i], annotations$strand[i+1])){
                     for(j in 0:exonCount-1){
@@ -69,7 +68,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                         }
                     }
                     if(isTRUE(intervalProblem)){
-                        cat("The intervals for", gene, "'s annotation are incorrect. Part or all of the annotation extend beyond the sequence length. Please check.\n")
+                        cat("\tThe intervals for", gene, "'s annotation are incorrect. Part or all of the annotation extend beyond the sequence length. Please check.\n")
                         next
                     }
                     exons <- checkExons(annotations,i, dnachar,gb)  
@@ -84,6 +83,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                     
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                     if(nchar(CDS) %% 3 != 0){
+                        cat("\tThe coding sequence sequence for ", gene, " is not a multiple of 3. Attemptig to fix... please manualy verify correction. There is likely a reading frame problem\n")
                         outCDS <- checkFrame(annotations, i, CDS,gb)
                         gb <- outCDS[[1]]
                         annotations <- outCDS[[2]]
@@ -112,7 +112,6 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                     RNAediting <- translation[2]
                     gb <- annotateTranslation(protein, RNAediting, annotations, gb,i)
                     proteinFasta <- rbind(proteinFasta, proteinrow)
-                  #  cat(gene)
                     }
             }
         }
@@ -123,6 +122,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
     edit_GFF_file <-function(genomeName){
         proteinFasta <- matrix(NA, 1,4)
         for(i in 1:nrow(annotations)){
+            gb <- NULL
             intervalProblem <- FALSE
             if(annotations$type[i] == "CDS"){
                 gene <- getGeneName(annotations[i,])
@@ -137,11 +137,11 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                         }
                     }
                     if(isTRUE(intervalProblem)){
-                        cat("The intervals for", gene, "'s annotation are incorrect. Part or all of the annotation extend beyond the sequence length. Please check.\n")
+                        cat("\tThe intervals for", gene, "'s annotation are incorrect. Part or all of the annotation extend beyond the sequence length. Please check.\n")
                         next
                     }
                     exons <- checkExons(annotations,i, dnachar,gb)  
-                    gb <- exons[[1]]
+                    # gb <- exons[[1]]
                     protein <- exons[[2]]
                     annotations <- exons[[3]]
                     #yell at people if they don't have a product in their gff
@@ -150,27 +150,27 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                     names(proteinrow) <- names(proteinFasta)
                     proteinFasta <- rbind(proteinFasta, proteinrow)
                 }else{
-                    
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                     if(nchar(CDS) %% 3 != 0){
+                        cat("\tThe coding sequence sequence for ", gene, " is not a multiple of 3. Attemptig to fix... please manualy verify correction. There is likely a reading frame problem\n")
                         outCDS <- checkFrame(annotations, i, CDS,gb)
-                        gb <- outCDS[[1]]
+                        # gb <- outCDS[[1]]
                         annotations <- outCDS[[2]]
                         CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
                     }
 
                     outStart <- checkStartCodon(CDS, annotations,i,gb)
-                    gb <-outStart[[1]]
+                    # gb <-outStart[[1]]
                     annotations <-outStart[[2]]
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
 
                     outStop <- checkStopCodon(CDS, annotations,i, gb)
-                    gb <- outStop[[1]]
+                    # gb <- outStop[[1]]
                     annotations <- outStop[[2]]
                     CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
 
                     outInternal <- checkForInternalStops(CDS, annotations, i, gb)
-                    gb <- outInternal[[1]]
+                    # gb <- outInternal[[1]]
                     annotations <- outInternal[[2]]
                     
             
@@ -180,12 +180,12 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                     proteinrow <- cbind(gene, protein, annotations$start[i], proteinProduct)
                     names(proteinrow) <- names(proteinFasta)
                     RNAediting <- translation[2]
-                    gb <- annotateTranslation(protein, RNAediting, annotations, gb,i)
+                    # gb <- annotateTranslation(protein, RNAediting, annotations, gb,i)
                     proteinFasta <- rbind(proteinFasta, proteinrow)
                     }
             }
         }
-    
+
         write.table(annotations, paste(output, ".gff", sep=''), quote=FALSE, sep='\t', na='.', row.names=FALSE, col.names=FALSE)
         write.csv(proteinFasta, paste(output, ".csv", sep=''), row.names=FALSE)
         return(annotations)
@@ -193,54 +193,60 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
     
     checkFrame <- function(annotations, i, CDS, gb){
         gene <- getGeneName(annotations[i[1],])
-        numExons <- length(i)
+        exonIndex <- getNumberOfExons(annotations, i)
+        numExons <- length(exonIndex)
+
         if(numExons== 1){
             CDS <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
-        }   
-        if(annotations$strand[i[numExons]] == '-'){
+        }
+        # this is the only place where i[numexons] should ever be. Anywhere else and it will likely cause problems
+        if(annotations$strand[exonIndex[numExons]] == '-'){
             if(!is.null(gb)){
-                original <- annotations$start[i[numExons]]
+                original <- annotations$start[exonIndex[numExons]]
                 while((nchar(CDS) %% 3) != 0){
-                    annotations$start[i[numExons]] <- annotations$start[i[numExons]] - 1
+                    annotations$start[exonIndex[numExons]] <- annotations$start[exonIndex[numExons]] - 1
                     CDS <- paste(CDS, "N", sep='')
                 }
                 gbString <- paste(original, '(\\.\\.)', sep='')
-                newStop <- paste(annotations$start[i[numExons]],'..', sep='')
+                newStop <- paste(annotations$start[exonIndex[numExons]],'..', sep='')
                 gb <- gsub(gbString, newStop,gb)
                 out <- list(gb, annotations)
                 return(out)
             }else{
                 while((nchar(CDS) %% 3) != 0){
-                    annotations$start[i[numExons]] <- annotations$start[i[numExons]] - 1
+                    annotations$start[exonIndex[numExons]] <- annotations$start[exonIndex[numExons]] - 1
                     CDS <- paste(CDS, "N", sep='')
                 }
-                return(annotations)
-            }
-        }
-        if(annotations$strand[i[numExons]] == '+'){
-            if(!is.null(gb)){
-                original <- annotations$end[i[numExons]]
-                while((nchar(CDS) %% 3) != 0){
-                    annotations$end[i[numExons]] <- annotations$end[i[numExons]] +1
-                    CDS <- paste(CDS, "N", sep='')
-                }
-                gbString <- paste('(\\.\\.)', original, sep='')
-                newStop <- paste('..',annotations$end[i[numExons]], sep='')
-                gb <- gsub(gbString, newStop,gb)
                 out <- list(gb, annotations)
                 return(out)
             }
-        }else{
-            while((nchar(CDS) %% 3) != 0){
-                annotations$end[i[numExons]] <- annotations$end[i[numExons]] +1
-                CDS <- paste(CDS, "N", sep='')
-            }
-            return(annotations)
+        }
+        if(annotations$strand[exonIndex[numExons]] == '+'){
+            if(!is.null(gb)){
+                original <- annotations$end[exonIndex[numExons]]
+                while((nchar(CDS) %% 3) != 0){
+                    annotations$end[exonIndex[numExons]] <- annotations$end[exonIndex[numExons]] +1
+                    CDS <- paste(CDS, "N", sep='')
+                }
+                gbString <- paste('(\\.\\.)', original, sep='')
+                newStop <- paste('..',annotations$end[exonIndex[numExons]], sep='')
+                gb <- gsub(gbString, newStop,gb)
+                out <- list(gb, annotations)
+                return(out)
+            }else{
+                while((nchar(CDS) %% 3) != 0){
+                    annotations$end[exonIndex[numExons]] <- annotations$end[exonIndex[numExons]] +1
+                    CDS <- paste(CDS, "N", sep='')
+                }
+                out <- list(gb, annotations)
+                return(out)
+            }   
         }
     }
     
     concatenateExons <- function(numExons, exonIndex, annotations, dnachar, i){
         #concatenates exons so we have a single coding sequence.
+        
         firstExon <- getCodingSequence(annotations[i,], dnachar, annotations$start[i], annotations$end[i])
         for(j in 2:numExons){
                 nextExon <- getCodingSequence(annotations[exonIndex[j],], dnachar, annotations$start[exonIndex[j]], annotations$end[exonIndex[j]])
@@ -251,23 +257,24 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
 
     checkExons <- function(annotations,i, dnachar, gb){
         #a wrapper function for genes with multiple intervals.
+        
         exonIndex <- getNumberOfExons(annotations, i)
         numExons <- length(exonIndex)
         CDS <- concatenateExons(numExons, exonIndex, annotations, dnachar, i)
-    
+
         if(nchar(CDS) %% 3 != 0){
+            cat("\tThe coding sequence sequence for ", getGeneName(annotations[i,]), " is not a multiple of 3. Attemptig to fix... please manualy verify sequence. There is likely a reading frame problem\n")
             if(is.null(gb)){
-                annotations <- checkFrame(annotations, i, CDS, gb)
+                annotations <- checkFrame(annotations, i, CDS, gb)[[2]]
             }else{
                 outCDS <- checkFrame(annotations, i, CDS,gb)
                 gb <- outCDS[[1]]
                 annotations <- outCDS[[2]]
                 CDS <- concatenateExons(numExons, exonIndex, annotations, dnachar, i)
+
             }
         }
         
-
-        ## THIS IS A POTENTIAL DANGER ZONE, but I think it will be fine if I am careful with the output of the functions below
         outStart <- checkStartCodon(CDS, annotations, exonIndex[1], gb)
         gb <- outStart[[1]]
         annotations <- outStart[[2]]
@@ -277,6 +284,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
         outStop <- checkStopCodon(finalExon, annotations,exonIndex, gb) ###removed exonIndex[numExons]
         gb <- outStop[[1]]
         annotations <- outStop[[2]]
+       
         CDS <- concatenateExons(numExons, exonIndex, annotations, dnachar, i)
 
         outInternal <- checkForInternalStops(CDS, annotations,exonIndex,gb)
@@ -390,18 +398,17 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
     checkStartCodon <- function(CDS, annotations,i,gb){
         #checks the first residue to see if it is a valid start codon. If not, checks to see whether RNA editing, or changing the gene boundaries restores start codon
         originalGFF <- annotations
+
         if(any(substr(CDS, 1, 3) == conventionalStarts)){
             out <- list(gb, annotations)
             return(out)
         }
         possibleEditedStarts <- c('ACG')
         if(any(substr(CDS, 1, 3) == possibleEditedStarts)){
-            #CHECK THE ADD FEATURE FUNCTION. MAKE A GB FILE LOGICAL
             if(annotations[i[1], "strand"] == '+'){
                 out <- addFeature(annotations, i, annotations[i, "start"]+1, "CtoU", gb, "gene")
             }
             if(annotations[i[1], "strand"] == '-'){
-                
                 out <- addFeature(annotations, i, annotations[i, "end"]-1, "CtoU",gb,"gene")
             }
             return(out)
@@ -410,7 +417,6 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             gb <- shortenOut[[1]]
             annotations <- shortenOut[[2]]
             if(identical(originalGFF, annotations)){
-                #####
                 out <- extendUpstream(annotations, dnachar, gb, i)
                 return(out)
             }
@@ -430,20 +436,22 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             out <- list(gb, annotations)
             return(out) 
         } else if(any(substr(CDS, nchar(CDS)-2,nchar(CDS)) == possibleEditedStops)){
-            if(annotations$strand[i[numExons]] == '+'){
+            #changed
+            if(annotations$strand[exonIndex[numExons]] == '+'){
                 out <- addFeature(annotations, i[1], annotations[i[numExons], "end"]-2, "CtoU",gb,"gene") #### changed these
             }
-            if(annotations$strand[i[numExons]] == '-'){
+            #changed
+            if(annotations$strand[exonIndex[numExons]] == '-'){
                 out <- addFeature(annotations, i[1],annotations[i[numExons], "start"]+2, "CtoU", gb, "gene") #######
             }
             return(out) 
         } else {
-            shortenOut <- shortenDownstream(annotations, dnachar, gb, CDS, i)
+            shortenOut <- shortenDownstream(annotations, dnachar, gb, CDS, i[1])
             gb <- shortenOut[[1]]
             annotations <- shortenOut[[2]]
             if(identical(originalGFF, annotations)){
                 #####
-                out <- extendDownstream(annotations, dnachar, gb, i)
+                out <- extendDownstream(annotations, dnachar, gb, i[1])
                 return(out)
             }
             out <- list(gb, annotations)
@@ -461,32 +469,31 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
         }
         codonList <- codonGroup(CDS)
         exonIndex <- getNumberOfExons(annotations, i)
-        
         numExons <- length(exonIndex)
         for(j in (length(codonList)-10):((length(codonList)))){
             if(any(codonList[j] == conventionalStops)){
-                if(annotations$strand[i[numExons]] == '-'){
+                if(annotations$strand[exonIndex[numExons]] == '-'){
                     dist <- j - (length(codonList)-10)
-                    newStop <- annotations$start[i[numExons]] - dist*3
+                    newStop <- annotations$start[exonIndex[numExons]] - dist*3
                     if(is.null(gb)){
-                        annotations$start[i[numExons]] <- newStop
+                        annotations$start[exonIndex[numExons]] <- newStop
                     }else{
-                        gbstring <- paste(annotations$start[i[numExons]],'\\.\\.',sep='')
+                        gbstring <- paste(annotations$start[exonIndex[numExons]],'\\.\\.',sep='')
                         gb <- sub(gbstring, paste(newStop,'\\.\\.',sep=''), gb, perl = TRUE)
-                        annotations$start[i[numExons]] <- newStop
+                        annotations$start[exonIndex[numExons]] <- newStop
                     }
                     out <- list(gb, annotations)
                     return(out)
                 }
-                if(annotations$strand[i[numExons]] == '+'){
+                if(annotations$strand[exonIndex[numExons]] == '+'){
                     dist <- j -(length(codonList) -10)
-                    newStop <- annotations$end[i[numExons]] + dist*3
+                    newStop <- annotations$end[exonIndex[numExons]] + dist*3
                     if(is.null(gb)){
-                        annotations$end[i[numExons]] <- newStop
+                        annotations$end[exonIndex[numExons]] <- newStop
                     }else{
-                        gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
+                        gbstring <- paste('\\.\\.',annotations$end[exonIndex[numExons]],sep='')
                         gb <- sub(gbstring, paste('\\.\\.', newStop,sep='') , gb, perl = TRUE)
-                        annotations$end[i[numExons]] <- newStop
+                        annotations$end[exonIndex[numExons]] <- newStop
                     }
                     out <- list(gb, annotations)
                     return(out)
@@ -551,7 +558,6 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             for(j in 1:(length(codonList)-1)){            
                 if(annotations$strand[i[1]] == '-'){
                     if(annotations$end[i[exonCount]] - annotations$start[i[exonCount]] +totalLength < j*3 && exonCount < length(i)){ 
-                        #this is the most ridiculous way to fix this problem. Could barely read it today (maybe I needed more coffee though)
                         #fix in the future
                         totalLength <- annotations$end[i[exonCount]] - annotations$start[i[exonCount]] + totalLength +1
                         exonCount <- exonCount +1
@@ -584,8 +590,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             }
         if(stops > 5){
             gene <- getGeneName(annotations[i,])
-            cat("There are a high number of edited Stops (", stops,") in", gene, "manually check to make sure frame is correct\n")
-            #browser()
+            cat("\tThere are a high number of edited Stops (", stops,") in", gene, "manually check to make sure frame is correct\n")
         }
         return(out)
     }
@@ -641,30 +646,30 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
     shortenDownstream <- function(annotations, dnachar, gb, CDS,i){
         #if the stop codon is not valid, this function may shorten the downstream end of gene to check if valid stop lies nearby        
         codonList <-codonGroup(CDS)
-        
+     
         exonIndex <- getNumberOfExons(annotations, i)
         numExons <- length(exonIndex)
         for(j in (length(codonList)-7):((length(codonList)-1))){
             if(any(codonList[j] == conventionalStops)){
-                if(annotations$strand[i[numExons]] == '-'){
+                if(annotations$strand[exonIndex[numExons]] == '-'){
                     dist <- length(codonList) - j
-                    newStop <- annotations$start[i[numExons]] + dist*3
+                    newStop <- annotations$start[exonIndex[numExons]] + dist*3
                     if(!is.null(gb)){
-                        gbstring <- paste(annotations$start[i[numExons]],'\\.\\.',sep='')
+                        gbstring <- paste(annotations$start[exonIndex[numExons]],'\\.\\.',sep='')
                         gb <- sub(gbstring, paste(newStop,'\\.\\.',sep=''), gb, perl = TRUE)
                     }
-                    annotations$start[i[numExons]] <- newStop
+                    annotations$start[exonIndex[numExons]] <- newStop
                     out <- list(gb, annotations)
                     return(out)
                 }
-                if(annotations$strand[i[numExons]] == '+'){
+                if(annotations$strand[exonIndex[numExons]] == '+'){
                     dist <- length(codonList) - j
-                    newStop <- annotations$end[i[numExons]] - dist*3
+                    newStop <- annotations$end[exonIndex[numExons]] - dist*3
                     if(!is.null(gb)){
-                        gbstring <- paste('\\.\\.',annotations$end[i[numExons]],sep='')
+                        gbstring <- paste('\\.\\.',annotations$end[exonIndex[numExons]],sep='')
                         gb <- sub(gbstring, paste('\\.\\.', newStop,sep='') , gb, perl = TRUE)
                     }
-                    annotations$end[i[numExons]] <- newStop
+                    annotations$end[exonIndex[numExons]] <- newStop
                     out <- list(gb, annotations)
                     return(out)
                 }  
@@ -681,7 +686,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             if(any(codonList[j] == conventionalStarts)){
                 if(annotations[i[1],"strand"] == '-'){
                     newStart <- annotations[i,"end"] - (j-1)*3
-                    if(is.null(gb)){
+                    if(!is.null(gb)){
                         gbstring <- paste('\\.\\.',annotations[i,"end"],sep='')
                         gb <- sub(gbstring, paste('\\.\\.', newStart[1],sep=''), gb, perl = TRUE)
                     }
@@ -691,7 +696,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                 }
                 if(annotations[i[1],"strand"] == '+'){
                     newStart <- annotations[i,"start"] + (j-1)*3
-                    if(is.null(gb)){
+                    if(!is.null(gb)){
                         gbstring <- paste(annotations[i,"start"], '\\.\\.',sep='')
                         gb <- sub(gbstring, paste(newStart, '\\.\\.',sep='') , gb, perl = TRUE)
                     }
@@ -757,6 +762,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
     GB2FeatureTable <- function(gb, outPath, name){ 
        #gb <-readLines(paste(outFolderPath, genomes[i], ".gb", sep=''))
        #print('in MakeFeatureTable')
+       
         keyFeatures <- c("assembly_gap", "C_region", "CDS", "centromere", "D-loop", "D_segment", "exon",
                         "gap", "gene", "iDNA", "intron", "J_segment", "mat_peptide", 
                         "misc_binding", "misc_difference", "misc_feature", "misc_recomb", "misc_RNA",
@@ -772,7 +778,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
         featureTable <- matrix('', (endFeatures - features), 5)
         j <- 2
         featureTable[1,1] <- paste(">Feature", name)
-
+        
         for(i in features:endFeatures){
             if(j > nrow(featureTable)){
                 addRow <- matrix('', 1, 5)
@@ -801,13 +807,17 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
                     if(identical(first[[1]], character(0))){next}
                     for(k in 1:lengths(second)){
                         if(grepl("complement", line)){
-                            featureTable[j, 2] <- first[[1]][k]
+                            featureTable[j,2] <- first[[1]][k]
                             featureTable[j, 1] <- second[[1]][k]
                             if(k < lengths(second)) {j <- j+1}
                         }else{
                             featureTable[j,1] <- first[[1]][k]
                             featureTable[j,2] <- second[[1]][k]
                             if(k < lengths(second)) {j <- j+1}
+                        }
+                        if(j > nrow(featureTable)){
+                            addRow <- matrix('', 1, 5)
+                            featureTable <- rbind(featureTable, addRow)
                         }
                     }
                 }
@@ -928,7 +938,7 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
         for(i in 1:nrow(protein)){
             line <- grep(protein$protein[i], gb)
             if(identical(line, integer(0))){
-                cat("There seems to be a problem with the protein sequence of", as.character(protein$gene[i]), "please check its sequence in the protein fasta manually\n")
+                cat("\tThere seems to be a problem with the protein sequence of", as.character(protein$gene[i]), "please check its sequence in the protein fasta manually\n")
                 next
             }
             endRange <- line[1]+10
@@ -1065,13 +1075,13 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             if(file.exists("temp.gff")){file.remove("temp.gff")}
         }else{
             gff <- paste(gffFolderPath, genomes[i], ".gff", sep='')
+            gffFile <- readLines(gff)
             if(is.null(fastaFolderPath)){
-                gffFile <- readLines(gff)
                 sequence <- DNAString(gff2fasta(gffFile))
                 annotations <- read.gff("temp.gff")
             }else{
-                fasta <- readLines(paste(fastaFolderPath, genomes[i], ".fasta", sep=''))
-                sequence <- readDNAStringSet(fasta, format="fasta")
+                sequence <- readDNAStringSet(paste(fastaFolderPath, genomes[i], ".fasta", sep=''))
+                #sequence <- DNAString(fasta)
                 annotations <- read.gff(gff)
             }
             gb <- NULL
@@ -1083,7 +1093,6 @@ ReFernment <- function(gffFolderPath, fastaFolderPath=NULL, gbFolderPath=NULL, o
             restoreGFFheader(gffFile, output)
             ##GET ORGANISM
             GFF2FeatureTable(annotations, output, genomes[i])
-            #fix this
             GFFProteinFasta(output, genomes[i], genomes[i])
             if(file.exists("temp.gff")){file.remove("temp.gff")}
         }

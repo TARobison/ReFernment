@@ -1,0 +1,1072 @@
+>Feature PFS8				
+258	258	misc_feature		
+			note	"putative C to U RNA editing"
+259	14	CDS		
+			exception	"RNA editing"
+			standard_name	"atpH CDS"
+259	14	gene		
+			standard_name	"atpH gene"
+1749	1749	misc_feature		
+			note	"putative C to U RNA editing"
+1681	1681	misc_feature		
+			note	"putative U to C RNA editing"
+1750	1004	CDS		
+			exception	"RNA editing"
+			standard_name	"atpI CDS"
+1750	1004	gene		
+			standard_name	"atpI gene"
+2237	2237	misc_feature		
+			note	"putative U to C RNA editing"
+2150	2150	misc_feature		
+			note	"putative U to C RNA editing"
+2666	1950	CDS		
+			exception	"RNA editing"
+			standard_name	"rps2 CDS"
+2666	1950	gene		
+			standard_name	"rps2 gene"
+6817	6817	misc_feature		
+			note	"putative U to C RNA editing"
+7048	2795	CDS		
+			exception	"RNA editing"
+			standard_name	"rpoC2 CDS"
+7048	2795	gene		
+			standard_name	"rpoC2 gene"
+9836	9836	misc_feature		
+			note	"putative U to C RNA editing"
+8006	8006	misc_feature		
+			note	"putative U to C RNA editing"
+9950	9519	CDS		
+8822	7176			
+			exception	"RNA editing"
+			standard_name	"rpoC1 CDS"
+8822	7176	exon		
+			standard_name	"rpoC1 exon 2"
+9950	7176	gene		
+			standard_name	"rpoC1 gene"
+9518	8823	intron		
+			standard_name	"rpoC1 intron 1"
+9950	9519	exon		
+			standard_name	"rpoC1 exon 1"
+13101	13101	misc_feature		
+			note	"putative U to C RNA editing"
+12999	12999	misc_feature		
+			note	"putative U to C RNA editing"
+12510	12510	misc_feature		
+			note	"putative U to C RNA editing"
+12240	12240	misc_feature		
+			note	"putative U to C RNA editing"
+13227	9997	CDS		
+			exception	"RNA editing"
+			standard_name	"rpoB CDS"
+13227	9997	gene		
+			standard_name	"rpoB gene"
+14093	14168	tRNA		
+			standard_name	"trnD-GUC tRNA"
+14093	14168	gene		
+			standard_name	"trnD-GUC gene"
+14094	14167	tRNA		
+			standard_name	"trnD-GUC tRNA"
+14094	14167	gene		
+			standard_name	"trnD-GUC gene"
+14371	14288	tRNA		
+			standard_name	"trnY-GUA tRNA"
+14371	14288	gene		
+			standard_name	"trnY-GUA gene"
+14370	14289	tRNA		
+			standard_name	"trnY-GUA tRNA"
+14370	14289	gene		
+			standard_name	"trnY-GUA gene"
+14608	14536	tRNA		
+			standard_name	"trnE-UUC tRNA"
+14608	14536	gene		
+			standard_name	"trnE-UUC gene"
+15021	15021	misc_feature		
+			note	"putative C to U RNA editing"
+15020	15127	CDS		
+			exception	"RNA editing"
+			standard_name	"psbM CDS"
+15020	15127	gene		
+			standard_name	"psbM gene"
+16145	16145	misc_feature		
+			note	"putative C to U RNA editing"
+16146	16057	CDS		
+			exception	"RNA editing"
+			standard_name	"petN CDS"
+16146	16057	gene		
+			standard_name	"petN gene"
+16661	16588	tRNA		
+			standard_name	"trnC-GCA tRNA"
+16661	16588	gene		
+			standard_name	"trnC-GCA gene"
+16660	16589	tRNA		
+			standard_name	"trnC-GCA tRNA"
+16660	16589	gene		
+			standard_name	"trnC-GCA gene"
+17062	16992	tRNA		
+			standard_name	"trnG-GCC tRNA"
+17062	16992	gene		
+			standard_name	"trnG-GCC gene"
+17504	17316	CDS		
+			standard_name	"psbZ CDS"
+17504	17316	gene		
+			standard_name	"psbZ gene"
+17878	17968	tRNA		
+			standard_name	"trnS-UGA tRNA"
+17878	17968	gene		
+			standard_name	"trnS-UGA gene"
+17879	17967	tRNA		
+			standard_name	"trnS-UGA tRNA"
+17879	17967	gene		
+			standard_name	"trnS-UGA gene"
+19668	19668	misc_feature		
+			note	"putative C to U RNA editing"
+19669	18248	CDS		
+			exception	"RNA editing"
+			standard_name	"psbC CDS"
+19669	18248	gene		
+			standard_name	"psbC gene"
+20678	19617	CDS		
+			standard_name	"psbD CDS"
+20678	19617	gene		
+			standard_name	"psbD gene"
+21916	21843	tRNA		
+			standard_name	"trnT-GGU tRNA"
+21916	21843	gene		
+			standard_name	"trnT-GGU gene"
+21915	21844	tRNA		
+			standard_name	"trnT-GGU tRNA"
+21915	21844	gene		
+			standard_name	"trnT-GGU gene"
+22178	22105	tRNA		
+			standard_name	"trnfM-CAU tRNA"
+22178	22105	tRNA		
+			standard_name	"trnM-CAU tRNA"
+22178	22105	gene		
+			standard_name	"trnfM-CAU gene"
+22178	22105	gene		
+			standard_name	"trnM-CAU gene"
+22647	22345	CDS		
+			standard_name	"rps14 CDS"
+22647	22345	gene		
+			standard_name	"rps14 gene"
+25066	25066	misc_feature		
+			note	"putative C to U RNA editing"
+25067	22863	CDS		
+			exception	"RNA editing"
+			standard_name	"psaB CDS"
+25067	22863	gene		
+			standard_name	"psaB gene"
+24935	24804	CDS		
+24302	24144			
+23522	23022			
+			standard_name	"psaA-fragment CDS"
+24935	23022	gene		
+			standard_name	"psaA-fragment gene"
+27345	25093	CDS		
+			standard_name	"psaA CDS"
+27345	25093	gene		
+			standard_name	"psaA gene"
+27159	27010	CDS		
+26526	25237			
+			standard_name	"psaB-fragment CDS"
+27159	25237	gene		
+			standard_name	"psaB-fragment gene"
+29549	29549	misc_feature		
+			note	"putative C to U RNA editing"
+29550	29427	CDS		
+28688	28459			
+27841	27644			
+			exception	"RNA editing"
+			standard_name	"ycf3 CDS"
+27841	27644	exon		
+			standard_name	"ycf3 exon 3"
+29550	27644	gene		
+			standard_name	"ycf3 gene"
+28458	27842	intron		
+			standard_name	"ycf3 intron 2"
+28688	28459	exon		
+			standard_name	"ycf3 exon 2"
+29426	28689	intron		
+			standard_name	"ycf3 intron 1"
+29550	29427	exon		
+			standard_name	"ycf3 exon 1"
+29826	29914	tRNA		
+			standard_name	"trnS-GGA tRNA"
+29826	29914	gene		
+			standard_name	"trnS-GGA gene"
+29827	29913	tRNA		
+			standard_name	"trnS-GGA tRNA"
+29827	29913	gene		
+			standard_name	"trnS-GGA gene"
+30943	30356	CDS		
+			standard_name	"rps4 CDS"
+30943	30356	gene		
+			standard_name	"rps4 gene"
+31690	31724	tRNA		
+32317	32365			
+			standard_name	"trnL-CAA tRNA"
+31690	31724	exon		
+			standard_name	"trnL-CAA exon 1"
+31690	32365	gene		
+			standard_name	"trnL-CAA gene"
+31691	31724	tRNA		
+32317	32363			
+			standard_name	"trnL-UAA tRNA"
+31691	31724	exon		
+			standard_name	"trnL-UAA exon 1"
+31691	32363	gene		
+			standard_name	"trnL-UAA gene"
+31725	32316	intron		
+			standard_name	"trnL-CAA intron 1"
+31725	32316	intron		
+			standard_name	"trnL-UAA intron 1"
+32317	32365	exon		
+			standard_name	"trnL-CAA exon 2"
+32317	32363	exon		
+			standard_name	"trnL-UAA exon 2"
+32683	32755	tRNA		
+			standard_name	"trnF-GAA tRNA"
+32683	32755	gene		
+			standard_name	"trnF-GAA gene"
+33514	33002	CDS		
+			standard_name	"ndhJ CDS"
+33514	33002	gene		
+			standard_name	"ndhJ gene"
+34322	33570	CDS		
+			standard_name	"ndhK CDS"
+34322	33570	gene		
+			standard_name	"ndhK gene"
+34675	34313	CDS		
+			standard_name	"ndhC CDS"
+34675	34313	gene		
+			standard_name	"ndhC gene"
+35829	35797	tRNA		
+35169	35129			
+			standard_name	"trnM-CAU tRNA"
+35829	35796	tRNA		
+35168	35129			
+			standard_name	"trnV-UAC tRNA"
+35169	35129	exon		
+			standard_name	"trnM-CAU exon 2"
+35168	35129	exon		
+			standard_name	"trnV-UAC exon 2"
+35829	35129	gene		
+			standard_name	"trnV-UAC gene"
+35829	35129	gene		
+			standard_name	"trnM-CAU gene"
+35795	35169	intron		
+			standard_name	"trnV-UAC intron 1"
+35796	35170	intron		
+			standard_name	"trnM-CAU intron 1"
+35829	35796	exon		
+			standard_name	"trnV-UAC exon 1"
+35829	35797	exon		
+			standard_name	"trnM-CAU exon 1"
+36103	36175	tRNA		
+			standard_name	"trnM-CAU tRNA"
+36103	36175	gene		
+			standard_name	"trnM-CAU gene"
+36735	36337	CDS		
+			standard_name	"atpE CDS"
+36735	36337	gene		
+			standard_name	"atpE gene"
+38221	38221	misc_feature		
+			note	"putative C to U RNA editing"
+38222	36741	CDS		
+			exception	"RNA editing"
+			standard_name	"atpB CDS"
+38222	36741	gene		
+			standard_name	"atpB gene"
+38848	40275	CDS		
+			standard_name	"rbcL CDS"
+38848	40275	gene		
+			standard_name	"rbcL gene"
+40398	40471	tRNA		
+			standard_name	"trnR-UCG tRNA"
+40398	40471	gene		
+			standard_name	"trnR-UCG gene"
+40802	40802	misc_feature		
+			note	"putative C to U RNA editing"
+41572	41572	misc_feature		
+			note	"putative U to C RNA editing"
+40801	41727	CDS		
+			exception	"RNA editing"
+			standard_name	"accD CDS"
+40801	41727	gene		
+			standard_name	"accD gene"
+42030	42140	CDS		
+			standard_name	"psaI CDS"
+42030	42140	gene		
+			standard_name	"psaI gene"
+42559	43113	CDS		
+			standard_name	"ycf4 CDS"
+42559	43113	gene		
+			standard_name	"ycf4 gene"
+43319	44842	CDS		
+			standard_name	"cemA CDS"
+43319	44842	gene		
+			standard_name	"cemA gene"
+45368	45368	misc_feature		
+			note	"putative U to C RNA editing"
+45089	46054	CDS		
+			exception	"RNA editing"
+			standard_name	"petA CDS"
+45089	46054	gene		
+			standard_name	"petA gene"
+47094	47094	misc_feature		
+			note	"putative C to U RNA editing"
+47214	47092	CDS		
+			exception	"RNA editing"
+			standard_name	"psbJ CDS"
+47214	47092	gene		
+			standard_name	"psbJ gene"
+47446	47446	misc_feature		
+			note	"putative C to U RNA editing"
+47447	47331	CDS		
+			exception	"RNA editing"
+			standard_name	"psbL CDS"
+47447	47331	gene		
+			standard_name	"psbL gene"
+47587	47587	misc_feature		
+			note	"putative C to U RNA editing"
+47588	47469	CDS		
+			exception	"RNA editing"
+			standard_name	"psbF CDS"
+47588	47469	gene		
+			standard_name	"psbF gene"
+47849	47598	CDS		
+			standard_name	"psbE CDS"
+47849	47598	gene		
+			standard_name	"psbE gene"
+48713	48713	misc_feature		
+			note	"putative C to U RNA editing"
+48620	48715	CDS		
+			exception	"RNA editing"
+			standard_name	"petL CDS"
+48620	48715	gene		
+			standard_name	"petL gene"
+48880	48996	CDS		
+			standard_name	"petG CDS"
+48880	48996	gene		
+			standard_name	"petG gene"
+49288	49215	tRNA		
+			standard_name	"trnW-CCA tRNA"
+49288	49215	gene		
+			standard_name	"trnW-CCA gene"
+49548	49473	tRNA		
+			standard_name	"trnP-UGG tRNA"
+49548	49473	gene		
+			standard_name	"trnP-UGG gene"
+49548	49475	tRNA		
+			standard_name	"trnP-UGG tRNA"
+49548	49475	gene		
+			standard_name	"trnP-UGG gene"
+49893	50021	CDS		
+			standard_name	"psaJ CDS"
+49893	50021	gene		
+			standard_name	"psaJ gene"
+50261	50461	CDS		
+			standard_name	"rpl33 CDS"
+50261	50461	gene		
+			standard_name	"rpl33 gene"
+50534	50761	CDS		
+			standard_name	"rps18 CDS"
+50534	50761	gene		
+			standard_name	"rps18 gene"
+51363	51007	CDS		
+			standard_name	"rpl20 CDS"
+51363	51007	gene		
+			standard_name	"rpl20 gene"
+52422	52303	CDS		
+			standard_name	"rps12-fragment CDS"
+52422	52303	gene		
+			standard_name	"rps12-fragment gene"
+54618	54548	CDS		
+53819	53525			
+52926	52690			
+			standard_name	"clpP CDS"
+52926	52690	exon		
+			standard_name	"clpP exon 3"
+54618	52690	gene		
+			standard_name	"clpP gene"
+53524	52927	intron		
+			standard_name	"clpP intron 2"
+53819	53525	exon		
+			standard_name	"clpP exon 2"
+54547	53820	intron		
+			standard_name	"clpP intron 1"
+54618	54548	exon		
+			standard_name	"clpP exon 1"
+55125	56651	CDS		
+			standard_name	"psbB CDS"
+55125	56651	gene		
+			standard_name	"psbB gene"
+56900	57004	CDS		
+			standard_name	"psbT CDS"
+56900	57004	gene		
+			standard_name	"psbT gene"
+57268	57131	CDS		
+			standard_name	"psbN CDS"
+57268	57131	gene		
+			standard_name	"psbN gene"
+57347	57571	CDS		
+			standard_name	"psbH CDS"
+57347	57571	gene		
+			standard_name	"psbH gene"
+58524	58524	misc_feature		
+			note	"putative U to C RNA editing"
+58536	58536	misc_feature		
+			note	"putative U to C RNA editing"
+58554	58554	misc_feature		
+			note	"putative U to C RNA editing"
+58557	58557	misc_feature		
+			note	"putative U to C RNA editing"
+58566	58566	misc_feature		
+			note	"putative U to C RNA editing"
+58722	58722	misc_feature		
+			note	"putative U to C RNA editing"
+59052	59052	misc_feature		
+			note	"putative U to C RNA editing"
+59121	59121	misc_feature		
+			note	"putative U to C RNA editing"
+58518	59150	CDS		
+			exception	"RNA editing"
+			standard_name	"petB CDS"
+58518	59150	gene		
+			standard_name	"petB gene"
+60002	60002	misc_feature		
+			note	"putative U to C RNA editing"
+60101	60101	misc_feature		
+			note	"putative U to C RNA editing"
+60104	60104	misc_feature		
+			note	"putative U to C RNA editing"
+60146	60146	misc_feature		
+			note	"putative U to C RNA editing"
+60158	60158	misc_feature		
+			note	"putative U to C RNA editing"
+60263	60263	misc_feature		
+			note	"putative U to C RNA editing"
+60302	60302	misc_feature		
+			note	"putative U to C RNA editing"
+60359	60359	misc_feature		
+			note	"putative U to C RNA editing"
+59996	60442	CDS		
+			exception	"RNA editing"
+			standard_name	"petD CDS"
+59996	60442	gene		
+			standard_name	"petD gene"
+61583	61583	misc_feature		
+			note	"putative U to C RNA editing"
+61823	60795	CDS		
+			exception	"RNA editing"
+			standard_name	"rpoA CDS"
+61823	60795	gene		
+			standard_name	"rpoA gene"
+62138	62138	misc_feature		
+			note	"putative U to C RNA editing"
+62258	61866	CDS		
+			exception	"RNA editing"
+			standard_name	"rps11 CDS"
+62258	61866	gene		
+			standard_name	"rps11 gene"
+62438	62438	misc_feature		
+			note	"putative C to U RNA editing"
+62439	62326	CDS		
+			exception	"RNA editing"
+			standard_name	"rpl36 CDS"
+62439	62326	gene		
+			standard_name	"rpl36 gene"
+62747	62747	misc_feature		
+			note	"putative U to C RNA editing"
+62693	62693	misc_feature		
+			note	"putative U to C RNA editing"
+62813	62571	CDS		
+			exception	"RNA editing"
+			standard_name	"infA CDS"
+62813	62571	gene		
+			standard_name	"infA gene"
+63338	63338	misc_feature		
+			note	"putative C to U RNA editing"
+63339	62941	CDS		
+			exception	"RNA editing"
+			standard_name	"rps8 CDS"
+63339	62941	gene		
+			standard_name	"rps8 gene"
+63620	63620	misc_feature		
+			note	"putative C to U RNA editing"
+63986	63618	CDS		
+			exception	"RNA editing"
+			standard_name	"rpl14 CDS"
+63986	63618	gene		
+			standard_name	"rpl14 gene"
+64880	64880	misc_feature		
+			note	"putative U to C RNA editing"
+64871	64871	misc_feature		
+			note	"putative U to C RNA editing"
+64862	64862	misc_feature		
+			note	"putative U to C RNA editing"
+64790	64790	misc_feature		
+			note	"putative U to C RNA editing"
+64769	64769	misc_feature		
+			note	"putative U to C RNA editing"
+64688	64688	misc_feature		
+			note	"putative U to C RNA editing"
+64589	64589	misc_feature		
+			note	"putative U to C RNA editing"
+64559	64559	misc_feature		
+			note	"putative U to C RNA editing"
+64898	64461	CDS		
+			exception	"RNA editing"
+			standard_name	"rpl16 CDS"
+64898	64461	gene		
+			standard_name	"rpl16 gene"
+66395	66395	misc_feature		
+			note	"putative U to C RNA editing"
+66440	65784	CDS		
+			exception	"RNA editing"
+			standard_name	"rps3 CDS"
+66440	65784	gene		
+			standard_name	"rps3 gene"
+66906	66544	CDS		
+			standard_name	"rpl22 CDS"
+66906	66544	gene		
+			standard_name	"rpl22 gene"
+67201	67201	misc_feature		
+			note	"putative C to U RNA editing"
+67202	66924	CDS		
+			exception	"RNA editing"
+			standard_name	"rps19 CDS"
+67202	66924	gene		
+			standard_name	"rps19 gene"
+68803	68803	misc_feature		
+			note	"putative U to C RNA editing"
+67610	67610	misc_feature		
+			note	"putative U to C RNA editing"
+68812	68416	CDS		
+67669	67236			
+			exception	"RNA editing"
+			standard_name	"rpl2 CDS"
+67669	67236	exon		
+			standard_name	"rpl2 exon 2"
+68812	67236	gene		
+			standard_name	"rpl2 gene"
+68415	67670	intron		
+			standard_name	"rpl2 intron 1"
+68812	68416	exon		
+			standard_name	"rpl2 exon 1"
+69158	69158	misc_feature		
+			note	"putative C to U RNA editing"
+69159	68878	CDS		
+			exception	"RNA editing"
+			standard_name	"rpl23 CDS"
+69159	68878	gene		
+			standard_name	"rpl23 gene"
+69440	69367	tRNA		
+			standard_name	"trnI-CAU tRNA"
+69440	69367	tRNA		
+			standard_name	"trnM-CAU tRNA"
+69440	69367	gene		
+			standard_name	"trnI-CAU gene"
+69440	69367	gene		
+			standard_name	"trnM-CAU gene"
+95184	69485	repeat_region		
+			standard_name	"inverted repeat region A; IRA repeatregion"
+69810	70580	CDS		
+			standard_name	"ndhB-fragment CDS"
+69810	70580	gene		
+			standard_name	"ndhB-fragment gene"
+70785	70818	tRNA		
+71326	71364			
+			standard_name	"trnT-UGU tRNA"
+70785	70818	exon		
+			standard_name	"trnT-UGU exon 1"
+70785	71364	gene		
+			standard_name	"trnT-UGU gene"
+70819	71325	intron		
+			standard_name	"trnT-UGU intron 1"
+71326	71364	exon		
+			standard_name	"trnT-UGU exon 2"
+72334	72260	tRNA		
+			standard_name	"trnR-ACG tRNA"
+72334	72260	gene		
+			standard_name	"trnR-ACG gene"
+72334	72261	tRNA		
+			standard_name	"trnR-ACG tRNA"
+72334	72261	gene		
+			standard_name	"trnR-ACG gene"
+72724	72602	rRNA		
+			standard_name	"rrn5 rRNA"
+72724	72602	gene		
+			standard_name	"rrn5 gene"
+73110	73008	rRNA		
+			standard_name	"rrn4.5 rRNA"
+73110	73008	gene		
+			standard_name	"rrn4.5 gene"
+76027	73207	rRNA		
+			standard_name	"rrn23 rRNA"
+76027	73207	gene		
+			standard_name	"rrn23 gene"
+77057	77021	tRNA		
+76236	76201			
+			standard_name	"trnA-UGC"
+76236	76201	exon		
+			standard_name	"trnA-UGC exon 2"
+77057	76201	gene		
+			standard_name	"trnA-UGC gene"
+77020	76237	intron		
+			standard_name	"trnA-UGC intron 1"
+77057	77021	exon		
+			standard_name	"trnA-UGC exon 1"
+78221	78189	tRNA		
+77164	77124			
+			standard_name	"trnE-UUC tRNA"
+77164	77124	exon		
+			standard_name	"trnE-UUC exon 2"
+78221	77124	gene		
+			standard_name	"trnE-UUC gene"
+78220	78186	tRNA		
+77161	77125			
+			standard_name	"trnI-GAU tRNA"
+77161	77125	exon		
+			standard_name	"trnI-GAU exon 2"
+78220	77125	gene		
+			standard_name	"trnI-GAU gene"
+78185	77162	intron		
+			standard_name	"trnI-GAU intron 1"
+78188	77165	intron		
+			standard_name	"trnE-UUC intron 1"
+78220	78186	exon		
+			standard_name	"trnI-GAU exon 1"
+78221	78189	exon		
+			standard_name	"trnE-UUC exon 1"
+80009	78510	rRNA		
+			standard_name	"rrn16 rRNA"
+80009	78510	gene		
+			standard_name	"rrn16 gene"
+81613	81613	misc_feature		
+			note	"putative U to C RNA editing"
+81646	81646	misc_feature		
+			note	"putative U to C RNA editing"
+81742	81742	misc_feature		
+			note	"putative U to C RNA editing"
+81757	81757	misc_feature		
+			note	"putative U to C RNA editing"
+81793	81793	misc_feature		
+			note	"putative U to C RNA editing"
+81577	81810	CDS		
+82374	82400			
+			exception	"RNA editing"
+			standard_name	"rps12 CDS"
+81577	81810	exon		
+			standard_name	"rps12 exon 1"
+81577	82400	gene		
+			standard_name	"rps12 gene"
+81811	82373	intron		
+			standard_name	"rps12 intron 1"
+82374	82400	exon		
+			standard_name	"rps12 exon 2"
+82618	82618	misc_feature		
+			note	"putative U to C RNA editing"
+82480	82932	CDS		
+			exception	"RNA editing"
+			standard_name	"rps7 CDS"
+82480	82932	gene		
+			standard_name	"rps7 gene"
+83414	84475	CDS		
+			standard_name	"psbA CDS"
+83414	84475	gene		
+			standard_name	"psbA gene"
+84900	84974	tRNA		
+			standard_name	"trnH-GUG tRNA"
+84900	84973	tRNA		
+			standard_name	"trnH-GUG tRNA"
+84900	84974	gene		
+			standard_name	"trnH-GUG gene"
+84900	84973	gene		
+			standard_name	"trnH-GUG gene"
+85428	85428	misc_feature		
+			note	"putative U to C RNA editing"
+86811	86811	misc_feature		
+			note	"putative U to C RNA editing"
+88935	88935	misc_feature		
+			note	"putative U to C RNA editing"
+89832	89832	misc_feature		
+			note	"putative U to C RNA editing"
+85236	91601	CDS		
+			exception	"RNA editing"
+			standard_name	"ycf2 CDS"
+85236	91601	gene		
+			standard_name	"ycf2 gene"
+91911	91911	misc_feature		
+			standard_name	"morffo2"
+94697	94624	tRNA		
+			standard_name	"trnN-GUU tRNA"
+94697	94624	gene		
+			standard_name	"trnN-GUU gene"
+94696	94625	tRNA		
+			standard_name	"trnN-GUU tRNA"
+94696	94625	gene		
+			standard_name	"trnN-GUU gene"
+97014	97014	misc_feature		
+			note	"putative U to C RNA editing"
+96738	96738	misc_feature		
+			note	"putative U to C RNA editing"
+97368	95167	CDS		
+			exception	"RNA editing"
+			standard_name	"ndhF CDS"
+97368	95167	gene		
+			standard_name	"ndhF gene"
+95185	95185	misc_feature		
+			standard_name	"Small Single Copy Region (SSC)"
+97666	97666	misc_feature		
+			note	"putative U to C RNA editing"
+97657	98040	CDS		
+			exception	"RNA editing"
+			standard_name	"rpl21 CDS"
+97657	98040	gene		
+			standard_name	"rpl21 gene"
+98402	98402	misc_feature		
+			note	"putative U to C RNA editing"
+98423	98423	misc_feature		
+			note	"putative U to C RNA editing"
+98429	98429	misc_feature		
+			note	"putative U to C RNA editing"
+98228	98464	CDS		
+			exception	"RNA editing"
+			standard_name	"rpl32 CDS"
+98228	98464	gene		
+			standard_name	"rpl32 gene"
+99106	99033	tRNA		
+			standard_name	"trnP-GGG tRNA"
+99106	99033	gene		
+			standard_name	"trnP-GGG gene"
+99287	99368	tRNA		
+			standard_name	"trnL-UAG tRNA"
+99287	99366	tRNA		
+			standard_name	"trnL-UAG tRNA"
+99287	99368	gene		
+			standard_name	"trnL-UAG gene"
+99287	99366	gene		
+			standard_name	"trnL-UAG gene"
+99502	99502	misc_feature		
+			note	"putative C to U RNA editing"
+99501	100448	CDS		
+			exception	"RNA editing"
+			standard_name	"ccsA CDS"
+99501	100448	gene		
+			standard_name	"ccsA gene"
+102327	100816	CDS		
+			standard_name	"ndhD CDS"
+102327	100816	gene		
+			standard_name	"ndhD gene"
+102728	102483	CDS		
+			standard_name	"psaC CDS"
+102728	102483	gene		
+			standard_name	"psaC gene"
+103356	103356	misc_feature		
+			note	"putative C to U RNA editing"
+103357	103058	CDS		
+			exception	"RNA editing"
+			standard_name	"ndhE CDS"
+103357	103058	gene		
+			standard_name	"ndhE gene"
+104042	104042	misc_feature		
+			note	"putative C to U RNA editing"
+104043	103450	CDS		
+			exception	"RNA editing"
+			standard_name	"ndhG CDS"
+104043	103450	gene		
+			standard_name	"ndhG gene"
+104710	104183	CDS		
+			standard_name	"ndhI CDS"
+104710	104183	gene		
+			standard_name	"ndhI gene"
+106704	106704	misc_feature		
+			note	"putative U to C RNA editing"
+106863	106306	CDS		
+105408	104851			
+			exception	"RNA editing"
+			standard_name	"ndhA CDS"
+105408	104851	exon		
+			standard_name	"ndhA exon 2"
+106863	104851	gene		
+			standard_name	"ndhA gene"
+106305	105409	intron		
+			standard_name	"ndhA intron 1"
+106863	106306	exon		
+			standard_name	"ndhA exon 1"
+108048	108048	misc_feature		
+			note	"putative C to U RNA editing"
+108049	106865	CDS		
+			exception	"RNA editing"
+			standard_name	"ndhH CDS"
+108049	106865	gene		
+			standard_name	"ndhH gene"
+108440	108171	CDS		
+			standard_name	"rps15 CDS"
+108440	108171	gene		
+			standard_name	"rps15 gene"
+113833	113833	misc_feature		
+			note	"putative C to U RNA editing"
+112877	112877	misc_feature		
+			note	"putative U to C RNA editing"
+113834	108747	CDS		
+			exception	"RNA editing"
+			standard_name	"ycf1 CDS"
+113834	108747	gene		
+			standard_name	"ycf1 gene"
+115584	115584	misc_feature		
+			note	"putative C to U RNA editing"
+115585	114200	CDS		
+			exception	"RNA editing"
+			standard_name	"chlN CDS"
+115585	114200	gene		
+			standard_name	"chlN gene"
+116542	116542	misc_feature		
+			note	"putative C to U RNA editing"
+115820	115820	misc_feature		
+			note	"putative U to C RNA editing"
+116543	115662	CDS		
+			exception	"RNA editing"
+			standard_name	"chlL CDS"
+116543	115662	gene		
+			standard_name	"chlL gene"
+116512	142211	repeat_region		
+			standard_name	"inverted repeat region A; IRA repeatregion"
+116999	117072	tRNA		
+			standard_name	"trnN-GUU tRNA"
+116999	117072	gene		
+			standard_name	"trnN-GUU gene"
+117000	117071	tRNA		
+			standard_name	"trnN-GUU tRNA"
+117000	117071	gene		
+			standard_name	"trnN-GUU gene"
+126268	126268	misc_feature		
+			note	"putative U to C RNA editing"
+124885	124885	misc_feature		
+			note	"putative U to C RNA editing"
+122761	122761	misc_feature		
+			note	"putative U to C RNA editing"
+121864	121864	misc_feature		
+			note	"putative U to C RNA editing"
+126460	120095	CDS		
+			exception	"RNA editing"
+			standard_name	"ycf2 CDS"
+126460	120095	gene		
+			standard_name	"ycf2 gene"
+126796	126722	tRNA		
+			standard_name	"trnH-GUG tRNA"
+126796	126722	gene		
+			standard_name	"trnH-GUG gene"
+126796	126723	tRNA		
+			standard_name	"trnH-GUG tRNA"
+126796	126723	gene		
+			standard_name	"trnH-GUG gene"
+128282	127221	CDS		
+			standard_name	"psbA CDS"
+128282	127221	gene		
+			standard_name	"psbA gene"
+129078	129078	misc_feature		
+			note	"putative U to C RNA editing"
+129216	128764	CDS		
+			exception	"RNA editing"
+			standard_name	"rps7 CDS"
+129216	128764	gene		
+			standard_name	"rps7 gene"
+130083	130083	misc_feature		
+			note	"putative U to C RNA editing"
+130050	130050	misc_feature		
+			note	"putative U to C RNA editing"
+129954	129954	misc_feature		
+			note	"putative U to C RNA editing"
+129939	129939	misc_feature		
+			note	"putative U to C RNA editing"
+129903	129903	misc_feature		
+			note	"putative U to C RNA editing"
+130119	129886	CDS		
+129322	129296			
+			exception	"RNA editing"
+			standard_name	"rps12 CDS"
+129322	129296	exon		
+			standard_name	"rps12 exon 2"
+130119	129296	gene		
+			standard_name	"rps12 gene"
+129885	129323	intron		
+			standard_name	"rps12 intron 1"
+130119	129886	exon		
+			standard_name	"rps12 exon 1"
+131687	133186	rRNA		
+			standard_name	"rrn16 rRNA"
+131687	133186	gene		
+			standard_name	"rrn16 gene"
+133475	133507	tRNA		
+134532	134572			
+			standard_name	"trnE-UUC tRNA"
+133475	133507	exon		
+			standard_name	"trnE-UUC exon 1"
+133475	134572	gene		
+			standard_name	"trnE-UUC gene"
+133476	133510	tRNA		
+134535	134571			
+			standard_name	"trnI-GAU tRNA"
+133476	133510	exon		
+			standard_name	"trnI-GAU exon 1"
+133476	134571	gene		
+			standard_name	"trnI-GAU gene"
+133508	134531	intron		
+			standard_name	"trnE-UUC intron 1"
+133511	134534	intron		
+			standard_name	"trnI-GAU intron 1"
+134532	134572	exon		
+			standard_name	"trnE-UUC exon 2"
+134535	134571	exon		
+			standard_name	"trnI-GAU exon 2"
+134639	134675	tRNA		
+135460	135495			
+			standard_name	"trnA-UGC"
+134639	134675	exon		
+			standard_name	"trnA-UGC exon 1"
+134639	135495	gene		
+			standard_name	"trnA-UGC gene"
+134676	135459	intron		
+			standard_name	"trnA-UGC intron 1"
+135460	135495	exon		
+			standard_name	"trnA-UGC exon 2"
+135669	138489	rRNA		
+			standard_name	"rrn23 rRNA"
+135669	138489	gene		
+			standard_name	"rrn23 gene"
+138586	138688	rRNA		
+			standard_name	"rrn4.5 rRNA"
+138586	138688	gene		
+			standard_name	"rrn4.5 gene"
+138972	139094	rRNA		
+			standard_name	"rrn5 rRNA"
+138972	139094	gene		
+			standard_name	"rrn5 gene"
+139362	139436	tRNA		
+			standard_name	"trnR-ACG tRNA"
+139362	139435	tRNA		
+			standard_name	"trnR-ACG tRNA"
+139362	139436	gene		
+			standard_name	"trnR-ACG gene"
+139362	139435	gene		
+			standard_name	"trnR-ACG gene"
+140911	140878	tRNA		
+140370	140332			
+			standard_name	"trnT-UGU tRNA"
+140370	140332	exon		
+			standard_name	"trnT-UGU exon 2"
+140911	140332	gene		
+			standard_name	"trnT-UGU gene"
+140877	140371	intron		
+			standard_name	"trnT-UGU intron 1"
+140911	140878	exon		
+			standard_name	"trnT-UGU exon 1"
+143457	142732	CDS		
+141886	141116			
+			standard_name	"ndhB CDS"
+141886	141116	exon		
+			standard_name	"ndhB exon 2"
+143457	141116	gene		
+			standard_name	"ndhB gene"
+142731	141887	intron		
+			standard_name	"ndhB intron 1"
+143457	142732	exon		
+			standard_name	"ndhB exon 1"
+144906	144906	misc_feature		
+			note	"putative U to C RNA editing"
+145176	143674	CDS		
+			exception	"RNA editing"
+			standard_name	"matK CDS"
+145176	143674	gene		
+			standard_name	"matK gene"
+145809	145809	misc_feature		
+			note	"putative C to U RNA editing"
+145810	145592	CDS		
+			exception	"RNA editing"
+			codon_start	1
+			standard_name	"ycf94 CDS"
+145810	145592	gene		
+			standard_name	"ycf94 gene"
+146928	146887	CDS		
+146077	145880			
+			standard_name	"rps16 CDS"
+146077	145880	exon		
+			standard_name	"rps16 exon 2"
+146928	145880	gene		
+			standard_name	"rps16 gene"
+146886	146078	intron		
+			standard_name	"rps16 intron 1"
+146928	146887	exon		
+			standard_name	"rps16 exon 1"
+148380	148380	misc_feature		
+			note	"putative U to C RNA editing"
+148629	147085	CDS		
+			exception	"RNA editing"
+			standard_name	"chlB CDS"
+148629	147085	gene		
+			standard_name	"chlB gene"
+148868	148797	tRNA		
+			standard_name	"trnQ-UUG tRNA"
+148868	148797	gene		
+			standard_name	"trnQ-UUG gene"
+149222	149398	CDS		
+			standard_name	"psbK CDS"
+149222	149398	gene		
+			standard_name	"psbK gene"
+149936	150046	CDS		
+			standard_name	"psbI CDS"
+149936	150046	gene		
+			standard_name	"psbI gene"
+150212	150125	tRNA		
+			standard_name	"trnS-GCU tRNA"
+150212	150125	gene		
+			standard_name	"trnS-GCU gene"
+150957	151058	CDS		
+			standard_name	"ycf12 CDS"
+150957	151058	gene		
+			standard_name	"ycf12 gene"
+151235	151269	tRNA		
+152162	152204			
+			standard_name	"trnT-CGU tRNA"
+151235	151269	exon		
+			standard_name	"trnT-CGU exon 1"
+151235	152204	gene		
+			standard_name	"trnT-CGU gene"
+151270	152161	intron		
+			standard_name	"trnT-CGU intron 1"
+152156	152203	tRNA		
+			standard_name	"trnG-UCC tRNA"
+152156	152203	gene		
+			standard_name	"trnG-UCC gene"
+152162	152204	exon		
+			standard_name	"trnT-CGU exon 2"
+152395	152466	tRNA		
+			standard_name	"trnR-UCU tRNA"
+152395	152466	gene		
+			standard_name	"trnR-UCU gene"
+153988	153988	misc_feature		
+			note	"putative U to C RNA editing"
+153064	153064	misc_feature		
+			note	"putative U to C RNA editing"
+154090	152567	CDS		
+			exception	"RNA editing"
+			standard_name	"atpA CDS"
+154090	152567	gene		
+			standard_name	"atpA gene"
+155445	155445	misc_feature		
+			note	"putative C to U RNA editing"
+155446	155303	CDS		
+154582	154172			
+			exception	"RNA editing"
+			standard_name	"atpF CDS"
+154582	154172	exon		
+			standard_name	"atpF exon 2"
+155446	154172	gene		
+			standard_name	"atpF gene"
+155302	154583	intron		
+			standard_name	"atpF intron 1"
+155446	155303	exon		
+			standard_name	"atpF exon 1"
+				

@@ -1,0 +1,2755 @@
+>Feature Asplenium_pek				
+1208	1	gene		
+152479	151351			
+			gene	ndhB
+			locus_tag	AT106_gp026
+			pseudo	
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.56%25
+1208	468	exon		
+			gene	ndhB
+			locus_tag	AT106_gp001
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	84.96%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	79.08%25
+1208	468	CDS		
+152115	151351			
+			created_by	User
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.56%25
+			modified_by	User
+1207	1207	misc_feature		
+			created_by	User
+2917	1409	cds		
+			gene	matK
+			locus_tag	AT106_gp002
+			exception	RNA editing
+			transl_table	11
+			product	maturase K
+			protein_id	YP_009183883.1
+			X-Transferred_Translation	MKTTSGPPPKFDVLKNSEGLSVNRDCFPYLFLFLFRDNFYSVACKHCLDRRGINLVLGACSAAATKRSIDSVRYQDYSEIFYSEFVRKRSSRLSIDLHLHVLLQTVCLILGVPLLCRLAAETNNNSKISKSIHSIFLFLEDRLPKSSHVLELEMSQNLHLETLVRLFRRQIRDVPFIHLLRIVFHTYKTLCGEFTQPRSWNRRDRRSIDMLLQNFYTYEIDLIPLALWTQMHKSNPIYFVSPDRNNMTRKKIRVSEYSSQSDAMNIDHCLTRILCIHFARFKNKSIIAFRGTQYFAKKWIYYISIFYRSHFHYPIEFTQIRINLLSASCVLFLGYISIIQPVSKNVWVETAVDPCSSSSISGGKGIHPRVPISLLVKLLEKEKFCDSAGHPVSKLAWAVLADDEILNRFSRIWNTFSLYHSASINRDGLRRLRYILRLSRDSTLAGKHKSTIRLLRHRFDRELPKMVSTSSKLNSFETSQRFWHLSLIESVSLKFVALKKQV
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	80.70%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	73.00%25
+2917	1409	gene		
+			gene	matK
+			locus_tag	AT106_gp002
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	80.70%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	73.00%25
+2659	2659	misc_feature		
+			created_by	User
+3779	3549	exon		
+			gene	rps16
+			locus_tag	AT106_gp003
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.58%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	81.82%25
+4612	4571	cds		
+3779	3549			
+			gene	rps16
+			locus_tag	AT106_gp003
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S16
+			protein_id	YP_009183884.1
+			X-Transferred_Translation	MVKLRLKRHGKKQRVTYRIIAIDTKSRREGEAIKEVGFYNPRKEQTQLDPFAIIALLKEGAQSTKTVRDILKRAKVLEQVGIDLQLKIKFQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.55%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.15%25
+4612	3549	gene		
+			created_by	User
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	64.94%25
+3569	3569	misc_feature		
+			created_by	User
+3590	3590	misc_feature		
+			created_by	User
+4612	4571	exon		
+			gene	rps16
+			locus_tag	AT106_gp003
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.86%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.48%25
+4611	4611	misc_feature		
+			created_by	User
+6316	4772	cds		
+			gene	chlB
+			locus_tag	AT106_gp004
+			exception	RNA editing
+			transl_table	11
+			product	protochlorophyllide reductase ChlB subunit
+			protein_id	YP_009183885.1
+			X-Transferred_Translation	MKLAYWMYAGPAHIGTSRVASSFRNVHAIMHAPLGDDYFNAMRSTSERERDFTPVTASVVDRHVLARGSQEKVINNISRKDEEQHPDLIVLTPTCTSSISQEDLQNFVDRASLSSESDVIPADVNYHRVNELQAADRTLEQITRFHLDRARRQSTLDRSVTNGPSANIIGIFTLGFHNQHDCRELKRLPGESGIAVNQVIPEGGSLNFLKDLPRAWFNIVPYREVGLMTATSLEKEYGMPHVSITPMGISNTADFIAQTGKLVNVWASALSEKRFSYKIYVDNQTKFVSQAAWFSKSIDCQNLAGKEAAIFGDATHAASITKILVKEMGIRVSCAGTYCKHDAERFNEQVQGLCDEVVVTEDHTEVGDTIARIEPSAIFGTQMERHIGKRIDIPCGVISSPVHIQNFPLGYRPFLGYEGTNQIADLIYNSFNLGMEDHLLDVFGGHDTKEVSTKSLSTDGKDLNWTPEAESEPKKIPGFVRGRTKKNTEVFAKRNNIPEITIDVTYAAKEKSSS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.35%25
+6316	4772	gene		
+			gene	chlB
+			locus_tag	AT106_gp004
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.35%25
+5935	5935	misc_feature		
+			created_by	User
+6067	6067	misc_feature		
+			created_by	User
+6612	6541	trna		
+			gene	trnQ-UUG
+			locus_tag	AT106_gt001
+			product	tRNA-Gln
+			note	anticodon:UUG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.61%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+6612	6541	gene		
+			gene	trnQ-UUG
+			locus_tag	AT106_gt001
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.61%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+6965	7141	cds		
+			gene	psbK
+			locus_tag	AT106_gp089
+			transl_table	11
+			product	photosystem II protein K
+			protein_id	YP_009183886.1
+			X-Transferred_Translation	MIALYDIYLENSIHLNDASFAKLPEAYAIFDPIVDVMPVIPVFFLLLAFVWQAAVSFR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.96%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.27%25
+6965	7141	gene		
+			gene	psbK
+			locus_tag	AT106_gp089
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.96%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.27%25
+7753	7863	cds		
+			gene	psbI
+			locus_tag	AT106_gp088
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II protein I
+			protein_id	YP_009183887.1
+			X-Transferred_Translation	MLTLKLFVYAVVIFFVSLFVFGFLSNDPGRNPGRRD
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.49%25
+7753	7863	gene		
+			gene	psbI
+			locus_tag	AT106_gp088
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.49%25
+8051	7964	trna		
+			gene	trnS-GCU%3B trnS-UGA
+			locus_tag	AT106_gt002%3B AT106_gt010
+			product	tRNA-Ser
+			note	anticodon:GCU%3B anticodon:UGA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.91%25%3B 95.51%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.32%25 -> 73.03%25
+8051	7964	gene		
+			gene	trnS-GCU%3B trnS-UGA
+			locus_tag	AT106_gt002%3B AT106_gt010
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.91%25%3B 95.51%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.32%25 -> 73.03%25
+8467	8568	cds		
+			gene	ycf12
+			locus_tag	AT106_gp087
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf12
+			protein_id	YP_009183888.1
+			X-Transferred_Translation	MNLEIIAQLAILALVVASGPLVIALLAARRGNL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.14%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.27%25
+8467	8568	gene		
+			gene	ycf12
+			locus_tag	AT106_gp087
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.14%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.27%25
+8698	8720	trna		
+9612	9659			
+			gene	trnG-UCC
+			locus_tag	AT106_gt003
+			product	tRNA-Gly
+			note	anticodon:UCC
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.59%25
+8698	8720	exon		
+			gene	trnG-UCC
+			locus_tag	AT106_gt003
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+8698	9659	gene		
+			gene	trnG-UCC
+			locus_tag	AT106_gt003
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	80.53%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	66.73%25
+9612	9659	exon		
+			gene	trnG-UCC
+			locus_tag	AT106_gt003
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.92%25
+9818	9889	trna		
+			gene	trnR-UCU
+			locus_tag	AT106_gt004
+			product	tRNA-Arg
+			note	anticodon:UCU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.44%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	93.06%25
+9818	9889	gene		
+			gene	trnR-UCU
+			locus_tag	AT106_gt004
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.44%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	93.06%25
+11514	9994	cds		
+			gene	atpA
+			locus_tag	AT106_gp086
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF1 alpha subunit
+			protein_id	YP_009183889.1
+			X-Transferred_Translation	MVINIRPDEISSIIRKQIEGYVPEVKVVNIGTVLQVGDGIARIHGLNKVMAGELVESEDGTVGIALNLESDNAGAVPTGDGLTIQEGSSVRATGKIAQIPVSDSFLGRVANALAQPIDGKGQIPASEFRPIESPAPGIISRRSVYEPLQTGPIAIDSMIPIGRGQRELIIGDRQTGKTAVATDTILNQKGQNVICVYVAIGQKASSVAQVVDTFQDRGAMEYTIVVSETANSPATLQYLAPYTGAASAEYFMYRKQHTPIIHDDPSKQAQAYRQMSLLLRRPPGREAYPGDVFYPHPRLSERAAKLSLQLGEGSMTALPIVETQAGDVSAYIPTNVISITDGQIFLSADLFNAGIRPAINVGISVSRVGSAAQIKAMKQVAGKLKLELAQFAELEAFAQFASDLDKTTQNQLARGQRLRELLKQSQSAPLSVEEQVATTYTGVNGYLDIPEVEQVKRFLVQLREYVITSKPQFGEITRSTKVSTEQAETLLREAIKESTEIFLLQEK
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.85%25
+11514	9994	gene		
+			gene	atpA
+			locus_tag	AT106_gp086
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.85%25
+10488	10488	misc_feature		
+			created_by	User
+11412	11412	misc_feature		
+			created_by	User
+12007	11598	exon		
+			gene	atpF
+			locus_tag	AT106_gp085
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.73%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.37%25
+12840	12696	cds		
+12007	11598			
+			gene	atpF
+			locus_tag	AT106_gp085
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF0 subunit I
+			protein_id	YP_009183890.1
+			X-Transferred_Translation	MRSVSEIPAPPSDWTFAASIGLNTNILEINLINLILVLGILFYYGKGVLINFLENRERTILNTIRDAEERHEEAAKKLLKARIRLQQAKVKADEIRINGLTQMDREQRDLVDAADEGLKGLEDSKNYAIRFEKQRAIEQVRQQVSRLASERALESLKSRLDNQLHLRMVDYNIGLFRSMKNESN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.45%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.67%25
+12840	11598	gene		
+			gene	atpF
+			locus_tag	AT106_gp085
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.36%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	78.97%25
+12840	12696	exon		
+			gene	atpF
+			locus_tag	AT106_gp085
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.66%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.34%25
+12839	12839	misc_feature		
+			created_by	User
+13436	13191	cds		
+			gene	atpH
+			locus_tag	AT106_gp084
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CFO C subunit
+			protein_id	YP_009183891.1
+			X-Transferred_Translation	MNPLISAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEAEGKIRGTSLPSLAFMEALTIYGSVVALAPLFANPFV
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.31%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.24%25
+13436	13191	gene		
+			gene	atpH
+			locus_tag	AT106_gp084
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.31%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.24%25
+13435	13435	misc_feature		
+			created_by	User
+14983	14237	cds		
+			gene	atpI
+			locus_tag	AT106_gp083
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF0 subunit IV
+			protein_id	YP_009183892.1
+			X-Transferred_Translation	MHVEQLRIYEIDYLYQVSSVEVGQHSYWQIGDFQVHAQVLVTSWVVIASLLALPIVAARNLQVIPTGSQNFIEYVLEFIRDLTRTQMGEEEYRPRVPFIGTMFLSIFVSNRSGAPFPWRIVQLPHGELAAPTNDINTTVASALLTSVAHSYAGLHKKGFGYFGKYIQPTPVLLPINILEDSTKPPSLSFRLFGNILADELVVAVPVSLVPSIVPVPMTPLGLFTSAIQALIFATSAAAHIGESMEDHH
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.57%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.22%25
+14983	14237	gene		
+			gene	atpI
+			locus_tag	AT106_gp083
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.57%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.22%25
+14914	14914	misc_feature		
+			created_by	User
+15888	15172	cds		
+			gene	rps2
+			locus_tag	AT106_gp082
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S2
+			protein_id	YP_009183893.1
+			X-Transferred_Translation	MQQKNRNIELEEMMAAGIHFGHQTQKWNPRMSPYIFTERKGVHILDLTQTARLLSEACDLVFDAAAEGKEFPTVGTKHQVADLIASAATRSQCHYVNEKWLGGTSTNWFTTEMRLRRFQYLQNGEDTGGFDRLPKQEAAILRGQLFKPKKCLGGIQYMSDLPDIATITDQHEQSIAPKECITPGIPTVCVVDTDCDPDLVDIPIPGNDDARPSIRWILDKPTSAICEGRSNSKFSEVNQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.31%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.54%25
+15888	15172	gene		
+			gene	rps2
+			locus_tag	AT106_gp082
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.31%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.54%25
+15372	15372	misc_feature		
+			created_by	User
+15459	15459	misc_feature		
+			created_by	User
+15495	15495	misc_feature		
+			created_by	User
+20262	15997	cds		
+			gene	rpoC2
+			locus_tag	AT106_gp081
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase beta'' subunit
+			protein_id	YP_009183894.1
+			X-Transferred_Translation	MTDQTELPFFNKTMDRAAMRRLIGKLVVCFGIASTTNILDQVKILGFQQATKASVSLGIDDLLAVPSRGWLVQDAEKQGYVSEQHYRHGSLHAVEKLRQSIEAWYATSECPKREMNPSFKMIDPLNPVHMMSFSGARGSISQVHQLLGMRGLMSDPRGQVIDLPIRRNLREGLSLTEYIISRYGARKGVVDTAVRTSDAGYLTRRPVEVVQHIAVRKKDCETTKSIALLNIAEEKRESIRTVSYQKLVGRVLADNVYWDVRCIATRNQDISDGLASNSVASAQPIYVRSPLTRRSIFRICQWRYGRSLAHHDLVELGEAVGIIAGQPIGEPGTQLTSRTFHTGGVFTGDIAEYIRIPFNGLIKSDGKLVYPTRTRHGHPAWICRNDLSVAIRSCGAIHNFVVPAQSLLMTRNGQYVEAQQIIAEVRAKEFPLKERIQKAIYPNLKGEIHWSKFVWHVRNCVGNPIRVVREAGHIWILSGTSSDSDESYLFHKDQDRVGIKPNSTEGGCDYFEGFGRKEVDAASSGDFQKSIRDFGIDPKCFSIWSKPPTSNHILSNIKVERSGKTESVSLLLERQQQNFNESRFANIDVQLNSILDRSDILAIYEKFEYQTGVSGIIRYGTVEVEPIDKERFSSDGKTGKTTSGSWYRVVVGGNSFLIPEEAYTIYESPSSILVTSNTIVEEGTRVTDTISSEVGGLIRIEKTLANDVTVRVLPGYIHNPEKATSIRRRNIDIVESGNMILDGIRTRGWVYLQSVTLYRRRKTSVPVRPAVRYDVSGDSLLQGVFCADKPKTQKRTKVQTLLCTSYRNGEEIKTIKNTTTQLIQTLLVVGWRRHFHETPPTGINYLSLTSVRINNLLSTFIQVDSVASPPARRLGVSQASRNLVSVNKPFIAQVNLSNDGNDLVLKYRSITVHSVPERGTSFLTLSPFDFYRTNSFTDSSNNHCKGGAGKYFPRPESGISGPYTSPKSVSLSSKYESFAEQYPNLKIKERSAKYERSSFTCCQLNFEEVGLLGTSYAICYLSATPDLALSGKASLFINFFTDYSTDTYSADTPDHRHRYLIDETKLTLKCPVNPFLNRFLLEKPIRSTPKFINRGILLINIGLLISESRYFCRGNLFFRSGQVVAIHRDYLLVRTGRALLATRGATPHKISGDIIGEGDTSITLPYDRLKSGDITQGLPKVEQLLESRSIASIPARIEDLFGRWNRGITRLIGNLWSHFLSAGTSMERCQLILINEIREVYESQGVQISDKHLEIIIWQLTSRVVASEDGITNVFSPGELVELSQAERMNRVLKRPIFYEPIIPGMTKASLSTTSFLSEASLQETTRVLAKAALRGRIDWLRGLKENVILGDIVPVGTGSPEIVCQLEVNKRKGYHSAMGRNSKNPNWRTKYDLRGYREKQNIDPNLFIHKGLSRSLPYPNLEMI
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.80%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	65.32%25
+20262	15997	gene		
+			gene	rpoC2
+			locus_tag	AT106_gp081
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.80%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	65.32%25
+20031	20031	misc_feature		
+			created_by	User
+22018	20387	exon		
+			gene	rpoC1
+			locus_tag	AT106_gp080
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.84%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.76%25
+23147	22716	cds		
+22018	20387			
+			gene	rpoC1
+			locus_tag	AT106_gp080
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase beta' subunit
+			protein_id	YP_009183895.1
+			X-Transferred_Translation	MTHRANYQQLRIGLASPEQIRGWAERELPNGDVVGQVDQPYTLHHKTHKPERDGSFRERILGPIKSGVCACGNCRSVGGGGEYSNFCKHCGVEFTDSRVRRYQMGYIKLACPVTHVWFPKRIPSYIANPLAKPLKEPESPVYCDTYPNLFLARPVAERPNLLRLRGLFNYEDRSWRNKLPLYFSTRNYETLQGNEIATGGDAVKKGLTSLDLQSVMDRAYLEWQAPAKQRPAGNEWEDRTIQRRKDLLVRRMKLAKDFLRTNLKPEWMVLDLLPVLPPELRPIVESYEGELVTSDLNELYRKVIHRNNTPAEFSSGSEFTPEGLIVCQKRLIQEAVDAPIDNGIRGQPMRDINNRPYKSFSEVIEGKEGRFRENLLGKRVDYPGRFVIVVGPSLSLHQCGLPREMSIEPFQVFVIRNLIGRHLACNLRAAKSMIRKEDPVIWEVPREVMRGHPILLNRAPTSHRLGIQAFQPILVEGRATRLHPLVRGGFNADLDGDQMAVHVPLSLEAQIEARLPTFSHINLLSPATGDSVSVPSQDMLLGLYVLTIENKQGIYGNRHSISVGGGDAYPAGIPCFGSYHDILRAKESNQIDSFSFLWLRWETNLKMISSKIREFPVESQYESLGTSLHSYDNYQIRKCRKGYISSIYVLTTAGRILLNQQLREAMQGVSKASSCATSSVPDVVTQDEMPKSNCKNEE
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.11%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.69%25
+23147	20387	gene		
+			gene	rpoC1
+			locus_tag	AT106_gp080
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	67.55%25
+21190	21190	misc_feature		
+			created_by	User
+23147	22716	exon		
+			gene	rpoC1
+			locus_tag	AT106_gp080
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.13%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.28%25
+23033	23033	misc_feature		
+			created_by	User
+26419	23198	cds		
+			gene	rpoB
+			locus_tag	AT106_gp079
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase beta subunit
+			protein_id	YP_009183896.1
+			X-Transferred_Translation	MPVLPELAQIQIEGFNRFVQERLLEELENFPKIGDTDKEVEFRSIGERYQLTQPSVEGKDAAYQCVTYSSDPYVPVQLTRSRDRVVQEEDVRPGSIPWMNSKGTFIINGVARVSVNQILRSPGIYYNRESDQKGVSTYTSTVISDRGGRFKPEMDRKEKIWIRISKKKKISISILLVAMGLSKKDILENVRYPKIFSNMLKKQEGAIESSEDAIAELYKHLYSATDADISFSESIFRELQKRFSQHRCELGRIGRRNLNIKLTLDVPETEHFLLPQDILAATDHSIEISYGIGNLDDIDHLKNRRVRSVADSPQEQLKLALNRLENSIRQNLSRAVRRKRAITPRGLVTPAPVIATFKEFSGSHPLSQFLDQTNPLSEMVHKRRLSSVGPGGLTRRTASFQARDIHFSHYGRICPIETSEGMNAGLISSLSIQAEISNSGSLQSPYLEMLESSEKEQLVDLSPAEDDCYRVATENSLISQWRTRGKELIPVRYQQEFLSVLWEQVDFRSIHPLHYFSIGASLIPFIEHNDANCASTGSTMQRQAVPLVNPERCFAGTGLESQVASDSGGVVVSGREGQIQYIDGNTIELPPIGEAASNDAVLQVITNELKIYERSNTNTCIHQKSTVLAGELLRRGEVIADGAATARGESALGRNILVAYMPWEGYNFEDAVLISERPIYEDISTSFHIERHEVEVCITNQGPERVTKQIPQLDSHILRHLDENGLIESGSWVEAGDVLAGKPTPQEGADSSRAPEGRSLQAISGIQLVNARESCLKVPVGGRGRVIDVRWVYPEDDTSNDSEVIHIYILQKRKIQIGDKIAGRHGNKGIVSKILPRQDMPYLQDGTPVDMILSPLGVPSRMNVGQIFECLLGLAGEFLETHYRIVPFDERYEREASRKLVFSELCRASAGTRNPWLFEPDHPGKSQLIDGRTGDPFVQPITTGKAYIMKLIHQVDDKIHARSSGPYALVTQQPLKGRSRRGGQRVGEMEVRALEGFGVSYTSQEMLTTKSDHIQARYKVLSAIMTGKPVYKTNTVPESFRLLVRELRCMGSNLEHNFIIEEDLGRESENI
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	87.62%25
+26419	23198	gene		
+			gene	rpoB
+			locus_tag	AT106_gp079
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	87.62%25
+23833	23833	misc_feature		
+			created_by	User
+23983	23983	misc_feature		
+			created_by	User
+24682	24682	misc_feature		
+			created_by	User
+24730	24730	misc_feature		
+			created_by	User
+25702	25702	misc_feature		
+			created_by	User
+26191	26191	misc_feature		
+			created_by	User
+26293	26293	misc_feature		
+			created_by	User
+27252	27325	trna		
+			gene	trnD-GUC
+			locus_tag	AT106_gt005
+			product	tRNA-Asp
+			note	anticodon:GUC
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.95%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.95%25
+27252	27325	gene		
+			gene	trnD-GUC
+			locus_tag	AT106_gt005
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.95%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.95%25
+27471	27390	trna		
+			gene	trnY-GUA
+			locus_tag	AT106_gt006
+			product	tRNA-Tyr
+			note	anticodon:GUA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.78%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.78%25
+27471	27390	gene		
+			gene	trnY-GUA
+			locus_tag	AT106_gt006
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.78%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.78%25
+27693	27621	trna		
+			gene	trnE-UUC
+			locus_tag	AT106_gt007
+			product	tRNA-Glu
+			note	anticodon:UUC
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.63%25
+27693	27621	gene		
+			gene	trnE-UUC
+			locus_tag	AT106_gt007
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.63%25
+28126	28230	cds		
+			gene	psbM
+			locus_tag	AT106_gp078
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II protein M
+			protein_id	YP_009183897.1
+			X-Transferred_Translation	MEVNILAFLATALFIPIPTAFLLILYIQTAAQNN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.19%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.52%25
+28126	28230	gene		
+			gene	psbM
+			locus_tag	AT106_gp078
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.19%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.52%25
+28127	28127	misc_feature		
+			created_by	User
+29476	29387	cds		
+			gene	petN
+			locus_tag	AT106_gp077
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome b6/f complex subunit VIII
+			protein_id	YP_009183898.1
+			X-Transferred_Translation	MDLVTIAWAAPTVISTFSLSLVVRGRSGL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.33%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.22%25
+29476	29387	gene		
+			gene	petN
+			locus_tag	AT106_gp077
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.33%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.22%25
+29475	29475	misc_feature		
+			created_by	User
+29983	29912	trna		
+			gene	trnC-GCA
+			locus_tag	AT106_gt008
+			product	tRNA-Cys
+			note	anticodon:GCA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.83%25
+29983	29912	gene		
+			gene	trnC-GCA
+			locus_tag	AT106_gt008
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.83%25
+30449	30379	trna		
+			gene	trnG-GCC
+			locus_tag	AT106_gt009
+			product	tRNA-Gly
+			note	anticodon:UCC
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.59%25
+30449	30379	gene		
+			gene	trnG-GCC
+			locus_tag	AT106_gt009
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.59%25
+30799	30611	cds		
+			gene	psbZ
+			locus_tag	AT106_gp076
+			transl_table	11
+			product	Z protein of photosystem II
+			protein_id	YP_009183899.1
+			X-Transferred_Translation	MTIAFQLALFGLIAISFLLVVGVPVAFASPGGWSSNKNIVFSGASLWIGSVSLVGIPNSFIS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.77%25
+30799	30611	gene		
+			gene	psbZ
+			locus_tag	AT106_gp076
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.77%25
+31211	31299	trna		
+			gene	trnS-UGA%3B trnS-GCU
+			locus_tag	AT106_gt010%3B AT106_gt002
+			product	tRNA-Ser
+			note	anticodon:UGA%3B anticodon:GCU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.51%25%3B 90.91%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.38%25 -> 70.79%25
+31211	31299	gene		
+			gene	trnS-UGA%3B trnS-GCU
+			locus_tag	AT106_gt010%3B AT106_gt002
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.51%25%3B 90.91%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.38%25 -> 70.79%25
+32943	31522	cds		
+			gene	psbC
+			locus_tag	AT106_gp075
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II CP43 chlorophyll apoprotein
+			protein_id	YP_009183900.1
+			X-Transferred_Translation	MKTLYSPRRFYPVETLFNGTLSPGGRDQETTGFAWWAGNARLINLSGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVSEKPMYEQGLILLPHLATLGWGVGPGGEVVDTFPYFVSGVLHLISSAVLGFGGIYHALIGPETLEESFPFFGYTWKDKNKMTTILGIHLILLSLGAFLLVFKALYFGGLYDTWAPGGGDVREITNLTLSPNVIFGYLLKSPFGGEGWIASVDNLEDIIGGHVWLGSICLFGGIWHILTKPFAWARRAFVWSGEAYSSYSLGALSIFGFTACCFAWFNNTAYPSEFYGPTGPEASQAQAFTFLVRDQRLGANIGSAQGPTGLGKYLMRSPTGEIIFGGETMRFWDLRAPWLEPLRGPNGLDLGKLKRDIQPWQERRSAEYMTHAPLGSLNSVGGVATEINAVNYVSPRSWLATSHFVLGFFFFVGHLWHAGRARAAAAGFEKGIDRDTEPVLSMTPLN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.32%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.52%25
+32943	31522	gene		
+			gene	psbC
+			locus_tag	AT106_gp075
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.32%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.52%25
+33952	32891	cds		
+			gene	psbD
+			locus_tag	AT106_gp074
+			transl_table	11
+			product	photosystem II protein D2
+			protein_id	YP_009183901.1
+			X-Transferred_Translation	MTIAIGKSSKEPKDLFDSMDDWLRRDRFVFVGWSGLLLFPTAYFALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDFTRWCQLGGLWTFVALHGSFALIGFMLRQFELARSVQLRPYNAIAFSAPIAVFVSVFLIYPLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATVENTLFEDGDGANTFRAFNPTQSEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVPVTGLWMSAIGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENLVFPEEVLPRGNAL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.97%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.58%25
+33952	32891	gene		
+			gene	psbD
+			locus_tag	AT106_gp074
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.97%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.58%25
+32942	32942	misc_feature		
+			created_by	User
+35363	35292	trna		
+			gene	trnT-GGU
+			locus_tag	AT106_gt011
+			product	tRNA-Thr
+			note	anticodon:GGU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	79.17%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.56%25
+35363	35292	gene		
+			gene	trnT-GGU
+			locus_tag	AT106_gt011
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	79.17%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.56%25
+35914	35841	trna		
+			gene	trnfM-CAU
+			locus_tag	AT106_gt012
+			product	tRNA-Met
+			note	anticodon:CAU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.65%25
+35914	35841	gene		
+			gene	trnfM-CAU
+			locus_tag	AT106_gt012
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.65%25
+36342	36040	cds		
+			gene	rps14
+			locus_tag	AT106_gp073
+			transl_table	11
+			product	ribosomal protein S14
+			protein_id	YP_009183902.1
+			X-Transferred_Translation	MAKKSLIEKERKKRKLVKKYDVTRQSLKKRIKSSLSIQDKLTISKGLQSLPRNSAPVRLHNRCSLTGRPRSNYRDFGLSRHVPREMAHTCVLPGVSKSSW
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.74%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	84.49%25
+36342	36040	gene		
+			gene	rps14
+			locus_tag	AT106_gp073
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.74%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	84.49%25
+38765	36561	cds		
+			gene	psaB
+			locus_tag	AT106_gp072
+			exception	RNA editing
+			transl_table	11
+			product	photosystem I P700 chlorophyll a apoprotein A2
+			protein_id	YP_009183903.1
+			X-Transferred_Translation	MASRFPQFSQGLSQDPTTRRIWFGIATAHDFESHDDTTEERLYQKIFASHSGQLAIIFLWTSGNLFHVAWQGNFEAWVRDPLHVRPIAHAIWDPHFGQPAIEAYTRGGAAGPVNIAYSGVYQWWYTIGLRNNQDLYTGAIFLLAISASFLLASWLHLQPRWKPSISWFKNAESRLNHHLSGLFGVSSLAWAGHLVHVAIPEARGGHVRWDNFLTATPHPQGLGPFFSGQWSVYAQNPDSSSHLFDSTQGAGTAIPTFLGGFHPQTQSLWLTDIAHHHLAIAVVFIIAGHTYRTNSGIGHSMKEILEAHIPPGGRLGRGHKGLYDAVNNSLHFQLGLALAALGVVTSLVAQHMYSLPAYAFIAQDYTTQAAPYTHHQYIAGFIMTGAFAHGAIFFIRDYDPEQNRDNVLARMLEHKEAIIAHLSWASLFLGFHTLGLYVHNDVMLAFGTPEKQILIEPVFAQWIQSAHGKTLYGFDVLLSSAGSPASNAGRGLWLPGWLDAVNNSSNSLFLTIGPGDFLVHHAIALGLHTTTLILVKGALDARGSKLMPDKKEFGYSFPCDGPGRGGTCDISAWDAFYLAVFWMLNTIGWVTFYWHWKHITLWQGNAAQFNESSTYLMGWLRDYLWLNSSQLINGYNPFGMNSLSVWAWMFLFGHLVWATGFMFPISWRGYWQELIETLAWAHERTPLANVIRWKDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.15%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.34%25
+38765	36561	gene		
+			gene	psaB
+			locus_tag	AT106_gp072
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.15%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.34%25
+38764	38764	misc_feature		
+			created_by	User
+41043	38791	cds		
+			gene	psaA
+			locus_tag	AT106_gp071
+			transl_table	11
+			product	photosystem I P700 chlorophyll a apoprotein A1
+			protein_id	YP_009183904.1
+			X-Transferred_Translation	MTIRSPEPEVKIMVEKDPVKTSFERWAQPGHFSRNLAKGPSTTTWIWNLHADAHDFDSHTNDLEDISRKIFGAHFGQLAIIFIWLSGMYFHGARFSNYEAWLNDPTHVKPSAQVVWPIVGQEILNGDVGGGFQGVQITSGFFQLWRASGITSELQLYCTAVGALVFAGLMLFAGWFHYHKAAPKLAWFQNVESMLNHHLAGLLGLGSLAWAGHQIHVSLPINQLLDAGVDPKEIPLPHELILNRDLLAQAYPSFAKGLIPFFTLDWSEYSDFPTFRGGLNPVTGGLWLTDTAHHHLAIAVLFLVAGHMYRTNWGIGHSTKEILEAHKGPFTGEGHKGLYEILTSSWHAQLAINLAMLGSLTIIVSHHMYAMPPYPYLATDYATQLSLFTHHMWIGGFLVVGAAAHAAIFMVRDYDPTTQYNNLLDRVIRHRDAIISHLNWVCIFLGFHSFGLYIHNDTMSALGRPQDMFSDTAIQLQPIFAQWVQNTHALAPGSTAPNAAAGTSLTWGGSGLVAVGGKVAIAPIPLGTADFLVHHIHAFTIHVTVLISSKGVLFARSSRLIPDKANLGFRFPCDGPGRGGTCQVSAWDHVFLGLFWMYNSISVVIFHFSWKMQSDVWGTVSEQGVVNHITGGNFAQSSTTINGWLRDFLWAQASQVIQSYGSSLSAYGLLFLGAHFVWAFSLMFLFSGRGYRQELIESIVWAHNKLRVAPVTQPRALSIIQGRAVGVTHYLLGGIATTWAFFLARIIAVG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.56%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.57%25
+41043	38791	gene		
+			gene	psaA
+			locus_tag	AT106_gp071
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.56%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.57%25
+41540	41379	exon		
+			gene	ycf3
+			locus_tag	AT106_gp070
+			number	3
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.27%25
+43239	43115	cds		
+42386	42158			
+41540	41379			
+			gene	ycf3
+			locus_tag	AT106_gp070
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf3
+			protein_id	YP_009183905.1
+			X-Transferred_Translation	MPRSQRNDNFIDKTFTILADISLQILPTTKREREASTYYRDGMSAQSEGEYAEALRSYYEAMRLEVDSYDRSYILYNIGLTHTSNGKHARALEYYFQAPERNSSPPQAFNNMAVICHHRGEQAIHQGNLEISEAWFDQAAEYWKQAIAPSPGNYIEAQNRLKITGRSSSFN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.99%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.12%25
+43239	41379	gene		
+			gene	ycf3
+			locus_tag	AT106_gp070
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	75.09%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	68.23%25
+42386	42158	exon		
+			gene	ycf3
+			locus_tag	AT106_gp070
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.89%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.39%25
+42346	42346	misc_feature		
+			created_by	User
+43239	43115	exon		
+			gene	ycf3
+			locus_tag	AT106_gp070
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.00%25
+43238	43238	misc_feature		
+			created_by	User
+43506	43592	trna		
+			gene	trnS-GGA%3B trnS-UGA
+			locus_tag	AT106_gt013%3B AT106_gt010
+			product	tRNA-Ser
+			note	anticodon:GGA%3B anticodon:UGA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.55%25%3B 95.51%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.25%25 -> 64.04%25
+43506	43592	gene		
+			gene	trnS-GGA%3B trnS-UGA
+			locus_tag	AT106_gt013%3B AT106_gt010
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.55%25%3B 95.51%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.25%25 -> 64.04%25
+44656	44036	cds		
+			gene	rps4
+			locus_tag	AT106_gp069
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S4
+			protein_id	YP_009183906.1
+			X-Transferred_Translation	MSRYRGPRLKVIRRLKNLPGFMGRGKTPNLGEFRVATDQSASRKISQFCVRLEAKQRLRFNYGLTERQLLKYVRIARKTRGSTGQVPPQLLEMRLDNVIFRLGMASTIPAARQLVNHRHILVNNRIVDVPSYRCKPKDIITVRNRPTSCNALKGESPGGGETPDHLTASLSEGSRPTGLVNRIANRESVNLNINELLVVEYYSRKA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.21%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.35%25
+44656	44036	gene		
+			gene	rps4
+			locus_tag	AT106_gp069
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.21%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.35%25
+44655	44655	misc_feature		
+			created_by	User
+45240	45273	trna		
+45880	45930			
+			gene	trnL-UAA
+			locus_tag	AT106_gt014
+			product	tRNA-Leu
+			note	anticodon:UAA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.12%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.65%25
+45240	45273	exon		
+			gene	trnL-UAA
+			locus_tag	AT106_gt014
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.06%25
+45240	45930	gene		
+			gene	trnL-UAA
+			locus_tag	AT106_gt014
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	77.41%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	65.70%25
+45880	45930	exon		
+			gene	trnL-UAA
+			locus_tag	AT106_gt014
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.16%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.04%25
+46266	46338	trna		
+			gene	trnF-GAA
+			locus_tag	AT106_gt015
+			product	tRNA-Phe
+			note	anticodon:GAA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+46266	46338	gene		
+			gene	trnF-GAA
+			locus_tag	AT106_gt015
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+47119	46607	cds		
+			gene	ndhJ
+			locus_tag	AT106_gp068
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit J
+			protein_id	YP_009183907.1
+			X-Transferred_Translation	MNTINKDKFNIETRGRLSAWSTRHKFFHRPLGYDYRGVETLQVKSEEWLSVAVAPYAYGFNYLRSQCAYDSAPGGSLVSVYHLTQIRDQPDQPEEVCTKIFVPRRNPRIPSVYWVWKSSDLQERESYDMLGIIHQGHPHLRRILMPESWVGWPLRKDYIVPNFYELQDAY
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.55%25
+47119	46607	gene		
+			gene	ndhJ
+			locus_tag	AT106_gp068
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.55%25
+47928	47191	cds		
+			gene	ndhK
+			locus_tag	AT106_gp067
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit K
+			protein_id	YP_009183908.1
+			X-Transferred_Translation	MASTPKYSGESGIERVEPRGVDIPLNSVEPPLPEWGVSNSIFLANISDFSNWSRLSSLWPLLYGTSCCSIEFASLIGSRFDFDRYGLVPRSSPRQADLVVTAGTVTMKMAPSLVRLYEQMPDPKYVIATGACTTTGGMSSTDSYSTVRGVDKSIPVDIYLPGCPPRPEAIIDAVTKLRKKIARGSLADRASRPTRAKYPNLNHRFRFVPSIHIGEYNQELTNCDTKLLSNTFSENFKKLGDRSSK
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.38%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.33%25
+47928	47191	gene		
+			gene	ndhK
+			locus_tag	AT106_gp067
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.38%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.33%25
+48281	47919	cds		
+			gene	ndhC
+			locus_tag	AT106_gp066
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 3
+			protein_id	YP_009183909.1
+			X-Transferred_Translation	MFLLREYDSFWIFLLVSISIPYLAFSIPGFIAPTRGGPEKLTSYESGIEPRGDTWIRFQIRYYMFALVFAVSDVETVFLYPWAVSFRELGLFAFIEVIIFIFILVVGLVHAWRKGASEWRQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.08%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.98%25
+48281	47919	gene		
+			gene	ndhC
+			locus_tag	AT106_gp066
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.08%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.98%25
+49415	49487	trna		
+			gene	trnM-CAU
+			locus_tag	AT106_gt017
+			product	tRNA-Met
+			note	anticodon:CAU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+49415	49487	gene		
+			gene	trnM-CAU
+			locus_tag	AT106_gt017
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+50074	49676	cds		
+			gene	atpE
+			locus_tag	AT106_gp065
+			transl_table	11
+			product	ATP synthase CF1 epsilon subunit
+			protein_id	YP_009183910.1
+			X-Transferred_Translation	MVLNLRVMAPNRIVWNSEVWEIISSTNSGQVGILPNHAPLLTALDMGVSKIRHDGQWSSMALMGGFAMIDNNQVTILVNEAERATEIDPDEARISFQTAQADLAKAEGKKRVIEANSAFKRAKARLEASTAA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.98%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.47%25
+50074	49676	gene		
+			gene	atpE
+			locus_tag	AT106_gp065
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.98%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.47%25
+51561	50080	cds		
+			gene	atpB
+			locus_tag	AT106_gp064
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF1 beta subunit
+			protein_id	YP_009183911.1
+			X-Transferred_Translation	MKTSSLSFEISELVEKNVGYITQIIGPVLDVASSPGKMPNIYNSLIVRGQNPAGQEINVTREVQQLLGNNEVRAVAMSATDGLMRGMGAVDTGAPLSVPVGETTLGRISNVLGEPVDNLGPVRSSTTFPIHRSAPAFTQLDTKLSIFETGIKVVDLLAPYRRGGKIGLFGGAGVGKTVLITESINNIAKAHGGVSVSGGVGERTREGNDLYMEMKESKVINEQNISESKVALVYGQMNEPPGARMRVGSTAPTMAEYFRDVNKQDVLLFIDNIFRFVQAGSEVSALLGRMPSAVGYQPTLGTEMGSLQERITSTKEGSTTSIQAVYVPADDLTDPAPATTSAHLDATTALSRGLAAKGIYPAVDPLDSTSTMLQPRIVGEEHYDTAQGVKQTSQRYKELQDIIAILGLDELSEEDRLTVARARKIERFLSQPFFVAEVFTGSPGKYVSSSETIKGFQMILPGELDNLPEQAFYLVGNIDEATAKAASLQAEVQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	91.70%25
+51561	50080	gene		
+			gene	atpB
+			locus_tag	AT106_gp064
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	91.70%25
+52107	53534	cds		
+			gene	rbcL
+			locus_tag	AT106_gp063
+			transl_table	11
+			product	ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit
+			protein_id	YP_009183912.1
+			X-Transferred_Translation	MSPQTETKAGVGFKAGVKDYRLTYYTPEYKTKDTDILAAFRMTPQPGVPAEEAGAAVAAESSTGTWTTVWTDGLTNLDRYKGRCYDIEPVAGEENQYIAYVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFIGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEALFKSQAETGEIKGHYLNATAGTCEEMLKRAVFARELGAPIVMHDYLTGGFTANTSLAFHRRDNGLLLHIHRAMHAVIDRQRNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTLGFVDLLRDDYIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREATKWSPELAAACEIWKAIKFEFDTIDTL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.51%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.01%25
+52107	53534	gene		
+			gene	rbcL
+			locus_tag	AT106_gp063
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.51%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.01%25
+53662	53742	trna		
+			gene	trnR-UCG
+			locus_tag	AT106_gt018
+			product	tRNA-Arg
+			note	anticodon:UCG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.12%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	77.78%25
+53662	53742	gene		
+			gene	trnR-UCG
+			locus_tag	AT106_gt018
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.12%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	77.78%25
+54009	54944	cds		
+			gene	accD
+			locus_tag	AT106_gp062
+			exception	RNA editing
+			transl_table	11
+			product	acetyl-CoA carboxylase carboxyltransferase beta subunit
+			protein_id	YP_009183913.1
+			X-Transferred_Translation	MTSVINWFEDKRKFGGLIGAFLEEATRGSISTEKEREKRISVNTNRGLWARRDNCGNMLHVKFLKQNKSVCGECGYHLSMNSMERIELLIDRNTWIPTDEEMAAKDVLDLSDEDSYQNRVAVSQEKTGLTDAVQTGLGYLSGTLIGLGVMDFHFMGGSMGSVVGEKITRLIEYATDKSSPLASICASGGARTQEGTLSLTQMAKISSVLQIHQVQKKLLHISILTYPTTGGVTASFGMLGDIIIAESKAYVAFAGKRVIEQTSRQKIPEGFQAAESLFDNGLLDSIVPRNLSKGVSGEISELYSSAPCKKN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.39%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.03%25
+54009	54944	gene		
+			gene	accD
+			locus_tag	AT106_gp062
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.39%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.03%25
+54010	54010	misc_feature		
+			created_by	User
+54787	54787	misc_feature		
+			created_by	User
+55283	55393	cds		
+			gene	psaI
+			locus_tag	AT106_gp061
+			transl_table	11
+			product	photosystem I subunit VIII
+			protein_id	YP_009183914.1
+			X-Transferred_Translation	MAASYLPSIFVPLVGLVFPAVTMAISFLYIERDEIL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.50%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	91.89%25
+55283	55393	gene		
+			gene	psaI
+			locus_tag	AT106_gp061
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.50%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	91.89%25
+55801	56355	cds		
+			gene	ycf4
+			locus_tag	AT106_gp060
+			exception	RNA editing
+			transl_table	11
+			product	photosystem I assembly protein ycf4
+			protein_id	YP_009183915.1
+			X-Transferred_Translation	MNCRSKWIQVDFIKGSRTFANSCWACILVCGATGFLLVGLSSCVGEDLIPGLSSEHIVFIPQGVVMCFYGIAGLFLGLYLWCTAFRDVGGGYNFFDKREGFSSIFRWGFPGKNRRIHIRLVLEDVEAVGLESMEGFYPRRILYLKVKGRRNIPLTRMGEGLTPGDMEGKAAELARFPRVSIEGFQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.11%25
+55801	56355	gene		
+			gene	ycf4
+			locus_tag	AT106_gp060
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.11%25
+56526	58034	cds		
+			gene	cemA
+			locus_tag	AT106_gp059
+			transl_table	11
+			product	chloroplast envelope membrane protein
+			protein_id	YP_009183916.1
+			X-Transferred_Translation	MRLHYWKRRITRRLFSTPQRSPDRAYEASKQLQPLINDSLLPVRVESSLPTPEELPPATTAPTNTASKKSRYLIYCSLLEHRFSISILGMQKHLRLISGTKLLGLFSIGCHCANNFLTRNCLNTFSPNLPETSLFQDISLKSRQNCYTNGETIDRRGEVVSFSEEKLENDFPLAKGCVSYKLNNIKEINRKLAWIEATSNEFDSKRLHCSANFPPFKTTQKVTEKSLNCESANFTSAYESISLVPRSVTRTLSRFGAELTNQSSVLVHNDFDLARNQALVSLQYVGCFLLLPLTIPISFRNWFLESWVRGWWNITQIQVFINPLQEKKALKQLREVEALLWLDDATEHLADTRLQNYDANAYDETTQLAMMYNELNIQLLLQLVTDVISIAILALLFITGRKRLAVSNSRIQESFYSLNDTMKAFSILSLTDLCVGFHSPHGWEIVIGSLSEHFGLIPNKYVISRLVSTFPVILDTVSKYWIFRHLNRTSPSIVATYHTMSG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.33%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	78.10%25
+56526	58034	gene		
+			gene	cemA
+			locus_tag	AT106_gp059
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.33%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	78.10%25
+56564	56564	misc_feature		
+			created_by	User
+58240	59205	cds		
+			gene	petA
+			locus_tag	AT106_gp058
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome f
+			protein_id	YP_009183917.1
+			X-Transferred_Translation	MQRRITNNWMENCWILPLAVSIGFGELNCPSVSNAYPILAQQNYENPREATGRIVCANCHLAKKPVDIEAPQSVLPNTVFEAVVKIPYDTQIKQVPANGKKGGLNVGAVLILPEGFELAPSNRIPTEMKERLGKLSFQSYRPGKENIIVVGPVPGKLYSEIIFPIISPDPGTNKEAHFLKYPIYVGGNRGRGQIYPDGSRSNNTVYTASVTGKIKGVVRKEGRGGYEVTIEESSENRETTDTVPPGLELIVSEGEFVKADQPLTNNPNVGGFGQGEVEIVLQDPSRIQGLIAFFASVVLAQIFPVLKKKQFEKVQLAEMNF
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.99%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.44%25
+58240	59205	gene		
+			gene	petA
+			locus_tag	AT106_gp058
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.99%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.44%25
+58241	58241	misc_feature		
+			created_by	User
+58511	58511	misc_feature		
+			created_by	User
+			modified_by	User
+59859	59737	cds		
+			gene	psbJ
+			locus_tag	AT106_gp057
+			transl_table	11
+			product	photosystem II protein J
+			protein_id	YP_009183918.1
+			X-Transferred_Translation	MTNTTGRIPLWLVGTVAGTPVIGSLGISSYGAYSGLGSSPQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	93.65%25
+59859	59737	gene		
+			gene	psbJ
+			locus_tag	AT106_gp057
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	93.65%25
+60100	59984	cds		
+			gene	psbL
+			locus_tag	AT106_gp056
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II protein L
+			protein_id	YP_009183919.1
+			X-Transferred_Translation	MTQPNPNKQSVESNRTSLYRGLLLISVLAVPFPNYFFN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.58%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.02%25
+60100	59984	gene		
+			gene	psbL
+			locus_tag	AT106_gp056
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.58%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.02%25
+60241	60122	cds		
+			gene	psbF
+			locus_tag	AT106_gp055
+			transl_table	11
+			product	photosystem II cytochrome b559 beta subunit
+			protein_id	YP_009183920.1
+			X-Transferred_Translation	MALDKTYPIFTVRWLAVHGLAVPTVFFLGSISAMQFIQR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.17%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.17%25
+60241	60122	gene		
+			gene	psbF
+			locus_tag	AT106_gp055
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.17%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.17%25
+60240	60240	misc_feature		
+			created_by	User
+60502	60251	cds		
+			gene	psbE
+			locus_tag	AT106_gp054
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II cytochrome b559 alpha subunit
+			protein_id	YP_009183921.1
+			X-Transferred_Translation	MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWPSVSTGLAYDVFGSPRPNEYFSDSRQEVPLVTGRFDSLEQVDAFTKFL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.44%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.86%25
+60502	60251	gene		
+			gene	psbE
+			locus_tag	AT106_gp054
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.44%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.86%25
+60451	60451	misc_feature		
+			created_by	User
+61218	61313	cds		
+			gene	petL
+			locus_tag	AT106_gp053
+			transl_table	11
+			product	cytochrome b6/f complex subunit VI
+			protein_id	YP_009183922.1
+			X-Transferred_Translation	MLTLLSYFAFLMSVLTLTLVLFVGLSKIQIL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.63%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.33%25
+61218	61313	gene		
+			gene	petL
+			locus_tag	AT106_gp053
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.63%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.33%25
+61477	61593	cds		
+			gene	petG
+			locus_tag	AT106_gp052
+			transl_table	11
+			product	cytochrome b6/f complex subunit V
+			protein_id	YP_009183923.1
+			X-Transferred_Translation	MVEASLSGIVSGSIPITLAGLFVTAYPQYRRGDQLDIR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.87%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.89%25
+61477	61593	gene		
+			gene	petG
+			locus_tag	AT106_gp052
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.87%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.89%25
+61921	61848	trna		
+			gene	trnW-CCA
+			locus_tag	AT106_gt019
+			product	tRNA-Trp
+			note	anticodon:CCA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.59%25
+61921	61848	gene		
+			gene	trnW-CCA
+			locus_tag	AT106_gt019
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.59%25
+62156	62083	trna		
+			gene	trnP-UGG
+			locus_tag	AT106_gt020
+			product	tRNA-Pro
+			note	anticodon:UGG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.65%25
+62156	62083	gene		
+			gene	trnP-UGG
+			locus_tag	AT106_gt020
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.65%25
+62509	62637	cds		
+			gene	psaJ
+			locus_tag	AT106_gp051
+			transl_table	11
+			product	photosystem I subunit IX
+			protein_id	YP_009183924.1
+			X-Transferred_Translation	MQHVKIYLSTAPVVAAIWFGLLAGSLIEVNRFFPDALLFPFL
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.02%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.62%25
+62509	62637	gene		
+			gene	psaJ
+			locus_tag	AT106_gp051
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.02%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.62%25
+62768	62968	cds		
+			gene	rpl33
+			locus_tag	AT106_gp050
+			transl_table	11
+			product	ribosomal protein L33
+			protein_id	YP_009183925.1
+			X-Transferred_Translation	MTKSKDARVTTALVRTTCTSKEADGKSTGISRYTTRKNRRNTPTRLESKKFCVCCHKHTHHKELKK
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.57%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.59%25
+62768	62968	gene		
+			gene	rpl33
+			locus_tag	AT106_gp050
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.57%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.59%25
+63046	63273	cds		
+			gene	rps18
+			locus_tag	AT106_gp049
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S18
+			protein_id	YP_009183926.1
+			X-Transferred_Translation	MNKFKRSLRRRSPSIRSDEAIDYKNTSLLRRFVSEQGRILSRRMNRLTSKQQRLVAISIKRARILALLPFSNNEN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.86%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.77%25
+63046	63273	gene		
+			gene	rps18
+			locus_tag	AT106_gp049
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.86%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.77%25
+63047	63047	misc_feature		
+			created_by	User
+63869	63513	cds		
+			gene	rpl20
+			locus_tag	AT106_gp048
+			transl_table	11
+			product	ribosomal protein L20
+			protein_id	YP_009183927.1
+			X-Transferred_Translation	MTRVKRGSTARRYRKNILDFASGFRGAHSRLFRTANQQEKRALAYAYVDRNNRKREFRRLWIARINAAARKNGITYSSMIHNLFENQIFLNRKTLAQVATPDAYCSSRPIRKINNEKD
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	81.79%25
+63869	63513	gene		
+			gene	rpl20
+			locus_tag	AT106_gp048
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	81.79%25
+63515	63515	misc_feature		
+			created_by	User
+64964	64851	exon		
+			gene	rps12
+			locus_tag	AT106_gp046
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.11%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.98%25
+64964	64851	CDS		
+138862	138631			
+138045	138020			
+64964	64845			
+			created_by	User
+95042	95273	CDS		
+95859	95884			
+			created_by	User
+64964	64851	gene		
+138862	138020			
+64964	64851			
+			created_by	User
+95042	95884	gene		
+			created_by	User
+65432	65196	exon		
+			gene	clpP
+			locus_tag	AT106_gp045
+			number	3
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.42%25
+67075	67005	cds		
+66328	66037			
+65432	65196			
+			gene	clpP
+			locus_tag	AT106_gp045
+			transl_table	11
+			product	ATP-dependent Clp protease proteolytic subunit
+			protein_id	YP_009183929.1
+			X-Transferred_Translation	MPIGVPKVPFRLPGEEDAAWVDVYNRLYRERLLFLGQQVDDEIANQLIGIMMYLNGEDQAKDMYLYVNPPGGAVLAGISAYDAMQFVVPDVHTICMGLAASMGSSIPAGGEITRRIAPPHARVTIHQPASSYYDGQAGECVMEAEEASKLRDCITKVYAQRTGKPLWVIPEDMERDIFPSAEEAQDYGVADPVALENAST
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.72%25
+67075	65196	gene		
+			created_by	User
+66328	66037	exon		
+			gene	clpP
+			locus_tag	AT106_gp045
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.44%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.38%25
+67075	67005	exon		
+			gene	clpP
+			locus_tag	AT106_gp045
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.37%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.18%25
+67542	69068	cds		
+			gene	psbB
+			locus_tag	AT106_gp044
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II CP47 chlorophyll apoprotein
+			protein_id	YP_009183930.1
+			X-Transferred_Translation	MGLPRYRVHTVVLNDPGRLISVHLMHTALVSGWAGSMASYELAVFDPSDPVLDPMWRQGMFVIPFMTRIGITKSWGGWSITGDAATDAGIWSYEGVAAAHIILSGLLFLAAIWHWVYWDLDLFRDDRTGKPSLDLPKIFGIHLFLSGVLCFASGAFHVTGLFGPGIWISDPYGLTGKVEPVDPAWGAEGFDPFVPGGIASHHVAAGVLGILAGLFHLSVRPPQRLYKALRMGNVETVLSSSIAAVFLAAFVVSGTMWYGSAATPIELFGPTRYQWDQGYFQQEIDKRIRSGKAENLSLSQAWSKIPEKLAFYDYIGNNPAKGGLFRAGAMDNGDGIAVGWLGHAVFKDGEGHELFVRRMPTFFETFPVVLVDGEGVVRADVPFRRAESKYSVEQVGVTVEFFGGELDGASFSDPATVKKYARRAQLGEIFEFDRATLKSDGVSRSSPRGWFTFGHATFALIFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPSTKRQAVQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.99%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.52%25
+67542	69068	gene		
+			gene	psbB
+			locus_tag	AT106_gp044
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.99%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.52%25
+67543	67543	misc_feature		
+			created_by	User
+69066	69066	misc_feature		
+			created_by	User
+69327	69431	cds		
+			gene	psbT
+			locus_tag	AT106_gp043
+			transl_table	11
+			product	photosystem II protein T
+			protein_id	YP_009183931.1
+			X-Transferred_Translation	MEALVYTFLLVATLGIIFFAIFFREPPKVPSKGK
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.14%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.38%25
+69327	69431	gene		
+			gene	psbT
+			locus_tag	AT106_gp043
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.14%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.38%25
+69671	69540	cds		
+			gene	psbN
+			locus_tag	AT106_gp042
+			transl_table	11
+			product	photosystem II protein N
+			protein_id	YP_009183932.1
+			X-Transferred_Translation	METATPVTIFISCSLVSLTGYALYTASGQPAKELRDPFEEHED
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.42%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.42%25
+69671	69540	gene		
+			gene	psbN
+			locus_tag	AT106_gp042
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.42%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	92.42%25
+69763	69987	cds		
+			gene	psbH
+			locus_tag	AT106_gp041
+			transl_table	11
+			product	photosystem II protein H
+			protein_id	YP_009183933.1
+			X-Transferred_Translation	MATKVIDDTPKGKPRISFLGMILKPLNSEYGKVAPGWGTTPLMGFSMALFAVFLVTILEIYNSSVLLEGIPISW
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.89%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.44%25
+69763	69987	gene		
+			gene	psbH
+			locus_tag	AT106_gp041
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	92.89%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.44%25
+70117	70122	exon		
+			created_by	User
+70117	70122	CDS		
+70906	71523			
+			created_by	User
+70117	71523	gene		
+			gene	petB
+			locus_tag	AT106_gp040
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.73%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.11%25
+70906	71523	exon		
+			gene	petB
+			locus_tag	AT106_gp040
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.08%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.34%25
+71521	71521	misc_feature		
+			created_by	User
+71745	71752	exon		
+			created_by	User
+71745	71752	CDS		
+72383	72854			
+			created_by	User
+71745	72854	gene		
+			gene	petD
+			locus_tag	AT106_gp039
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.26%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	78.30%25
+72383	72854	exon		
+			gene	petD
+			locus_tag	AT106_gp039
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	94.92%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.47%25
+74116	73094	cds		
+			gene	rpoA
+			locus_tag	AT106_gp038
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase alpha subunit
+			protein_id	YP_009183936.1
+			X-Transferred_Translation	MLTCETPTPTQAIQWKCVESKIESRRLHYGRFAISPFKRGQASTVGIAMRRALLEEVRGASITCARFHGVLHEYSTITGIQETIHDVLVNLKEIAPRSDSNDVKEAVSSVTGPKEVTAGDTSLPPSVKAIDDSQYIVTTTQPISVNIESKIEKDCGYRIENSNGCIGGEFPVDAVFMPVRNVNYSVHLFGSGRATRETLFIEIWTNGSLTPDEAINEASKKLIDLSTPFLHMRREDVSDLYPGDDESSSASAGSSSQISDVNELEGKLSKNTFIDQLELPARAFNCLKKAKIHTIADLLNYSREDSSKMKSFGQKSVDQVSKSLWEHFAVELPKNELHIN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.68%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.60%25
+74116	73094	gene		
+			gene	rpoA
+			locus_tag	AT106_gp038
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.68%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.60%25
+73876	73876	misc_feature		
+			created_by	User
+74546	74154	cds		
+			gene	rps11
+			locus_tag	AT106_gp037
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S11
+			protein_id	YP_009183937.1
+			X-Transferred_Translation	MSGNSKKFRSRKVKRGVQKGVTHIQASFNNTIITVTDVRGQVAPRCSAGACGFRGTRKSTPFAAQAAAENAIRASMDRGMKQAEITMSGPGPGRDTALRAIRRSGVILSFVRDVTPMPYNGCRPPRKRRV
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.59%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.77%25
+74546	74154	gene		
+			gene	rps11
+			locus_tag	AT106_gp037
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.59%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.77%25
+74426	74426	misc_feature		
+			created_by	User
+74733	74611	cds		
+			gene	rpl36
+			locus_tag	AT106_gp036
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L36
+			protein_id	YP_009183938.1
+			X-Transferred_Translation	MKIRASIRKICEKCRLIRRRGRIMVIRCNPKHKQRQG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.37%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.99%25
+74733	74611	gene		
+			gene	rpl36
+			locus_tag	AT106_gp036
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.37%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.99%25
+74622	74622	misc_feature		
+			created_by	User
+75104	74868	cds		
+			gene	infA
+			locus_tag	AT106_gp035
+			exception	RNA editing
+			transl_table	11
+			product	translational initiation factor 1
+			protein_id	YP_009183939.1
+			X-Transferred_Translation	MKKQNLIDMEGTVTESLPNAMSRACLDNGCQVLTHISGKIRRNYIRILPGDRVRAELSPYDLTKGCTTYRLRSRQTSSNQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.07%25
+75104	74868	gene		
+			gene	infA
+			locus_tag	AT106_gp035
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.07%25
+74984	74984	misc_feature		
+			created_by	User
+75038	75038	misc_feature		
+			created_by	User
+75629	75231	cds		
+			gene	rps8
+			locus_tag	AT106_gp034
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S8
+			protein_id	YP_009183940.1
+			X-Transferred_Translation	MNSDTISTAPTAIRNASTTKKAMIRIPATKMTARVVQISAEEGFIKSAAKHKDNGKEFPDVSLKYLGKKKYPHIAVIKRISKPGLRVYSDHREIPKILGGMGIAISPTSHGLITDREARHKKIGGEISCHIW
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.23%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.46%25
+75629	75231	gene		
+			gene	rps8
+			locus_tag	AT106_gp034
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.23%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.46%25
+76193	75825	cds		
+			gene	rpl14
+			locus_tag	AT106_gp033
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L14
+			protein_id	YP_009183941.1
+			X-Transferred_Translation	MIQTQSYLDVADNSGARKLMCIRVLGTGNRKYAGTGDVAIAVVKEAVPNMSLKRSEVVRAVAACTRKGIKRCNGMILVFGDNAAVVVNQEGNPRGTRIFGPVARELRDCNFARIVSLAPEVLQ
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.89%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.45%25
+76193	75825	gene		
+			gene	rpl14
+			locus_tag	AT106_gp033
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.89%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.45%25
+76192	76192	misc_feature		
+			created_by	User
+			modified_by	User
+76855	76454	exon		
+			gene	rpl16
+			locus_tag	AT106_gp032
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.83%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	87.16%25
+77608	77600	CDS		
+76855	76454			
+			created_by	User
+77608	76454	gene		
+			created_by	User
+77608	77600	exon		
+			created_by	User
+78370	77717	cds		
+			gene	rps3
+			locus_tag	AT106_gp031
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S3
+			protein_id	YP_009183943.1
+			X-Transferred_Translation	MGRKIHPLGFRLGASQKHYSHRFAQTKDYPKFLEGDRQIRYSVEKYIAKHVRDATSYGGVGHIEIQRKTDLIRVDIHTGFPDLLIEEQSLGITQMKSDIENILGIESRKLRVILSSITQPYGEPKILAEHVASQLRNRVPFRRTMKKAIELVARTSDRGIKIQIAGRLNGSEMARVEWAREGRVPLQTIKARIGYSHHPAQTIHGVLGIKTWIFRGTG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.06%25
+78370	77717	gene		
+			gene	rps3
+			locus_tag	AT106_gp031
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.06%25
+78325	78325	misc_feature		
+			created_by	User
+78369	78369	misc_feature		
+			created_by	User
+78853	78482	cds		
+			gene	rpl22
+			locus_tag	AT106_gp030
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L22
+			protein_id	YP_009183944.1
+			X-Transferred_Translation	MRNNKKSGIGARASGKNIRASAIKIRRITDRIRGCSYGEALVLPEFMPYKTCYLISQLILSAAANANTNFGLNKSDLFISEARVDNSRYLKRFRPRAQGRGYPIKKPTCEVTIKLNSNFVGQVGR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.54%25
+78853	78482	gene		
+			gene	rpl22
+			locus_tag	AT106_gp030
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.54%25
+78607	78607	misc_feature		
+			created_by	User
+78852	78852	misc_feature		
+			created_by	User
+79149	78871	cds		
+			gene	rps19
+			locus_tag	AT106_gp029
+			transl_table	11
+			product	ribosomal protein S19
+			protein_id	YP_009183945.1
+			X-Transferred_Translation	MARSSKKGPSVANHLIREIENLNIRRERKLVVTRSRASAVVPITIGHTIAVHNGREHLPIYVTDRMVGHKLGEFVPTRNFRGHAKSDRGSRR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.19%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.32%25
+79149	78871	gene		
+			gene	rps19
+			locus_tag	AT106_gp029
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.19%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.32%25
+79623	79190	exon		
+			gene	rpl2
+			locus_tag	AT106_gp028
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.93%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	83.45%25
+80778	80382	cds		
+79623	79190			
+			gene	rpl2
+			locus_tag	AT106_gp028
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L2
+			protein_id	YP_009183946.1
+			X-Transferred_Translation	MAMRFYEAYTPGTRSRAILQFGETTESKPHKQLTYHKMSRNGRNSAGIITSRHRGGGHKRLRRKIDFRRNKLGIAGRVASIEYDPNRNAFICLINYTDGDKGYILHPRGIGVGDTATSSSDASISIGNALPLTKMPLGTIIHNVELKSGKGGQSVRAAGAAAKVVAKEGQLATLRLPSSEIRLIPRNCLASVGRVGNIDINNEGLGKAGSRRWLGRRPKVRGSAMNPVDHPHGGGEGRTSIGRGKPSTPWGHVALGKRSRKGRKYSNPLILRRRKDY
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.41%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.34%25
+80778	79190	gene		
+			created_by	User
+79564	79564	misc_feature		
+			created_by	User
+80778	80382	exon		
+			gene	rpl2
+			locus_tag	AT106_gp028
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	84.63%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	81.11%25
+80769	80769	misc_feature		
+			created_by	User
+81119	80847	cds		
+			gene	rpl23
+			locus_tag	AT106_gp027
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L23
+			protein_id	YP_009183947.1
+			X-Transferred_Translation	MEKSKNQLITEKSLSLLQQNQYTSYVDSKLTKTEMKKWIEGFFAVKVRGISSSRVANRKRRGKLSLNSTSKKKMIARLRANYLTPLFIN
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	83.52%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	79.12%25
+81119	80847	gene		
+			gene	rpl23
+			locus_tag	AT106_gp027
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	83.52%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	79.12%25
+81118	81118	misc_feature		
+			created_by	User
+81356	81283	trna		
+			gene	trnI-CAU
+			locus_tag	AT106_gt021
+			product	tRNA-Ile
+			note	anticodon:CAU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.65%25
+81356	81283	gene		
+			gene	trnI-CAU
+			locus_tag	AT106_gt021
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.65%25
+81789	82553	exon		
+			gene	ndhB
+			locus_tag	AT106_gp001
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.56%25
+81789	82553	gene		
+			gene	ndhB
+			locus_tag	AT106_gp026
+			pseudo	
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.56%25
+82751	82784	trna		
+83244	83283			
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			product	tRNA-Thr
+			note	anticodon:UGU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.49%25
+82751	82784	exon		
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.18%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.24%25
+82751	83283	gene		
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.76%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	65.82%25
+83244	83283	exon		
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.00%25
+83967	83893	trna		
+			gene	trnR-ACG
+			locus_tag	AT106_gt023
+			product	tRNA-Arg
+			note	anticodon:ACG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.67%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.67%25
+83967	83893	gene		
+			gene	trnR-ACG
+			locus_tag	AT106_gt023
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.67%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.67%25
+84274	84152	rrna		
+			gene	rrn5
+			locus_tag	AT106_gr001%3B AT106_gr008
+			product	5S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.93%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	96.75%25
+84274	84152	gene		
+			gene	rrn5
+			locus_tag	AT106_gr001%3B AT106_gr008
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.93%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	96.75%25
+84656	84554	rrna		
+			gene	rrn4.5
+			locus_tag	AT106_gr002%3B AT106_gr007
+			product	4.5S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.15%25
+84656	84554	gene		
+			gene	rrn4.5
+			locus_tag	AT106_gr002%3B AT106_gr007
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.15%25
+87599	84781	rrna		
+			gene	rrn23
+			locus_tag	AT106_gr003%3B AT106_gr006
+			product	23S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.05%25
+87599	84781	gene		
+			gene	rrn23
+			locus_tag	AT106_gr003%3B AT106_gr006
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.05%25
+88687	88651	trna		
+87841	87806			
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			product	tRNA-Ala
+			note	anticodon:UGC
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+87841	87806	exon		
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+88687	87806	gene		
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.77%25%3B 93.88%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.69%25
+88687	88651	exon		
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+89895	89860	trna		
+88804	88769			
+			gene	trnI-GAU
+			locus_tag	AT106_gt025%3B AT106_gt032
+			product	tRNA-Ile
+			note	anticodon:GAU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+88804	88769	exon		
+			gene	trnI-GAU
+			locus_tag	AT106_gt025%3B AT106_gt032
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+89895	88769	gene		
+			gene	trnI-GAU
+			locus_tag	AT106_gt025%3B AT106_gt032
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.26%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	77.50%25
+89895	89860	exon		
+			gene	trnA-UGC%3B trnI-GAU
+			locus_tag	AT106_gt024%3B AT106_gt025%3B AT106_gt032%3B AT106_gt033
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25 -> 70.27%25%3B 100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25 -> 70.27%25
+91704	90205	rrna		
+			gene	rrn16
+			locus_tag	AT106_gr004%3B AT106_gr005
+			product	16S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	99.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.20%25
+91704	90205	gene		
+			gene	rrn16
+			locus_tag	AT106_gr004%3B AT106_gr005
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	99.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.20%25
+95042	95273	exon		
+			gene	rps12
+			locus_tag	AT106_gp046
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.12%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.26%25
+95859	95884	exon		
+			gene	rps12
+			locus_tag	AT106_gp046
+			number	3
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.15%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	96.15%25
+95950	96423	cds		
+			gene	rps7
+			locus_tag	AT106_gp005%3B AT106_gp025
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S7
+			protein_id	YP_009183948.1%3B YP_009183968.1
+			X-Transferred_Translation	MLHRSSVVNRKKNIESDPIYRNRLVNMLVDRILKNGKKSLAYQIFYQAMKRIRQKTNKNPLSVLRQAVRGVTPDVVTETKRVGGSTYRVPVEVVPAEGKALAIRWSLIACRKRSGRSMALRSSDESMDAARNSGSAIRKREETHKVAEANKAFAHFR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.62%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.94%25
+95950	96423	gene		
+			gene	rps7
+			locus_tag	AT106_gp005%3B AT106_gp025
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.62%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.94%25
+96110	96110	misc_feature		
+			created_by	User
+96846	97907	cds		
+			gene	psbA
+			locus_tag	AT106_gp006%3B AT106_gp024
+			transl_table	11
+			product	photosystem II protein D1
+			protein_id	YP_009183949.1%3B YP_009183967.1
+			X-Transferred_Translation	MTATLERRESASLWGRFCDWITSTENRLYIGWFGVLMIPTLLTATSVFIIAFVAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASVDEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAAAAVFLIYPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSLVTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLAAWPVVGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLASVEAPSING
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.59%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.08%25
+96846	97907	gene		
+			gene	psbA
+			locus_tag	AT106_gp006%3B AT106_gp024
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.59%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.08%25
+98331	98404	trna		
+			gene	trnH-GUG
+			locus_tag	AT106_gt026%3B AT106_gt031
+			product	tRNA-His
+			note	anticodon:GUG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+98331	98404	gene		
+			gene	trnH-GUG
+			locus_tag	AT106_gt026%3B AT106_gt031
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+98687	104965	cds		
+			gene	ycf2
+			locus_tag	AT106_gp007%3B AT106_gp023
+			exception	RNA editing
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf2
+			protein_id	YP_009183950.1%3B YP_009183966.1
+			X-Transferred_Translation	MKKENKVKKVAKERVGSPDFSSKISELVEVSLLDHFFESLKNQHLKEFLISPSSNYEPFIRLSDLCFLSSLFLRNLRDSIRRDSRITLEMLMLLTIPISMHCLSDKRSIERSFALAGVINGGDGVIKKQAENYGDFSCDRFPRFRRSSSVGKRGKRGIPVSHYLGLNGYISAGSTKKEKQVRYDAMIPLVSGRWEACVVRDSLLGRDISKDETERIQAFCRDRCLQNSSRFFKFYNYLVVSKNNQSDFDSLFFWKNHNKRDLGRLQATQLRNDSLSPVVLNLRDKALLESGNSADHRGDGSEFYFEREAFSNLSSFTSYEKTTSFRGCISGLDCDKNGEEFPTPHTFSQMKNGLINRLTKFISIIEKSNLIFDGAIVIDVSNSVKSGKGFPLKTKGDMPLTQISGKKLGLASSRHLDLDEIFPNYFQIFLGIPRKISNQSENTTFSNQLKEKGNIHSIYSLVRLYGRNRIIPLYSTYIFIFYDYFCALFTEYFFQIKYRLDGWTGSGEYTGVTRIAIEQIVLKWKDNVERLLNEYITSQIDEYRNVHSNVHRWLDTTGDSSLFPVGEVLKYDLEESICRVSIIINELLSNIGVSLGGNNQQNEKDFHRFLNTFFLYKMIVAEVTRQKALIYTMDYCIEKLNDIDIDLEKWNKIDLMKLDLLSSLFDGYIDEQILFLKTILEGKKSLFIESKLLMSKKSVGSSTELEPTVNPTSLGLPRIESIRAGFSNDDLSIAERQFWNPFLHDLNRGGGSTRDIGGNISRYISDQVNKLNFIDDSPLRNCAGSNFIPRIKRDFFIGRCNSSYLDVLENFYANSEDETISSSIISFIHPQLSDSLPFNLSRQTAGEVAGHVLTPIQFILSNLHQSTALVTHSDGLPNYISDLKRLLAGLNSSPRKTIESFLHSCSSTEVYLGKTSTSINSESSSDRRPQYRPENMVLDRVYQKNLSIRSFWEPEEMETSYWSLRLPLCNDAASRSLAESIGKEVAREDTDYADQPIWKEAVRPSHFINFNELLKDLNRYKISWIFWKDNIGEKWSLFRDYIPWFFTPTWWRYFYDLIRETYPEIVLKISYDSNHHFPIIYKRIAEDVVDGAKAYLIQRLQSLGLRFDNDSINTIASEVSLLIFEEIPDEAEILHSVGWSASQFSNRSIFYYFILSVLIVLALFKHPLSAVSGFNSFHLWKRFNTIEYLTDPTRGSYLREVMYSPSTSQMATRDLLIYSLNRFLNYINNIIFFFFVKNELDSWMFHKESSDILDSKKELLTQHLVTNKIIYRYVSKLNSNYDSLSNEISHEPYPQERSNVLAYLLQFWQNYLLSHKIRKLDPAEKWAFSALERDILFSVTTRRRGGLLNMPCHDIPISLQSGLLPSKGILLVGPIETGRSSIIRDVAFDSYFPVVKLPMEKLIYNRSFFNNARGNFISKESVHRLNFVFEMAKEMSPRILWIQDIHELNIHRSYHKLEADPKFLLCQILKSIGDRRSNSNIRRNVVIATTHVPARIDPAPIAPNRLNQLINFRKSNGYQRHKELSILLRIKGCEMEANPPLPLIEGIGSGTTGYSKRDLFLLANEALLIGTSRRSKIICSDAIELALHRQHSTASDMGNGIESGSEWEIFSHEIAEATPKNSLIDTYLTNTYIGRNALKMRFYYLSNWYVEPSITKSTFNEFTLFSHILGILAGLVARDSLQMDMRKKENFTVIDKLVENDLNLACGVLENLSTKFSRSDICEDESRHSNSNSLSFSVPIAKPKYCSGVASTSRSSKFMRKKGFSSLTDFELQQSPELINSSPTEVSREITWSHKAWRLRFLRSGAYELMRVLSEPNHLHNLILLYQNQNYIPQQDFEFNKIKGDKSKWCGKSGYLFNSEKSGTNVPDQDIKRLENRLDNMSLREQFLELGISGDSSNEYETHCNRFDETTRLFGGRFIWDPMLLFQPDANIPSSRRSLLPTKEVARRLYTIYGMRKQHLNKMSNKKIKNFFLYREDNPKLKPDSSIKQWNNLPVDEEEQDSEYVKETSSMDIHLQYPQIFSPARFDSYMVVEDFPERFIRFRLLVHRNKWMGRNRCPFQDFLIYNMLLEIYQYLFNPFWFGGASPDLATRNFFHESS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	70.25%25
+98687	104965	gene		
+			gene	ycf2
+			locus_tag	AT106_gp007%3B AT106_gp023
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	70.25%25
+98857	98857	misc_feature		
+			created_by	User
+100029	100029	misc_feature		
+			created_by	User
+100242	100242	misc_feature		
+			created_by	User
+105707	105636	trna		
+			gene	trnN-GUU
+			locus_tag	AT106_gt027%3B AT106_gt030
+			product	tRNA-Asn
+			note	anticodon:GUU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+105707	105636	gene		
+			gene	trnN-GUU
+			locus_tag	AT106_gt027%3B AT106_gt030
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+108462	106213	cds		
+			gene	ndhF
+			locus_tag	AT106_gp022
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 5
+			protein_id	YP_009183951.1
+			X-Transferred_Translation	MPVELSNKYACLIPLCPLVAARSTGSLSFFFPKATKSLRRPCAAFNTFSLTIAMFVSLALFRQQTATHYIQQFLWARIPKSDFRLKIGFLIDPLTLAMSILVTTVGTSAMVYSDSYMCHDQGYARFYAYLSLFTASMLGLVFSPNLIQIYVFWELVGMCSYLLIGFWFARSSAANACQKAFVTNRIGDFGLLLGLLGIYWVTGSFEIFELCDRFLELSDNGVINPIFANTIALLLFLGPVAKSAQFPLHVWLPDATEGPTPISALIHAATMVAAGIFLAIRIFNLISTLPPTMYTISWVGGITTLSGATLALAQKDLKRGLAYSTMSQLGYMVPASGIGASRPALFHLITHAYSKALSFLGSGSVIHSMEKVVGYSPTRSQNMFLMGGLRKHMPITGTTFLPGTLSLCGIPPLSCFRSKDLIITESWLRSPYLGLITSTTAGPTAFYTFRIYLLTFEGNFRANQMNSIGFNNSFPSGDTITSWGGARTESLATQTINNVTSITDMERNGVTESGNLITPRPPGGGSISEEVNRIHPGRNLLYPRESKFCMVLPLIVLAIPTAFIGLAGVDPTQRGTGLDLLFDWLISIPSFSETTKHLENLTEILKSSIPSLSLSLIGLVISFSVYGGSIEPVNTKVFENLNLVSKNLLNTSLSSARDWSVNRGYIDYYYDIYIIRGINFVGKLVLHFDQWVIDGFVNGIGVSSFSSGEIIRYEKNGRISHYLFGLVIGIILSVSLVVDFPIPPLP
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	81.26%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	73.12%25
+108462	106213	gene		
+			gene	ndhF
+			locus_tag	AT106_gp022
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	81.26%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	73.12%25
+106245	106245	misc_feature		
+			created_by	User
+107826	107826	misc_feature		
+			created_by	User
+108102	108102	misc_feature		
+			created_by	User
+108461	108461	misc_feature		
+			created_by	User
+108766	109122	cds		
+			gene	rpl21
+			locus_tag	AT106_gp021
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L21
+			protein_id	YP_009183952.1
+			X-Transferred_Translation	MNRYAIIDIGGKQLRVEQGRFHDARHFASVRPALTSNTKISINRVLLIRHGSSVTFGYPWLENAVVRGRILHGCFKEKLVVQKIHSKKKTRRTSGYRENMTRFVVDSILSGGENLDKS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	79.83%25
+108766	109122	gene		
+			gene	rpl21
+			locus_tag	AT106_gp021
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	79.83%25
+109242	109415	cds		
+			gene	rpl32
+			locus_tag	AT106_gp020
+			transl_table	11
+			product	ribosomal protein L32
+			protein_id	YP_009183953.1
+			X-Transferred_Translation	MAVPKKRTSRSKKKIRNHAWKTRSAGVALRAFSLAQSVLTSRSRSFYYITEKRDI
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.90%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	77.78%25
+109242	109415	gene		
+			gene	rpl32
+			locus_tag	AT106_gp020
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.90%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	77.78%25
+110086	110013	trna		
+			gene	trnP-GGG
+			locus_tag	AT106_gt028
+			product	tRNA-Pro
+			note	anticodon:GGG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.19%25
+110086	110013	gene		
+			gene	trnP-GGG
+			locus_tag	AT106_gt028
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	97.30%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	89.19%25
+110374	110452	trna		
+			gene	trnL-UAG
+			locus_tag	AT106_gt029
+			product	tRNA-Leu
+			note	anticodon:UAG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.73%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.47%25
+110374	110452	gene		
+			gene	trnL-UAG
+			locus_tag	AT106_gt029
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.73%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.47%25
+110757	111707	cds		
+			gene	ccsA
+			locus_tag	AT106_gp019
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome c heme attachment protein
+			protein_id	YP_009183954.1
+			X-Transferred_Translation	MTYTYMERAFIQISFLMLFFATLSNPTNLFHEFDKSNKLSKKSMTIAFLRTTEFSLIRRFQTRHPPLSNPYESSTFPSWSFSLLYVISEVRNRNGLLGAVPAPGAMPTHAFATLGLPEEMRQSTPLVPASQSHRSMTHVSTMLLSYATPLCGSLSAILPSSIFHGEVNNYFVFDPRRSGGGYGTSLDNHGGTDVRSFLHLLPPNSRKCRLINRLDRWAYQIIGLGFSLLTVGIPSGAVRANEARGSYRSWDPKETWALVTRLIHATYLHIRITNKWMGEGPAVAASAGFLLVWVCLLGVNLLGIGLHNYGWLV
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	85.67%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.19%25
+110757	111707	gene		
+			gene	ccsA
+			locus_tag	AT106_gp019
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	85.67%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.19%25
+113555	112047	cds		
+			gene	ndhD
+			locus_tag	AT106_gp018
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 4
+			protein_id	YP_009183955.1
+			X-Transferred_Translation	MMSNVPRLTMIVLFPILASFLLPILPRNGNRIIRWYTLGICISEFSLITHIFHSHFQFNSQSIQLMETFNRINSIHFHWRLGIDGLSMSLILLTGFITTLATLAAWPITRNTRLFHFLMLVMYSGQVGLFVSRDILLFPFMWELELIPVYLLLSLWGGKRRLYSATKFVSYTAGGSIFLLVAALTTSFYGNGVPSFDIQVLMSKSYPISLEIALHLGFLIAYAVKLPLFPFHTWLPDTHGEAHYSTCMLLAGVLPKMGGYGPIRINLELLIHAHLFFGSWLILLGAFQILYASLASVSQRNLKRRIAYSSISHMGFVAIGIGSLTDAGINGAILQMISHGLIGAALFSPAGTCYDRTHTLSLDELGGIATPMPKLFTTFSAFSTASLALPGMSGFVSELLVFLGVVTSEQYSFLFKAEITVLEATGTVLASIYLLSMLRRMFYGYRVANKSNPDLIDFGPREVFTLTCLFLPILGIGSYPNLILPLRNSEAFSILFSYSNMS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	84.10%25
+113555	112047	gene		
+			gene	ndhD
+			locus_tag	AT106_gp018
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	84.10%25
+113929	113684	cds		
+			gene	psaC
+			locus_tag	AT106_gp017
+			transl_table	11
+			product	photosystem I subunit VII
+			protein_id	YP_009183956.1
+			X-Transferred_Translation	MAHSVKIYDTCIGCTQCVRACPTDVLEMIPWDGCKANQIASAPRTEDCVGCKRCESACPTDFLSVRVYLGAETTRSMGLAY
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.46%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.24%25
+113929	113684	gene		
+			gene	psaC
+			locus_tag	AT106_gp017
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.46%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	90.24%25
+114511	114209	cds		
+			gene	ndhE
+			locus_tag	AT106_gp016
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 4L
+			protein_id	YP_009183957.1
+			X-Transferred_Translation	MFENGLILGAYLLCVGFLGLITSKNMVRALMSLESIFNAVNLNFITFSNFFNNKQAGGEIFTIFVIAIAAAEAATGLATALSLQRNRRSTRIDQFNLLKW
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.11%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.48%25
+114511	114209	gene		
+			gene	ndhE
+			locus_tag	AT106_gp016
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.11%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.48%25
+115203	114613	cds		
+			gene	ndhG
+			locus_tag	AT106_gp015
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 6
+			protein_id	YP_009183958.1
+			X-Transferred_Translation	MNLSELIHEFILSIIESGILLGSFGTVSFANVVHSAFSSGSVFTRISLSYFVSNADSVAAAQLLVYVGAINVLIVSAVMVTDKPTRSDSTTRGVGYFTASVACAALFLVLVHMIHNKKWFDINFINQSEILLPNTSGSDVHQLGYKSLSEFLVPFELLSILLLVALVGAINPARDEDTNKTDRKSSSSSSRNNSSLP
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.03%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	81.65%25
+115203	114613	gene		
+			gene	ndhG
+			locus_tag	AT106_gp015
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.03%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	81.65%25
+115860	115300	cds		
+			gene	ndhI
+			locus_tag	AT106_gp014
+			transl_table	11
+			product	NADH dehydrogenase subunit I
+			protein_id	YP_009183959.1
+			X-Transferred_Translation	MFSTLIEFRSYGQQAVEAAKYIGQGSAVTLDHPNRSPITVQYPYQKILPSERFRGRIHFEFDKCIACEVRVRVCPINLPVVDWILMKDIKKKRLKNYSIDFGVCIFCGNCVEYCPTNCLSMTEEYELPSYDRHELNHDQTALGRLPLSISQDVSIQVVSTSLNYLSKRFGDEILNT
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.21%25
+115860	115300	gene		
+			gene	ndhI
+			locus_tag	AT106_gp014
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	89.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.21%25
+115341	115341	misc_feature		
+			created_by	User
+115716	115716	misc_feature		
+			created_by	User
+116559	116002	exon		
+			gene	ndhA
+			locus_tag	AT106_gp013
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	86.74%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.11%25
+118018	117461	cds		
+116559	116002			
+			gene	ndhA
+			locus_tag	AT106_gp013
+			transl_table	11
+			product	NADH dehydrogenase subunit 1
+			protein_id	YP_009183960.1
+			X-Transferred_Translation	MVTHIEIYTKQLVQLFNELGFATTYLEPIWILIYTLILVTGVTTGVLVIVWLERKVSAGVQQRTGPEYAGPLGITQSLADGIKLLLKEDIIPSKGDAWLFAVGPAVVVTPVLMSYLVIPLDQNIVLSDLGIGAFYRVAVSSIVPLGLLIAGYASNNKYSFLGGLRAAAQSISYEIPLALCISAASLLSGSLSTVDIVKTQSKYGSSGWNLWRQPVGFIAFFISSLAECERLPFDLPEAEEELVAGYQTEYSGIKFGLFYVGSHSNLLVSSLFVTILYLGGWDSSIPFFENLGQDFSSSNSSGESFGVLGSGVSIITTLAKSYLFISISILTRWTLPRVRIDQLLDLGWKFLLPIALGNLLLTASFQLLLIS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.46%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.80%25
+118018	116002	gene		
+			created_by	User
+118018	117461	exon		
+			gene	ndhA
+			locus_tag	AT106_gp013
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.17%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.48%25
+119198	118020	cds		
+			gene	ndhH
+			locus_tag	AT106_gp012
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 7
+			protein_id	YP_009183961.1
+			X-Transferred_Translation	MHLKELDPVTVSMGPHHPSMHGVLRLVVTLDGENVVDCEPILGYLHRGMEKIAENRTILQYLPYVTRWDYLATTFTEAVAVNAPEKLANIQIPGRASYIRVIMLELSRIASHLLWLGPFLADIGAQTPFFYIFREREMIYDLFEAVTGMRMMHNYFRIGGVAADLPYGWVDKCLDFCHYCLPKIHEYERLITRNPIFSKRVTGVGFISRQDAINWGLSGPALRASGVQWDLRKVDHYECYDNPDWQIKWQGEGDSLARYLVRIDEMKESINIIQQALKLLPGGPYENLEGRRLVQQKEEVDRGSFNYQFVGKKSSPTFKLPKQEHYVRVEAPKGELGIFLVGDDSVFPWRWKIRPPGFINLQILPQLINGMKLADITTILGSIDIIMGEVDRR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.75%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.13%25
+119198	118020	gene		
+			gene	ndhH
+			locus_tag	AT106_gp012
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.75%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.13%25
+119590	119321	cds		
+			gene	rps15
+			locus_tag	AT106_gp011
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S15
+			protein_id	YP_009183962.1
+			X-Transferred_Translation	MDKYKYIDAQLVGGNRDTGFTASQIYYLTHQILKLTSHLELHSKDYSSQRGLRKLLGKRRRLLIYLSDENTALYTKVIKNLGIRGLKGR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.04%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.00%25
+119590	119321	gene		
+			gene	rps15
+			locus_tag	AT106_gp011
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.04%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	80.00%25
+119589	119589	misc_feature		
+			created_by	User
+125009	119913	CDS		
+			created_by	User
+			Transferred_From	Diplaziopsis cavaleriana-Copy
+			Transferred_Similarity	53.09%25
+			modified_by	User
+125009	119913	gene		
+			created_by	User
+			Transferred_From	Diplaziopsis cavaleriana-Copy
+			Transferred_Similarity	53.09%25
+			modified_by	User
+124094	124094	misc_feature		
+			created_by	User
+126804	125425	cds		
+			gene	chlN
+			locus_tag	AT106_gp009
+			transl_table	11
+			product	protochlorophyllide reductase ChlN subunit
+			protein_id	YP_009183964.1
+			X-Transferred_Translation	MKTLEIPTFECETGNYHTFCPISCVAWLYQKIEDSFFLVVGTKTRGYFLQNAPGVMIFAEPRYAMAESEEGDISAQLNDQKELERICLRIKNDRNPSVTIWIGTCTTEIIKMDLEGIAPKLEKQLGIPIVVARANGLDHAFTQGEDTVLAAMTHRCPEYNRHTTNQHEEATKHVVVDVVPKNKFLAGNNNNNSNRFNLVLFGSLPSSVASQLNLELRRQSVSVSGWLPSQKYTELPALGEGVYVCGVNPFLSRTATTPMRRRKCQLVGAPFPIGPDGTRAWIEKICSVFDVKPEGLEERENQIWKNVGDYLEIITGKSVFFMGDNLLEISLARFLIRCGMVVYEVGIPYMDRRYQAAELLLLQHTCEKMKKPTPRIVEKPDNYSQVQRMHELKPDLAITGMAHANPLEARDIDTKWSVEFTFAQIHGSANVRDVLELVTRPLRRRGDSVSGWHSLSRQTIDF
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.36%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.54%25
+126804	125425	gene		
+			gene	chlN
+			locus_tag	AT106_gp009
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.36%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	82.54%25
+127764	126862	cds		
+			gene	chlL
+			locus_tag	AT106_gp008
+			exception	RNA editing
+			transl_table	11
+			product	protochlorophyllide reductase ATP-binding subunit
+			protein_id	YP_009183965.1
+			X-Transferred_Translation	MKVAVYGKGGIGKSTTSCNISIALARRGRRILQIGCDPKHDSTFTLTGFLIPTIIDTSQSKDYHYEDVWPEDVIHRGYGGVDCVEAGGPPAGAGCGGYVVGETVKLLKESNAFYEYDIILFDVLGDVVCGGFAAPLNYADYCIIITDNGFDALFAANRIAASVREKAHTHPLRLAGLVGNRTSERDLINKYVEACPMPVLEVLPLVEDIRVSRVKGKTLFEMAECQPNLNFVCDFYSNIADQTLSKPEGIVPREIPDRELFSLLSDFYLNPNSEKTGKNQNDRQDTLHGQQDTPLGFTII
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.70%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	84.31%25
+127764	126862	gene		
+			gene	chlL
+			locus_tag	AT106_gp008
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	88.70%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	84.31%25
+126864	126864	misc_feature		
+			created_by	User
+127041	127041	misc_feature		
+			created_by	User
+127763	127763	misc_feature		
+			created_by	User
+128197	128268	trna		
+			gene	trnN-GUU
+			locus_tag	AT106_gt027%3B AT106_gt030
+			product	tRNA-Asn
+			note	anticodon:GUU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+128197	128268	gene		
+			gene	trnN-GUU
+			locus_tag	AT106_gt027%3B AT106_gt030
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+135217	128939	cds		
+			gene	ycf2
+			locus_tag	AT106_gp007%3B AT106_gp023
+			exception	RNA editing
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf2
+			protein_id	YP_009183950.1%3B YP_009183966.1
+			X-Transferred_Translation	MKKENKVKKVAKERVGSPDFSSKISELVEVSLLDHFFESLKNQHLKEFLISPSSNYEPFIRLSDLCFLSSLFLRNLRDSIRRDSRITLEMLMLLTIPISMHCLSDKRSIERSFALAGVINGGDGVIKKQAENYGDFSCDRFPRFRRSSSVGKRGKRGIPVSHYLGLNGYISAGSTKKEKQVRYDAMIPLVSGRWEACVVRDSLLGRDISKDETERIQAFCRDRCLQNSSRFFKFYNYLVVSKNNQSDFDSLFFWKNHNKRDLGRLQATQLRNDSLSPVVLNLRDKALLESGNSADHRGDGSEFYFEREAFSNLSSFTSYEKTTSFRGCISGLDCDKNGEEFPTPHTFSQMKNGLINRLTKFISIIEKSNLIFDGAIVIDVSNSVKSGKGFPLKTKGDMPLTQISGKKLGLASSRHLDLDEIFPNYFQIFLGIPRKISNQSENTTFSNQLKEKGNIHSIYSLVRLYGRNRIIPLYSTYIFIFYDYFCALFTEYFFQIKYRLDGWTGSGEYTGVTRIAIEQIVLKWKDNVERLLNEYITSQIDEYRNVHSNVHRWLDTTGDSSLFPVGEVLKYDLEESICRVSIIINELLSNIGVSLGGNNQQNEKDFHRFLNTFFLYKMIVAEVTRQKALIYTMDYCIEKLNDIDIDLEKWNKIDLMKLDLLSSLFDGYIDEQILFLKTILEGKKSLFIESKLLMSKKSVGSSTELEPTVNPTSLGLPRIESIRAGFSNDDLSIAERQFWNPFLHDLNRGGGSTRDIGGNISRYISDQVNKLNFIDDSPLRNCAGSNFIPRIKRDFFIGRCNSSYLDVLENFYANSEDETISSSIISFIHPQLSDSLPFNLSRQTAGEVAGHVLTPIQFILSNLHQSTALVTHSDGLPNYISDLKRLLAGLNSSPRKTIESFLHSCSSTEVYLGKTSTSINSESSSDRRPQYRPENMVLDRVYQKNLSIRSFWEPEEMETSYWSLRLPLCNDAASRSLAESIGKEVAREDTDYADQPIWKEAVRPSHFINFNELLKDLNRYKISWIFWKDNIGEKWSLFRDYIPWFFTPTWWRYFYDLIRETYPEIVLKISYDSNHHFPIIYKRIAEDVVDGAKAYLIQRLQSLGLRFDNDSINTIASEVSLLIFEEIPDEAEILHSVGWSASQFSNRSIFYYFILSVLIVLALFKHPLSAVSGFNSFHLWKRFNTIEYLTDPTRGSYLREVMYSPSTSQMATRDLLIYSLNRFLNYINNIIFFFFVKNELDSWMFHKESSDILDSKKELLTQHLVTNKIIYRYVSKLNSNYDSLSNEISHEPYPQERSNVLAYLLQFWQNYLLSHKIRKLDPAEKWAFSALERDILFSVTTRRRGGLLNMPCHDIPISLQSGLLPSKGILLVGPIETGRSSIIRDVAFDSYFPVVKLPMEKLIYNRSFFNNARGNFISKESVHRLNFVFEMAKEMSPRILWIQDIHELNIHRSYHKLEADPKFLLCQILKSIGDRRSNSNIRRNVVIATTHVPARIDPAPIAPNRLNQLINFRKSNGYQRHKELSILLRIKGCEMEANPPLPLIEGIGSGTTGYSKRDLFLLANEALLIGTSRRSKIICSDAIELALHRQHSTASDMGNGIESGSEWEIFSHEIAEATPKNSLIDTYLTNTYIGRNALKMRFYYLSNWYVEPSITKSTFNEFTLFSHILGILAGLVARDSLQMDMRKKENFTVIDKLVENDLNLACGVLENLSTKFSRSDICEDESRHSNSNSLSFSVPIAKPKYCSGVASTSRSSKFMRKKGFSSLTDFELQQSPELINSSPTEVSREITWSHKAWRLRFLRSGAYELMRVLSEPNHLHNLILLYQNQNYIPQQDFEFNKIKGDKSKWCGKSGYLFNSEKSGTNVPDQDIKRLENRLDNMSLREQFLELGISGDSSNEYETHCNRFDETTRLFGGRFIWDPMLLFQPDANIPSSRRSLLPTKEVARRLYTIYGMRKQHLNKMSNKKIKNFFLYREDNPKLKPDSSIKQWNNLPVDEEEQDSEYVKETSSMDIHLQYPQIFSPARFDSYMVVEDFPERFIRFRLLVHRNKWMGRNRCPFQDFLIYNMLLEIYQYLFNPFWFGGASPDLATRNFFHESS
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	70.35%25
+135217	128939	gene		
+			gene	ycf2
+			locus_tag	AT106_gp007%3B AT106_gp023
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.64%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	70.35%25
+133663	133663	misc_feature		
+			created_by	User
+133876	133876	misc_feature		
+			created_by	User
+135049	135049	misc_feature		
+			created_by	User
+135573	135500	trna		
+			gene	trnH-GUG
+			locus_tag	AT106_gt026%3B AT106_gt031
+			product	tRNA-His
+			note	anticodon:GUG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+135573	135500	gene		
+			gene	trnH-GUG
+			locus_tag	AT106_gt026%3B AT106_gt031
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.65%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+137058	135997	cds		
+			gene	psbA
+			locus_tag	AT106_gp006%3B AT106_gp024
+			transl_table	11
+			product	photosystem II protein D1
+			protein_id	YP_009183949.1%3B YP_009183967.1
+			X-Transferred_Translation	MTATLERRESASLWGRFCDWITSTENRLYIGWFGVLMIPTLLTATSVFIIAFVAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASVDEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAAAAVFLIYPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSLVTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLAAWPVVGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLASVEAPSING
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.59%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.08%25
+137058	135997	gene		
+			gene	psbA
+			locus_tag	AT106_gp006%3B AT106_gp024
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.59%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	97.08%25
+137954	137481	cds		
+			gene	rps7
+			locus_tag	AT106_gp005%3B AT106_gp025
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S7
+			protein_id	YP_009183948.1%3B YP_009183968.1
+			X-Transferred_Translation	MLHRSSVVNRKKNIESDPIYRNRLVNMLVDRILKNGKKSLAYQIFYQAMKRIRQKTNKNPLSVLRQAVRGVTPDVVTETKRVGGSTYRVPVEVVPAEGKALAIRWSLIACRKRSGRSMALRSSDESMDAARNSGSAIRKREETHKVAEANKAFAHFR
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.62%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.94%25
+137954	137481	gene		
+			gene	rps7
+			locus_tag	AT106_gp005%3B AT106_gp025
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.62%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	94.94%25
+137795	137795	misc_feature		
+			created_by	User
+138045	138020	exon		
+			gene	rps12
+			locus_tag	AT106_gp046
+			number	3
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.15%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	96.15%25
+138862	138631	exon		
+			gene	rps12
+			locus_tag	AT106_gp046
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.12%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.26%25
+142200	143699	rrna		
+			gene	rrn16
+			locus_tag	AT106_gr004%3B AT106_gr005
+			product	16S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	99.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.20%25
+142200	143699	gene		
+			gene	rrn16
+			locus_tag	AT106_gr004%3B AT106_gr005
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	99.40%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.20%25
+144009	144044	trna		
+145100	145135			
+			gene	trnI-GAU
+			locus_tag	AT106_gt025%3B AT106_gt032
+			product	tRNA-Ile
+			note	anticodon:GAU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+144009	144044	exon		
+			gene	trnA-UGC%3B trnI-GAU
+			locus_tag	AT106_gt024%3B AT106_gt025%3B AT106_gt032%3B AT106_gt033
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25 -> 70.27%25%3B 100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325%2C Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25 -> 70.27%25
+144009	145135	gene		
+			gene	trnI-GAU
+			locus_tag	AT106_gt025%3B AT106_gt032
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.26%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	78.12%25
+145100	145135	exon		
+			gene	trnI-GAU
+			locus_tag	AT106_gt025%3B AT106_gt032
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+145217	145253	trna		
+146063	146098			
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			product	tRNA-Ala
+			note	anticodon:UGC
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+145217	145253	exon		
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+145217	146098	gene		
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	93.77%25%3B 93.88%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.69%25
+146063	146098	exon		
+			gene	trnA-UGC
+			locus_tag	AT106_gt024%3B AT106_gt033
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	100.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	100.00%25
+146305	149123	rrna		
+			gene	rrn23
+			locus_tag	AT106_gr003%3B AT106_gr006
+			product	23S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.05%25
+146305	149123	gene		
+			gene	rrn23
+			locus_tag	AT106_gr003%3B AT106_gr006
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.79%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.05%25
+149248	149350	rrna		
+			gene	rrn4.5
+			locus_tag	AT106_gr002%3B AT106_gr007
+			product	4.5S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.15%25
+149248	149350	gene		
+			gene	rrn4.5
+			locus_tag	AT106_gr002%3B AT106_gr007
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.06%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.15%25
+149630	149752	rrna		
+			gene	rrn5
+			locus_tag	AT106_gr001%3B AT106_gr008
+			product	5S ribosomal RNA
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.93%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	96.75%25
+149630	149752	gene		
+			gene	rrn5
+			locus_tag	AT106_gr001%3B AT106_gr008
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	95.93%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	96.75%25
+149937	150011	trna		
+			gene	trnR-ACG
+			locus_tag	AT106_gt023
+			product	tRNA-Arg
+			note	anticodon:ACG
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.67%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.67%25
+149937	150011	gene		
+			gene	trnR-ACG
+			locus_tag	AT106_gt023
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	98.67%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	98.67%25
+151153	151120	trna		
+150660	150621			
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			product	tRNA-Thr
+			note	anticodon:UGU
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.54%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	86.49%25
+150660	150621	exon		
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	90.00%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	85.00%25
+151153	150621	gene		
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	87.76%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	65.82%25
+151153	151120	exon		
+			gene	trnT-UGU
+			locus_tag	AT106_gt022%3B AT106_gt035
+			number	1
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	91.18%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	88.24%25
+152115	151351	exon		
+			gene	ndhB
+			locus_tag	AT106_gp001
+			number	2
+			X-Transferred_From	NC_028543
+			X-Transferred_Similarity	96.24%25
+			Transferred_From	Cyclosorus procerus-WR0325
+			Transferred_Similarity	95.56%25
+1207	1207	misc_feature		
+			note	putative C to U RNA editing
+95043	95043	misc_feature		
+			note	putative C to U RNA editing
+71521	71521	misc_feature		
+			note	putative C to U RNA editing
+71746	71746	misc_feature		
+			note	putative C to U RNA editing
+124094	124094	misc_feature		
+			note	putative U to C RNA editing

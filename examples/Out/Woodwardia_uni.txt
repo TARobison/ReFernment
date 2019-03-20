@@ -1,0 +1,1292 @@
+>Feature Woodwardia_uni				
+88798	85981	rRNA		
+			gene	rrn23
+			product	23S ribosomal RNA
+147307	150124	rRNA		
+			gene	rrn23
+			product	23S ribosomal RNA
+92840	91341	rRNA		
+			gene	rrn16
+			product	16S ribosomal RNA
+143265	144764	rRNA		
+			gene	rrn16
+			product	16S ribosomal RNA
+85484	85362	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+150621	150743	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+85869	85767	rRNA		
+			gene	rrn4.5
+			product	4.5S ribosomal RNA
+150236	150338	rRNA		
+			gene	rrn4.5
+			product	4.5S ribosomal RNA
+91038	91003	tRNA		
+89977	89942			
+			gene	trnI-GAU
+			product	tRNA-Ile
+			note	anticodon:GAU
+			transcription	GGGCTATTAGCTCAGCGGTAGAGCGCGCCCCTGATACGGGCGAGGTCTCTGGTTCAAGCCCAGGATGGCCCA
+145067	145102	tRNA		
+146128	146163			
+			gene	trnI-GAU
+			product	tRNA-Ile
+			note	anticodon:GAU
+			transcription	GGGCTATTAGCTCAGCGGTAGAGCGCGCCCCTGATACGGGCGAGGTCTCTGGTTCAAGCCCAGGATGGCCCA
+8816	8838	tRNA		
+9735	9782			
+			gene	trnG-UCC
+			product	tRNA-Gly
+			note	anticodon:UCC
+			transcription	GCGGGTATAGTTTAGTGGTAAAACTTTAGCCTTCCAAGCTACTGATGCGGGTTCGATTCCCGCTACCCGCT
+89860	89824	tRNA		
+89015	88980			
+			gene	trnA-UGC
+			product	tRNA-Ala
+			note	anticodon:UGC
+			transcription	GGGGATATAGCTCAGTTGGTAGAGCGCCGCCCTTGCATGGCGGATGCCAGCGGTTCGAGTCCGCTTATCTCCA
+146245	146281	tRNA		
+147090	147125			
+			gene	trnA-UGC
+			product	tRNA-Ala
+			note	anticodon:UGC
+			transcription	GGGGATATAGCTCAGTTGGTAGAGCGCCGCCCTTGCATGGCGGATGCCAGCGGTTCGAGTCCGCTTATCTCCA
+45512	45545	tRNA		
+46120	46166			
+			gene	trnL-UAA
+			product	tRNA-Leu
+			note	anticodon:UAA
+			transcription	GGGGATATGGCGGAATGGTAGACGCAGCGGACTCAAAATCCGTTGGTTTCGACCGTGAGGGTTCGACTCCCTCTATCCCCA
+49383	49346	tRNA		
+48789	48750			
+			gene	trnV-UAC
+			product	tRNA-Val
+			note	anticodon:UAC
+			transcription	AGGGATATAGATAGCTCGGCGGTAGAGCGTCTCGTTCAATGACCGAGAGTGTCTACGATTTGAATCCGTATAGTCCCA
+83733	83766	tRNA		
+84251	84290			
+			gene	trnT-UGU
+			product	tRNA-Thr
+			note	anticodon:UGU
+			transcription	TCACTCGTCTATTCCGGGGGAGATATAATTATTTGTACCGCGTAGTACGGAGGTTCGAATCCTATGCGAGGCGT
+152372	152339	tRNA		
+151854	151815			
+			gene	trnT-UGU
+			product	tRNA-Thr
+			note	anticodon:UGU
+			transcription	TCACTCGTCTATTCCGGGGGAGATATAATTATTTGTACCGCGTAGTACGGAGGTTCGAATCCTATGCGAGGCGT
+31268	31356	tRNA		
+			gene	trnS-UGA
+			product	tRNA-Ser
+			note	anticodon:UGA
+			transcription	GGAGAGATGGTCGAGCGGTTTAAGGCTCCAGTCTTGAAAACTGGCATGGCGACGAAACGCCATCGAGGGTTCGAATCCCTCTCTCTCCT
+43728	43814	tRNA		
+			gene	trnS-GGA
+			product	tRNA-Ser
+			note	anticodon:GGA
+			transcription	GGAAGGGTGGCCGAGCGGTTTAAGGCGTAGCACCGGAAATGCTAAGTGGATTTCTAACTACCGAGGGTTCGAATCCCTCCCTTTCCT
+7968	7885	tRNA		
+			gene	trnS-GCU
+			product	tRNA-Ser
+			note	anticodon:GCU
+			transcription	GGAGAGGTGGCTGAGGGGTCTAAGGCGTCGGATTGCTAATCCGTTGTACCATATGTACCGAGGGTTCGAATCCCTCTCTCTCCC
+27646	27565	tRNA		
+			gene	trnY-GUA
+			product	tRNA-Tyr
+			note	anticodon:GUA
+			transcription	GGGTCGATGCTCGAGTGGTTAATGGGGACGGACTGTAAATCCGCTGGCAACGCCTACGCTGGTTCGAATCCAGCTCGACCCA
+53918	53998	tRNA		
+			gene	trnR-UCG
+			product	tRNA-Arg
+			note	anticodon:UCG
+			transcription	AGGTTGGTTAATTAATGATGGAAACTGAGAAGCACATGGTCTCGAAATGTGAATCCGAGGGTTCGAATCCCTGCCAACTCG
+111366	111444	tRNA		
+			gene	trnL-UAG
+			product	tRNA-Leu
+			note	anticodon:UAG
+			transcription	AGCCGCTATGGTGAAACAGGTAGACACGCTGCTCTTAGGAAGCAGTGCCAGAGCATCTCGGTTCGAATCCGAGTAGCGG
+85083	85009	tRNA		
+			gene	trnR-ACG
+			product	tRNA-Arg
+			note	anticodon:ACG
+			transcription	GGGCCTGTAGCTCAGGGGATTAGAGCACGTGGCTACGAACCACGGTGTCGGGGGTTCGAATCCCTCCTCGCCCGC
+27434	27507	tRNA		
+			gene	trnD-GUC
+			product	tRNA-Asp
+			note	anticodon:GUC
+			transcription	GGGATTGTAGTTCAATTGGTTAGAGCACCGCCCTGTCAAGGCGGAAGTTGCGGGTTCGAGACCCGTCAATCCCG
+36127	36054	tRNA		
+			gene	trnfM-CAU
+			product	tRNA-Met
+			note	anticodon:CAU
+			transcription	AGCGGGGTAGAGCAGCTTGGTAGCTCGCAAGGCTCATAACCTTGAGGTCACAGGTTCAAATCCTGTCTCCGCAA
+62659	62586	tRNA		
+			gene	trnW-CCA
+			product	tRNA-Trp
+			note	anticodon:CCA
+			transcription	GCGCCTTTAGTTCAGTCCGGTAGAACGCGGGTCTCCAAAACCCGATGTCGTAGGTTCGAATCCTGCAGGGCGTG
+62918	62845	tRNA		
+			gene	trnP-UGG
+			product	tRNA-Pro
+			note	anticodon:UGG
+			transcription	AGGGATGTGACGCAGCTCGGTAGCGTGTTTGTTTTGGGTACAAAATGTCGCAGGTTCAAATCCCGTCATCCCTA
+82332	82259	tRNA		
+			gene	trnI-CAU
+			product	tRNA-Ile
+			note	anticodon:CAU
+			transcription	GCATCCATGGCTGAACGGTCAAAGCACCCAACTCATAATTGGCGAATTCACAGGTTCAACTCCTGTTGGATGCA
+99487	99560	tRNA		
+			gene	trnH-GUG
+			product	tRNA-His
+			note	anticodon:GUG
+			transcription	GCGGACGTAGCCAAGTGGATCAAGGCAATGGAGTGTGGATCCATCACGCGCGGGTTCAATCCCCGTCGTTCGCC
+111109	111036	tRNA		
+			gene	trnP-GGG
+			product	tRNA-Pro
+			note	anticodon:GGG
+			transcription	CGGAATATGGCGCAGTTTGGTAGCGCGCCATCTTGGGGTGATGGAGGTCACAGGTTCGAATCCTGTTATTCCGA
+136618	136545	tRNA		
+			gene	trnH-GUG
+			product	tRNA-His
+			note	anticodon:GUG
+			transcription	GCGGACGTAGCCAAGTGGATCAAGGCAATGGAGTGTGGATCCATCACGCGCGGGTTCAATCCCCGTCGTTCGCC
+151022	151095	tRNA		
+			gene	trnR-ACG
+			product	tRNA-Arg
+			note	anticodon:ACG
+			transcription	GGGCCTGTAGCTCAGGGGATTAGAGCACGTGGCTACGAACCACGGTGTCGGGGGTTCGAATCCCTCCTCGCCCG
+27863	27791	tRNA		
+			gene	trnE-UUC
+			product	tRNA-Glu
+			note	anticodon:UUC
+			transcription	GCCCCCATCGTCTAGAGGCCCAGGACACCTCCCTTTCACGGAGGCGACGGGGATTCGAATTCCCCTGGGGGTA
+46466	46538	tRNA		
+			gene	trnF-GAA
+			product	tRNA-Phe
+			note	anticodon:GAA
+			transcription	GCCGAGATAGCTCAGTCGGTAGAGCAGAGGACTGAAAATCCTCGTGTCACCAGTTCAAATCTGGTTCTTGGCA
+49616	49688	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+			note	anticodon:CAU
+			transcription	GCCTACTTGACTCAGCGGTTAGAGTATCGCTTTCATACGGCGAGAGTCATTGGTTCGAATCCAATAGTAGGTA
+6667	6596	tRNA		
+			gene	trnQ-UUG
+			product	tRNA-Gln
+			note	anticodon:UUG
+			transcription	TGGGGCGTGGCCAAGCGGTAAGGCAGCGGGTTTTGGTCCCGCCACTCGGAGGTTCGAATCCTTCCGTCCCAG
+9931	10002	tRNA		
+			gene	trnR-UCU
+			product	tRNA-Arg
+			note	anticodon:UCU
+			transcription	ACGTCCATCGTCTAATGGATAGGACAGAGGTCTTCTAAACCTTAAGTATAGGTTCAAATCCTATTGGGCGTA
+29929	29858	tRNA		
+			gene	trnC-GCA
+			product	tRNA-Cys
+			note	anticodon:GCA
+			transcription	GGCGATATAGTCAAGTGGTAAGACGGAGGACTGCAAATCCTTAACTCCCCAGTTCGAATCTGGGTGTCGCCT
+35565	35494	tRNA		
+			gene	trnT-GGU
+			product	tRNA-Thr
+			note	anticodon:GGU
+			transcription	GCCTCTTTAACTCAGTGGTAGAGTAACGCCATGGTAAGGCGTAAGTCGTCGGTTCAAATCCGACAAGGGGCT
+106782	106711	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+			note	anticodon:GUU
+			transcription	TCCTCGGTAGCTCAGCGGTAGAGCGGTCGGCTGTTAACCGATTGGTCGTAGGTTCGAATCCTACCCGGGGAG
+129323	129394	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+			note	anticodon:GUU
+			transcription	TCCTCGGTAGCTCAGCGGTAGAGCGGTCGGCTGTTAACCGATTGGTCGTAGGTTCGAATCCTACCCGGGGAG
+30441	30371	tRNA		
+			gene	trnG-GCC
+			product	tRNA-Gly
+			note	anticodon:UCC
+			transcription	GCGGATATAGTTGAATGGTAAAATATCTCCTTGCCAAGGAGATGACGCGGGTTCGATTCCCGCTATCCGCC
+22171	20507	exon		
+			gene	rpoC1
+			number	2
+153341	152571	exon		
+			gene	ndhB
+			number	2
+1233	496	exon		
+			gene	ndhB
+			number	1
+71804	72445	exon		
+			gene	petB
+			number	2
+117651	117094	exon		
+			gene	ndhA
+			number	2
+119174	118617	exon		
+			gene	ndhA
+			number	1
+73292	73763	exon		
+			gene	petD
+			number	2
+80637	80201	exon		
+			gene	rpl2
+			number	2
+23309	22878	exon		
+			gene	rpoC1
+			number	1
+12117	11708	exon		
+			gene	atpF
+			number	2
+77853	77449	exon		
+			gene	rpl16
+			number	2
+81755	81359	exon		
+			gene	rpl2
+			number	1
+67201	66910	exon		
+			gene	clpP
+			number	2
+66333	66094	exon		
+			gene	clpP
+			number	3
+140063	139832	exon		
+			gene	rps12
+			number	2
+3796	3566	exon		
+			gene	rps16
+			number	2
+42611	42383	exon		
+			gene	ycf3
+			number	2
+41757	41596	exon		
+			gene	ycf3
+			number	3
+12974	12830	exon		
+			gene	atpF
+			number	1
+43466	43342	exon		
+			gene	ycf3
+			number	1
+65828	65715	exon		
+			gene	rps12
+			number	1
+67965	67895	exon		
+			gene	clpP
+			number	1
+9735	9782	exon		
+			gene	trnG-UCC
+			number	2
+46120	46166	exon		
+			gene	trnL-UAA
+			number	2
+4657	4616	exon		
+			gene	rps16
+			number	1
+48789	48750	exon		
+			gene	trnV-UAC
+			number	2
+84251	84290	exon		
+			gene	trnT-UGU
+			number	2
+151854	151815	exon		
+			gene	trnT-UGU
+			number	2
+49383	49346	exon		
+			gene	trnV-UAC
+			number	1
+89860	89824	exon		
+			gene	trnA-UGC
+			number	1
+146245	146281	exon		
+			gene	trnA-UGC
+			number	1
+89015	88980	exon		
+			gene	trnA-UGC
+			number	2
+89977	89942	exon		
+			gene	trnI-GAU
+			number	2
+91038	91003	exon		
+			gene	trnI-GAU
+			number	1
+145067	145102	exon		
+			gene	trnI-GAU
+			number	1
+146128	146163	exon		
+			gene	trnI-GAU
+			number	2
+147090	147125	exon		
+			gene	trnA-UGC
+			number	2
+45512	45545	exon		
+			gene	trnL-UAA
+			number	1
+83733	83766	exon		
+			gene	trnT-UGU
+			number	1
+152372	152339	exon		
+			gene	trnT-UGU
+			number	1
+139253	139228	exon		
+			gene	rps12
+			number	3
+8816	8838	exon		
+			gene	trnG-UCC
+			number	1
+78617	78609	exon		
+			gene	rpl16
+			number	1
+72645	72652	exon		
+			gene	petD
+			number	1
+70999	71004	exon		
+			gene	petB
+			number	1
+1233	496	CDS		
+153341	152571			
+			gene	ndhB
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 2
+			protein_id	ALN96673.1
+65828	65715	CDS		
+140063	139832			
+139253	139228			
+65828	65709			
+			gene	rps12
+			trans_splicing	
+			transl_table	11
+			product	ribosomal protein S12
+			protein_id	ALN96726.1
+96042	96273	CDS		
+96852	96877			
+			gene	rps12
+			trans_splicing	
+			transl_table	11
+			product	ribosomal protein S12
+			protein_id	ALN96726.1
+99812	106108	CDS		
+			gene	ycf2
+			exception	RNA editing
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf2
+			protein_id	ALN96741.1
+136293	129997	CDS		
+			gene	ycf2
+			exception	RNA editing
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf2
+			protein_id	ALN96742.1
+126158	121044	CDS		
+			gene	ycf1
+			exception	RNA editing
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf1
+			protein_id	ALN96739.1
+20367	16090	CDS		
+			gene	rpoC2
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase beta'' subunit
+			protein_id	ALN96724.1
+26575	23360	CDS		
+			gene	rpoB
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase beta subunit
+			protein_id	ALN96722.1
+23309	22878	CDS		
+22171	20507			
+			gene	rpoC1
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase beta' subunit
+			protein_id	ALN96723.1
+41269	39017	CDS		
+			gene	psaA
+			transl_table	11
+			product	photosystem I P700 chlorophyll a apoprotein A1
+			protein_id	ALN96689.1
+109478	107238	CDS		
+			gene	ndhF
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 5
+			protein_id	ALN96677.1
+38991	36787	CDS		
+			gene	psaB
+			exception	RNA editing
+			transl_table	11
+			product	photosystem I P700 chlorophyll a apoprotein A2
+			protein_id	ALN96690.1
+119174	118617	CDS		
+117651	117094			
+			gene	ndhA
+			transl_table	11
+			product	NADH dehydrogenase subunit 1
+			protein_id	ALN96672.1
+67965	67895	CDS		
+67201	66910			
+66333	66094			
+			gene	clpP
+			transl_table	11
+			product	ATP-dependent Clp protease proteolytic subunit
+			protein_id	ALN96669.1
+43466	43342	CDS		
+42611	42383			
+41757	41596			
+			gene	ycf3
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf3
+			protein_id	ALN96743.1
+81755	81359	CDS		
+80637	80201			
+			gene	rpl2
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L2
+			protein_id	ALN96713.1
+6356	4812	CDS		
+			gene	chlB
+			exception	RNA editing
+			transl_table	11
+			product	protochlorophyllide reductase ChlB subunit
+			protein_id	ALN96666.1
+68408	69934	CDS		
+			gene	psbB
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II CP47 chlorophyll apoprotein
+			protein_id	ALN96696.1
+11627	10104	CDS		
+			gene	atpA
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF1 alpha subunit
+			protein_id	ALN96658.1
+2945	1437	CDS		
+			gene	matK
+			exception	RNA editing
+			transl_table	11
+			product	maturase K
+			protein_id	ALN96671.1
+56874	58382	CDS		
+			gene	cemA
+			transl_table	11
+			product	chloroplast envelope membrane protein
+			protein_id	ALN96665.1
+114588	113080	CDS		
+			gene	ndhD
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 4
+			protein_id	ALN96675.1
+51720	50239	CDS		
+			gene	atpB
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF1 beta subunit
+			protein_id	ALN96659.1
+70999	71004	CDS		
+71804	72445			
+			gene	petB
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome b6
+			protein_id	ALN96684.1
+52363	53790	CDS		
+			gene	rbcL
+			transl_table	11
+			product	ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit
+			protein_id	ALN96710.1
+33085	31664	CDS		
+			gene	psbC
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II CP43 chlorophyll apoprotein
+			protein_id	ALN96697.1
+127913	126525	CDS		
+			gene	chlN
+			transl_table	11
+			product	protochlorophyllide reductase ChlN subunit
+			protein_id	ALN96668.1
+12974	12830	CDS		
+12117	11708			
+			gene	atpF
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF0 subunit I
+			protein_id	ALN96661.1
+120354	119176	CDS		
+			gene	ndhH
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 7
+			protein_id	ALN96679.1
+78617	78609	CDS		
+77853	77449			
+			gene	rpl16
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L16
+			protein_id	ALN96712.1
+72645	72652	CDS		
+73292	73763			
+			gene	petD
+			transl_table	11
+			product	cytochrome b6/f complex subunit IV
+			protein_id	ALN96685.1
+4657	4616	CDS		
+3796	3566			
+			gene	rps16
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S16
+			protein_id	ALN96730.1
+34094	33033	CDS		
+			gene	psbD
+			transl_table	11
+			product	photosystem II protein D2
+			protein_id	ALN96698.1
+97962	99023	CDS		
+			gene	psbA
+			transl_table	11
+			product	photosystem II protein D1
+			protein_id	ALN96694.1
+138143	137082	CDS		
+			gene	psbA
+			transl_table	11
+			product	photosystem II protein D1
+			protein_id	ALN96695.1
+75097	74075	CDS		
+			gene	rpoA
+			exception	RNA editing
+			transl_table	11
+			product	RNA polymerase alpha subunit
+			protein_id	ALN96721.1
+58603	59568	CDS		
+			gene	petA
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome f
+			protein_id	ALN96683.1
+111737	112678	CDS		
+			gene	ccsA
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome c heme attachment protein
+			protein_id	ALN96664.1
+54335	55267	CDS		
+			gene	accD
+			exception	RNA editing
+			transl_table	11
+			product	acetyl-CoA carboxylase carboxyltransferase beta subunit
+			protein_id	ALN96657.1
+128881	127979	CDS		
+			gene	chlL
+			exception	RNA editing
+			transl_table	11
+			product	protochlorophyllide reductase ATP-binding subunit
+			protein_id	ALN96667.1
+15062	14316	CDS		
+			gene	atpI
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CF0 subunit IV
+			protein_id	ALN96663.1
+48081	47344	CDS		
+			gene	ndhK
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit K
+			protein_id	ALN96682.1
+15962	15246	CDS		
+			gene	rps2
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S2
+			protein_id	ALN96733.1
+79385	78729	CDS		
+			gene	rps3
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S3
+			protein_id	ALN96734.1
+44871	44251	CDS		
+			gene	rps4
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S4
+			protein_id	ALN96735.1
+116277	115684	CDS		
+			gene	ndhG
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 6
+			protein_id	ALN96678.1
+56131	56685	CDS		
+			gene	ycf4
+			exception	RNA editing
+			transl_table	11
+			product	photosystem I assembly protein ycf4
+			protein_id	ALN96744.1
+116951	116421	CDS		
+			gene	ndhI
+			transl_table	11
+			product	NADH dehydrogenase subunit I
+			protein_id	ALN96680.1
+47273	46761	CDS		
+			gene	ndhJ
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit J
+			protein_id	ALN96681.1
+96943	97416	CDS		
+			gene	rps7
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S7
+			protein_id	ALN96736.1
+139162	138689	CDS		
+			gene	rps7
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S7
+			protein_id	ALN96737.1
+50233	49835	CDS		
+			gene	atpE
+			transl_table	11
+			product	ATP synthase CF1 epsilon subunit
+			protein_id	ALN96660.1
+76617	76219	CDS		
+			gene	rps8
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S8
+			protein_id	ALN96738.1
+75526	75134	CDS		
+			gene	rps11
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S11
+			protein_id	ALN96725.1
+79870	79493	CDS		
+			gene	rpl22
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L22
+			protein_id	ALN96716.1
+77188	76820	CDS		
+			gene	rpl14
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L14
+			protein_id	ALN96711.1
+48434	48072	CDS		
+			gene	ndhC
+			exception	RNA editing
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 3
+			protein_id	ALN96674.1
+64744	64388	CDS		
+			gene	rpl20
+			transl_table	11
+			product	ribosomal protein L20
+			protein_id	ALN96714.1
+109789	110145	CDS		
+			gene	rpl21
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L21
+			protein_id	ALN96715.1
+36562	36260	CDS		
+			gene	rps14
+			transl_table	11
+			product	ribosomal protein S14
+			protein_id	ALN96728.1
+115593	115291	CDS		
+			gene	ndhE
+			transl_table	11
+			product	NADH-plastoquinone oxidoreductase subunit 4L
+			protein_id	ALN96676.1
+80166	79888	CDS		
+			gene	rps19
+			transl_table	11
+			product	ribosomal protein S19
+			protein_id	ALN96732.1
+82093	81824	CDS		
+			gene	rpl23
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L23
+			protein_id	ALN96717.1
+120728	120459	CDS		
+			gene	rps15
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S15
+			protein_id	ALN96729.1
+61179	60928	CDS		
+			gene	psbE
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II cytochrome b559 alpha subunit
+			protein_id	ALN96699.1
+13569	13324	CDS		
+			gene	atpH
+			exception	RNA editing
+			transl_table	11
+			product	ATP synthase CFO C subunit
+			protein_id	ALN96662.1
+114969	114724	CDS		
+			gene	psaC
+			transl_table	11
+			product	photosystem I subunit VII
+			protein_id	ALN96691.1
+76081	75839	CDS		
+			gene	infA
+			exception	RNA editing
+			transl_table	11
+			product	translational initiation factor 1
+			protein_id	ALN96670.1
+63912	64139	CDS		
+			gene	rps18
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein S18
+			protein_id	ALN96731.1
+70643	70867	CDS		
+			gene	psbH
+			transl_table	11
+			product	photosystem II protein H
+			protein_id	ALN96701.1
+63645	63845	CDS		
+			gene	rpl33
+			transl_table	11
+			product	ribosomal protein L33
+			protein_id	ALN96719.1
+30878	30690	CDS		
+			gene	psbZ
+			transl_table	11
+			product	Z protein of photosystem II
+			protein_id	ALN96709.1
+6995	7171	CDS		
+			gene	psbK
+			transl_table	11
+			product	photosystem II protein K
+			protein_id	ALN96704.1
+110326	110493	CDS		
+			gene	rpl32
+			transl_table	11
+			product	ribosomal protein L32
+			protein_id	ALN96718.1
+70550	70419	CDS		
+			gene	psbN
+			transl_table	11
+			product	photosystem II protein N
+			protein_id	ALN96707.1
+63283	63411	CDS		
+			gene	psaJ
+			transl_table	11
+			product	photosystem I subunit IX
+			protein_id	ALN96693.1
+60544	60419	CDS		
+			gene	psbJ
+			transl_table	11
+			product	photosystem II protein J
+			protein_id	ALN96703.1
+60918	60799	CDS		
+			gene	psbF
+			transl_table	11
+			product	photosystem II cytochrome b559 beta subunit
+			protein_id	ALN96700.1
+60777	60661	CDS		
+			gene	psbL
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II protein L
+			protein_id	ALN96705.1
+62210	62326	CDS		
+			gene	petG
+			transl_table	11
+			product	cytochrome b6/f complex subunit V
+			protein_id	ALN96686.1
+75709	75596	CDS		
+			gene	rpl36
+			exception	RNA editing
+			transl_table	11
+			product	ribosomal protein L36
+			protein_id	ALN96720.1
+7701	7811	CDS		
+			gene	psbI
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II protein I
+			protein_id	ALN96702.1
+55595	55705	CDS		
+			gene	psaI
+			transl_table	11
+			product	photosystem I subunit VIII
+			protein_id	ALN96692.1
+28324	28428	CDS		
+			gene	psbM
+			exception	RNA editing
+			transl_table	11
+			product	photosystem II protein M
+			protein_id	ALN96706.1
+70167	70271	CDS		
+			gene	psbT
+			transl_table	11
+			product	photosystem II protein T
+			protein_id	ALN96708.1
+8530	8631	CDS		
+			gene	ycf12
+			transl_table	11
+			product	conserved hypothetical chloroplast protein ycf12
+			protein_id	ALN96740.1
+61950	62045	CDS		
+			gene	petL
+			transl_table	11
+			product	cytochrome b6/f complex subunit VI
+			protein_id	ALN96687.1
+29379	29290	CDS		
+			gene	petN
+			exception	RNA editing
+			transl_table	11
+			product	cytochrome b6/f complex subunit VIII
+			protein_id	ALN96688.1
+1233	1	gene		
+153717	152571			
+			gene	ndhB
+65828	65715	gene		
+140063	139228			
+65828	65715			
+			gene	rps12
+			trans_splicing	
+96042	96877	gene		
+			gene	rps12
+			trans_splicing	
+99812	106108	gene		
+			gene	ycf2
+136293	129997	gene		
+			gene	ycf2
+126158	121044	gene		
+			gene	ycf1
+20367	16090	gene		
+			gene	rpoC2
+26575	23360	gene		
+			gene	rpoB
+88798	85981	gene		
+			gene	rrn23
+147307	150124	gene		
+			gene	rrn23
+23309	20507	gene		
+			gene	rpoC1
+41269	39017	gene		
+			gene	psaA
+109478	107238	gene		
+			gene	ndhF
+38991	36787	gene		
+			gene	psaB
+119174	117094	gene		
+			gene	ndhA
+67965	66094	gene		
+			gene	clpP
+43466	41596	gene		
+			gene	ycf3
+81755	80201	gene		
+			gene	rpl2
+6356	4812	gene		
+			gene	chlB
+68408	69934	gene		
+			gene	psbB
+11627	10104	gene		
+			gene	atpA
+2945	1437	gene		
+			gene	matK
+56874	58382	gene		
+			gene	cemA
+114588	113080	gene		
+			gene	ndhD
+92840	91341	gene		
+			gene	rrn16
+143265	144764	gene		
+			gene	rrn16
+51720	50239	gene		
+			gene	atpB
+70999	72445	gene		
+			gene	petB
+52363	53790	gene		
+			gene	rbcL
+33085	31664	gene		
+			gene	psbC
+127913	126525	gene		
+			gene	chlN
+12974	11708	gene		
+			gene	atpF
+120354	119176	gene		
+			gene	ndhH
+78617	77449	gene		
+			gene	rpl16
+72645	73763	gene		
+			gene	petD
+91038	89942	gene		
+			gene	trnI-GAU
+145067	146163	gene		
+			gene	trnI-GAU
+4657	3566	gene		
+			gene	rps16
+34094	33033	gene		
+			gene	psbD
+97962	99023	gene		
+			gene	psbA
+138143	137082	gene		
+			gene	psbA
+75097	74075	gene		
+			gene	rpoA
+8816	9782	gene		
+			gene	trnG-UCC
+58603	59568	gene		
+			gene	petA
+111737	112678	gene		
+			gene	ccsA
+54335	55267	gene		
+			gene	accD
+128881	127979	gene		
+			gene	chlL
+89860	88980	gene		
+			gene	trnA-UGC
+146245	147125	gene		
+			gene	trnA-UGC
+82764	83534	gene		
+			gene	ndhB
+			pseudo	
+15062	14316	gene		
+			gene	atpI
+48081	47344	gene		
+			gene	ndhK
+15962	15246	gene		
+			gene	rps2
+79385	78729	gene		
+			gene	rps3
+45512	46166	gene		
+			gene	trnL-UAA
+49383	48750	gene		
+			gene	trnV-UAC
+44871	44251	gene		
+			gene	rps4
+116277	115684	gene		
+			gene	ndhG
+83733	84290	gene		
+			gene	trnT-UGU
+152372	151815	gene		
+			gene	trnT-UGU
+56131	56685	gene		
+			gene	ycf4
+116951	116421	gene		
+			gene	ndhI
+47273	46761	gene		
+			gene	ndhJ
+96943	97416	gene		
+			gene	rps7
+139162	138689	gene		
+			gene	rps7
+50233	49835	gene		
+			gene	atpE
+76617	76219	gene		
+			gene	rps8
+75526	75134	gene		
+			gene	rps11
+79870	79493	gene		
+			gene	rpl22
+77188	76820	gene		
+			gene	rpl14
+48434	48072	gene		
+			gene	ndhC
+64744	64388	gene		
+			gene	rpl20
+109789	110145	gene		
+			gene	rpl21
+36562	36260	gene		
+			gene	rps14
+115593	115291	gene		
+			gene	ndhE
+80166	79888	gene		
+			gene	rps19
+82093	81824	gene		
+			gene	rpl23
+120728	120459	gene		
+			gene	rps15
+61179	60928	gene		
+			gene	psbE
+13569	13324	gene		
+			gene	atpH
+114969	114724	gene		
+			gene	psaC
+76081	75839	gene		
+			gene	infA
+63912	64139	gene		
+			gene	rps18
+70643	70867	gene		
+			gene	psbH
+63645	63845	gene		
+			gene	rpl33
+30878	30690	gene		
+			gene	psbZ
+6995	7171	gene		
+			gene	psbK
+110326	110493	gene		
+			gene	rpl32
+70550	70419	gene		
+			gene	psbN
+63283	63411	gene		
+			gene	psaJ
+60544	60419	gene		
+			gene	psbJ
+85484	85362	gene		
+			gene	rrn5
+150621	150743	gene		
+			gene	rrn5
+60918	60799	gene		
+			gene	psbF
+60777	60661	gene		
+			gene	psbL
+62210	62326	gene		
+			gene	petG
+75709	75596	gene		
+			gene	rpl36
+7701	7811	gene		
+			gene	psbI
+55595	55705	gene		
+			gene	psaI
+28324	28428	gene		
+			gene	psbM
+70167	70271	gene		
+			gene	psbT
+85869	85767	gene		
+			gene	rrn4.5
+150236	150338	gene		
+			gene	rrn4.5
+8530	8631	gene		
+			gene	ycf12
+61950	62045	gene		
+			gene	petL
+29379	29290	gene		
+			gene	petN
+31268	31356	gene		
+			gene	trnS-UGA
+43728	43814	gene		
+			gene	trnS-GGA
+7968	7885	gene		
+			gene	trnS-GCU
+27646	27565	gene		
+			gene	trnY-GUA
+53918	53998	gene		
+			gene	trnR-UCG
+111366	111444	gene		
+			gene	trnL-UAG
+85083	85009	gene		
+			gene	trnR-ACG
+27434	27507	gene		
+			gene	trnD-GUC
+36127	36054	gene		
+			gene	trnfM-CAU
+62659	62586	gene		
+			gene	trnW-CCA
+62918	62845	gene		
+			gene	trnP-UGG
+82332	82259	gene		
+			gene	trnI-CAU
+99487	99560	gene		
+			gene	trnH-GUG
+111109	111036	gene		
+			gene	trnP-GGG
+136618	136545	gene		
+			gene	trnH-GUG
+151022	151095	gene		
+			gene	trnR-ACG
+27863	27791	gene		
+			gene	trnE-UUC
+46466	46538	gene		
+			gene	trnF-GAA
+49616	49688	gene		
+			gene	trnM-CAU
+6667	6596	gene		
+			gene	trnQ-UUG
+9931	10002	gene		
+			gene	trnR-UCU
+29929	29858	gene		
+			gene	trnC-GCA
+35565	35494	gene		
+			gene	trnT-GGU
+106782	106711	gene		
+			gene	trnN-GUU
+129323	129394	gene		
+			gene	trnN-GUU
+30441	30371	gene		
+			gene	trnG-GCC
+1232	1232	misc_feature		
+			note	putative C to U RNA editing
+96043	96043	misc_feature		
+			note	putative C to U RNA editing
+101153	101153	misc_feature		
+			note	putative U to C RNA editing
+101366	101366	misc_feature		
+			note	putative U to C RNA editing
+103436	103436	misc_feature		
+			note	putative U to C RNA editing
+104333	104333	misc_feature		
+			note	putative U to C RNA editing
+106028	106028	misc_feature		
+			note	putative U to C RNA editing
+134952	134952	misc_feature		
+			note	putative U to C RNA editing
+134739	134739	misc_feature		
+			note	putative U to C RNA editing
+132669	132669	misc_feature		
+			note	putative U to C RNA editing
+131772	131772	misc_feature		
+			note	putative U to C RNA editing
+130077	130077	misc_feature		
+			note	putative U to C RNA editing
+126157	126157	misc_feature		
+			note	putative C to U RNA editing
+125195	125195	misc_feature		
+			note	putative U to C RNA editing
+20136	20136	misc_feature		
+			note	putative U to C RNA editing
+26449	26449	misc_feature		
+			note	putative U to C RNA editing
+26347	26347	misc_feature		
+			note	putative U to C RNA editing
+25858	25858	misc_feature		
+			note	putative U to C RNA editing
+24892	24892	misc_feature		
+			note	putative U to C RNA editing
+24844	24844	misc_feature		
+			note	putative U to C RNA editing
+23995	23995	misc_feature		
+			note	putative U to C RNA editing
+23195	23195	misc_feature		
+			note	putative U to C RNA editing
+21343	21343	misc_feature		
+			note	putative U to C RNA editing
+109477	109477	misc_feature		
+			note	putative C to U RNA editing
+109118	109118	misc_feature		
+			note	putative U to C RNA editing
+108842	108842	misc_feature		
+			note	putative U to C RNA editing
+38990	38990	misc_feature		
+			note	putative C to U RNA editing
+81746	81746	misc_feature		
+			note	putative U to C RNA editing
+80578	80578	misc_feature		
+			note	putative U to C RNA editing
+6107	6107	misc_feature		
+			note	putative U to C RNA editing
+68409	68409	misc_feature		
+			note	putative C to U RNA editing
+69932	69932	misc_feature		
+			note	putative C to U RNA editing
+11525	11525	misc_feature		
+			note	putative U to C RNA editing
+2687	2687	misc_feature		
+			note	putative U to C RNA editing
+2681	2681	misc_feature		
+			note	putative U to C RNA editing
+51719	51719	misc_feature		
+			note	putative C to U RNA editing
+72443	72443	misc_feature		
+			note	putative C to U RNA editing
+33084	33084	misc_feature		
+			note	putative C to U RNA editing
+12973	12973	misc_feature		
+			note	putative C to U RNA editing
+119178	119178	misc_feature		
+			note	putative C to U RNA editing
+78616	78616	misc_feature		
+			note	putative C to U RNA editing
+3568	3568	misc_feature		
+			note	putative C to U RNA editing
+3586	3586	misc_feature		
+			note	putative U to C RNA editing
+74857	74857	misc_feature		
+			note	putative U to C RNA editing
+58604	58604	misc_feature		
+			note	putative C to U RNA editing
+58873	58873	misc_feature		
+			note	putative U to C RNA editing
+58882	58882	misc_feature		
+			note	putative U to C RNA editing
+111738	111738	misc_feature		
+			note	putative C to U RNA editing
+54336	54336	misc_feature		
+			note	putative C to U RNA editing
+55112	55112	misc_feature		
+			note	putative U to C RNA editing
+128880	128880	misc_feature		
+			note	putative C to U RNA editing
+128158	128158	misc_feature		
+			note	putative U to C RNA editing
+15061	15061	misc_feature		
+			note	putative C to U RNA editing
+14993	14993	misc_feature		
+			note	putative U to C RNA editing
+15248	15248	misc_feature		
+			note	putative C to U RNA editing
+15569	15569	misc_feature		
+			note	putative U to C RNA editing
+15533	15533	misc_feature		
+			note	putative U to C RNA editing
+15446	15446	misc_feature		
+			note	putative U to C RNA editing
+79384	79384	misc_feature		
+			note	putative C to U RNA editing
+79340	79340	misc_feature		
+			note	putative U to C RNA editing
+44870	44870	misc_feature		
+			note	putative C to U RNA editing
+116276	116276	misc_feature		
+			note	putative C to U RNA editing
+56683	56683	misc_feature		
+			note	putative C to U RNA editing
+97102	97102	misc_feature		
+			note	putative U to C RNA editing
+139003	139003	misc_feature		
+			note	putative U to C RNA editing
+76616	76616	misc_feature		
+			note	putative C to U RNA editing
+75406	75406	misc_feature		
+			note	putative U to C RNA editing
+79624	79624	misc_feature		
+			note	putative U to C RNA editing
+79507	79507	misc_feature		
+			note	putative U to C RNA editing
+77187	77187	misc_feature		
+			note	putative C to U RNA editing
+76822	76822	misc_feature		
+			note	putative C to U RNA editing
+48074	48074	misc_feature		
+			note	putative C to U RNA editing
+110059	110059	misc_feature		
+			note	putative U to C RNA editing
+82092	82092	misc_feature		
+			note	putative C to U RNA editing
+120727	120727	misc_feature		
+			note	putative C to U RNA editing
+61128	61128	misc_feature		
+			note	putative U to C RNA editing
+13568	13568	misc_feature		
+			note	putative C to U RNA editing
+75961	75961	misc_feature		
+			note	putative U to C RNA editing
+63913	63913	misc_feature		
+			note	putative C to U RNA editing
+60776	60776	misc_feature		
+			note	putative C to U RNA editing
+75708	75708	misc_feature		
+			note	putative C to U RNA editing
+7702	7702	misc_feature		
+			note	putative C to U RNA editing
+28325	28325	misc_feature		
+			note	putative C to U RNA editing
+29378	29378	misc_feature		
+			note	putative C to U RNA editing
