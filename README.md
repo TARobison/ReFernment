@@ -1,6 +1,9 @@
 # ReFernment
 [![Build Status](https://travis-ci.com/TARobison/ReFernment.svg?token=q2xtkzWBws7Qp6deSQsN&branch=master)](https://travis-ci.com/TARobison/ReFernment)
 
+
+**NOTE: there is a known error where ReFernment is not producing annotations for files created in sequin. I will fix the issue as soon as possible. In the meantime, ReFernment still works with files exported from geneious**
+
 ## Why ReFernment
 ReFernment was created in response to the drudgery of manually annotating a plastome sequence that has levels of RNA editing. These editing sites result in a genomic sequence that contains features that look like errors (e.g., internal stop codons) so the annotations will be rejected by NCBI unless they are annotated correctly. ReFernment corrects the annotation to produce files ready for GenBank submission. ReFernment takes as input a GFF3 file (sequence embedded) and generates new annotations for nonsense mutations that can reasonably be explained by RNA editing, and provides conceptual translations for coding sequences with RNA editing. It should be made clear that ReFernment is not intended to predict every RNA editing site, as can other available software packages. These packages rely on RNA-Seq data to compare the genomic DNA, and thus determine if a nucleotide has been edited, but these data are not always available to researchers. We made ReFernment as a simple tool to save time and ease the GenBank submission process for those working with plastids that have high levels of RNA editing. 
 
