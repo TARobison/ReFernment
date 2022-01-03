@@ -25,8 +25,11 @@ The `gbFolderPath` and `gffFolderPath` can refer to the the same directory, but 
 Below we want ReFernment to annotate the plastomes of Asplenium pekinense and Woodwardia unigemmata, which are both found in the `examples` folder. To start, we open an R console (either in your preferred command line interface or in RStudio), load ReFernment into the workspace. Then we declare a vector named `genomes` which contains all of the plastomes which you would like to annotate. 
 
 ```r
-install.packages("path/to/ReFernment/")
-#add the above command if this is your first time using ReFernment
+install.packages("devtools")
+library(devtools)
+install_github("TARobison/ReFernment")
+#add the above commands if this is your first time using ReFernment
+
 library("ReFernment")
 genomes <- c("Asplenium_pek", "Woodwardia_uni")
 ```
